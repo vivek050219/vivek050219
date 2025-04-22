@@ -1,0 +1,266 @@
+[
+    {
+        "payerCoverageInfo": {
+            "payer": "RXHUBPBM",
+            "planId": "1234",
+            "planNetworkId": "234876",
+            "processorId": "AV",
+            "memberId": "DD145645645601",
+            "groupNumber": "DD1",
+            "formulary": "201",
+            "copay": "201",
+            "interchangeControlNumber": 341954728,
+            "payerId": "T00000000001000",
+            "healthPlanName": "PLANA",
+            "coverages": [
+                {
+                    "type": "MAIL",
+                    "messages": [
+                        
+                    ]
+                }
+            ],
+            "cardHolderName": {
+                "lastName": "CROSS",
+                "firstName": "DAVID",
+                "middleName": "M"
+            },
+            "cardHolderId": "456456456",
+            "coverageId": "201"
+        },
+        "medications": [
+            {
+                "medId": 244899,
+                "description": "lisinopril 10 mg tablet",
+                "formularyStatus": 2,
+                "ndc": 143126701,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": false,
+                "genericMedId": 0,
+                "coverages": [
+                    {
+                        "textMessageList": [
+                            {
+                                "ndc": 143126701,
+                                "messageLong": "THIS IS A LONG TEXT MSG FOR LISINOPRIL 10MG TAB. ENSURE THE PATIENT UNDERSTANDS THE POTENTIAL INTERACTIONS WITH OVER THE COUNTER MEDICATIONS. THE LONG MSG IS A 200 CHARS LONG VERSION OF THE SHORT MSG.",
+                                "messageShort": "SHORT TXT MSG FOR LISINOPRIL 10MG TAB. ENSURE PATIENT UNDERSTANDS POTENTIAL INTERACTIONS W/OTC MEDS.",
+                                "textMessageType": "GI"
+                            },
+                            {
+                                "ndc": 143126701,
+                                "messageShort": "This is another short txt msg for lisinopril 10mg tab. There's no long version of the short txt msg.",
+                                "textMessageType": "GI"
+                            }
+                        ],
+                        "genderLimitList": [
+                            {
+                                "ndc": 143126701,
+                                "gender": "1"
+                            }
+                        ],
+                        "ageLimitList": [
+                            {
+                                "ndc": 143126701,
+                                "maximumAge": "90",
+                                "maximumAgeQualifier": "Y",
+                                "minimumAge": "180",
+                                "minimumAgeQualifier": "D"
+                            }
+                        ],
+                        "quantityLimitList": [
+                            {
+                                "ndc": 143126701,
+                                "maximumAmount": "30",
+                                "maximumAmountQualifier": "DS",
+                                "maximumAmountTimePeriod": "PD"
+                            },
+                            {
+                                "ndc": 143126701,
+                                "maxAmtTimePeriodUnits": "360",
+                                "maximumAmount": "12",
+                                "maximumAmountQualifier": "FL",
+                                "maximumAmountTimePeriod": "DY"
+                            }
+                        ],
+                        "stepTherapy": true,
+                        "priorAuthorization": true,
+                        "productCoverageExclusion": false,
+                        "resourceLinkList": [
+                            {
+                                "ndc": 143126701,
+                                "resourceLinkType": "PA",
+                                "url": "http://www.washingtonpost.com/regional/"
+                            },
+                            {
+                                "ndc": 143126701,
+                                "resourceLinkType": "ST",
+                                "url": "http://www.bbc.com/news/"
+                            }
+                        ]
+                    }
+                ],
+                "copays": [
+                    {
+                        "ndc": 143126701,
+                        "summaryDetail": false,
+                        "status": 0,
+                        "copayTier": "2",
+                        "drugRefNumber": "244899",
+                        "maximumCopayTier": "3",
+                        "pharmacyType": "A",
+                        "recordType": "CRT"
+                    }
+                ],
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    },
+                    {
+                        "desc": "30 Tablet Blister Pack",
+                        "quantity": 30.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    },
+                    {
+                        "desc": "5000 Tablet Bag",
+                        "quantity": 5000.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "10",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 285229,
+                "description": "lisinopril 40 mg tablet",
+                "formularyStatus": 5,
+                "ndc": 143127001,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "copays": [
+                    {
+                        "ndc": 143127001,
+                        "summaryDetail": false,
+                        "status": 0,
+                        "copayTier": "1",
+                        "drugRefNumber": "285229",
+                        "maximumCopayTier": "3",
+                        "pharmacyType": "A",
+                        "recordType": "CRT"
+                    }
+                ],
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    },
+                    {
+                        "desc": "30 Tablet Blister Pack",
+                        "quantity": 30.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "40",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 257247,
+                "description": "lisinopril 30 mg tablet",
+                "formularyStatus": 4,
+                "ndc": 172376260,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "copays": [
+                    {
+                        "ndc": 172376260,
+                        "summaryDetail": false,
+                        "status": 0,
+                        "copayTier": "1",
+                        "drugRefNumber": "257247",
+                        "maximumCopayTier": "3",
+                        "pharmacyType": "A",
+                        "recordType": "CRT"
+                    }
+                ],
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    },
+                    {
+                        "desc": "30 Tablet Blister Pack",
+                        "quantity": 30.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "30",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 183474,
+                "description": "lisinopril 20 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 143971301,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "copays": [
+                    {
+                        "ndc": 143971301,
+                        "summaryDetail": false,
+                        "status": 0,
+                        "copayTier": "1",
+                        "drugRefNumber": "183474",
+                        "maximumCopayTier": "3",
+                        "pharmacyType": "A",
+                        "recordType": "CRT"
+                    }
+                ],
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    },
+                    {
+                        "desc": "30 Tablet Blister Pack",
+                        "quantity": 30.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "20",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            }
+        ]
+    }
+]

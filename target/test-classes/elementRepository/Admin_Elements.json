@@ -1,0 +1,4047 @@
+{
+  "PANES": {
+    "OrderGroups": {
+      "frame": "FRAME_CPOE_ORDERGROUPS_SEARCH"
+    },
+    "ContentPane": {
+      "frame": "FRAME_CONTENT"
+    },
+    "MainFramePane": {
+      "frame": "FRAME_MAIN"
+    },
+    "InstitutionSettings": {
+      "path": "//td[@class='title' and text()='Institution Settings']",
+      "frame": "FRAME_TOP",
+      "frame - ": "FRAME_MAIN"
+    },
+    "DepartmentSettings": {
+      "path": "//td[@class='title' and descendant-or-self::*/text()='Department Settings']",
+      "frame": "FRAME_DEPT_TOP"
+    },
+    "UserSettings": {
+      "path": "//td[@class='title' and descendant-or-self::*/text()='User Settings']",
+      "frame": "FRAME_INST_TABLE_TOP"
+    },
+    "UserSearch": {
+      "path": "//td[@class='sectionHeader' and descendant-or-self::text()='User Search']",
+      "frame": "FRAME_BULKUSER_SEARCH"
+    },
+    "UserstoEdit": {
+      "path": "//td[@class='sectionHeader' and descendant-or-self::*/text()='Users to Edit']",
+      "frame": "FRAME_BULKUSER_EDIT"
+    },
+    "CreateUser": {
+      "path": "//div[@id='titleBar' and text()='Create User']",
+      "frame": "FRAME_POPUP"
+    },
+    "DeleteUser": {
+      "path": "//title[text()='Delete User']",
+      "frame": "FRAME_MAIN"
+    },
+    "PreferenceSettings": {
+      "path": "//td[@class='sectionHeader' and descendant-or-self::*/text()='Preference Settings']",
+      "frame": "FRAME_BULKUSER_PREFERENCES"
+    },
+    "PreferencesCPOESettings": {
+      "frame": "FRAME_CONTENT"
+    },
+    "UserCPOESettings": {
+      "frame": "FRAME_CONTENT"
+    },
+    "SystemManagementNavigation": {
+      "path": "//ul[@id='SYSMANAGEDETAILNavBar']",
+      "frame": "FRAME_SYSMANAGE_NAV"
+    },
+    "ReferenceListMaintenance": {
+      "path": "//td[@id='HEADER_TEXTTD' and text()='Reference List Maintenance']",
+      "frame": "FRAME_REFERENCELISTS"
+    },
+    "ProviderMaintenance": {
+      "path": "//td[@id='HEADER_TEXTTD' and text()='Provider Maintenance']",
+      "frame": "FRAME_PROVIDERS"
+    },
+    "ADTVisitTypeMaintenance": {
+      "path": "//td[@id='HEADER_TEXTTD' and text()='ADT Visit Type Maintenance']",
+      "frame": "FRAME_ADTVISITTYPE"
+    },
+    "PKVisitTypeMaintenance": {
+      "path": "//td[@id='HEADER_TEXTTD' and text()='PK Visit Type Maintenance']",
+      "frame": "FRAME_PKVISITTYPE"
+    },
+    "ProviderGroupMaintenance": {
+      "path": "//td[@id='HEADER_TEXTTD' and text()='Provider Group Maintenance']",
+      "frame": "FRAME_PROVIDERGROUP"
+    },
+    "WebSystemControl": {
+      "path": "//td[@id='HEADER_TEXTTD' and text()='Web System Control']",
+      "frame": "FRAME_MISC"
+    },
+    "UserPreferences": {
+      "path": "//td[@class='title' and descendant-or-self::*[contains(text(), 'Personal Preferences')]]",
+      "frame": "FRAME_USER_PREFS"
+    },
+    "SiteAdministration": {
+      "path": "//td[@class='whiteTitle' and descendant-or-self::*[contains(text(),'Site Administration')]]",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "ChargeCapture": {
+      "path": "//td[@class='whiteTitle' and text()='Charge Capture']",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "ChargeCaptureSettings": {
+      "path": "//td[@class='whiteTitle' and descendant-or-self::*[contains(text(),'Charge Capture')]]",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "EditValidityDictionaries": {
+      "path": "//td[@class='whiteTitle' and text()='Edit Validity']",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "QuickDetails": {
+      "path": "//td[@class='quickDetail' and text()='Quick Details']",
+      "frame": "FRAME_QUICK_DETAILS"
+    },
+    "DepartmentEditSettings": {
+      "name": "picklist",
+      "frame": "FRAME_DEPT_EDIT"
+    },
+    "EditDepartment": {
+      "path": "//td[@class='whiteTitle' and text()='Create Department']",
+      "frame": "FRAME_DEPT_MAIN"
+    },
+    "EditSettings": {
+      "path": "//td[@class='picklistLabel' and text()='Edit Settings']",
+      "frame": "FRAME_DEPT_EDIT"
+    },
+    "DepartmentChargeCaptureSettings": {
+      "path": "//td[@class='whiteTitle' and descendant-or-self::*[contains(text(),'Charge Capture')]]",
+      "frame": "FRAME_DEPT_MAIN"
+    },
+    "Information": {
+      "path": "//td[@id='dialogTitle' and text()='Information']",
+      "frame": "NO_FRAME"
+    },
+    "ChargeTransactionContent": {
+      "path": "//div[@id='HeaderList']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "ChargeHeaderEditContent": {
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "PersonalPreferences": {
+      "name": "table",
+      "frame": "FRAME_TOP"
+    },
+    "Question": {
+      "path": "//td[@id='dialogTitle' and text()='Question']",
+      "frame": "NO_FRAME"
+    },
+    "EnterProviderGroupName": {
+      "path": "//div[@id='promptDIV' and text()='Enter Provider Group Name']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "FacilityGroupNavigation": {
+      "frame": "FRAME_CPOEPREFERENCE"
+    },
+    "AutoCreateFavorites": {
+      "path": "//div[@class='window-title' and text()='Auto-Create Favorites']",
+      "frame": "FRAME_POPUP"
+    },
+    "AutoCreateFavoritesSearch": {
+      "frame": "FRAME_AUTO_CREATE_FAVORITES_SEARCH"
+    },
+    "AutoCreateFavoritesUserSearchResults": {
+      "frame": "FRAME_AUTO_CREATE_FAVORITES_USER_SEARCHRESULTS"
+    },
+    "AutoCreateFavoritesUsertoEdit": {
+      "frame": "FRAME_AUTO_CREATE_FAVORITES_USER_BUCKET"
+    },
+    "AutoCreateFavoritesPreferences": {
+      "frame": "FRAME_AUTO_CREATE_FAVORITES_PREFERENCE_LIST"
+    },
+    "ManageFavorites": {
+      "frame": "FRAME_MANAGE_FAVORITES"
+    },
+    "CPOEOrderDefinitionMaintenance": {
+      "frame": "FRAME_CPOEORDERDEFINITION"
+    },
+    "ExportCPOEOrderDefinitions": {
+      "path": "//div[@id='ImportExportScreen']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "ToolboxContent": {
+      "path": "//div[@id='toolboxContainer']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "CPOEUtilities": {
+      "frame": "FRAME_CPOE_UTILITIES"
+    },
+    "EditFacilityGroupUtilitiesSettings": {
+      "path": "//div[@id='FacilityGroupUtilityScreen']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "CPOEOrderDefinitionDetail": {
+      "frame": "FRAME_CPOEORDERDEFINITIONDETAIL"
+    },
+    "EditCPOEOrderDefinition": {
+      "path": "//div[@id='contentIFRAME']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "OrderStringMaintenance": {
+      "path": "//table[@id='CPOEOrderDefinition']",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "EditOrderString": {
+      "frame": "FRAME_TERTIARY_POPUP_CONTENTS"
+    },
+    "CPOEAddOrderString": {
+      "frame": "FRAME_TERTIARY_POPUP_CONTENTS"
+    },
+    "AddCPOEOrderDefinition": {
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "OrderSet": {
+      "frame": "FRAME_CPOE_ORDER_SET"
+    },
+    "CPOEOrderSetMaintenance": {
+      "frame": "FRAME_CPOE_ORDER_SET"
+    },
+    "CPOEOrderPrototype": {
+      "path": "//div[@id='orderDialogDetailContainer']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "CPOEOrderPrototypeContents": {
+      "frame": "FRAME_CPOEORDERPROTOTYPE"
+    },
+    "SearchForOrder": {
+      "path": "//div[@id='orderDialogAutocomplete_dialog']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "SectionSearch": {
+      "path": "//div[@aria-labelledby='ui-dialog-title-publicSectionSearchDialog']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "EditOrderSet": {
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "CPOEPreferences": {
+      "path": "//div[@id='FacilityGroupPreferenceScreen']",
+      "frame": "FRAME_CPOE_PREFERENCES_General"
+    },
+    "CPOEFavorites": {
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "AddFavorite": {
+      "path": "//div[@id='PrototypeDetail']",
+      "frame": "FRAME_TERTIARY_POPUP_CONTENTS"
+    },
+    "EditFavorite": {
+      "path": "//div[@id='PrototypeDetail']",
+      "frame": "FRAME_TERTIARY_POPUP_CONTENTS"
+    },
+    "EditFacilityGroupPreferences": {
+      "path": "//div[@id='titleBar' and text() = 'Edit Facility Group Preferences']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "OrderHistoryAnalyzer": {
+      "path": "//div[@id='OHASearchIndexStatusTable']",
+      "frame": "FRAME_CPOE_UTILITIES"
+    },
+    "EditDepartmentPickers": {
+      "path": "//table[@id='mainTable']",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "DepartmentChargePickers": {
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "EditShortList": {
+      "frame": "FRAME_TERTIARY_POPUP_CONTENTS"
+    },
+    "DepartmentChargePickersHeader": {
+      "path": "//div[@id='titleBar' and @class='window-title' and contains(text(), 'Department Charge Pickers for')]",
+      "frame": "FRAME_POPUP"
+    },
+    "AddCategoryContents": {
+      "frame": "FRAME_TERTIARY_POPUP_CONTENTS"
+    },
+    "AddMacros": {
+      "frame": "FRAME_TERTIARY_POPUP_CONTENTS"
+    },
+    "DepartmentMacro": {
+      "frame": "FRAME_DEPT_MAIN"
+    },
+    "EditDepartmentNotePickers": {
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "DepartmentNotePickers": {
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "NoteWriterSettings": {
+      "path": "//td[@class='whiteTitle' and descendant-or-self::*[contains(text(), 'NoteWriter')]]",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "NoteTemplateMaintenance": {
+      "path": "//div[@id='titleBar' and text()='Note Template Maintenance']",
+      "frame": "FRAME_POPUP"
+    },
+    "ProviderMain": {
+      "id": "providerSearchCriteria",
+      "frame": "FRAME_PROVIDERS_SEARCH"
+    },
+    "ProviderMainSearch": {
+      "path": "//div[@class='scrollingDiv']",
+      "frame": "FRAME_PROVIDERS_SEARCH"
+    },
+    "AddProvider": {
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "EditShortListProviderSearch": {
+      "frame": "FRAME_SHORTLIST_PROVIDERSEARCH"
+    },
+    "EditShortListProviderSearchResults": {
+      "frame": "FRAME_SHORTLIST_PROVIDERSEARCHRESULT"
+    },
+    "Preview": {
+      "path": "div[@id='MainContainer']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "PreviewContent": {
+      "path": "//div[@id='ContentSection']",
+      "frame": "PREVIEW_TAB_DETAIL"
+    },
+    "SelfAssignmentReport": {
+      "path": "//td[@id='HEADER_TEXTTD' and text()='Self Assignment Report']",
+      "frame": "FRAME_SELF_ASSIGN_REPORT"
+    },
+    "Report": {
+      "path": "//div[@id='ReportTable']",
+      "frame": "FRAME_SELF_ASSIGN_REPORT_RESULT"
+    },
+    "DeviceSettings": {
+      "path": "//td[@class='whiteTitle' and descendant-or-self::*[contains(text(), 'Device Settings')]]",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "BrowseforFile": {
+      "path": "//td[@class='quickDetail' and contains(text(), 'Browse for File')]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "PatientListSettings": {
+      "path": "//td[@class='whiteTitle' and descendant-or-self::*[contains(text(), 'Patient List')]]",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "LabResultsSettings": {
+      "path": "//td[@class='whiteTitle' and descendant-or-self::*/text()='Lab Results Settings']",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "MedicationsSettings": {
+      "path": "//td[@class='whiteTitle' and descendant-or-self::*[contains(text(), 'Medications')]]",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "ClinicalNotesSettings": {
+      "path": "//td[@class='whiteTitle' and descendant-or-self::*/text()='Clinical Notes']",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "OrdersSettings": {
+      "path": "//td[@class='whiteTitle' and descendant-or-self::*[contains(text(), 'Orders Settings')]]",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "ProblemListSettings": {
+      "path": "//td[@class='whiteTitle' and descendant-or-self::*[contains(text(), 'Problem List Settings')]]",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "TestResultsSettings": {
+      "path": "//td[@class='whiteTitle' and descendant-or-self::text()='Test Results Settings']",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "SignOutSettings": {
+      "path": "//td[@class='whiteTitle' and descendant-or-self::*[contains(text(), 'Sign-Out Settings')]]",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "VitalsAndIOsSettings": {
+      "path": "//td[@class='whiteTitle' and descendant-or-self::*[contains(text(), 'Vitals and I/Os')]]",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "eSignatureSettings": {
+      "path": "//td[@class='whiteTitle' and descendant-or-self::text()='eSignature Settings']",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "SystemReports": {
+      "path": "//td[@class='title' and starts-with(text(), 'System Reports')]",
+      "frame": "FRAME_INST_TABLE_TOP"
+    },
+    "SelectReportCriteria": {
+      "path": "//td[@class='whiteTitle' and starts-with(text(), 'Select Report Criteria')]",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "UsageReport": {
+      "path": "//td[@class='title' and text()='Usage Report']",
+      "frame": "FRAME_MAIN"
+    },
+    "SessionReport": {
+      "path": "//td[@class='title' and starts-with(text(), 'Session Report')]",
+      "frame": "FRAME_MAIN"
+    },
+    "EventLogs": {
+      "path": "//td[@class='title' and starts-with(text(), 'Event Logs')]",
+      "frame": "FRAME_MAIN"
+    },
+    "SessionLogs": {
+      "path": "//td[@class='title' and starts-with(text(), 'Session Logs')]",
+      "frame": "FRAME_MAIN"
+    },
+    "AuditReport": {
+      "path": "//td[@id='HEADER_TEXTTD' and text()='Audit Report']",
+      "frame": "FRAME_AUDIT_REPORT"
+    },
+    "E&MSection": {
+      "path": "//div[@class='pk-span-19 containerTitle' and contains(text(),'E & M Section')]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "SectionsList": {
+      "path": "//div[@id='sectionsList']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "ErrorInformation": {
+      "path": "//div[@aria-labelledby='ui-dialog-title-errorDialog']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "CPTLookup": {
+      "path": "//div[@aria-labelledby ='ui-dialog-title-cptLookupHolder']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "DeleteDialog": {
+      "path": "//div[@aria-labelledby='ui-dialog-title-deleteDialog']",
+      "frame": "FRAME_CPOE_ORDER_SET"
+    },
+    "OrderDialog": {
+      "path": "//div[@aria-labelledby='ui-dialog-title-orderDialog']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "DeleteItemDialog": {
+      "path": "//div[@aria-labelledby='ui-dialog-title-deleteItemDialog']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "ConfirmCloseDialog": {
+      "path": "//div[@aria-labelledby='ui-dialog-title-confirmCloseDialog']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "DetailDialog": {
+      "path": "//div[@aria-labelledby='ui-dialog-title-genericItemDialog']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "CopyOrderSet": {
+      "path": "//table[@id='mainTable']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "SearchCPT": {
+      "id": "searchCpt",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "Next": {
+      "path": "//span[@class='next fg-button ui-button ui-state-default' and text()='Next']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "Last": {
+      "path": "//span[@class='last ui-corner-tr ui-corner-br fg-button ui-button ui-state-default' and text()='Last']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "ModifierSelection": {
+      "path": "//div[@role='dialog' and starts-with(@class, 'ui-dialog ui-widget ui-widget-content ui-corner-all ui-resizable')]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "DictionaryAddField": {
+      "path": "//div[@aria-labelledby ='ui-dialog-title-fieldsSelectDialog']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "SectionList": {
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "AddField": {
+      "path": "//div[@aria-labelledby ='ui-dialog-title-fieldEditorDialog']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "DepartmentGeneralSettings": {
+      "path": "//form[@name='depts_gen']",
+      "name": "depts_gen",
+      "frame": "FRAME_DEPT_MAIN"
+    },
+    "DepartmentFormsSettings": {
+      "path": "//td[@class='whiteTitle' and descendant-or-self::*/text()='Forms Settings:']",
+      "frame": "FRAME_DEPT_MAIN"
+    },
+    "DepartmentNoteWriterSettings": {
+      "path": "//td[@class='whiteTitle' and descendant-or-self::*[contains(text(), 'NoteWriter Settings:')]]",
+      "frame": "FRAME_DEPT_MAIN"
+    },
+    "DepartmentPatientListSettings": {
+      "path": "//td[@class='whiteTitle' and descendant-or-self::*[contains(text(), 'Patient List')]]",
+      "name": "depts_pat",
+      "frame": "FRAME_DEPT_MAIN"
+    },
+    "DepartmentLabResultsSettings": {
+      "path": "//td[@class='whiteTitle' and descendant-or-self::*/text()='Lab Results Settings:']",
+      "name": "mpiSettings",
+      "frame": "FRAME_DEPT_MAIN"
+    },
+    "DepartmentProblemListSettings": {
+      "path": "//td[@class='whiteTitle' and descendant-or-self::*/text()='Problem List Settings:']",
+      "name": "dx_settings",
+      "frame": "FRAME_DEPT_MAIN"
+    },
+    "DepartmentCPOESettings": {
+      "path": "//td[@class='whiteTitle' and descendant-or-self::*[contains(text(), 'CPOE Settings:')]]",
+      "frame": "FRAME_DEPT_MAIN"
+    },
+    "DepartmentSignoutSettings": {
+      "name": "depts_signout",
+      "frame": "FRAME_DEPT_MAIN"
+    },
+    "Warning": {
+      "path": "//td[@id='dialogTitle' and text()='Warning']",
+      "frame": "NO_FRAME"
+    },
+    "AddCategory": {
+      "path": "//div[@id='titleBar' and @class='window-title' and text()='Add Category']",
+      "frame": "FRAME_TERTIARY_POPUP"
+    },
+    "StockViewFilters": {
+      "path": "//td[@class='whiteTitle' and text()='Stock View Filters: ']",
+      "frame": "FRAME_DEPT_MAIN"
+    },
+    "CreateStockViewFilter": {
+      "path": "//td[@class='whiteTitle' and text()='Create Stock View Filter']",
+      "frame": "FRAME_DEPT_MAIN"
+    },
+    "ShortListDataPopulators": {
+      "path": "//td[@class='whiteTitle' and contains(text(),'Short List Data Populators')]",
+      "frame": "FRAME_DEPT_MAIN"
+    },
+    "CreateShortListDataPopulator": {
+      "path": "//td[@class='whiteTitle' and text()='Create Short List Data']",
+      "frame": "FRAME_DEPT_MAIN"
+    },
+    "DepartmentUsers": {
+      "name": "assign_users",
+      "frame": "FRAME_DEPT_MAIN"
+    },
+    "BulkUserSearchResults": {
+      "frame": "FRAME_BULKUSER_SEARCHRESULTS"
+    },
+    "CPOEOrderDefinitions": {
+      "frame": "FRAME_CPOE_ORDER_DEFINATIONS"
+    },
+    "OrderDefinitions": {
+      "frame": "FRAME_SECONDARY_POPUP"
+    },
+    "Location": {
+      "path": "//div[@id='LocationHeader']",
+      "frame": "FRAME_MAIN"
+    },
+    "QuickTextEditorContent": {
+      "frame": "FRAME_QUICK_TEXT_EDITOR_DETAIL"
+    },
+    "ClickToInsertV2": {
+      "path": "//div[@class='quicktext-header' and starts-with(text(), 'Click To Insert')]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ChangeUserPassword": {
+      "path": "//form[@id='edit_password']",
+      "frame": "FRAME_MAIN"
+    },
+    "AdminMain": {
+      "frame": "FRAME_MAIN"
+    },
+    "DepartmentQuickTextEditor": {
+      "path": "//div[@id='titleBar' and starts-with(text(),'Department Quick Text Editor')]",
+      "frame": "FRAME_POPUP"
+    },
+    "DepartmentQuickTextEditorContent": {
+      "path": "//div[@id='Hpickers']",
+      "frame": "FRAME_QUICK_TEXT_EDITOR_DETAIL"
+    },
+    "SelectNoteTemplate": {
+      "path": "//div[@id='titleBar'  and text()='Select Note Template']",
+      "frame": "FRAME_SECONDARY_POPUP"
+    },
+    "SelectNoteTemplateContent": {
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "NoteWriterQuickTextAdminViewContent": {
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "NoteInstanceEdit": {
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ClickToInsert": {
+      "path": "//th[starts-with(text(), 'Click To Insert')]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "NoteWriterQuickTextAdminView": {
+      "path": "//div[@id='WIZARDFRAMES']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "NewQuickTextContent": {
+      "frame": "FRAME_TERTIARY_POPUP_CONTENTS"
+    },
+    "QuickText": {
+      "path": "//div[@id='titleBar' and starts-with(text(), 'Quick Text for')]",
+      "frame": "FRAME_SECONDARY_POPUP"
+    },
+    "QuickTextContent": {
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "NewQuickText": {
+      "path": "//div[@id='titleBar' and starts-with(text(), 'New Quick Text for')]",
+      "frame": "FRAME_TERTIARY_POPUP"
+    },
+    "EditQuickText": {
+      "path": "//div[@id='titleBar' and starts-with(text(), 'Edit Quick Text for')]",
+      "frame": "FRAME_TERTIARY_POPUP"
+    },
+    "EditQuickTextContent": {
+      "frame": "FRAME_TERTIARY_POPUP_CONTENTS"
+    },
+    "EditDepartmentPickersHeader": {
+      "path": "//div[@class='window-title' and starts-with(text(),'Edit Department Pickers')]",
+      "frame": "FRAME_SECONDARY_POPUP"
+    },
+    "EditDeptPickersByVisit": {
+      "path": "//table[@id='mainTable']",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "EditMyPickersByVisit": {
+      "path": "//table[@id='mainTable']",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "EditMyNotePickers": {
+      "path": "//div[@class='window-title' and starts-with(text(),'Edit My Pickers')]",
+      "frame": "FRAME_SECONDARY_POPUP"
+    },
+    "EditUserNotePickers": {
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "UserNotePickers": {
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "AddQuickText": {
+      "path": "//div[@id='titleBar' and text()='Add Quick Text']",
+      "frame": "FRAME_TERTIARY_POPUP"
+    },
+    "AddQuickTextContent": {
+      "frame": "FRAME_TERTIARY_POPUP_CONTENTS"
+    },
+    "Exam": {
+      "path": "//table[@id='ExamTable']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "QuickTextEditor": {
+      "path": "//div[@class='window-title' and starts-with(text(),'Quick Text Editor')]",
+      "frame": "FRAME_POPUP"
+    },
+    "UserNoteWriterSettings": {
+      "path": "//form(@name='noteWriterSettings')",
+      "frame": "FRAME_USER_MAIN"
+    },
+    "EditMyPickers": {
+      "path": "//table[@id='hpickerTable']",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "UpdateQuickTextGroupings": {
+      "path": "//div[@id='titleBar' and starts-with(text(), 'Update Quick Text Groupings for')]",
+      "frame": "FRAME_TERTIARY_POPUP"
+    },
+    "UpdateQuickTextGroupingsContent": {
+      "frame": "FRAME_TERTIARY_POPUP_CONTENTS"
+    },
+    "Label": {
+      "frame": "FRAME_TERTIARY_POPUP_CONTENTS"
+    },
+    "Subjective": {
+      "path": "//table[@id='PTHistory__WRAPPER_TABLE']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "EditQuickTextV2": {
+      "path": "//div[@id='titleBar' and starts-with(text(), 'Edit Quick Text')]",
+      "frame": "FRAME_SECONDARY_POPUP"
+    },
+    "DepartmentQuickTextEditorContentQTV2": {
+      "frame": "FRAME_QUICK_TEXT_EDITOR_DETAIL"
+    },
+    "EditQuickTextV2Content": {
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "AddQuickTextV2left": {
+      "path": "//div[@class='leftcolContentWrapper']",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "SubjectiveQTV2": {
+      "path": "//div[@id='Subjective']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "AddQuickTextV2Right": {
+      "path": "//div[@class='rightcolWrapper']",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "DeleteQuickTextGroup": {
+      "path": "//div[@class='ui-dialog ui-widget ui-widget-content ui-corner-all hideX deleteGroupsDialog ui-draggable']",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "PatientNarrativeQTV2": {
+      "path": "//div[@role='textbox' and @testid='it_PatientNarrative']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "QTV2Description": {
+      "path": "//div[@class='cke_contents cke_reset']",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "Qtv2": {
+      "path": " //table[@class='adminLayoutList cke-quicktexttag-component']",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "ROSRespQTV2": {
+      "path": "//div[@role='textbox' and @testid='it_ROSResp']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "InstitutionStatusSummary": {
+      "path": "//td[@class='whiteTitle' and descendant-or-self::text()='Status Summary']",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "QuestionContent": {
+      "path": "//td[@id='msgTD']",
+      "frame": "NO_FRAME"
+    },
+    "UserGeneralSettings": {
+      "path": "//form[@name='userGeneralSettings']",
+      "frame": "FRAME_USER_MAIN"
+    },
+    "PhotoViewerSettings": {
+      "path": "//td[@class='whiteTitle' and descendant-or-self::*[contains(text(),'Patient Photos Settings')]]",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "UserFromProviderMain": {
+      "frame": "FRAME_USERFROMPROVIDER_MAIN"
+    },
+    "UserFromProviderDetail": {
+      "frame": "FRAME_USERFROMPROVIDER_DETAILS"
+    },
+    "CreateUserPopUp": {
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "CPOEUtility": {
+      "path": "//td[@class='WEBActivityPaneTable']",
+      "frame": "FRAME_CPOE_UTILITY"
+    },
+    "UserSearchCriteria": {
+      "path": "//form[@id='userSearchCriteria']",
+      "frame": "FRAME_BULKUSER_SEARCH"
+    },
+    "ManageHoldForReview": {
+      "path": "//div[@id='titleBar' and text()='Manage Hold For Review']",
+      "frame": "FRAME_POPUP"
+    },
+    "ManageHoldForReviewReasons": {
+      "path": "//div[@class='pk-span-19 containerTitle' and contains(text(),'Manage Hold For Review Reasons')]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "EditReasonRolesMapping": {
+      "path": "//div[@class='ui-dialog ui-widget ui-widget-content ui-corner-all' and descendant::span[@id='ui-dialog-title-1' and text()='Edit Reason-Roles Mapping']]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "CreateReasonRolesMapping": {
+      "path": "//span[@class='ui-dialog-title' and text()='Create Reason-Roles Mapping']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "AuditReportInfo": {
+      "path": "//div[@id='movableDialog']",
+      "frame": "NO_FRAME"
+    },
+    "Roles": {
+      "path": "//div[@class='ui-dialog ui-widget ui-widget-content ui-corner-all ui-draggable ui-resizable']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "PersonalPreferencesSettings": {
+      "frame": "FRAME_CONTENT"
+    },
+    "HoldForReviewPopup": {
+      "id": "hfrReasonsPopup",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "EditCPOEOrderDefinitionDetails": {
+      "path": "//div[@class='scrollingTableDetailDiv' and ancestor::div[@id= 'CPOEOrderDefinition']]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "ExemptCPTs": {
+      "path": "//div[@id='cptExemptListContainer']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "CPTLists": {
+      "path": "//ul[@class='ui-autocomplete ui-menu ui-widget ui-widget-content ui-corner-all' and preceding-sibling::div[@id='cptExemptListContainer']]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "EditLocationPrefs": {
+      "path": "//div[@id='LocationPreferenceScreen']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "MessagingSettings": {
+      "path": "//div[@id='prefWrapper']",
+      "frame": "FRAME_MESSAGING_SETTINGS"
+    },
+    "TrackingReport": {
+      "id": "DEVICEREPORTSNavBar",
+      "frame": "FRAME_TRACKING_REPORTING_TOP"
+    },
+    "SubmissionStatus": {
+      "path": "//div[@id='paneDiv']",
+      "frame": "FRAME_TRACKING_REPORTING_SUBMISSION_RECORDS"
+    },
+    "Add/EditNoteTemplate": {
+      "path": "//div[@id='titleBar' and text()='Add/Edit Note Template']",
+      "frame": "FRAME_SECONDARY_POPUP"
+    },
+    "AddCPOEFieldSet": {
+      "path": "//div[@id='titleBar' and text()='Add CPOE Field Set']",
+      "frame": "FRAME_POPUP"
+    },
+    "CPOEFields": {
+      "path": "//div[@id='titleBar' and text()='CPOE Fields']",
+      "frame": "FRAME_SECONDARY_POPUP"
+    },
+    "MedFrequencyDefinition": {
+      "path": "//div[@id='paneDiv' and child::textarea[contains(text(),'Med Frequency Definition')]]",
+      "frame": "FRAME_MEDFREQUENCYDEFINITION_SEARCH"
+    },
+    "AddMedFrequencyDefinition": {
+      "path": "//table[@id='mainTable' and descendant::*[contains(text(),'Add CPOE Med Frequency Definition')]]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "MedFrequencyDefinitionDetail": {
+      "path": "//div[@class='entityDetailBaseWrapper']",
+      "frame": "FRAME_MEDFREQUENCYDEFINITION_SEARCH_DETAIL"
+    },
+    "WarningMessage": {
+      "path": "//div[@id='movableDialog']",
+      "frame": "NO_FRAME"
+    }
+  },
+  "TABLES": {
+    "ValidityDictionary": {
+      "path": "//table[@id='validityDictionary']",
+      "body": "tbody",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "ChargeTransactionHeaders": {
+      "id": "",
+      "name": "",
+      "path": "//div[@id='HeaderList']",
+      "frame": "FRAME_POPUP_CONTENTS",
+      "head": "//div[@class='scrollingTableHeaderDiv']/table/thead",
+      "body": "//div[@class='scrollingTableDetailDiv']/table/tbody"
+    },
+    "ProviderInformation": {
+      "path": "//table[@id='PersonTable']",
+      "frame": "FRAME_USER_MAIN"
+    },
+    "CPOEOrderDefSearchResults": {
+      "path": "//table[@id='mainTable']",
+      "head": "//div[@class='scrollingTableHeaderDiv']/table/thead",
+      "body": "//div[@class='scrollingTableDetailDiv']/table/tbody",
+      "frame": "FRAME_CPOEORDERDEFINITION_RESULTS"
+    },
+    "CPOEOrderDefinitions": {
+      "path": "//table[@id='mainTable']",
+      "head": "//div[@class='scrollingTableHeaderDiv']/table/thead",
+      "body": "//div[@class='scrollingTableDetailDiv']/table/tbody",
+      "frame": "FRAME_CPOE_ORDER_ENTRY_SEARCH"
+    },
+    "CPOEOrderSet": {
+      "path": "//div[@class='dataTables_scrollBody']/table",
+      "head": "//thead//div[text()='Order Set']",
+      "body": "tbody",
+      "frame": "FRAME_CPOE_ORDER_SET"
+    },
+    "OrderSetPreview": {
+      "path": "//div[@class='sectionItemParent']/table",
+      "body": "tbody",
+      "frame": "PREVIEW_TAB_DETAIL"
+    },
+    "Formulary": {
+      "path": "//div[@id='dijit_layout_LayoutContainer_0']/table",
+      "body": "tbody",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "CPOEOrderTable": {
+      "path": "//div[@tablemanagerid='SearchResults-All' and descendant::div[@class='scrollingTableDetailDiv']]",
+      "head": "//div[@class='scrollingTableHeaderDiv']/table/thead",
+      "body": "//div[@class='scrollingTableDetailDiv']/table/tbody",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "CPOEAllOrders": {
+      "id": "",
+      "name": "",
+      "path": "//div[@id='SearchResults-All']",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS",
+      "head": "//div[@class='scrollingTableHeaderDiv']/table/thead[@id='HitTableHeader']",
+      "body": "//table[@id='dynamicDetailTable' and @class='autocompleteResults' and starts-with(@tablemanagerid, 'SearchResults-All')]"
+    },
+    "DepartmentPickersEdit": {
+      "path": "//table[@id='pickerTable']",
+      "body": "tbody",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "QuickText": {
+      "id": "",
+      "name": "",
+      "path": "//div[@id='ChildPickers']",
+      "head": "//div[@class='scrollingTableHeaderDiv']/table/thead",
+      "body": "//div[@class='scrollingTableDetailDiv']/table/tbody",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "AddMacros": {
+      "path": "//table[@id='dynamicDetailTable' and ancestor::div[@id= 'macroTable']]",
+      "body": "tbody[@maintbody='Y']",
+      "frame": "FRAME_TERTIARY_POPUP_CONTENTS"
+    },
+    "AddCodeResultList": {
+      "path": "//table[@id='mainTable']",
+      "head": "//div[@class='scrollingTableHeaderDiv']/table/thead",
+      "body": "//div[@class='scrollingTableDetailDiv']/table/tbody",
+      "frame": "FRAME_EDITDEPT_PICKERS_CODE"
+    },
+    "SelectedList": {
+      "id": "",
+      "name": "",
+      "path": "//div[@id='SelectedValueTable']",
+      "head": "//div[@class='scrollingTableHeaderDiv']/table/thead",
+      "body": "//div[@class='scrollingTableDetailDiv']/table/tbody",
+      "frame": "FRAME_TERTIARY_POPUP_CONTENTS"
+    },
+    "NonSelectedList": {
+      "id": "",
+      "name": "",
+      "path": "//div[@id='NotSelectedValueTable']",
+      "head": "//div[@class='scrollingTableHeaderDiv']/table/thead",
+      "body": "//div[@class='scrollingTableDetailDiv']/table/tbody",
+      "frame": "FRAME_TERTIARY_POPUP_CONTENTS"
+    },
+    "ProviderSearchResults": {
+      "id": "",
+      "name": "",
+      "path": "//table[@id='dynamicDetailTable' and @tablemanagerid='lookupTable']",
+      "head": "//div[@id='lookupTable']/div/table/thead",
+      "body": "//table[@id='dynamicDetailTable' and @tablemanagerid='lookupTable']/tbody",
+      "frame": "FRAME_PROVIDERSMAIN_SEARCHRESULTS"
+    },
+    "UserProviderSearchResults": {
+      "id": "",
+      "name": "",
+      "path": "//div[@id='lookupTable']",
+      "head": "//div[@id='lookupTable']/div/table/thead",
+      "body": "//table[@id='dynamicDetailTable' and @tablemanagerid='lookupTable']/tbody",
+      "frame": "FRAME_USERFROMPROVIDER_SEARCHRESULTS"
+    },
+    "UsageReport": {
+      "path": "//div[@id='scrollAll']/table",
+      "head": "tbody/tr[position()=1]",
+      "body": "tbody",
+      "frame": "FRAME_MAIN"
+    },
+    "SessionReport": {
+      "path": "//table[@id='dataTable']",
+      "head": "tbody/tr",
+      "body": "//div[@id='scrollAll']/table/tbody",
+      "frame": "FRAME_MAIN"
+    },
+    "SessionsLogs": {
+      "path": "//form[@name='selectLogs']/table",
+      "head": "tbody/tr[position()=1]",
+      "body": "tbody",
+      "frame": "FRAME_MAIN"
+    },
+    "EventLogs": {
+      "path": "//div[@id='scrollAll']/table",
+      "head": "tbody",
+      "body": "tbody",
+      "frame": "FRAME_MAIN"
+    },
+    "AuditReport": {
+      "path": "//div[@id='auditResults']",
+      "head": "//div/table/thead[@class='staticHeader']",
+      "body": "//div/table[@class='standardTable']/tbody",
+      "frame": "FRAME_AUDIT_REPORT_RESULT"
+    },
+    "LookupUser": {
+      "path": "//div[@id='lookupTable']",
+      "head": "//table/thead[@class='staticHeader']",
+      "body": "//table[@id='dynamicDetailTable']/tbody",
+      "frame": "FRAME_QUICK_SEARCH"
+    },
+    "CPTList": {
+      "path": "//table[@class='searchResult display']",
+      "head": "thead",
+      "body": "tbody",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "DictionaryList": {
+      "path": "//table[@id='fieldsSelectTable']",
+      "head": "thead",
+      "body": "tbody",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "FieldRules": {
+      "path": "//table[@id='fieldRulesTable']",
+      "body": "tbody",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "Sections": {
+      "path": "//div[@id='sectionsList']",
+      "head": "//div[@class='dataTables_scrollHeadInner']/table/thead",
+      "body": "//table[@id='sectionsListTable']/tbody",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "Locations": {
+      "path": "//table[@id='locationsSelectedTable']",
+      "body": "tbody",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "BulkUserSearchResults": {
+      "path": "//div[@id='lookupTable']",
+      "body": "//table[@id='dynamicDetailTable' and @tableManagerID='lookupTable']",
+      "frame": "FRAME_BULKUSER_SEARCHRESULTS"
+    },
+    "BulkUserListResults": {
+      "path": "//table[@id='dynamicDetailTable']",
+      "frame": "FRAME_BULKUSER_EDIT"
+    },
+    "Medications": {
+      "path": "//table[@id='dynamicDetailTable']",
+      "body": "tbody",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "CPOEOrderSearch": {
+      "path": "//div[@id='entityList']",
+      "head": "//div[@headerDIV='y']/table/thead",
+      "body": "//div[@detailDIV='Y']/table/tbody",
+      "frame": "FRAME_CPOE_ORDER_ENTRY_SEARCH"
+    },
+    "QuickTextDepartmentPickers": {
+      "path": "//table[@id='pickerTable']",
+      "body": "//tbody",
+      "frame": "FRAME_QUICK_TEXT_EDITOR_DETAIL"
+    },
+    "NewQuickText": {
+      "id": "",
+      "name": "",
+      "path": "//table[@id='QTTable']",
+      "head": "//thead",
+      "body": "//tbody",
+      "frame": "FRAME_TERTIARY_POPUP_CONTENTS"
+    },
+    "EditMyPickersChildren": {
+      "path": "//div[@id='childrenTable']",
+      "head": "//div[@class='scrollingTableHeaderDiv']/table/thead",
+      "body": "//div[@class='scrollingTableDetailDiv']/table/tbody",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "EditMyPickers": {
+      "path": "//div[@id='childrenTable']",
+      "head": "//div[@class='scrollingTableHeaderDiv']/table/thead",
+      "body": "//div[@class='scrollingTableDetailDiv']/table/tbody",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "ManageHoldForReviewReasons": {
+      "path": "//div[@class='dataTables_scroll']",
+      "head": "//thead",
+      "body": "//tbody",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "ManageHoldForReviewReasonsScroll": {
+      "path": "//div[@class='dataTables_scrollBody']",
+      "head": "//thead",
+      "body": "//tbody",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "CPOEOrderGroupsSearchResults": {
+      "id": "",
+      "path": "//div[@class='scrollingTableDetailDiv']/table",
+      "head": "//thead",
+      "body": "//tbody",
+      "frame": "FRAME_CPOE_ORDERGROUPS_SEARCHRESULTS"
+    },
+    "OrderGroupsSettingsPreview": {
+      "id": "",
+      "path": "//div[@class='scrollingDiv' and @name='OrderGroup']/table",
+      "head": "//thead",
+      "body": "//tbody",
+      "frame": "FRAME_CPOE_ORDERGROUPS_DETAILS"
+    },
+    "NonFormularyMedOrderssearch": {
+      "id": "",
+      "name": "",
+      "path": "//div[@childentity='RHSMedResults']",
+      "frame": "FRAME_POPUP_CONTENTS",
+      "head": "//div[@id='NonFormularyContainerHeader']",
+      "body": "//table[@id='dynamicDetailTable' and @class='autocompleteResults' and starts-with(@tablemanagerid, 'SearchResults-RHSMed')]"
+    },
+    "NoteTemplate": {
+      "path": "//div[@id='TemplateTable']",
+      "frame": "FRAME_POPUP_CONTENTS",
+      "head": "//div[@class='scrollingTableHeaderDiv']/table/thead",
+      "body": "//div[@class='scrollingTableDetailDiv']/table/tbody"
+    },
+    "CPOEMedFrequencySearch": {
+      "path": "//table[@id='dynamicDetailTable']",
+      "body": "tbody",
+      "frame": "FRAME_MEDFREQUENCYDEFINITION_SEARCH_RESULTS"
+    },
+    "LookUpSearchResults": {
+      "id": "",
+      "name": "",
+      "path": "//div[ @tablemanagerid='lookupTable']",
+      "head": "//div[@id='lookupTable']/div/table/thead",
+      "body": "//div[@id='detailDivScroll']/table/tbody",
+      "frame": "FRAME_QUICK_SEARCH"
+    }
+  },
+  "DROPDOWNS": {
+    "MessageStatus": {
+      "name": "status",
+      "frame": "FRAME_MAIN"
+    },
+    "EditInstitutionSettings": {
+      "name": "settings",
+      "frame": "FRAME_TOP"
+    },
+    "EditUserSettings": {
+      "name": "settings",
+      "frame": "FRAME_TOP"
+    },
+    "CopyDiagnosesonNewTransaction": {
+      "name": "CopyDiagnosesInNew",
+      "frame": "FRAME_USER_MAIN"
+    },
+    "SetChargeDesktopViewAccess": {
+      "name": "ChargeDesktopViewAccess",
+      "frame": "FRAME_USER_MAIN"
+    },
+    "SetPatientListChargeViewAccess": {
+      "name": "ChargeViewingPermissions",
+      "frame": "FRAME_USER_MAIN"
+    },
+    "StateofHoldforReviewCheckbox": {
+      "name": "HoldForReviewFlag",
+      "frame": "FRAME_USER_MAIN"
+    },
+    "EditDepartmentSettings": {
+      "name": "settings",
+      "frame": "FRAME_TOP"
+    },
+    "EditPreferencesSettings": {
+      "name": "settings",
+      "frame": "FRAME_TOP"
+    },
+    "RestrictPatientLookupto": {
+      "name": "PatientListFacilityAccess",
+      "frame": "FRAME_USER_MAIN"
+    },
+    "CanSendPatientsto": {
+      "name": "SendPatients",
+      "frame": "FRAME_USER_MAIN"
+    },
+    "Defaultrelationshipforpatientssentbyotherusers": {
+      "name": "DefaultReceiveRelationship",
+      "frame": "FRAME_USER_MAIN"
+    },
+    "CanGetPatientsfrom": {
+      "name": "PatientForwardingMode",
+      "frame": "FRAME_USER_MAIN"
+    },
+    "Non-MedicationDuplicateDisplay": {
+      "id": "nonMedDuplicateDisplay",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "NewNon-MedicationDuplicateDisplay": {
+      "id": "nonMedDuplicateNewDisplay",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "MedicationDuplicateDisplay": {
+      "id": "medDuplicateDisplay",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "NewMedicationDuplicateDisplay": {
+      "id": "medDuplicateNewDisplay",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "DrugAllergyDisplay": {
+      "name": "CPOEDrugAllergyDisplayClass",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "ContraindicatedDrugCombination": {
+      "path": "//select[@name='DisplayClassName' and parent::td[preceding-sibling::td[descendant::*[contains(text(),'Contraindicated')or contains(text(),'ContraIndication')]]]]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "SevereInteraction": {
+      "path": "//select[@name='DisplayClassName' and parent::td[preceding-sibling::td[descendant::*[contains(text(),'Severe')]]]]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "ModerateInteraction": {
+      "path": "//select[@name='DisplayClassName' and parent::td[preceding-sibling::td[descendant::*[contains(text(),'Moderate')]]]]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "UndeterminedSeverity": {
+      "path": "//select[@name='DisplayClassName' and parent::td[preceding-sibling::td[descendant::*[contains(text(),'Unknown') or contains(text(),'Undetermined')]]]]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "FacilityGroup": {
+      "id": "FacilityGroup",
+      "frame": "FRAME_MAIN"
+    },
+    "FavoriteConfigDXMLTemplate": {
+      "id": "FavConfigDXMLLookup",
+      "frame": "FRAME_AUTO_CREATE_FAVORITES_PREFERENCE_LIST"
+    },
+    "OrderType": {
+      "id": "OrderTypeName",
+      "frame": "FRAME_AUTO_CREATE_FAVORITES_PREFERENCE_LIST"
+    },
+    "CPOEOrderType": {
+      "path": "//select[@windowchangemessage='orderTypeChanged' and @name='OrderTypeName']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "Format": {
+      "name": "Format",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "ShowShortList": {
+      "name": "ShortListBehavior",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "SelectSecondaryDiagnoses": {
+      "name": "SecondaryDxSelectionBehavior",
+      "frame": "FRAME_USER_MAIN"
+    },
+    "Type": {
+      "name": "FieldType",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "Role": {
+      "id": "role",
+      "frame": "FRAME_PROVIDERS_SEARCH"
+    },
+    "StateofHoldforReviewFlag": {
+      "name": "HoldForReviewFlag",
+      "frame": "FRAME_USER_MAIN"
+    },
+    "Facility": {
+      "id": "Facility"
+    },
+    "LockUserafternLoginAttempts": {
+      "name": "MaxLoginTries",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "DisableAccessafterNloginattemptsviatheweb": {
+      "name": "WebMaxLoginRetries",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "DisableAccessafterNloginattemptstotheserverviathedevice": {
+      "name": "SyncMacLoginTries",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "VisitMerging": {
+      "name": "VisitMergeRestriction",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "Defaultofdaysformedicationorderhistory": {
+      "name": "MedListDaysData",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "DaysforMARHistory": {
+      "name": "MedListMarDaysData",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "Defaultofinstancesforallclinicalnotetypes": {
+      "name": "NkInstData",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "DefaultDaysBackForAllOrderTypes": {
+      "name": "OsDaysData",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "DefaultDaysForwardForAllOrderTypes": {
+      "name": "OsDaysForwardData",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "DefaultInstancesForTestTypes": {
+      "name": "RkInstData",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "DefaultNoDaysForVitalTypes": {
+      "name": "VitalDaysData",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "DefaultNoDaysForAllIOTypes": {
+      "name": "IODaysData",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "FirstShiftStartTime": {
+      "name": "ShiftStartTime",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "NoteAutoSaveFrequency": {
+      "name": "AutoSaveFrequency",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "eSignatureValidationMethod": {
+      "name": "ValidationMethod",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "ClinicalNotesTestResultsLayout": {
+      "name": "NWClinicalNotesTestLayout",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "Extensionperiodbeforedraftexpires": {
+      "name": "DraftExpirationPeriod",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "AllowSendingTransactionsForManuallyRegisteredPatientsToTheOutbox": {
+      "name": "JunctionField",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "PKVisitTypes": {
+      "name": "PKVisitTypes",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "PQRSReportingPeriod": {
+      "name": "PQRSReportingPeriod",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "ValidationMethod": {
+      "name": "ESignatureMethod",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "SendSignedReportsToSourceSystem": {
+      "name": "SendSignedReportsToBackendSystem",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "ReportType": {
+      "name": "reportType",
+      "frame": "FRAME_INST_TABLE_TOP"
+    },
+    "DateRange": {
+      "name": "daterange",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "SessionType": {
+      "name": "sessionType",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "LevelSelector": {
+      "path": "//select[@class='levelSelector']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "DepartmentBillingRouter": {
+      "name": "billingRouter",
+      "frame": "FRAME_DEPT_MAIN"
+    },
+    "Roles": {
+      "id": "rolesSelect",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "FilterScope": {
+      "name": "filter_scope",
+      "frame": "FRAME_DEPT_MAIN"
+    },
+    "FilterProperty": {
+      "name": "filter_property",
+      "frame": "FRAME_DEPT_MAIN"
+    },
+    "PropertyValue": {
+      "name": "property_value",
+      "frame": "FRAME_DEPT_MAIN"
+    },
+    "PatAccessLevel": {
+      "name": "value_patAccess",
+      "frame": "FRAME_BULKUSER_PREFERENCES"
+    },
+    "AccessLevel": {
+      "name": "accessLevel",
+      "frame": "FRAME_BULKUSER_SEARCH"
+    },
+    "SchedulingAccess": {
+      "name": "SchedulingAccess",
+      "frame": "FRAME_USER_MAIN"
+    },
+    "ChargeDesktopViewAccess": {
+      "name": "ChargeDesktopViewAccess",
+      "frame": "FRAME_USER_MAIN"
+    },
+    "PatAccess": {
+      "name": "patAccess",
+      "frame": "FRAME_USER_MAIN"
+    },
+    "GeneralPATAccessLevel": {
+      "name": "patAccess",
+      "frame": "FRAME_USER_MAIN"
+    },
+    "QuickTextTemplateView": {
+      "id": "templateSelect",
+      "frame": "FRAME_DEPT_MAIN"
+    },
+    "Grouping": {
+      "id": "Grouping",
+      "frame": "FRAME_TERTIARY_POPUP_CONTENTS"
+    },
+    "Display": {
+      "id": "GroupingFilter",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "UserCanSearchforNotes": {
+      "name": "UserCanNWSearch",
+      "frame": "FRAME_USER_MAIN"
+    },
+    "MovetoQuickTextGrouping": {
+      "name": "GroupingMoveTo",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "SelectthesearchCriteria": {
+      "name": "criteriaSelected",
+      "frame": "FRAME_MAIN"
+    },
+    "PatientPhotoViewPermission": {
+      "name": "PatientPhotoViewPermission",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "PatientPhotoEditDeletePermission": {
+      "name": "PatientPhotoDeletePermission",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "Validation": {
+      "name": "ValidationMethod",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "InsertPreviousMaxNotes": {
+      "name": "InsertPreviousMaxNumNotes",
+      "frame": "FRAME_CONTENT"
+    },
+    "SetClinicalDataPercentWidthInPopOutMode": {
+      "name": "ClinicalDataWidthInPopOutMode",
+      "frame": "FRAME_CONTENT"
+    },
+    "SourceField": {
+      "path": "//td[preceding::td[1]/span[text()='SourceField:']]//select",
+      "frame": "FRAME_TERTIARY_POPUP_CONTENTS"
+    },
+    "SourceDescription": {
+      "path": "//td[preceding::td[1]/span[text()='SourceDescription:']]//select",
+      "frame": "FRAME_TERTIARY_POPUP_CONTENTS"
+    },
+    "ConfigureGCModifier": {
+      "name": "AddGCModifier",
+      "frame": "FRAME_USER_MAIN"
+    },
+    "SubmissionRecordType": {
+      "id": "submissionrecordtype"
+    },
+    "SubmissionStatusTimeFrame": {
+      "id": "timeframe",
+      "frame": "FRAME_TRACKING_REPORTING_SUBMISSION_RECORDS"
+    },
+    "Task": {
+      "id": "taskNames",
+      "frame": "FRAME_TRACKING_REPORTING_GLOBAL_TASKS"
+    },
+    "AllowSharing": {
+      "name": "value_AllowSharing",
+      "frame": "FRAME_BULKUSER_PREFERENCES"
+    }
+  },
+  "BUTTONS": {
+    "OK": {
+      "path": "//span[@pkwidget='Button' and text()='OK']"
+    },
+    "Save": {
+      "path": "//span[@pkwidget='Button' and text()='Save']",
+      "frame": "FRAME_BOTTOM"
+    },
+    "Search": {
+      "path": "//span[@pkwidget='Button' and text()='Search']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "Edit": {
+      "path": "//span[@pkwidget='Button' and text()='Edit']"
+    },
+    "Edit_CPOEUtilities": {
+      "id": "EditButton_label",
+      "frame": "FRAME_CPOE_UTILITIES"
+    },
+    "Save_EditFacilityGroupUtilitySettings": {
+      "id": "SaveButton_label",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "ClearWebSessionCaches": {
+      "id": "button_clearcache",
+      "frame": "FRAME_MISC"
+    },
+    "PurgeMobilizerCache": {
+      "id": "button_purgemobilizercache",
+      "frame": "FRAME_MISC"
+    },
+    "Close": {
+      "path": "//span[@pkwidget='Button' and text()='Close']"
+    },
+    "CreateUser": {
+      "path": "//span[@pkwidget='Button' and text()='Create User']",
+      "frame": "FRAME_USER_BUTTONS"
+    },
+    "CreateUserSave": {
+      "path": "//span[@pkwidget='Button' and text()='Save']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "Delete": {
+      "path": "//span[@pkwidget='Button' and text()='Delete']"
+    },
+    "ConfirmDelete": {
+      "path": "//div[@class='ui-dialog-buttonset']/button[1]",
+      "frame": "FRAME_CPOE_ORDER_SET"
+    },
+    "CancelDelete": {
+      "path": "//div[@class='ui-dialog-buttonset']/button[2]",
+      "frame": "FRAME_CPOE_ORDER_SET"
+    },
+    "SaveCopy": {
+      "path": "//button[@id='saveButton']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "CloseCopy": {
+      "path": "//button[@id='closeButton']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "Yes": {
+      "id": "button_YES"
+    },
+    "No": {
+      "id": "button_NO"
+    },
+    "EditProviderInfo": {
+      "id": "button_EDIT",
+      "frame": "FRAME_USER_MAIN"
+    },
+    "CreateNewProviderGroup": {
+      "id": "button_CREATE",
+      "frame": "FRAME_PROVIDERGROUP_MAIN"
+    },
+    "DeleteSelectedProviderGroup": {
+      "id": "button_DELETE",
+      "frame": "FRAME_PROVIDERGROUP_MAIN"
+    },
+    "NewDepartment": {
+      "path": "//span[@pkwidget='Button' and text()='New Department']",
+      "frame": "FRAME_DEPT_BUTTONS"
+    },
+    "EditCPOEOrderSetMaintenance": {
+      "id": "editButton",
+      "frame": "FRAME_CPOE_ORDER_SET"
+    },
+    "DeleteCPOEOrderSetMaintenance": {
+      "id": "deleteButton",
+      "frame": "FRAME_CPOE_ORDER_SET"
+    },
+    "CopyCPOEOrderSetMaintenance": {
+      "id": "copyButton",
+      "frame": "FRAME_CPOE_ORDER_SET"
+    },
+    "CloseEditOrderSet": {
+      "path": "//button[@id='closeButton']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "SaveEditOrderSet": {
+      "id": "saveButton",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "CloseEditOrderSetSections": {
+      "id": "closeButton",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "SearchCPOEOrderSetMaintenance": {
+      "id": "searchButton",
+      "frame": "FRAME_CPOE_ORDER_SET"
+    },
+    "SectionSearch": {
+      "id": "searchButton",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "OrderDefinitionSearch": {
+      "path": "//span[@class='orderDefinitionSelectionLinkText' and contains(text(), 'None Selected')]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "CloseSectionSearch": {
+      "path": "//span[@class='ui-button-text' and text()='Close' and ancestor::div[@aria-labelledby='ui-dialog-title-publicSectionSearchDialog']]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "SearchCPOEOrderDefinitions": {
+      "path": "//span[@id='SearchButton']",
+      "frame": "FRAME_CPOE_ORDER_DEFINATIONS"
+    },
+    "AddOrderSet": {
+      "path": "//span[text()='Add Order Set']",
+      "frame": "FRAME_CPOE_ORDER_SET"
+    },
+    "AddOrderSetSection": {
+      "path": "//span[text()='Add Section']",
+      "frame": "FRAME_CPOE_ORDER_SET_SECTIONS"
+    },
+    "AutoCreateFavorites": {
+      "id": "AutoCreateFavButton_label",
+      "frame": "FRAME_CPOE_UTILITIES"
+    },
+    "AddSelectedUsers": {
+      "path": "//span[@id='button_ADDUSERS' and text()='Add Selected Users']",
+      "frame": "FRAME_BULKUSER_SEARCH"
+    },
+    "CancelAutoFav": {
+      "path": "//span[contains(@id, 'dijit_form_Button_') and text()= 'Cancel']",
+      "frame": "FRAME_MANAGE_FAVORITES"
+    },
+    "ExportData": {
+      "path": "//span[@pkwidget='Button' and text()='Export Data']"
+    },
+    "Export": {
+      "id": "SaveButton_label",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "ExportPickers": {
+      "path": "//span[@id='button_exporthpickers']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "ImportPickers": {
+      "path": "//span[@id='button_importhpickers']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "ChooseFile": {
+      "path": "//input[@name='pickerImportFile']",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "ImportFile": {
+      "path": "//span[@id='button_IMPORT']",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "CloseImport": {
+      "path": "//span[@id='button_CLOSE']",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "ExportAll": {
+      "path": "//span[@pkwidget='Button' and text()='Export All']",
+      "frame": "NO_FRAME"
+    },
+    "CPOEFileDownload": {
+      "id": "dijit_form_Button_0_label",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "ExportCPOEOrderCancel": {
+      "id": "CancelButton_label",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "EditCPOEPreferences": {
+      "id": "EditButton_label",
+      "frame": "FRAME_CPOE_PREFERENCES_General"
+    },
+    "ViewEditOrderString": {
+      "path": "//span[@id='button_OrderStringMaint']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "Cancel": {
+      "path": "//span[@pkwidget='Button' and text()='Cancel']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "CancelCPOEOrderPrototype": {
+      "path": "//span[@class='ui-button-text' and text()='Cancel']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "OKCPOEOrderPrototype": {
+      "path": "//span[@class='ui-button-text' and text()='Ok']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "DeleteThisItem": {
+      "path": "//span[@class='ui-button-text' and text()='Delete this item']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "ConfirmDeleteThisItem": {
+      "path": "//span[@class='ui-button-text' and text()='Delete this item' and ancestor::div[@aria-labelledby='ui-dialog-title-deleteItemDialog']]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "CancelDeleteThisItem": {
+      "path": "//div[@aria-labelledby='ui-dialog-title-deleteItemDialog']//span[@class='ui-button-text' and text()='Cancel']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "ConfirmCloseYes": {
+      "path": "//div[@aria-labelledby='ui-dialog-title-confirmCloseDialog']//span[@class='ui-button-text' and text()='Yes']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "ConfirmCloseNo": {
+      "path": "//div[@aria-labelledby='ui-dialog-title-confirmCloseDialog']//span[@class='ui-button-text' and text()='Yes']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "DetailOk": {
+      "path": "//div[@aria-labelledby='ui-dialog-title-genericItemDialog']//span[@class='ui-button-text' and text()='Ok']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "DetailDeleteThisItem": {
+      "path": "//div[@aria-labelledby='ui-dialog-title-genericItemDialog']//span[@class='ui-button-text' and text()='Delete this item']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "DetailCancel": {
+      "path": "//div[@aria-labelledby='ui-dialog-title-genericItemDialog']//span[@class='ui-button-text' and text()='Cancel']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "OrderSetYes": {
+      "path": "//span[@class='ui-button-text' and text()='Yes']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "SaveEditFacilityGroupPreferences": {
+      "id": "SaveButton_label",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "CancelEditFacilityGroupPreferences": {
+      "id": "CancelButton",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "RunSearchIndex": {
+      "path": "//span[contains(@id, 'button_label') and descendant-or-self::*/text()= 'Run Search Index']",
+      "frame": "FRAME_CPOE_UTILITIES"
+    },
+    "RuntheIndexer": {
+      "id": "RunIndexerOK_label",
+      "frame": "FRAME_CPOE_UTILITIES"
+    },
+    "Add": {
+      "path": "//span[@pkwidget='Button' and text()='Add']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "MoveLeftButton": {
+      "path": "//span[@id= 'MoveLeftButton']",
+      "frame": "FRAME_TERTIARY_POPUP_CONTENTS"
+    },
+    "MoveRightButton": {
+      "id": "MoveRightButton",
+      "frame": "FRAME_TERTIARY_POPUP_CONTENTS"
+    },
+    "AddHeader": {
+      "id": "button_ADD",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "Remove": {
+      "path": "//span[@pkwidget='Button' and text()='Remove']"
+    },
+    "SelectAll": {
+      "path": "//span[@id='button_SELECTALL' and text()='Select All']",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "EditShortList": {
+      "id": "EditShortListButton",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "DeleteAllPickers": {
+      "path": "//span[@pkwidget='Button' and text()='Delete All Pickers']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "SearchCPT": {
+      "id": "searchButton'",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "NewMacro": {
+      "path": "//span[@pkwidget='Button' and text()='New Macro']",
+      "frame": "FRAME_DEPT_BUTTONS"
+    },
+    "NewCharge": {
+      "path": "//span[@pkwidget='Button' and text()='New Charge']",
+      "frame": "FRAME_DEPT_BUTTONS"
+    },
+    "MacroCharge": {
+      "path": "//span[@pkwidget='Button' and text()='Add']",
+      "frame": "FRAME_DEPT_MAIN"
+    },
+    "AddCategory": {
+      "path": "//span[@id='button_addcat' and text()='Add Category']",
+      "frame": "FRAME_TERTIARY_POPUP"
+    },
+    "AddMacros": {
+      "id": "button_macros",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "CloseNoteTemplate": {
+      "id": "button_close",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "SelectAllSelectedValueTable": {
+      "path": "//span[@id= 'button_SELECTALL' and ancestor::div[@id= 'SelectedValueTable']]",
+      "frame": "FRAME_TERTIARY_POPUP_CONTENTS"
+    },
+    "NewBillingArea": {
+      "path": "//span[@pkwidget='Button' and text()='New Billing Area']",
+      "frame": "FRAME_DEPT_BUTTONS"
+    },
+    "Saveprovider": {
+      "path": "//span[@pkwidget='Button' and text()='Save']",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "SavePickers": {
+      "path": "//span[@id='button_save']",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "CancelPickers": {
+      "path": "//span[@id='button_cancel']",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "Run": {
+      "id": "button_run",
+      "frame": "FRAME_AUTO_CREATE_FAVORITES_PREFERENCE_LIST"
+    },
+    "InformationOK": {
+      "id": "button_OK",
+      "frame": "NO_FRAME"
+    },
+    "ShowReport": {
+      "path": "//span[@id='button_SHOWREP' and descendant-or-self::*/text()='Show Report']",
+      "frame": "FRAME_SELF_ASSIGN_REPORT"
+    },
+    "UploadNewAndroidBinaries": {
+      "path": "//input[starts-with(@onclick, 'mainPage') and @value='Upload New Android Binaries']",
+      "frame": "FRAME_INST_BUTTONS"
+    },
+    "ViewReports": {
+      "path": "//span[@pkwidget='Button' and text()='View Reports']",
+      "frame": "FRAME_INST_BUTTONS"
+    },
+    "ShowAuditRecords": {
+      "id": "button_SHOW",
+      "frame": "FRAME_AUDIT_REPORT"
+    },
+    "searchCpt": {
+      "id": "searchCpt",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "SelectFinancialClass": {
+      "id": "financialClassSearchButton",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "SelectLocations": {
+      "id": "locationSearchButton",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "SelectRoles": {
+      "id": "roleSearchButton",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "Group": {
+      "id": "groupRules",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "SelectFromDictionary": {
+      "id": "fieldLookupButton",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "CreateNew": {
+      "id": "createField",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "AddSection": {
+      "path": "//span[@class='ui-button-text' and text()='Add Section']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "SaveSettings": {
+      "id": "saveButton"
+    },
+    "OKErrorInfo": {
+      "path": "//button[@role='button' and ancestor::div[@aria-labelledby='ui-dialog-title-errorDialog']]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "CloseSection": {
+      "id": "closeSectionsList",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "OkSection": {
+      "path": "//button[child::span[@class='ui-button-text' and text()='Ok']]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "OkAddOrder": {
+      "path": "//span[@id='AddSelectedButton']",
+      "frame": "FRAME_CPOE_ORDER_DEFINATIONS"
+    },
+    "CancelSection": {
+      "path": "//button[child::span[@class='ui-button-text' and text()='Cancel']]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "CancellocationSelection": {
+      "path": "//button[child::span[@class='ui-button-text' and text()='Cancel' and ancestor::div[@aria-labelledby='ui-dialog-title-locationsPopup']]]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "OklocationSelection": {
+      "path": "//button[child::span[@class='ui-button-text' and text()='Ok' and ancestor::div[@aria-labelledby='ui-dialog-title-locationsPopup']]]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "OkRolesSelection": {
+      "path": "//button[child::span[@class='ui-button-text' and text()='Ok' and ancestor::div[@aria-labelledby='ui-dialog-title-rolesPopup']]]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "CancelRolesSelection": {
+      "path": "//button[child::span[@class='ui-button-text' and text()='Cancel' and ancestor::div[@aria-labelledby='ui-dialog-title-rolesPopup']]]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "OKGroupEdit": {
+      "path": "//button[@class='editGroupName' and text() ='OK']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "OKFieldSelect": {
+      "path": "//span[@class='ui-button-text' and text()='Ok' and ancestor::div[@aria-labelledby='ui-dialog-title-fieldsSelectDialog']]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "DeleteLink": {
+      "path": "//td[@class='deleteLink']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "OKDeleteSection": {
+      "path": "//span[@class='ui-button-text' and text()='Ok' and ancestor::div[@aria-labelledby='ui-dialog-title-deleteDialog']]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "SaveAddField": {
+      "id": "button-save",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "Next": {
+      "path": "//span[@class='next fg-button ui-button ui-state-default' and text()='Next']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "Last": {
+      "path": "//span[@class='last ui-corner-tr ui-corner-br fg-button ui-button ui-state-default' and text()='Last']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "CancelCPTLookup": {
+      "path": "//a[@class='ui-dialog-titlebar-close ui-corner-all' and ancestor::div[@aria-labelledby='ui-dialog-title-cptLookupHolder']]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "CancelFieldSelect": {
+      "path": "//span[@class='ui-button-text' and text()='Cancel' and ancestor::div[@aria-labelledby='ui-dialog-title-fieldsSelectDialog']]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "NewFilter": {
+      "path": "//span[@class='button-base button-normal button nowrap' and text()='New Filter']",
+      "frame": "FRAME_DEPT_BUTTONS"
+    },
+    "AddFilter": {
+      "path": "//span[@class='button-base button-normal button nowrap' and text()='Add']",
+      "frame": "FRAME_DEPT_BUTTONS"
+    },
+    "NewPopulator": {
+      "path": "//span[@class='button-base button-normal button nowrap' and text()='New Populator']",
+      "frame": "FRAME_DEPT_BUTTONS"
+    },
+    "SearchBulkUser": {
+      "path": "//span[@id='button_SEARCH' and text()='Search']",
+      "frame": "FRAME_BULKUSER_SEARCH"
+    },
+    "RemoveSelectedUsers": {
+      "path": "//span[@id='button_REMOVEUSERS' and text()='Remove Selected Users']",
+      "frame": "FRAME_BULKUSER_EDIT"
+    },
+    "SetPreferences": {
+      "path": "//span[@id='button_SETPREFS' and text()='Set Preferences']",
+      "frame": "FRAME_BULKUSER_PREFERENCES"
+    },
+    "Reset": {
+      "path": "//span[@id='button_RESET' and text()='Reset']",
+      "frame": "FRAME_BULKUSER_SEARCH"
+    },
+    "CancelAddField": {
+      "id": "button-cancel",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "CancelDeleteSection": {
+      "path": "//span[@class='ui-button-text' and text()='Cancel' and ancestor::div[@aria-labelledby='ui-dialog-title-deleteDialog']]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "SaveEditLocationPref": {
+      "id": "SaveButton_label",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "EditLocation": {
+      "id": "EditButton",
+      "frame": "FRAME_MAIN"
+    },
+    "SelectOrderDefinition": {
+      "id": "button_lookuporderdef",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "RefreshSummarySubmissionRecord": {
+      "id": "button_Dashboard",
+      "frame": "FRAME_TRACKING_REPORTING_SUBMISSION_RECORDS_SUMMARY"
+    },
+    "ResetUserPickers": {
+      "id": "button_resetuserpickers",
+      "frame": "FRAME_QUICK_TEXT_EDITOR_DETAIL"
+    },
+    "DeleteAll": {
+      "id": "button_NO",
+      "frame": "NO_FRAME"
+    },
+    "ManageQuickText": {
+      "id": "button_addquicktext",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ChangeUserPasswordSave": {
+      "path": "//span[@pkwidget='Button' and text()='Save']",
+      "frame": "FRAME_MAIN"
+    },
+    "CreateCategoriesFromNoteTemplate": {
+      "id": "CreateQTCategoryButton",
+      "frame": "FRAME_QUICK_TEXT_EDITOR_DETAIL"
+    },
+    "SelectNoteTemplateSearch": {
+      "id": "TemplateLookupIMG",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "NewQuickText": {
+      "id": "NewButton",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "AddText": {
+      "id": "button_addquicktext",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "AddCategoryDept": {
+      "id": "button_addcat",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "Move": {
+      "path": "//span[@pkwidget='Button' and text()='Move']",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "SubmitQuery": {
+      "path": "//input[@value='Submit Query']"
+    },
+    "CreateUserFromProvider": {
+      "path": "//span[@pkwidget='Button' and text()='Create User from Provider']",
+      "frame": "FRAME_USER_BUTTONS"
+    },
+    "ProviderCreateUser": {
+      "path": "//span[@pkwidget='Button' and text()='Create User']",
+      "frame": "FRAME_USERFROMPROVIDER_DETAILS"
+    },
+    "RunSearchIndexer": {
+      "path": "//button[@id='runbutton' and text()='Run Search Index']",
+      "frame": "FRAME_CPOE_UTILITIES"
+    },
+    "AddFavoriteOK": {
+      "id": "button_detailok",
+      "frame": "FRAME_TERTIARY_POPUP_CONTENTS"
+    },
+    "EditFavoriteOK": {
+      "id": "button_detailok",
+      "frame": "FRAME_TERTIARY_POPUP_CONTENTS"
+    },
+    "CreateNewReasonRolesMapping": {
+      "path": "//button[@id='addHfr']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "ManageHoldForReviewClose": {
+      "path": "//button[@id='closeHFR']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "X-close": {
+      "path": "//button[@id='closeHFR' and @title='Close']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "CustomReasonEdit": {
+      "path": "//td[@class='editLink'and ancestor::tr[descendant::td[text()= 'CustomReason']]]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "Reason1Edit": {
+      "path": "//td[@class='editLink' and ancestor::tr[descendant::td[text()= 'Reason1']]]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "Reason2Edit": {
+      "path": "//td[@class='editLink' and ancestor::tr[descendant::td[text()= 'Reason2']]]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "Reason3Edit": {
+      "path": "//td[@class='editLink' and ancestor::tr[descendant::td[text()= 'Reason3']]]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "Reason4Edit": {
+      "path": "//td[@class='editLink' and ancestor::tr[descendant::td[text()= 'Reason4']]]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "ReviewRequestedEdit": {
+      "path": "//td[@class='editLink' and ancestor::tr[descendant::td[text()= 'Review requested']]]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "AuditReportInfo": {
+      "path": "//img[contains(@src, 'icon_info_inactive.gif')]",
+      "frame": "FRAME_AUDIT_REPORT_RESULT"
+    },
+    "RolesMappingSave": {
+      "path": "//button[@id='saveHfr' and text()='Save']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "RolesMappingCancel": {
+      "path": "//button[@id='cancelHfr' and text()='Cancel']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "RolesMappingClose": {
+      "path": "//span[@class='ui-icon ui-icon-closethick' and text()='close']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "SaveEditReason": {
+      "id": "saveHfr",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "CommentReviewEdit": {
+      "path": "//td[@class='editLink' and ancestor::tr[descendant::td[contains(text(),'Comment Review')]]]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "RolesOk": {
+      "path": "//span[@class='ui-button-text' and text()='Ok']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "Test1Edit": {
+      "path": "//td[@class='editLink' and ancestor::tr[descendant::td[text()= 'Test1']]]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "Test2Edit": {
+      "path": "//td[@class='editLink' and ancestor::tr[descendant::td[text()= 'Test2']]]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "Test3Edit": {
+      "path": "//td[@class='editLink' and ancestor::tr[descendant::td[text()= 'Test3']]]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "AddReason1Edit": {
+      "path": "//td[@class='editLink' and ancestor::tr[descendant::td[text()='AddReason1']]]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "AddReason2Edit": {
+      "path": "//td[@class='editLink' and ancestor::tr[descendant::td[text()='AddReason2']]]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "AddReason3Edit": {
+      "path": "//td[@class='editLink' and ancestor::tr[descendant::td[text()='AddReason3']]]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "SaveCptList": {
+      "id": "saveCptList",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "AddOrderDefinition": {
+      "path": "//span[@id='button_Add' and @class='button-base button-normal button nowrap']",
+      "frame": "FRAME_CPOEORDERDEFINITION"
+    },
+    "AddOrderString": {
+      "id": "AddPrototypeButton4Add",
+      "frame": "FRAME_CPOEORDERDEFINITION"
+    },
+    "CancelNoteTemplate": {
+      "id": "button_cancel",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "AddNewTemplate": {
+      "id": "button_formtemplateadd",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "ShowDetailedResults": {
+      "id": "button_Search",
+      "frame": "FRAME_TRACKING_REPORTING_SUBMISSION_RECORDS"
+    },
+    "SynonymsDelete": {
+      "path": "//span[@class='ui-icon ui-icon-trash']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "Synonyms+": {
+      "path": "//span[@class='ui-icon ui-icon-plus']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "NewSynonyms": {
+      "path": "//div[@id='synonymListContainer']//input",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "AddFieldSet": {
+      "path": "//span[@id='button_Add' and text()='Add Field Set']",
+      "frame": "FRAME_CPOEFIELDSET"
+    },
+    "CPOEFieldSearch": {
+      "path": "//span[@id='SearchButton' and text()='Search']",
+      "frame": "FRAME_CPOEFIELDS"
+    },
+    "CPOEFieldOK": {
+      "path": "//span[@id='AddSelectedButton' and text()='OK']",
+      "frame": "FRAME_CPOEFIELDS"
+    },
+    "CPOEFieldSetSave": {
+      "id": "button_SAVE",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "CPOEFieldSetCancel": {
+      "id": "button_CANCEL",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "AddMedFrequencyDefinition": {
+      "id": "addMedFreqDef",
+      "frame": "FRAME_MEDFREQUENCYDEFINITION_SEARCH"
+    },
+    "EditCPOEOrderGroup": {
+      "path": "//span[@id='button_EDIT']",
+      "frame": "FRAME_CPOE_ORDERGROUPS_DETAILS"
+    },
+    "OrderGroupSave": {
+      "id": "button_SAVE",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "ROSCONSTNormal": {
+      "path": "//button[(@id='ROSConstNormalLink' or @id='ROSConstNormal') and text()='Normal']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "CloseQuickText": {
+      "id": "button_closequicktext",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "CancelNoteTemplateView": {
+      "path": "//i[contains(@class,'nw-header-cancel-note')]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "ROSRESPNormal": {
+      "path": "//button[(@id='ROSRespNormalLink') and text()='Normal']",
+      "frame": "FRAME_NOTEWRITER"
+    }
+  },
+  "TEXT_FIELDS": {
+    "SystemName": {
+      "name": "SystemName",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "Loginpageuppercustommessageframeheight": {
+      "name": "LoginPageCustomMessageHeight",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "Loginpagelowercustommessageframeheight": {
+      "name": "LoginPageLowerCustomMessageHeight",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "HidefromActiveOrderListafterNNHours": {
+      "name": "CPOEDisplayNonStandingOrder",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "RecipientsforCPOECriticalAlertNotifications": {
+      "name": "CPOEEmailCriticalAlert",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "MinimumPasswordlength": {
+      "name": "PasswordRulesMinLength",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "SearchForUser": {
+      "name": "searchText",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "DaysBeyondtheVisitEndtoAllowEditingaCharge": {
+      "name": "EditPastDischarge",
+      "frame": "FRAME_USER_MAIN"
+    },
+    "SelectFiletoImportXML": {
+      "id": "XMLFileName",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "#ofDaysBeforeTodaytoAllowSettingtheServiceDate": {
+      "name": "EditPastService",
+      "frame": "FRAME_USER_MAIN"
+    },
+    "FirstName": {
+      "id": "firstName",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "LastName": {
+      "id": "lastName",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "Username": {
+      "id": "username",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "Password": {
+      "id": "password",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "VerifyPassword": {
+      "id": "password2",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "DepartmentName": {
+      "name": "deptName",
+      "frame": "FRAME_DEPT_MAIN"
+    },
+    "DepartmentLabel": {
+      "name": "label",
+      "frame": "FRAME_DEPT_MAIN"
+    },
+    "BillingAreaID": {
+      "name": "id",
+      "frame": "FRAME_MAIN"
+    },
+    "BillingAreaName": {
+      "name": "name",
+      "frame": "FRAME_MAIN"
+    },
+    "BillingAreaAbbreviatedName": {
+      "name": "abrevName",
+      "frame": "FRAME_MAIN"
+    },
+    "BillingAreaAliases": {
+      "name": "aliases",
+      "frame": "FRAME_MAIN"
+    },
+    "ProviderGroupName": {
+      "id": "promptInput",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "OrderSetName": {
+      "id": "orderSetName",
+      "frame": "FRAME_CPOE_ORDER_SET"
+    },
+    "EditOrderSetName": {
+      "name": "name",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "EditOrderSetAbbreviation": {
+      "name": "abbrev",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "EditOrderSetDescription": {
+      "name": "description",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "EditOrderSetVersion": {
+      "name": "version",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "CopyOrderSetName": {
+      "name": "name",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "CopyOrderSetAbbreviation": {
+      "name": "abbrev",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "SharedSectionName": {
+      "id": "orderSetName",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "OrderDefinitionName": {
+      "id": "DefNameCriteria",
+      "frame": "FRAME_CPOE_ORDER_DEFINATIONS"
+    },
+    "SectionLabel": {
+      "name": "label",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "UserName/ID": {
+      "id": "searchText",
+      "frame": "FRAME_BULKUSER_SEARCH"
+    },
+    "NumberOfWeeks": {
+      "id": "NumberOfWeeksField",
+      "frame": "FRAME_AUTO_CREATE_FAVORITES_PREFERENCE_LIST"
+    },
+    "MaxFavoritesPerDef": {
+      "id": "MaxFavsPerOrderDefField",
+      "frame": "FRAME_AUTO_CREATE_FAVORITES_PREFERENCE_LIST"
+    },
+    "DestinationFile": {
+      "id": "desFileName",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "OrderName": {
+      "id": "DefNameCriteria",
+      "frame": "FRAME_CPOEORDERDEFINITION"
+    },
+    "OrderSearch": {
+      "id": "orderDialogAutocomplete",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "SolrMasterURL": {
+      "id": "SolrMasterUrl",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "SolrSearchURL": {
+      "id": "SolrUrl",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "ProviderNameIDAlias": {
+      "id": "searchText",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "HeaderName": {
+      "id": "FieldName",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "ShortListMax": {
+      "id": "ShortListMax",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "AddCode": {
+      "id": "codeSearchFieldDYNAMICLOOKUP",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "PickerName": {
+      "id": "pickerName",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "Enternewcategoryname": {
+      "id": "promptInput",
+      "frame": "FRAME_TERTIARY_POPUP_CONTENTS"
+    },
+    "SearchCPT": {
+      "name": "searchText",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "MacroLabel": {
+      "path": "@type='text' and ancestor::td[@class='smallDetail' and contains(text(), 'Macro')]",
+      "frame": "FRAME_QUICK_DETAILS"
+    },
+    "ProviderNameIdAlias": {
+      "id": "searchText",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "ProviderLastName": {
+      "id": "LastName",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "ProviderFirstName": {
+      "id": "FirstName",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "StartDate": {
+      "name": "StartDate"
+    },
+    "EndDate": {
+      "name": "EndDate"
+    },
+    "RequireLoginafterNminutesofInactivity": {
+      "name": "HHTimeout",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "SubmissionTimerInterval": {
+      "name": "SubmissionTimerInterval",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "EntertextforPushNotification": {
+      "name": "PREF_PushNotificationText",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "AccountNumberPatientListFieldLabels": {
+      "name": "hhlabel_106",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "SSN_PatientListFieldLabel": {
+      "name": "hhlabel_122",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "MaximumNumberofPatientsontheShortListwhenPopulating": {
+      "name": "MaxHuplSize",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "MaxOfDaysWorthOfNotesToKeepPerPatientOnTheHandheld": {
+      "name": "NkDaysData",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "MaximumofDaysWorthofTestDatatoKeepPerPatientontheHH": {
+      "name": "RkDaysData",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "AddGCModifierPrompt": {
+      "name": "GCModifierPrompt",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "LabelMissingChargesFilter": {
+      "name": "OPMissingChargesFilterLabel",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "BillingFilePurgeThreshold": {
+      "name": "BillingFilePurgeThreshold",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "MinutesbeforesavedPINistimedout": {
+      "name": "ESignaturePinTimeout",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "DaysBeforeUnsignedReportisMarkedCriticallyOverdue": {
+      "name": "DaysBeforeUnsignedMarkedCritical",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "NumberofDaysDocumentsRemaininDeclinedState": {
+      "name": "NumDaysToRemove",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "SelectUsers": {
+      "id": "slproviderLOOKUP",
+      "frame": "FRAME_AUDIT_REPORT"
+    },
+    "DisplayLabel": {
+      "id": "label",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "Description": {
+      "id": "description",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "CPT1": {
+      "path": "@class='cptText' and ancestor::tr[descendant::td[@class='pk-span-1 levelNumberClass' and text()=1]]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "CPT2": {
+      "path": "@class='cptText' and ancestor::tr[descendant::td[@class='pk-span-1 levelNumberClass' and text()=2]]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "CPT3": {
+      "path": "@class='cptText' and ancestor::tr[descendant::td[@class='pk-span-1 levelNumberClass' and text()=3]]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "Modifier1": {
+      "path": "@class='modifiersText' and ancestor::tr[descendant::td[@class='pk-span-1 levelNumberClass' and text()=1]]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "Modifier2": {
+      "path": "@class='modifiersText' and ancestor::tr[descendant::td[@class='pk-span-1 levelNumberClass' and text()=2]]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "Modifier3": {
+      "path": "@class='modifiersText' and ancestor::tr[descendant::td[@class='pk-span-1 levelNumberClass' and text()=3]]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "Quantity1": {
+      "path": "@type='text' and parent::td[@class='pk-span-3 padright3 quantityClass' and preceding-sibling::td[@class='pk-span-1 levelNumberClass' and text()=1]]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "Quantity2": {
+      "path": "@type='text' and parent::td[@class='pk-span-3 padright3 quantityClass' and preceding-sibling::td[@class='pk-span-1 levelNumberClass' and text()=2]]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "Quantity3": {
+      "path": "@type='text' and parent::td[@class='pk-span-3 padright3 quantityClass' and preceding-sibling::td[@class='pk-span-1 levelNumberClass' and text()=3]]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "SearchAddField": {
+      "path": "@type='text' and ancestor::div[@id='fieldsSelectTable_wrapper']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "OKFieldSelect": {
+      "path": "//span[@class='ui-button-text' and text()='Ok' and ancestor::div[@aria-labelledby='ui-dialog-title-fieldsSelectDialog']]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "MinimumnumberofDiagnosesRequiredperCharge": {
+      "name": "MinDiagnosesPerTransaction",
+      "frame": "FRAME_DEPT_MAIN"
+    },
+    "FieldGroupEdit": {
+      "path": "@class='fieldGroupEditText' and parent::div[@class='groupNameHolder']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "SearchSection": {
+      "path": "@type='text' and ancestor::div[@id='sectionsListTable_wrapper']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "AddFieldText": {
+      "id": "fieldText",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "MaximumNumberofDiagnosesAllowedperTransaction": {
+      "name": "MaxDiagnosesPerTransaction",
+      "frame": "FRAME_DEPT_MAIN"
+    },
+    "DeleteSign-OutinfoafterNdaysafterdischarge": {
+      "name": "SignOutPurgeAfterNDays",
+      "frame": "FRAME_DEPT_MAIN"
+    },
+    "FilterName": {
+      "name": "filter_name",
+      "frame": "FRAME_DEPT_MAIN"
+    },
+    "PopulatorName": {
+      "name": "filterName",
+      "frame": "FRAME_DEPT_MAIN"
+    },
+    "SearchForOrder": {
+      "id": "OrderDefMaintSearchInput",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "CPOEPickerSearch": {
+      "id": "autocomplete",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "UserTrackReport": {
+      "id": "userIdLOOKUP",
+      "frame": "FRAME_TRACKING_REPORTING_TOP"
+    },
+    "NewPassword": {
+      "id": "newpw1",
+      "frame": "FRAME_MAIN"
+    },
+    "NewPasswordVerification": {
+      "id": "newpw2",
+      "frame": "FRAME_MAIN"
+    },
+    "NameQTV2": {
+      "id": "Name",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "CurrentPassword": {
+      "id": "oldpw",
+      "frame": "FRAME_MAIN"
+    },
+    "Template": {
+      "id": "TemplateLookupLOOKUP",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "Label": {
+      "id": "Label",
+      "frame": "FRAME_TERTIARY_POPUP_CONTENTS"
+    },
+    "TexttoInsert": {
+      "id": "DisplayText",
+      "frame": "FRAME_TERTIARY_POPUP_CONTENTS"
+    },
+    "Shortcut": {
+      "id": "Shortcut",
+      "frame": "FRAME_TERTIARY_POPUP_CONTENTS"
+    },
+    "AddQuickTextLabel": {
+      "id": "Name",
+      "frame": "FRAME_TERTIARY_POPUP_CONTENTS"
+    },
+    "AddQuickTextKeyboardShortcut": {
+      "id": "Shortcut",
+      "frame": "FRAME_TERTIARY_POPUP_CONTENTS"
+    },
+    "ExamRespiratory": {
+      "id": "ExamResp",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "NewGrouping": {
+      "id": "GroupingLabel",
+      "frame": "FRAME_TERTIARY_POPUP_CONTENTS"
+    },
+    "RestricttoQuestion": {
+      "id": "externalIds",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "KeyboardShortcut": {
+      "id": "Shortcut",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "PatientNarrativeQTV2": {
+      "path": "//div[@role='textbox' and @testid='it_PatientNarrative']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "QuickTextGroup": {
+      "path": "//span[@class='qtTitleTextWrapper']",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "NameQTV2Quick": {
+      "id": "Name",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "FreeText": {
+      "path": "@class=cke-qtt-input",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "QTV2Description": {
+      "path": "//div[@role='textbox' and @testid='it_DisplayText']",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "ListLabel": {
+      "name": "listLabel",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "ListOption": {
+      "name": "listOption_0",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "ListOption1": {
+      "name": "listOption_1",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "ROSRespQTV2": {
+      "path": "//div[@role='textbox' and @testid='it_ROSResp']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "AccountNumber": {
+      "name": "accountNumber",
+      "frame": "FRAME_MAIN"
+    },
+    "LastNDays": {
+      "name": "datelimit",
+      "frame": "FRAME_MAIN"
+    },
+    "ProviderID": {
+      "id": "SIMHOSPITAL__:__HOSPID",
+      "frame": "FRAME_USERFROMPROVIDER_DETAILS"
+    },
+    "ProviderUsername": {
+      "id": "username",
+      "frame": "FRAME_USERFROMPROVIDER_DETAILS"
+    },
+    "ProviderPassword": {
+      "id": "pwd",
+      "frame": "FRAME_USERFROMPROVIDER_DETAILS"
+    },
+    "ProviderConfirmPassword": {
+      "id": "pwd2",
+      "frame": "FRAME_USERFROMPROVIDER_DETAILS"
+    },
+    "UserUsername": {
+      "name": "username",
+      "frame": "FRAME_USER_MAIN"
+    },
+    "HoldForReviewSearch": {
+      "path": "//input[@type='text' and ancestor::div[@id='hfrResultTable_wrapper']]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "RolesMappingReason": {
+      "path": "//input[@id='selectedReason' and ancestor::div[@id='reason']]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "RolesMappingHoldRoles": {
+      "path": "//div[@id='selectedRole' and @class='roleText widgetFieldEdit']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "RolesMappingResolveRoles": {
+      "path": "//div[@id='selectedRoleR' and @class='roleText widgetFieldEdit']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "CPT:": {
+      "id": "cptSearch",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "CPOEAbbreviation": {
+      "barexpath": "//input[@id='Abbrev' or @id='Abbr']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "CPOEName": {
+      "id": "Name",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "PRNReason": {
+      "id": "PRNReason",
+      "frame": "FRAME_CPOEORDERPROTOTYPE"
+    },
+    "NewSynonyms": {
+      "path": "//div[@id='synonymListContainer']//input",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "CPOEFieldSetAbbreviation": {
+      "id": "abbrev",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "CPOEFieldSetName": {
+      "id": "Name",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "FieldAbbrev/Name": {
+      "id": "NameLabelCriteria",
+      "frame": "FRAME_CPOEFIELDS"
+    },
+    "NumHoursToFirstDose": {
+      "id": "NumHoursToFirstDose",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "MedTimes": {
+      "id": "MedTimes",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "NonMedTimes": {
+      "id": "NonMedTimes",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "FrequencyDefinitionFieldAbbrev/Name": {
+      "id": "AbbrevOrName",
+      "frame": "FRAME_MEDFREQUENCYDEFINITION_SEARCH"
+    }
+  },
+  "RADIOS": {
+    "BulkUserEdit": {
+      "name": "EnableBulkUserEdit",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "ProviderDirectory": {
+      "name": "EnableProviderDirectory",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "ChargeCapture": {
+      "name": "EnableChargeCapture",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "OutpatientVisits": {
+      "name": "EnableOutPatients",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "Allergies": {
+      "name": "EnableAllergies",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "ClinicalNotes": {
+      "name": "EnableClinicalNotes",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "LabResults": {
+      "name": "EnableLabResults",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "Medication": {
+      "name": "EnableMedications",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "Orders": {
+      "name": "EnableOrders",
+      "frame": "@@FRAME_INST_MAIN"
+    },
+    "PatientAssignment": {
+      "name": "EnablePatientAssignment",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "PatientList": {
+      "name": "EnablePatientList",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "PatientSummary": {
+      "name": "EnablePatientSummary",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "PatientRegistration": {
+      "name": "EnablePatientRegistration",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "Patient/VisitSearch": {
+      "name": "EnableVisitSearch",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "ProblemList": {
+      "name": "EnableProblemList",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "TestResults": {
+      "name": "EnableTestResults",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "Vitals": {
+      "name": "EnableVitals",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "IOs": {
+      "name": "EnableIOs",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "MARMedicationData": {
+      "name": "EnableMARMedData",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "Dictation": {
+      "name": "EnableDictation",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "Forms": {
+      "name": "EnableForms",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "Sign-outTask": {
+      "name": "EnableTasks",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "eSignature": {
+      "name": "EnableESignature",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "VitalsCapture": {
+      "name": "EnableVitalsCapture",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "NoteWriter": {
+      "name": "EnableNoteWriter",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "FiltersStickyByModules": {
+      "name": "FiltersStickyByModule",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "FilterByVisitAll": {
+      "path": "//input[@id='ALL']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "VisitTypeRadio": {
+      "name": "VisitTypeRadio",
+      "frame": "FRAME_POPUP_CONTENTS",
+      "select_by": "value"
+    },
+    "IncludeVisitTypes": {
+      "name": "IncludeVisitTypes",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS",
+      "select_by": "value"
+    },
+    "AllVisitTypes": {
+      "path": "//input[@id='All' and @name='IncludeVisitTypes']",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "PK": {
+      "path": "//input[@id='PK']",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "ADT": {
+      "path": "//input[@id='ADT']",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "CPOE": {
+      "name": "EnableCPOE",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "HomeMedication": {
+      "name": "EnableHomeMedications",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "MedicationReconciliation": {
+      "name": "EnableMedsRec",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "CPOEFacilityGroups": {
+      "name": "EnableFacilityGroups",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "HIE": {
+      "name": "EnableHie",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "EnableEmergencyAccess": {
+      "name": "EnableEmergencyAccess",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "MeditechUI": {
+      "name": "EnableMTUI",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "Passwordsmustincludeatleast1numberand1letter": {
+      "name": "PasswordRulesAlphanumeric",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "Passwordsmustbemixedcase": {
+      "name": "PasswordRulesMixedCase",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "ForcePasswordchangeuponinitiallogin": {
+      "name": "PasswordRulesInitialLogin",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "ForcePasswordchangeafterdays": {
+      "name": "PasswordRulesForceChange",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "AutoselectvisitduringAddactivities": {
+      "name": "AutoSelectVisitForAddCharge",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "CopyDiagnosesonCopiedTransactions": {
+      "name": "CopyDiagnosesOnCopy",
+      "frame": "FRAME_USER_MAIN"
+    },
+    "CopyModifiersonCopiedTransactions": {
+      "name": "CopyModifiersOnCopy",
+      "frame": "FRAME_USER_MAIN"
+    },
+    "ExcludeFreeTextonCopiedTransactions": {
+      "name": "ExcludeFreeTextOnCopy",
+      "frame": "FRAME_USER_MAIN"
+    },
+    "AllowFreeTextDiagnoses": {
+      "name": "AllowFreeTextDX",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "ExcludeFlaggedDiagChargesonCopiedTransactions": {
+      "name": "ExcludeFlaggedOnCopy",
+      "frame": "FRAME_USER_MAIN"
+    },
+    "ReviewingProvider": {
+      "name": "ReviewingProvider",
+      "frame": "FRAME_USER_MAIN"
+    },
+    "AllowUsertoAddEditChargesonWeb": {
+      "name": "AllowAddChargeOnWeb",
+      "frame": "FRAME_USER_MAIN"
+    },
+    "AllowFreeTextCharges": {
+      "name": "AllowFreeTextCharge",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "AllowFreeTextErrorsToGoToOutbox": {
+      "name": "AllowFreeTextToOutbox",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "AllowFreeTextErrorsToGoOutbox": {
+      "name": "AllowFreeTextToOutbox_User",
+      "frame": "FRAME_USER_MAIN"
+    },
+    "ExcludeFreeTextonExistingList": {
+      "name": "ExcludeFreeTextFromLists",
+      "frame": "FRAME_USER_MAIN"
+    },
+    "AllowSavingChargesForcedCodeEdits": {
+      "name": "AllowSavingChargesWithForcedCE",
+      "frame": "FRAME_USER_MAIN"
+    },
+    "CanAccessPatientListontheWeb": {
+      "name": "PatientListAccess",
+      "frame": "FRAME_USER_MAIN"
+    },
+    "CanReceivePatients": {
+      "name": "ReceivePatients",
+      "frame": "FRAME_USER_MAIN"
+    },
+    "Sign-out": {
+      "name": "SignoutDepartment",
+      "frame": "FRAME_DEPT_MAIN"
+    },
+    "Web-User": {
+      "name": "WebPersonnel",
+      "frame": "FRAME_USER_MAIN"
+    },
+    "ApplyCPTCPTcodeedits": {
+      "name": "enforceEditsBroadly",
+      "frame": "FRAME_DEPT_MAIN"
+    },
+    "PreventRedundantOrdering": {
+      "name": "RedundantCheckingLab",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "AllowMultipleDiets": {
+      "name": "AllowMultipleDiets",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "All": {
+      "name": "HoldAll",
+      "frame": "FRAME_USER_MAIN"
+    },
+    "Errors": {
+      "name": "HoldErrors",
+      "frame": "FRAME_USER_MAIN"
+    },
+    "FreeText": {
+      "name": "HoldFreeText",
+      "frame": "FRAME_USER_MAIN"
+    },
+    "Comments": {
+      "name": "HoldComments",
+      "frame": "FRAME_USER_MAIN"
+    },
+    "Imported": {
+      "name": "HoldImported",
+      "frame": "FRAME_USER_MAIN"
+    },
+    "Gender": {
+      "name": "GenderId",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "AllowUsertoSaveasDraft": {
+      "name": "AllowSaveAsDraftUser",
+      "frame": "FRAME_USER_MAIN"
+    },
+    "DeleteAllFavorites": {
+      "name": "DeleteAllFavorites",
+      "frame": "FRAME_AUTO_CREATE_FAVORITES_PREFERENCE_LIST"
+    },
+    "RequireLoginafterHHTimeout": {
+      "name": "ReqLoginHHTimeout",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "ClearHHDataAfterMaximumLoginAttemptsonHH": {
+      "name": "ClearAfterMaxLoginTries",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "EnablePushNotification": {
+      "name": "EnablePushNotification",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "ShowWebViews": {
+      "name": "ShowWebViewsNatively",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "AllowAutoVerification": {
+      "name": "AllowAutoVerification",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "AllowPatientListManipulation": {
+      "name": "SuppressListManagement",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "AllowGetPatients": {
+      "name": "AllowPatientForwarding",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "BillingAreaRequiresID": {
+      "name": "RequireBillingAreaNumber",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "RequireMRN": {
+      "name": "MrnRequired",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "ShowBillerComments": {
+      "name": "ShowBillerComments",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "EnableBatchEntry": {
+      "name": "EnableBatchChargeEntry_Inst",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "AllowUsersToToggleBetweenPublicandPrivate": {
+      "name": "DoNotAllowPrivatenessToBeChanged",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "CreateNewProblemsAsPublic": {
+      "name": "DefaultPublic",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "ShiftDateToDisplay": {
+      "name": "IODisplayShiftStartDate",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "CheckValidityServiceDate": {
+      "name": "CheckDateValidity",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "RequireAccountNumber": {
+      "name": "AcctNumRequired",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "AreVisitswithaStatusofCancelledConsideredBillable": {
+      "name": "CancelledVisitBillable",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "AreVisitswithaStatusofInactiveConsideredBillable": {
+      "name": "InactiveVisitBillable",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "RequireNDCCollection": {
+      "name": "RequireNdcCollection",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "AllowFreeTextNDCValues": {
+      "name": "AllowFreeTextNdc",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "EnableSignAll": {
+      "name": "ESignAllEnabled",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "EnableSavedPIN": {
+      "name": "ESigEnableSavedPin",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "MustScrolltoBottomtoSign": {
+      "name": "ScrollToBottomToSign",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "MustScrollThroughAllSignatureBlockstoSignScannedDocuments": {
+      "name": "ScrollThruAllSigBlocksToSign",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "AllowDecline": {
+      "name": "AllowDecline",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "Excludefromdepartmentcheckswhensharingdatabetweenusers": {
+      "name": "ExcludeFromUserSecurityChecks",
+      "frame": "FRAME_DEPT_MAIN"
+    },
+    "ForchargesinthisdepartmentapplyCPT-CPTcodeeditstosetcharges": {
+      "name": "enforceEditsBroadly",
+      "frame": "FRAME_DEPT_MAIN"
+    },
+    "DepartmentEnableBatchEntry": {
+      "name": "EnableBatchChargeEntry_Dept",
+      "frame": "FRAME_DEPT_MAIN"
+    },
+    "BatchChargesbyBillingAreaorDepartment": {
+      "name": "BatchChargesByBillingAreaDept_Dept",
+      "frame": "FRAME_DEPT_MAIN"
+    },
+    "IncludeClinicalDataonSign-outSummary": {
+      "name": "SignOutSummaryIncludeClinicalData",
+      "frame": "FRAME_DEPT_MAIN"
+    },
+    "EnableQuickTextVersion2": {
+      "name": "NWUseQuickText2",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "EnableSpellCheck": {
+      "name": "NWAllowSpellCheck",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "AllowPatientAssignment": {
+      "name": "AllowPatientAssignment",
+      "frame": "FRAME_USER_MAIN"
+    },
+    "CanEditOtherUsersCharges": {
+      "name": "sysrole_EditCharges",
+      "frame": "FRAME_USER_MAIN",
+      "select_by": "position"
+    },
+    "CPOEEnabled": {
+      "name": "CPOEEnabledLocation",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "AllowHoldforAdmission": {
+      "name": "CPOEAllowHoldForAdmission",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "EnableContinueHomeMeds": {
+      "name": "CPOEPartialAdmissionMedRecEnabledLocation",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "CanEnterOrders": {
+      "name": "AllowAddCPOEOnWeb",
+      "frame": "FRAME_USER_MAIN"
+    },
+    "EnableAdmissionMedRec": {
+      "name": "CPOEEnableMedRec",
+      "frame": "FRAME_USER_MAIN"
+    },
+    "EnableTransferMedRec": {
+      "name": "CPOEEnableTransferMedRec",
+      "frame": "FRAME_USER_MAIN"
+    },
+    "EnableDischargeMedRec": {
+      "name": "CPOEEnableDischargeMedRec",
+      "frame": "FRAME_USER_MAIN"
+    },
+    "AddHomeMedications": {
+      "name": "CPOEAddHomeMeds",
+      "frame": "FRAME_USER_MAIN"
+    },
+    "ContinueHomeMeds": {
+      "name": "CPOEEnablePartialAdmissionMedRec",
+      "frame": "FRAME_USER_MAIN"
+    },
+    "ShowAutoAddedCharges": {
+      "name": "DisplayTechnicalCharges",
+      "frame": "FRAME_USER_MAIN"
+    },
+    "CanSendChargestoOutbox": {
+      "name": "SendChargesToOutbox",
+      "frame": "FRAME_USER_MAIN"
+    },
+    "IsThisaGroup": {
+      "name": "folder",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS",
+      "select_by": "value"
+    },
+    "CanAddEditPKVisits": {
+      "name": "CanAddEditPKVisits",
+      "frame": "FRAME_USER_MAIN"
+    },
+    "CanCancelAppointments": {
+      "name": "CanCancelAppointments",
+      "frame": "FRAME_USER_MAIN"
+    },
+    "AllowPatientVisitSearch": {
+      "name": "AllowPatientVisitSearch",
+      "frame": "FRAME_USER_MAIN"
+    },
+    "IncompleteAdmissionReconciliation": {
+      "name": "IncompleteAdmissionReconciliation",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "IncompleteDischargeReconciliation": {
+      "name": "IncompleteDischargeReconciliation",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "AutoPopNW": {
+      "path": "//input[@name='AlwaysDisplayNoteInUndockedMode' and @type='radio' and @value='true']",
+      "frame": "FRAME_CONTENT"
+    },
+    "ManPopNW": {
+      "path": "//input[@name='AlwaysDisplayNoteInUndockedMode' and @type='radio' and @value='false']",
+      "frame": "FRAME_CONTENT"
+    },
+    "NoteinSignedStatus": {
+      "name": "AllowAuthorToEditNoteInSignedStatus",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "CoSignature": {
+      "name": "EnableCoSignature",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "CPOEMedications": {
+      "name": "EnableCPOEMedications",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "AllowAuthorToEditNoteInSignedStatus": {
+      "name": "AllowAuthorToEditNoteInSignedStatus",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "IncludeDepartmentNotesInInsertPrevious": {
+      "name": "IncludeDepartmentNotesInInsertPrevious",
+      "frame": "FRAME_DEPT_MAIN"
+    },
+    "EnableChargeFavorites": {
+      "name": "ShowCPTFavorites",
+      "frame": "FRAME_MAIN"
+    },
+    "ReviewingUser": {
+      "name": "ReviewingProvider",
+      "frame": "FRAME_USER_MAIN"
+    },
+    "DefaultState": {
+      "name": "selectedDefaultState",
+      "frame": "FRAME_POPUP_CONTENTS",
+      "select_by": "position"
+    },
+    "DefaultValue": {
+      "name": "selectedDefaultValue",
+      "frame": "FRAME_POPUP_CONTENTS",
+      "select_by": "position"
+    },
+    "HoldChargeForReviewComment": {
+      "name": "AutomaticHoldForReview",
+      "frame": "FRAME_USER_MAIN",
+      "select_by": "value"
+    },
+    "AllowMultipleDaysChargeCreation": {
+      "name": "AllowMultiDayChargeCreation_User",
+      "frame": "FRAME_USER_MAIN",
+      "select_by": "position"
+    },
+    "EnableGroupMessaging": {
+      "name": "EnableGroupMessaging",
+      "frame": "FRAME_MESSAGING_SETTINGS",
+      "select_by": "value"
+    },
+    "EnablePKMessaging": {
+      "name": "ChatUserLevelEnabled",
+      "frame": "FRAME_MESSAGING_SETTINGS",
+      "select_by": "value"
+    },
+    "SetPkInstitutionMessaging": {
+      "name": "ChatInstitutionLevelEnabled",
+      "frame": "FRAME_DEPT_MAIN",
+      "select_by": "value"
+    },
+    "UseAddendumTemplate": {
+      "name": "UseAddendumTemplate",
+      "frame": "FRAME_CONTENT",
+      "select_by": "name"
+    },
+    "AllowSubscribingToAlertWhenOrderResulted": {
+      "name": "allowOrderResultSubscription",
+      "frame": "FRAME_POPUP_CONTENTS",
+      "select_by": "value"
+    },
+    "AllowUserToShareDraftNote": {
+      "name": "AllowSharing",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "AllowCoSignerToEditResidentSharedDrafts": {
+      "name": "AllowCoSignerToEditResidentSharedDrafts",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "RestrictSharedDraftsToAttending": {
+      "name": "RestrictSharedDraftsToAttending",
+      "frame": "FRAME_INST_MAIN"
+    }
+  },
+  "CHECKBOXES": {
+    "All": {
+      "name": "HoldAll",
+      "frame": "FRAME_USER_MAIN"
+    },
+    "Inpatient": {
+      "id": "1",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "Outpatient": {
+      "id": "2",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "O:SIMHOSPITAL": {
+      "id": "1700",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "ER": {
+      "id": "3",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "Errors": {
+      "name": "HoldErrors",
+      "frame": "FRAME_USER_MAIN"
+    },
+    "FreeText": {
+      "name": "HoldFreeText",
+      "frame": "FRAME_USER_MAIN"
+    },
+    "Comments": {
+      "name": "HoldComments",
+      "frame": "FRAME_USER_MAIN"
+    },
+    "DeleteProvider": {
+      "id": "checkbox",
+      "frame": "FRAME_MAIN"
+    },
+    "Imported": {
+      "name": "HoldImported",
+      "frame": "FRAME_USER_MAIN"
+    },
+    "AllowFreeText": {
+      "id": "AllowFreeTextBoolean",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "ReferringMD-Server": {
+      "name": "s_ReferringEdit",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "Gender-Server": {
+      "name": "s_GenderEdit",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "Age-Server": {
+      "name": "s_AgeEdit",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "CPT-Server": {
+      "name": "s_CptEdit",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "CPTModifier-Server": {
+      "name": "s_ModEdit",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "CPTCPTTime-Server": {
+      "name": "s_CptCptEdit",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "CPTCPTTimeMissing-Server": {
+      "name": "s_CptCptTimeMissing",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "PlaceofService-Server": {
+      "name": "s_ServiceSiteEdit",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "CPTICD-Server": {
+      "name": "s_Icd9Edit",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "HeaderRequired-Server": {
+      "name": "s_REQ_CptTransHeader",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "HeaderExcluded-Server": {
+      "name": "s_HeaderExcludedEdit",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "Notifications-Server": {
+      "name": "s_CptICD9Notifications",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "CombinationEdits-Server": {
+      "name": "s_SuperEdit",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "CPTMissingModifier-Server": {
+      "name": "s_MissingModEdit",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "CPTCPTUnits-Server": {
+      "name": "s_CptCptUnits",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "ICDICDExcluded-Server": {
+      "name": "s_IcdIcdExcludedEdit",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "Biller": {
+      "path": "@displaylabel='Biller'",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "UseBasicAuthentication": {
+      "id": "isMAU",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "Donotpopuporderset": {
+      "name": "autoProcess",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "FormularyOnly": {
+      "name": "orderDefNDCOnFormulary",
+      "frame": "FRAME_CPOEORDERDEFINITION"
+    },
+    "OHACheckbox": {
+      "path": "starts-with(@id, 'OHACheckbox')",
+      "frame": "FRAME_CPOE_UTILITIES"
+    },
+    "RunIncrementalUpdate": {
+      "id": "IndexerIncremental",
+      "frame": "FRAME_CPOE_UTILITIES"
+    },
+    "AllowAccessToFullList": {
+      "id": "AllowAccessToFullList",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "PatientInfoFieldsAccountNumber": {
+      "name": "demofield_106",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "SSN_PatientInfoField": {
+      "name": "demofield_122",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "active": {
+      "id": "active",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "EditOrderSetActive": {
+      "path": "//input[@name='active']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "IncludeInactive": {
+      "name": "activeOnly",
+      "frame": "FRAME_CPOE_ORDER_SET"
+    },
+    "Selected": {
+      "path": "//input[@class='selectedByDefault']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "Facilities": {
+      "path": "//input[starts-with(@name, 'facility')]",
+      "frame": "FRAME_DEPT_MAIN"
+    },
+    "UserSelect": {
+      "path": "starts-with(@name, 'element')",
+      "frame": "FRAME_DEPT_MAIN"
+    },
+    "PATAccessLevel": {
+      "id": "set_patAccess",
+      "frame": "FRAME_BULKUSER_PREFERENCES"
+    },
+    "SelectField": {
+      "path": "@class='selectedByDefault'",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "VariableQuantity": {
+      "id": "hasQty",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "AdvancedOptions": {
+      "id": "hasOptions",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "Admission": {
+      "path": "//@name='CPOEMedRecEnabledLocation' and @value='Admission'",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "Discharge": {
+      "path": "//@name='CPOEMedRecEnabledLocation' and @value='Discharge'",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "Transfer": {
+      "path": "//@name='CPOEMedRecEnabledLocation' and @value='Transfer'",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "Defaults": {
+      "id": "IsDefault",
+      "frame": "FRAME_TERTIARY_POPUP_CONTENTS"
+    },
+    "HideFromPopup": {
+      "name": "HideFromPopup",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "Default": {
+      "id": "Default",
+      "frame": "FRAME_TERTIARY_POPUP_CONTENTS"
+    },
+    "DefaultQTV2": {
+      "name": "IsDefault",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "HideFromPopupQTV2": {
+      "name": "HideFromPopup",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "AlwaysUndocked": {
+      "name": "set_AlwaysDisplayNoteInUndockedMode",
+      "frame": "FRAME_BULKUSER_PREFERENCES"
+    },
+    "RolesMappingActive": {
+      "id": "active",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "RolesAdmin": {
+      "name": "Admin",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "RolesBILLER": {
+      "name": "Biller",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "RolesPROVIDER": {
+      "name": "PROVIDER",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "RolesUser": {
+      "name": "USER",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "RolesReferring": {
+      "name": "Referring",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "NewResultNotification": {
+      "name": "New Result Notification",
+      "frame": "FRAME_MESSAGING_SETTINGS"
+    },
+    "PRN": {
+      "id": "PRN",
+      "frame": "FRAME_CPOEORDERPROTOTYPE"
+    },
+    "CT": {
+      "path": "//input[@type='checkbox' and ancestor::tr[@name='CTSCAN']]",
+      "frame": "FRAME_CPOESEARCHRESULTS"
+    },
+    "RequiredForOrderingProvider": {
+      "id": "RequiredForOrdering",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "HiddenFromProvider": {
+      "id": "Hidden",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "AllowUserToShareDraft": {
+      "id": "set_AllowSharing",
+      "frame": "FRAME_BULKUSER_PREFERENCES"
+    }
+  },
+  "MISC_ELEMENTS": {
+    "InteractionChecking": {
+      "path": "//span[@class='tabLabel' and text()='Interaction Checking']",
+      "frame": "FRAME_CPOE_UTILITIES"
+    },
+    "OHA/SearchIndex": {
+      "path": "//span[@class='tabLabel' and contains(text(), 'Search Index')]",
+      "frame": "FRAME_CPOE_UTILITIES"
+    },
+    "OfTimes": {
+      "path": "//span[@id='NumberOfDosesLabel' and text()='# of Times']"
+    },
+    "Info": {
+      "path": "//a[@href='#tab-attributes' and text()='Info']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "Content": {
+      "path": "//a[@href='#tab-content' and text()='Content']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "Preview": {
+      "path": "//a[@href='#tab-preview' and text()='Preview']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "OrderComponent": {
+      "path": "//span[@class='toolboxItem ui-draggable' and text()='Order' and ancestor::div[@id='toolboxContainer']]"
+    },
+    "Section-ThisOrderSetOnlyComponent": {
+      "path": "//span[@class='toolboxItem ui-draggable' and text()='Section - this order set only' and ancestor::div[@id='toolboxContainer']]"
+    },
+    "Section-SharedComponent": {
+      "path": "//span[@class='toolboxItem ui-draggable' and text()='Section - shared' and ancestor::div[@id='toolboxContainer']]"
+    },
+    "MedicationsTab": {
+      "path": "//span[@class='tabLabel' and contains(text(), 'Medications') and ancestor::div[@widgetid='dijit_layout_TabContainer_0_tablist']]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "AllOrders": {
+      "path": "//img[@class='dijitIcon dijitTabButtonIcon']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "LookupValues": {
+      "path": "//img[@id='codeSearchFieldIMG' and @title='Click to lookup values']",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "RefreshAutoCreateFavorites": {
+      "path": "//img[@alt = 'Refresh']",
+      "frame": "FRAME_AUTO_CREATE_FAVORITES_PREFERENCE_LIST"
+    },
+    "LookupUser": {
+      "id": "slproviderIMG",
+      "frame": "FRAME_AUDIT_REPORT"
+    },
+    "CPTLookUp1": {
+      "path": "//img[@class='cptLookup lookup showPtr' and ancestor::tr[descendant::td[@class='pk-span-1 levelNumberClass' and text()=1]]]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "InfoIcon": {
+      "path": "//span[@class='info' and text()='i']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "ModifierLookUp1": {
+      "path": "//img[@class='modifiersSelection lookup showPtr' and ancestor::tr[descendant::td[@class='pk-span-1 levelNumberClass' and text()=1]]]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "ModifierLookUp2": {
+      "path": "//img[@class='modifiersSelection lookup showPtr' and ancestor::tr[descendant::td[@class='pk-span-1 levelNumberClass' and text()=2]]]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "ModifierLookUp3": {
+      "path": "//img[@class='modifiersSelection lookup showPtr' and ancestor::tr[descendant::td[@class='pk-span-1 levelNumberClass' and text()=3]]]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "CancelImg": {
+      "path": "//img[contains(@class, 'modifierUnselect showPtr')]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "RemoveRoleSelection": {
+      "path": "//img[@class='roleDeletebutton showPtr']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "AddCPT": {
+      "path": "//img[@class='addLevel showPtr' and ancestor::tr[descendant::td[@class='pk-span-1 levelNumberClass' and text()=3]]]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "RemoveCPT": {
+      "path": "//img[@class='deleteLevel showPtr' and ancestor::tr[descendant::td[@class='pk-span-1 levelNumberClass' and text()=4]]]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "RemoveLocationSelection": {
+      "path": "//img[@class='locationDeletebutton showPtr' and contains(@src,'deletex.gif')]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "FieldDescription": {
+      "path": "//div[@class='DataTables_sort_wrapper' and text()='Field Description']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "Categories": {
+      "path": "//div[@class='DataTables_sort_wrapper' and text()='Categories']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "ReorderIcon": {
+      "path": "//img[@class='showMovePtr' and parent::td[@class='pk-span-1 rowChangeOrder fieldRuleChangeOrder']]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "RemoveCPT3": {
+      "path": "//img[@class='deleteLevel showPtr' and ancestor::tr[descendant::td[@class='pk-span-1 levelNumberClass' and text()=3]]]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "RemoveCPT2": {
+      "path": "//img[@class='deleteLevel showPtr' and ancestor::tr[descendant::td[@class='pk-span-1 levelNumberClass' and text()=2]]]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "EM": {
+      "path": "//li//a[text()= 'E&M']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "Close": {
+      "path": "//img[contains(@src, 'close_sq.png')]"
+    },
+    "EditLink": {
+      "path": "//td[@class='editLink']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "ReturntoPatientListSettings": {
+      "path": "//a[starts-with(@onclick, 'goBack') and text()='Return to Patient List Settings']",
+      "frame": "FRAME_DEPT_TOP"
+    },
+    "XRolesSelection": {
+      "path": "//a[child::span[@class='ui-icon ui-icon-closethick' and text()='close' and ancestor::div[@aria-labelledby='ui-dialog-title-rolesPopup']]]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "CopyLink": {
+      "path": "//td[@class='copyLink']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "RemoveField": {
+      "path": "//img[@class='deleteFieldRule showPtr']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "DeleteOrderDefinition": {
+      "id": "DeleteOrderDefIcon",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "EditUserPasswordLink": {
+      "path": "//td[contains(text(),'Password')]/a[text()='Edit']",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "ExamRESPNormal": {
+      "id": "ExamRespNormal",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ExamRespABC": {
+      "id": "ExamResp__QT_CONTROL",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "TexttoInsert": {
+      "id": "DisplayText",
+      "frame": "FRAME_TERTIARY_POPUP_CONTENTS"
+    },
+    "ExamCONSTNormal": {
+      "id": "ExamConstNormalLink",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ExamConstABC": {
+      "id": "ExamConstitutional__QT_CONTROL",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "PatientnarrativeABC": {
+      "path": "//img[@id='PTHistory__QT_CONTROL']"
+    },
+    "PatientnarrativeABCQTV2": {
+      "path": "//span[contains(@class,'cke_button__quicktext_icon') and ancestor::div[@id='PatientNarrative']]"
+    },
+    "GroupPlusIcon": {
+      "path": "//span[@class='quicktext-folder-toggle']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "Bold": {
+      "path": "//a[contains(@class, 'cke_button__bold')]",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "QuickTextGroup": {
+      "path": "//span[@class='qtTitleText']",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "DeleteQuickText": {
+      "path": "//img[@class='qtDeleteIcon']",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "DeleteGroup": {
+      "path": "//span[@class='qtIcon deleteQtList']",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "DeleteHighlightedGroups": {
+      "path": "//span[@class='ui-button-text' and text()='Delete Highlighted Groups']",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "CONSTROSABCQTV2": {
+      "path": "//i[contains(@class,'icon-add-text') and ancestor::div[@id='ROSConstitutional']]"
+    },
+    "InsertFreeText": {
+      "path": "//a[@title='Insert Free Text']",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "WikiSource": {
+      "path": "//a[@title='View Wiki Markup']",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "Italic": {
+      "path": "//a[contains(@class, 'cke_button__italic')]",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "Strike": {
+      "path": "//a[contains(@class, 'cke_button__strike')]",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "NumberedList": {
+      "path": "//a[contains(@class, 'cke_button__numberedlist')]",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "QTVText": {
+      "path": "//div[@role='textbox']",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "BulletList": {
+      "path": "//a[contains(@class, 'cke_button__bulletedlist')]",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "ListSelect": {
+      "path": "@class=cke-qtt-selectable",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "InsertSelectList": {
+      "path": "//a[@title='Insert Single Select']",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "ROSRESPNormal": {
+      "id": "ROSRespNormal",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ROSRespABCQTV2": {
+      "path": "//div[@class='qt-action mini-action' and ancestor::div[@id='ROSResp']]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ProcessingDictionaryList": {
+      "path": "//div[@id='fieldsSelectTable_processing']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "EditFacilityGroupUtlitySettingsLoadingIcon": {
+      "path": "//div[@id='loadingDIV']/img",
+      "frame": "FRAME_POPUP"
+    },
+    "RefreshIcon": {
+      "path": "//img[@title='Refresh']",
+      "frame": "FRAME_CPOE_UTILITIES"
+    },
+    "ManageLink": {
+      "path": "//a[text()='Manage']",
+      "frame": "FRAME_INST_MAIN"
+    },
+    "HoldForReviewDelete": {
+      "path": "//img[@title='Delete']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "HoldRolesLookup": {
+      "path": "//img[@class='roleLookup lookup showPtr hold']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "ResolveRolesLookup": {
+      "path": "//img[@class='roleLookup lookup showPtr resolve']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "ProviderReviewReason": {
+      "path": "//span[@class='standardname']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "ActiveCheckedOff": {
+      "path": "//img[contains(@src, 'checkon.png')]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "CommentReviewReason": {
+      "path": "//span[@class='standardname' and text()='Comment Review']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "Reason1Delete": {
+      "path": "//img[contains(@src, 'deletex.gif') and @title='Delete' and ancestor::tr[descendant::td[text()='Reason1']]]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "ResolveRolesDelete": {
+      "path": "//img[@class='roleDeleteEle showPtr' and ancestor::div[@id='selectedRoleR']]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "HoldRolesDelete": {
+      "path": "//img[@class='roleDeleteEle showPtr' and ancestor::div[@id='selectedRole']]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "GeneralCategoryExpand": {
+      "path": "//img[@id= 'div_general_img' and contains(@src,'icon_collapse.gif')]",
+      "frame": "FRAME_BULKUSER_PREFERENCES"
+    },
+    "OrderGroupsResultMessageSetting": {
+      "path": "//table[@id='CPOEOrderGroup']/tbody/tr/td[@class='fieldLabel']/font[contains(text(),'Allow subscribing to alert when order resulted')]/parent::td/following-sibling::td/font[@id='allowOrderResultSubscription']",
+      "frame": "FRAME_CPOE_ORDERGROUPS_DETAILS"
+    },
+    "PageLoading": {
+      "path": "//span[@class='pageloading']",
+      "frame": "FRAME_PREFERENCES_HACKS"
+    },
+    "SubmissionStatus": {
+      "path": "//li[@buttonid='SUBMISSIONRECORDS']",
+      "frame": "FRAME_TRACKING_REPORTING_TOP"
+    },
+    "OrderBehaviour": {
+      "path": "//a[text()='Order Behavior']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "GlobalTasks": {
+      "path": "//li[@buttonid='GLOBALTASKS']",
+      "frame": "FRAME_TRACKING_REPORTING_TOP"
+    },
+    "AddFields": {
+      "path": "//font[@class='commandLink' and text()='Add Fields']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    }
+  },
+  "DEPARTMENT_SUBSECTION": {
+    "RADIOS": {
+      "SendAllTransactionstoHoldingBin": {
+        "name": "HoldAll",
+        "frame": "FRAME_INST_MAIN"
+      },
+      "SendTransactionswithValidityErrorsorNon-ForcedCodeEditstoHoldingBin": {
+        "name": "HoldErrors",
+        "frame": "FRAME_INST_MAIN"
+      },
+      "SendTransactionswithFreeTexttoHoldingBin": {
+        "name": "HoldFreeText",
+        "frame": "FRAME_INST_MAIN"
+      },
+      "SendTransactionswithCommentstoHoldingBin": {
+        "name": "HoldComments",
+        "frame": "FRAME_INST_MAIN"
+      },
+      "SendImportedTransactionstoHoldingBin": {
+        "name": "HoldImported",
+        "frame": "FRAME_INST_MAIN"
+      }
+    }
+  },
+  "USER_SUBSECTION": {
+    "RADIOS": {
+      "SendAllTransactionstoHoldingBin": {
+        "name": "HoldAll",
+        "frame": "FRAME_INST_MAIN"
+      },
+      "SendTransactionswithValidityErrorsorNon-ForcedCodeEditstoHoldingBin": {
+        "name": "HoldErrors",
+        "frame": "FRAME_INST_MAIN"
+      },
+      "SendTransactionswithFreeTexttoHoldingBin": {
+        "name": "HoldFreeText",
+        "frame": "FRAME_INST_MAIN"
+      },
+      "SendTransactionswithCommentstoHoldingBin": {
+        "name": "HoldComments",
+        "frame": "FRAME_INST_MAIN"
+      },
+      "SendImportedTransactionstoHoldingBin": {
+        "name": "HoldImported",
+        "frame": "FRAME_INST_MAIN"
+      },
+      "AllowUsertoOverrideFreeTextErrorsandSendtoOutbox": {
+        "name": "AllowFreeTextToOutbox_User",
+        "frame": "FRAME_INST_MAIN"
+      }
+    }
+  },
+  "SYSTEMMANAGEMENT_SUBSECTION": {
+    "TEXT_FIELDS": {
+      "ProviderNameIDAlias": {
+        "id": "searchText",
+        "frame": "FRAME_PROVIDERS_SEARCH"
+      }
+    }
+  },
+  "PKLISTS": {
+    "FrequencyList": {
+      "path": "//div[@id='Frequency']"
+    },
+    "Route": {
+      "path": "//div[@id='Route']",
+      "frame": "FRAME_TERTIARY_POPUP_CONTENTS"
+    }
+  },
+  "PANE_SECTIONS": {
+    "SelectLocations": {
+      "path": "//div[@id='locationsSelected']"
+    },
+    "SelectRoles": {
+      "path": "//div[@id='rolesSelection']"
+    },
+    "FieldRules": {
+      "path": "//div[@id='fieldRulesInnerContainer']"
+    },
+    "SelectRolesPopup": {
+      "path": "//div[@aria-labelledby='ui-dialog-title-rolesPopup']"
+    },
+    "AddSectionOptions": {
+      "path": "//ul[@id='addsectionoptions']"
+    }
+  },
+  "NOTE_FIELDS": {
+    "AddQuickTextLabelQTV1": {
+      "path": "//body[@class='RS_SingleLineTB']",
+      "frame": "FRAME_ADDQUICKTEXT"
+    },
+    "AddQuickTextKeyboardShortcutQTV1": {
+      "path": "//body[@class='RS_SingleLineTB']",
+      "frame": "FRAME_KEYBOARDSHORTCUT"
+    },
+    "AddQuickTextTexttoInsertQTV1": {
+      "path": "//body[@class='RS_MultiLineTB']",
+      "frame": "FRAME_TEXTTOINSERT"
+    }
+  }
+}

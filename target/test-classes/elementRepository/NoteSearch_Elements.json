@@ -1,0 +1,241 @@
+{
+    "PANES":{
+        "ClosingOptions":{
+          "path":"//div[@id='closeDiv']",
+          "frame":"FRAME_POPUP"
+        },
+        "NewNote":{
+            "path":"//div[@class='flex-column height100']",
+            "frame":"FRAME_SECONDARY_POPUP_CONTENTS"
+        },
+        "ClinNav":{
+            "path":"//div[@id='paneDiv']",
+            "frame":"FRAME_POPUP_CLINNAV"
+        },
+        "PatientDetails":{
+            "path":"//tr[@id='titleTR' and descendant-or-self::*[text()='Patient Detail']]",
+            "frame":"FRAME_POPUP"
+        },
+        "ChargeEntry":{
+            "path":"//tr[@id='ButtonRow']",
+            "frame":"FRAME_SECONDARY_POPUP_CONTENTS"
+        },
+        "Confirm":{
+            "path": "//div[@role='dialog' and starts-with(@class, 'ui-dialog ui-widget')]",
+            "frame":"FRAME_POPUP_CONTENTS"
+        },
+        "PatientSearchChargeEntry" : {
+            "path": "//div[@id='maincontentdiv']",
+            "frame":"FRAME_POPUP_CONTENTS"
+        },
+        "PatientClinicalNavigation":{
+            "frame": "FRAME_PATIENT_DETAIL_CLINICALNAV"
+        },
+        "CompareSelectAList":{
+            "path": "//div[child::div[div[@class='select-patient-list-for-debug-view']]]",
+            "frame": "PATIENTLIST_DEBUG_FRAME"
+       },
+        "ComparePatientToList":{
+            "path":"//div[div[span[text()='Compare patient to list']]]",
+            "frame": "PATIENTLIST_DEBUG_FRAME"
+        },
+        "Warning":{
+            "path":"//div[@class='warning-message']",
+            "frame": "PATIENTLIST_DEBUG_FRAME"
+        },
+        "PatientSearchCriteria": {
+            "path": "//td[@id='SearchCriteria']",
+            "frame": "FRAME_SEARCH_CRITERIA"
+        },
+        "AddPatientContent": {
+            "path": "//div[@id='maincontentdiv']",
+            "frame": "FRAME_POPUP_CONTENTS"
+        },
+        "SearchResults": {
+            "path": "//td[@valign='top']",
+            "frame": "FRAME_SEARCH_RESULTS"
+        },
+        "AddToPatientList": {
+            "path": "//div[@class='ui-dialog ui-widget ui-widget-content ui-corner-all add-visits-to-list-view ui-draggable']",
+            "frame": "FRAME_PATIENTLIST_ADD_PATIENTS_FRAME"
+        },
+        "SelectNoteTemplate": {
+            "path": "//div[@id='titleBar' and text()='Select Note Template']",
+            "frame": "FRAME_POPUP"
+        },
+        "AddChargeEntry":{
+            "path": "//body[@class='ui-layout-container']",
+            "frame": "FRAME_POPUP_CONTENTS"
+        },
+        "CPOEOrderEntry": {
+            "path": "//div[@id='CPOEScreen']",
+            "frame": "FRAME_CPOEEDIT"
+        },
+        "ChargeVisitInfo": {
+            "path": "//div[@id='patient_visit_info' or @id='status_info_area']",
+            "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+        },
+        "NoteVisitInfo": {
+            "path": "//div[@class='noteTemplatePicker-wrapper flex-column']",
+            "frame": "FRAME_POPUP_CONTENTS"
+        },
+        "SelectNoteTemplateContent": {
+            "path": "//div[@class='noteTemplatePicker-wrapper flex-column' or @class='padding-xsm flex-column']",
+            "frame": "FRAME_POPUP_CONTENTS"
+        },
+        "AdmissionMedicationReconciliation":{
+            "path": "//span[text()='Admission Med Rec for Visit:' and ancestor::div[@id='VisitSection']]",
+            "frame":"FRAME_DOJO_DIALOG"
+        },
+        "Searchfororder":{
+            "path": "//div[@title='Search for order' and @class='dijitDialogTitleBar']",
+            "frame":"FRAME_DOJO_DIALOG"
+        },
+        "EditMedicationOrder":{
+            "path": "//div[@id='OrderDetailSection']",
+            "frame":"FRAME_DOJO_DIALOG"
+        },
+        "Question":{
+            "path":"//td[@id='dialogTitle' and text()='Question']",
+            "frame":"FRAME_DIALOG"
+        },
+        "NoteHeader":{
+          "path":"//div[@id='PANEHEADER']",
+          "frame":"FRAME_POPUP_CONTENTS"
+        }
+    },
+    "BUTTONS":{
+        "Cancel": {
+          "path": "//span[@pkwidget='Button' and text()='Cancel']"
+        },
+       "AddNotes":{
+         "path":"//div[@title='Add Notes']",
+         "frame":"FRAME_SECONDARY_POPUP_CONTENTS"
+        },
+        "Search":{
+            "id":"button_Search",
+            "frame":"FRAME_PARENT"
+        },
+        "ResetCriteria":{
+            "id":"button_Clear",
+            "frame":"FRAME_PARENT"
+        },
+        "SelectPateint":{
+            "id":"button_selectpatient",
+            "frame":"FRAME_PARENT"
+        },
+        "Close":{
+          "id":"button_CLOSE",
+          "frame":"FRAME_REPORT_POPUP"
+        },
+        "Delete":{
+          "id":"button_Delete",
+          "frame":"FRAME_SEARCH_RESULTS"
+        }
+    },
+    "TABLES":{
+        "VisitSearchResults":{
+            "id":"",
+            "name":"",
+            "path":"//div[@id='AccountListTable']",
+            "frame":"FRAME_SEARCH_RESULTS",
+            "head":"//div[@class='scrollingTableHeaderDiv']/table/thead",
+            "body":"//div[@class='scrollingTableDetailDiv']/table/tbody"
+        },
+        "PatientSearchResults": {
+            "path": "//div[@id='PatientListTable']",
+            "head": "//div[@class='scrollingTableHeaderDiv']/table/thead",
+            "body": "//div[@class='scrollingTableDetailDiv']/table/tbody",
+            "frame": "FRAME_SEARCH_RESULTS"
+        },
+        "PatientDetailCharges":{
+            "path": "//div[@id='listTable']",
+            "frame":"FRAME_CHARGELIST",
+            "head":"//div[@class='scrollingTableHeaderDiv']/table/thead",
+            "body":"//div[@class='scrollingTableDetailDiv']/table/tbody",
+            "date_format":"%D"
+        },
+        "MedicationReconciliation":{
+            "id":"",
+            "name":"",
+            "path":"//div[@id='MainTable']",
+            "frame":"FRAME_DOJO_DIALOG",
+            "head":"//div[@class='scrollingTableHeaderDiv']/table/thead[@id='TableHeaders']",
+            "body":"//div[@class='scrollingTableDetailDiv']/table/tbody",
+            "date_format":""
+        },
+        "SearchedCombinedMedOrders":{
+            "id":"",
+            "name":"",
+            "path":"//div[@childentity='CombinedMedResults']",
+            "frame":"FRAME_DOJO_DIALOG",
+            "head":"//div[@id='CombinedContainerHeader']",
+            "body":"//table[@id='dynamicDetailTable' and @class='autocompleteResults']",
+            "date_format":""
+        },
+        "NoteSearchResults":{
+          "path": "//div[@tablemanagerid='listTable']",
+          "head": "//div[@class='scrollingTableHeaderDiv']/table/thead",
+          "body": "//div[@class='scrollingTableDetailDiv']/table/tbody",
+          "frame": "FRAME_SEARCH_RESULTS"
+        }
+    },
+    "DROPDOWNS": {
+       "Timeframe":{
+           "id":"timeframe",
+           "frame":"FRAME_PARENT"
+       },
+        "PKStatus":{
+            "id":"status",
+            "frame":"FRAME_PARENT"
+        },
+        "CosignStatus":{
+            "id":"cosignstatus",
+            "frame":"FRAME_PARENT"
+        },
+        "Department":{
+            "id":"department",
+            "frame":"FRAME_PARENT"
+        },
+        "MaxResults":{
+            "id":"maxResults",
+            "frame":"FRAME_PARENT"
+        }
+    },
+    "TEXT_FIELDS":{
+        "TemplateName":{
+            "id":"FormTemplateLOOKUP",
+            "frame":"FRAME_PARENT"
+        },
+        "Cosigner":{
+            "id":"CosignerLOOKUP",
+            "frame":"FRAME_PARENT"
+        },
+        "Author": {
+            "id":"provideridLOOKUP",
+            "frame":"FRAME_PARENT"
+        }
+    },
+    "MISC_ELEMENTS":{
+        "SearchTemplate":{
+            "id":"FormTemplateIMG",
+            "frame":"FRAME_PARENT"
+        },
+        "SearchCosigner":{
+            "id":"CosignerIMG",
+            "frame":"FRAME_PARENT"
+        },
+        "SearchAuthor":{
+            "id":"provideridIMG",
+            "frame":"FRAME_PARENT"
+        },
+        "ViewDetails":{
+          "path":"//img[@title='Display detailed information about the patient']",
+          "frame":"FRAME_SEARCH_RESULTS"
+        },
+        "NoteDetails":{
+          "path": "//*[@clickmessage='notedetails' and parent::td[@id='FormNameColumn' and parent::tr[@selected='Y']]]",
+          "frame": "FRAME_SEARCH_RESULTS"
+        }
+    }
+}

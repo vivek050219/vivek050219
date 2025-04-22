@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><Message>
+
+    <Body>
+        <CancelRx>
+            <Pharmacy>
+                <Identification>
+                    <NCPDPID>1367084</NCPDPID>
+                    <NPI>1366629743</NPI>
+                </Identification>
+                <StoreName>TX Pharmacy 10.6MU</StoreName>
+                <Address>
+                    <AddressLine1>W136 N7084 Texans Way</AddressLine1>
+                    <City>Houston</City>
+                    <State>TX</State>
+                    <ZipCode>77001</ZipCode>
+                </Address>
+                <CommunicationNumbers>
+                    <Communication>
+                        <Number>8322028232</Number>
+                        <Qualifier>TE</Qualifier>
+                    </Communication>
+                    <Communication>
+                        <Number>8322028233</Number>
+                        <Qualifier>FX</Qualifier>
+                    </Communication>
+                </CommunicationNumbers>
+            </Pharmacy>
+            <Prescriber>
+                <Identification>
+                    <NPI>1740258391</NPI>
+                </Identification>
+                <Name>
+                    <LastName>UMUTLAR</LastName>
+                    <FirstName>ERDINC</FirstName>
+                </Name>
+                <Address>
+                    <AddressLine1>880 Winter Street</AddressLine1>
+                    <AddressLine2>Suite 300</AddressLine2>
+                    <City>Waltham</City>
+                    <State>MA</State>
+                    <ZipCode>02135</ZipCode>
+                    <PlaceLocationQualifier>AD2</PlaceLocationQualifier>
+                </Address>
+                <CommunicationNumbers>
+                    <Communication>
+                        <Number>7819992577</Number>
+                        <Qualifier>TE</Qualifier>
+                    </Communication>
+                    <Communication>
+                        <Number>7819992578</Number>
+                        <Qualifier>FX</Qualifier>
+                    </Communication>
+                </CommunicationNumbers>
+            </Prescriber>
+            <Patient>
+                <Name>
+                    <LastName>FLOUNDERS</LastName>
+                    <FirstName>FELICIA</FirstName>
+                    <MiddleName>ANN</MiddleName>
+                </Name>
+                <Gender>F</Gender>
+                <DateOfBirth>
+                    <Date>1980-11-01</Date>
+                </DateOfBirth>
+                <Address>
+                    <AddressLine1>6715 SWANSON AVE APT102</AddressLine1>
+                    <City>BETHESDA</City>
+                    <State>MD</State>
+                    <ZipCode>20187</ZipCode>
+                </Address>
+                <CommunicationNumbers>
+                    <Communication>
+                        <Number>3018620035x2345</Number>
+                        <Qualifier>TE</Qualifier>
+                    </Communication>
+                </CommunicationNumbers>
+            </Patient>
+            <MedicationPrescribed>
+                <DrugDescription>Pataday 0.2 % eye drops</DrugDescription>
+                <DrugCoded>
+                    <ProductCode>00065027225</ProductCode>
+                    <ProductCodeQualifier>ND</ProductCodeQualifier>
+                    <Strength>0.2%</Strength>
+                    <DrugDBCode>1111345</DrugDBCode>
+                    <DrugDBCodeQualifier>SBD</DrugDBCodeQualifier>
+                </DrugCoded>
+                <Quantity>
+                    <Value>2.5</Value>
+                    <CodeListQualifier>38</CodeListQualifier>
+                    <UnitSourceCode>AC</UnitSourceCode>
+                    <PotencyUnitCode>C28254</PotencyUnitCode>
+                </Quantity>
+                <Directions>1 drop in both eyes once a day for 4 weeks, wait 10-15 minutes before contact lens insertion. Shake well.</Directions>
+                <Refills>
+                    <Qualifier>R</Qualifier>
+                    <Value>0</Value>
+                </Refills>
+                <Substitutions>0</Substitutions>
+                <Diagnosis>
+                    <ClinicalInformationQualifier>1</ClinicalInformationQualifier>
+                    <Primary>
+                        <Qualifier>ABF</Qualifier>
+                        <Value>H578</Value>
+                    </Primary>
+                </Diagnosis>
+            </MedicationPrescribed>
+        </CancelRx>
+    </Body>
+</Message>

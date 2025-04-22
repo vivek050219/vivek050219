@@ -1,0 +1,711 @@
+[
+    {
+        "payerCoverageInfo": {
+            "payer": "PBMB",
+            "planId": "4567",
+            "planNetworkId": "55101",
+            "processorId": "Z-4567",
+            "memberId": "RBRXHBLLM1RXHBZ500101",
+            "groupNumber": "LLM1",
+            "formulary": "FSL3119",
+            "copay": "COP1000",
+            "interchangeControlNumber": 391070900,
+            "payerId": "T00000000001011",
+            "healthPlanName": "PLANZ",
+            "patient": {
+                "name": {
+                    "lastName": "DOCKENDORF",
+                    "firstName": "TAD",
+                    "middleName": "ALAN",
+                    "suffix": ""
+                },
+                "address": {
+                    "address1": "32 RANCH PASS",
+                    "city": "CHEYENNE",
+                    "state": "WY",
+                    "postalCode": "82001"
+                },
+                "dob": 173664000000,
+                "gender": "MALE"
+            },
+            "coverages": [
+                {
+                    "type": "RETAIL",
+                    "messages": [
+                        
+                    ]
+                },
+                {
+                    "type": "MAIL",
+                    "messages": [
+                        
+                    ]
+                }
+            ],
+            "cardHolderName": {
+                "lastName": "DOCKENDORF",
+                "firstName": "TAD",
+                "middleName": "ALAN"
+            },
+            "coverageId": "COV25"
+        },
+        "medications": [
+            {
+                "medId": 174836,
+                "description": "Zyprexa 10 mg tablet",
+                "formularyStatus": 2,
+                "ndc": 2411730,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": false,
+                "genericMedId": 196623,
+                "genericDescription": "olanzapine 10 mg tablet",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "10",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 253110,
+                "description": "olanzapine 10 mg disintegrating tablet",
+                "formularyStatus": 3,
+                "ndc": 55111026379,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "10",
+                "strengthUom": "mg",
+                "formDescription": "tablet,disintegrating",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 467498,
+                "description": "olanzapine 10 mg intramuscular solution",
+                "formularyStatus": 3,
+                "ndc": 517095501,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Vial",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Vial",
+                        "potencyUnitCode": "C48551"
+                    }
+                ],
+                "strength": "10",
+                "strengthUom": "mg",
+                "formDescription": "recon soln",
+                "potencyUnitCode": "C38046"
+            },
+            {
+                "medId": 196623,
+                "description": "olanzapine 10 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 52343004130,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "10",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 273230,
+                "description": "olanzapine 15 mg disintegrating tablet",
+                "formularyStatus": 3,
+                "ndc": 66993068851,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "15",
+                "strengthUom": "mg",
+                "formDescription": "tablet,disintegrating",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 266789,
+                "description": "olanzapine 15 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 93577110,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "15",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 204963,
+                "description": "olanzapine 2.5 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 62756055183,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "2.5",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 228213,
+                "description": "olanzapine 20 mg disintegrating tablet",
+                "formularyStatus": 3,
+                "ndc": 93524865,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "20",
+                "strengthUom": "mg",
+                "formDescription": "tablet,disintegrating",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 290779,
+                "description": "olanzapine 20 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 62756055683,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "20",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 298987,
+                "description": "olanzapine 5 mg disintegrating tablet",
+                "formularyStatus": 3,
+                "ndc": 13668008630,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "5",
+                "strengthUom": "mg",
+                "formDescription": "tablet,disintegrating",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 189075,
+                "description": "olanzapine 5 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 62756055218,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "5",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 205256,
+                "description": "olanzapine 7.5 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 13668016830,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "7.5",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            }
+        ]
+    },
+    {
+        "payerCoverageInfo": {
+            "payer": "PBMA",
+            "planId": "AA5",
+            "planNetworkId": "003858",
+            "processorId": "A5",
+            "memberId": "AA512345678900",
+            "groupNumber": "AA5V",
+            "formulary": "FSL50",
+            "copay": "COP2001",
+            "interchangeControlNumber": 391070900,
+            "payerId": "T00000000001010",
+            "healthPlanName": "PLANA5",
+            "patient": {
+                "name": {
+                    "lastName": "DOCKENDORF",
+                    "firstName": "TAD",
+                    "middleName": "A",
+                    "suffix": "JR"
+                },
+                "address": {
+                    "address1": "32 RANCH PASS",
+                    "address2": "APT 105",
+                    "city": "CHEYENNE",
+                    "state": "WY",
+                    "postalCode": "82001"
+                },
+                "dob": 173750400000,
+                "gender": "MALE"
+            },
+            "coverages": [
+                {
+                    "type": "MAIL",
+                    "messages": [
+                        
+                    ]
+                }
+            ],
+            "cardHolderName": {
+                "lastName": "DOCKENDORF",
+                "firstName": "TAD",
+                "middleName": "A"
+            },
+            "cardHolderId": "123456789",
+            "coverageId": "COV50"
+        },
+        "medications": [
+            {
+                "medId": 174836,
+                "description": "Zyprexa 10 mg tablet",
+                "formularyStatus": 2,
+                "ndc": 2411730,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": false,
+                "genericMedId": 196623,
+                "genericDescription": "olanzapine 10 mg tablet",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "10",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 253110,
+                "description": "olanzapine 10 mg disintegrating tablet",
+                "formularyStatus": 3,
+                "ndc": 55111026379,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "10",
+                "strengthUom": "mg",
+                "formDescription": "tablet,disintegrating",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 467498,
+                "description": "olanzapine 10 mg intramuscular solution",
+                "formularyStatus": 3,
+                "ndc": 517095501,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Vial",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Vial",
+                        "potencyUnitCode": "C48551"
+                    }
+                ],
+                "strength": "10",
+                "strengthUom": "mg",
+                "formDescription": "recon soln",
+                "potencyUnitCode": "C38046"
+            },
+            {
+                "medId": 196623,
+                "description": "olanzapine 10 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 52343004130,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "10",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 273230,
+                "description": "olanzapine 15 mg disintegrating tablet",
+                "formularyStatus": 3,
+                "ndc": 66993068851,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "15",
+                "strengthUom": "mg",
+                "formDescription": "tablet,disintegrating",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 266789,
+                "description": "olanzapine 15 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 93577110,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "15",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 204963,
+                "description": "olanzapine 2.5 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 62756055183,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "2.5",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 228213,
+                "description": "olanzapine 20 mg disintegrating tablet",
+                "formularyStatus": 3,
+                "ndc": 93524865,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "20",
+                "strengthUom": "mg",
+                "formDescription": "tablet,disintegrating",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 290779,
+                "description": "olanzapine 20 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 62756055683,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "20",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 298987,
+                "description": "olanzapine 5 mg disintegrating tablet",
+                "formularyStatus": 3,
+                "ndc": 13668008630,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "5",
+                "strengthUom": "mg",
+                "formDescription": "tablet,disintegrating",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 189075,
+                "description": "olanzapine 5 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 62756055218,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "5",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 205256,
+                "description": "olanzapine 7.5 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 13668016830,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "7.5",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            }
+        ]
+    },
+    {
+        "payerCoverageInfo": {
+            "payer": "PBMC",
+            "memberId": "E000000%111111114%001",
+            "groupNumber": "E000000",
+            "formulary": "FSL108",
+            "alternatives": "ALT108",
+            "interchangeControlNumber": 391070900,
+            "payerId": "T00000000001012",
+            "healthPlanName": "",
+            "coverages": [
+                {
+                    "type": "RETAIL",
+                    "messages": [
+                        
+                    ]
+                }
+            ],
+            "cardHolderName": {
+                "lastName": "DOCKENDORF",
+                "firstName": "TAD",
+                "middleName": ""
+            },
+            "cardHolderId": "111111114",
+            "coverageId": "COV108"
+        },
+        "medications": [
+            {
+                "medId": 174836,
+                "description": "Zyprexa 10 mg tablet",
+                "formularyStatus": -1,
+                "ndc": 2411730,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": false,
+                "genericMedId": 196623,
+                "genericDescription": "olanzapine 10 mg tablet",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "10",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            }
+        ]
+    }
+]

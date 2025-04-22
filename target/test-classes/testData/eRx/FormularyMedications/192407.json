@@ -1,0 +1,220 @@
+[
+    {
+        "payerCoverageInfo": {
+            "payer": "PBMB",
+            "planId": "4567",
+            "planNetworkId": "55101",
+            "processorId": "Z-4567",
+            "memberId": "RBRXHBLLM1RXHBZ500101",
+            "groupNumber": "LLM1",
+            "formulary": "FSL3119",
+            "copay": "COP1000",
+            "interchangeControlNumber": 391070900,
+            "payerId": "T00000000001011",
+            "healthPlanName": "PLANZ",
+            "patient": {
+                "name": {
+                    "lastName": "DOCKENDORF",
+                    "firstName": "TAD",
+                    "middleName": "ALAN",
+                    "suffix": ""
+                },
+                "address": {
+                    "address1": "32 RANCH PASS",
+                    "city": "CHEYENNE",
+                    "state": "WY",
+                    "postalCode": "82001"
+                },
+                "dob": 173664000000,
+                "gender": "MALE"
+            },
+            "coverages": [
+                {
+                    "type": "RETAIL",
+                    "messages": [
+                        
+                    ]
+                },
+                {
+                    "type": "MAIL",
+                    "messages": [
+                        
+                    ]
+                }
+            ],
+            "cardHolderName": {
+                "lastName": "DOCKENDORF",
+                "firstName": "TAD",
+                "middleName": "ALAN"
+            },
+            "coverageId": "COV25"
+        },
+        "medications": [
+            {
+                "medId": 192407,
+                "description": "atenolol 25 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 93078701,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": false,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    },
+                    {
+                        "desc": "30 Tablet Blister Pack",
+                        "quantity": 30.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "25",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            }
+        ]
+    },
+    {
+        "payerCoverageInfo": {
+            "payer": "PBMA",
+            "planId": "AA5",
+            "planNetworkId": "003858",
+            "processorId": "A5",
+            "memberId": "AA512345678900",
+            "groupNumber": "AA5V",
+            "formulary": "FSL50",
+            "copay": "COP2001",
+            "interchangeControlNumber": 391070900,
+            "payerId": "T00000000001010",
+            "healthPlanName": "PLANA5",
+            "patient": {
+                "name": {
+                    "lastName": "DOCKENDORF",
+                    "firstName": "TAD",
+                    "middleName": "A",
+                    "suffix": "JR"
+                },
+                "address": {
+                    "address1": "32 RANCH PASS",
+                    "address2": "APT 105",
+                    "city": "CHEYENNE",
+                    "state": "WY",
+                    "postalCode": "82001"
+                },
+                "dob": 173750400000,
+                "gender": "MALE"
+            },
+            "coverages": [
+                {
+                    "type": "MAIL",
+                    "messages": [
+                        
+                    ]
+                }
+            ],
+            "cardHolderName": {
+                "lastName": "DOCKENDORF",
+                "firstName": "TAD",
+                "middleName": "A"
+            },
+            "cardHolderId": "123456789",
+            "coverageId": "COV50"
+        },
+        "medications": [
+            {
+                "medId": 192407,
+                "description": "atenolol 25 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 93078701,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": false,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    },
+                    {
+                        "desc": "30 Tablet Blister Pack",
+                        "quantity": 30.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "25",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            }
+        ]
+    },
+    {
+        "payerCoverageInfo": {
+            "payer": "PBMC",
+            "memberId": "E000000%111111114%001",
+            "groupNumber": "E000000",
+            "formulary": "FSL108",
+            "alternatives": "ALT108",
+            "interchangeControlNumber": 391070900,
+            "payerId": "T00000000001012",
+            "healthPlanName": "",
+            "coverages": [
+                {
+                    "type": "RETAIL",
+                    "messages": [
+                        
+                    ]
+                }
+            ],
+            "cardHolderName": {
+                "lastName": "DOCKENDORF",
+                "firstName": "TAD",
+                "middleName": ""
+            },
+            "cardHolderId": "111111114",
+            "coverageId": "COV108"
+        },
+        "medications": [
+            {
+                "medId": 192407,
+                "description": "atenolol 25 mg tablet",
+                "formularyStatus": -1,
+                "ndc": 93078701,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": false,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    },
+                    {
+                        "desc": "30 Tablet Blister Pack",
+                        "quantity": 30.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "25",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            }
+        ]
+    }
+]

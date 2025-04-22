@@ -1,0 +1,78 @@
+[
+    {
+        "payerCoverageInfo": {
+            "payer": "PBMF",
+            "planNetworkId": "610014",
+            "processorId": "MEDDPRIME",
+            "memberId": "ZZQ-88-10011-249",
+            "groupNumber": "B000000",
+            "formulary": "FSL101",
+            "alternatives": "ALT101",
+            "interchangeControlNumber": 342623744,
+            "payerId": "T00000000021633",
+            "healthPlanName": "",
+            "patient": {
+                "name": {
+                    "lastName": "KYLE",
+                    "firstName": "SELENA",
+                    "middleName": "R",
+                    "suffix": ""
+                },
+                "address": {
+                    "address1": "23230 PORT LANE",
+                    "city": "AKRON",
+                    "state": "OH",
+                    "postalCode": "443061214"
+                },
+                "dob": -101779200000,
+                "gender": "FEMALE"
+            },
+            "coverages": [
+                {
+                    "type": "RETAIL",
+                    "messages": [
+                        
+                    ]
+                },
+                {
+                    "type": "MAIL",
+                    "messages": [
+                        
+                    ]
+                }
+            ],
+            "cardHolderName": {
+                "lastName": "KYLE",
+                "firstName": "SELENA",
+                "middleName": "R"
+            },
+            "cardHolderId": "111111110"
+        },
+        "medications": [
+            {
+                "medId": 580334,
+                "description": "Fetzima 120 mg capsule,extended release",
+                "formularyStatus": 1,
+                "ndc": 456221230,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": false,
+                "genericMedId": 579899,
+                "genericDescription": "levomilnacipran ER 120 mg capsule,24 hr,extended release",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Capsule",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Capsule",
+                        "potencyUnitCode": "C48480"
+                    }
+                ],
+                "strength": "120",
+                "strengthUom": "mg",
+                "formDescription": "capsule,extended release 24 hr",
+                "potencyUnitCode": "C48480"
+            }
+        ]
+    }
+]

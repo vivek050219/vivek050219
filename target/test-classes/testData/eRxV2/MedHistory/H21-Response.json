@@ -1,0 +1,107 @@
+{
+    "medHistoryResponseList": [
+        {
+            "historyResponse": {
+                "approved": {
+                    "approvalReasonCodeDto": [
+                        
+                    ]
+                }
+            },
+            "historyDispensedMedications": [
+                {
+                    "drugDescription": "AMITRIPTYLINE/CHLORDIAZEPOXIDE ORAL TABLET 25-10MG",
+                    "drugCoded": {
+                        "productCode": "00364215801",
+                        "productCodeQualifier": "ND",
+                        "drugDBCode": "856792",
+                        "drugDBCodeQualifier": "SCD",
+                        "deaSchedule": "C48677"
+                    },
+                    "quantity": [
+                        {
+                            "value": "30",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C48542",
+                            "uomDesc": "Tablets"
+                        }
+                    ],
+                    "daysSupply": "30",
+                    "refills": [
+                        {
+                            "qualifier": "PRN"
+                        }
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        7,
+                        1
+                    ],
+                    "diagnosis": [
+                        {
+                            "clinicalInformationQualifier": "1",
+                            "primary": {
+                                "qualifier": "ABF",
+                                "value": "F418"
+                            }
+                        }
+                    ],
+                    "pharmacy": {
+                        "latitude": 0.0,
+                        "longitude": 0.0,
+                        "distance": 0.0
+                    },
+                    "prescriber": {
+                        "lastName": "FOX",
+                        "firstName": "MICHAEL",
+                        "npi": "1972529550",
+                        "addressDto": {
+                            "addressLine1": "100 WEST 33RD STREET",
+                            "city": "INDIANAPOLIS",
+                            "state": "IN",
+                            "zipCode": "46202"
+                        },
+                        "communicationNumberDtoList": [
+                            
+                        ]
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                }
+            ],
+            "historyPrescribedMedications": [
+                
+            ],
+            "benefitsCoordination": [
+                {
+                    "payerName": "THISPBMNAMEISHUGE-T21633",
+                    "expirationDate": [
+                        2018,
+                        8,
+                        1
+                    ],
+                    "effectiveDate": [
+                        2016,
+                        3,
+                        20
+                    ],
+                    "consent": "Y",
+                    "pbmMemberId": "ZZX$$^JJSDYY-9929933 BBQQW-55&99-88@HHSDHTKK@YYWTT-4-60CHARS",
+                    "payerId": "T00000000021633",
+                    "interchangeControlNumber": "391353329"
+                }
+            ]
+        }
+    ],
+    "medHistoryErrorList": [
+        
+    ]
+}

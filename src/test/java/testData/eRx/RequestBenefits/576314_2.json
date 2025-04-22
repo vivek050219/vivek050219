@@ -1,0 +1,5 @@
+{
+  "status": 200,
+  "message": "PayerCoverageInfo [payer=PBMF, memberId=ZZQ-88-10011-255, groupNumber=F000000, interchangeControlNumber=230946200, payerId=T00000000021633, healthPlanName=PLAN~01, coverages=[Coverage{type=RETAIL, messages=[]}, Coverage{type=MAIL, messages=[]}], cardHolderName=Name [lastName=WILSON, firstName=JOSEF, middleName=, suffix=null, prefix=null], cardHolderId=111111115, ]",
+  "eventId": null
+}

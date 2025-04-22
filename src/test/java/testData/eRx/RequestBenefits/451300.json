@@ -1,0 +1,5 @@
+{
+  "status": 200,
+  "message": "PayerCoverageInfo [payer=PBMC, interchangeControlNumber=230946196, payerId=T00000000001012, coverages=[], cardHolderName=Name [lastName=Surescripts, firstName=null, middleName=null, suffix=null, prefix=null], ]PayerCoverageInfo [payer=PBMA, planId=CC1, planNetworkId=003858, processorId=C4, memberId=CC124524524501, groupNumber=CC1V, formulary=FSL107, copay=COP107, interchangeControlNumber=230946196, payerId=T00000000001010, healthPlanName=, coverages=[Coverage{type=RETAIL, messages=[]}, Coverage{type=MAIL, messages=[]}], cardHolderName=Name [lastName=JOCKEY, firstName=FRED, middleName=A, suffix=null, prefix=null], cardHolderId=245245245, coverageId=COV107]PayerCoverageInfo [payer=PBMB, memberId=RBRXHBTTC4RXHBM500101, interchangeControlNumber=230946196, payerId=T00000000001011, healthPlanName=, coverages=[], cardHolderName=Name [lastName=JOCKEY, firstName=FRED, middleName=A, suffix=null, prefix=null], ]",
+  "eventId": null
+}

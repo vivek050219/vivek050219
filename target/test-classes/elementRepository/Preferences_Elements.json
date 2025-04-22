@@ -1,0 +1,189 @@
+{
+    "PANES":{
+        "PersonalPreference":{
+            "path":"//td[@class='title' and descendant-or-self::*/text()='Personal Preferences']",
+            "frame":"FRAME_PREFERENCE_TOP"
+        },
+        "PreferenceCCSettings":{
+            "path":"//form[@name='chargekeeperSettings']",
+            "frame":"FRAME_PREFERENCE_MAIN"
+        },
+        "ChargePickers":{
+            "frame":"FRAME_POPUP_CONTENTS"
+        },
+        "EditPickers":{
+            "frame":"FRAME_SECONDARY_POPUP_CONTENTS"
+        },
+        "AddCategoryContents":{
+            "frame":"FRAME_TERTIARY_POPUP_CONTENTS"
+        },
+        "Question":{
+            "path":"//td[@id='dialogTitle' and text()='Question']",
+            "frame":"FRAME_DIALOG"
+        },
+        "ChangePassword":{
+            "path":"//form[@id='edit_password']",
+            "frame": "FRAME_MAIN"
+        },
+        "GeneralSettings":{
+            "frame":"FRAME_PREFERENCE_MAIN"
+        },
+        "PreferenceNoteWriterSettings": {
+            "path":"//td[@class='whiteTitle' and descendant-or-self::*[contains(text(), 'NoteWriter')]]",
+            "frame":"FRAME_PREFERENCE_MAIN"
+        },
+        "PersonalPreferenceBottom":{
+          "frame":"FRAME_PREFERENCE_BOTTOM"
+        }
+    },
+    "BUTTONS":{
+        "AddCategory":{
+            "id":"button_addcat",
+            "frame":"FRAME_SECONDARY_POPUP_CONTENTS"
+        },
+        "ResetUserPickers":{
+            "id":"button_resetuserpickers",
+            "frame":"FRAME_POPUP_CONTENTS"
+        },
+        "DeleteAll":{
+            "path":"//span[@id='button_NO']"
+        },
+        "OK":{
+            "path":"//span[@pkwidget='Button' and text()='OK']"
+        },
+        "Save":{
+            "path":"//span[@pkwidget='Button' and text()='Save']"
+        },
+        "Close":{
+            "path":"//span[@pkwidget='Button' and text()='Close']"
+        },
+        "Cancel":{
+            "path":"//span[@pkwidget='Button' and text()='Cancel']"
+        },
+        "Delete":{
+            "path":"//span[@pkwidget='Button' and text()='Delete']"
+        }
+    },
+    "DROPDOWNS":{
+        "EditSettings":{
+            "name":"settings",
+            "frame":"FRAME_PREFERENCE_TOP"
+        },
+        "PKVisit":{
+            "name":"PKVisitTypes",
+            "frame":"FRAME_POPUP_CONTENTS"
+        },
+        "ADTVisit":{
+            "name":"ADTVisitTypes",
+            "frame":"FRAME_POPUP_CONTENTS"
+        }
+    },
+    "TEXT_FIELDS":{
+        "Enternewcategoryname":{
+            "id":"promptInput",
+            "frame":"FRAME_TERTIARY_POPUP_CONTENTS"
+        },
+        "AddCode":{
+            "id":"codeSearchFieldDYNAMICLOOKUP",
+            "frame":"FRAME_SECONDARY_POPUP_CONTENTS"
+        },
+        "PickerName":{
+            "id":"pickerName",
+            "frame":"FRAME_SECONDARY_POPUP_CONTENTS"
+        },
+        "CurrentPassword":{
+            "id":"oldpw",
+            "frame":"FRAME_MAIN"
+        },
+        "NewPassword":{
+            "id":"newpw1",
+            "frame":"FRAME_MAIN"
+        },
+        "NewPasswordVerification":{
+            "id":"newpw2",
+            "frame":"FRAME_MAIN"
+        }
+    },
+    "TABLES":{
+        "AddCodeResultList":{
+            "id":"",
+            "name":"",
+            "path":"//table[@id='mainTable']",
+            "frame":"FRAME_EDITDEPT_PICKERS_CODE",
+            "head":"//div[@class='scrollingTableHeaderDiv']/table/thead",
+            "body":"//div[@class='scrollingTableDetailDiv']/table/tbody"
+        },
+        "MyPickers":{
+            "id":"",
+            "name":"",
+            "path":"//table[@id='pickerTable']",
+            "frame":"FRAME_POPUP_CONTENTS",
+            "head":"//div[@class='scrollingTableHeaderDiv']/table/thead",
+            "body":"tbody"
+        },
+        "ChildrenPicker":{
+            "id":"",
+            "name":"",
+            "path":"//div[@id='childrenTable']",
+            "frame":"FRAME_SECONDARY_POPUP_CONTENTS",
+            "head":"//div[@class='scrollingTableHeaderDiv']/table/thead",
+            "body":"//div[@class='scrollingTableDetailDiv']/table/tbody"
+        }
+    },
+    "MISC_ELEMENTS":{
+        "LookupValues":{
+            "path":"//img[@id='codeSearchFieldIMG' and @title='Click to lookup values']",
+            "frame":"FRAME_SECONDARY_POPUP_CONTENTS"
+        },
+        "DeleteChild":{
+            "path":"//img[@buttonID='deletechild']",
+            "frame":"FRAME_SECONDARY_POPUP_CONTENTS"
+        },
+        "EditPasswordLink":{
+            "path":"//td[contains(text(),'Password')]/a[text()='Edit']",
+            "frame":"FRAME_PREFERENCE_MAIN"
+        },
+        "ChargePickersLoadingIcon":{
+            "path":"//div[@id='loadingDIV']/img",
+            "frame":"FRAME_POPUP"
+        },
+        "Preference": {
+            "path": "//li[contains(text(),'Preferences') and parent::ul[@id='admintabsNavBar']]",
+            "frame": "FRAME_USER_PREFERENCE"
+        }
+    },
+    "RADIOS":{
+        "VisitType": {
+            "name": "VisitTypeRadio",
+            "frame": "FRAME_POPUP_CONTENTS"
+        },
+
+        "IncludeVisitType": {
+            "name": "IncludeVisitTypes",
+            "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+        },
+        "Allownonspecificdiagnose": {
+            "name": "AllowNonSpecificDxs",
+            "frame":"FRAME_PREFRENCE_PROBLEMLIST",
+            "select_by":"value"
+        }
+    },
+    "CHECKBOXES": {
+        "Inpatient": {
+            "path": "@displaylabel='Inpatient'",
+            "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+        },
+        "ISimhospital": {
+            "path": "@displaylabel='I: SIMHOSPITAL'",
+            "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+        }
+
+    },
+    "PANE_SECTIONS":{
+        "NoteWriterSettingsTable":{
+           "path":"//table[@id='mainTable']"
+       }
+
+    }
+
+}

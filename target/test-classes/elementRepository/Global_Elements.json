@@ -1,0 +1,323 @@
+{
+    "TABLE_HEADER": "//div[@class='scrollingTableHeaderDiv']/table/thead",
+    "TABLE_BODY": "//div[@class='scrollingTableDetailDiv']/table/tbody",
+    "PANE_ID": "HEADER_TEXTTD",
+    "GLOBAL_BUTTONS": {
+        "SearchforPatients": {
+            "path": "span[@pkwidget='Button' and text()='Search for Patients']",
+            "frame": ""
+        },
+        "Yes": {
+            "path": "span[@pkwidget='Button' and text()='Yes']",
+            "frame": ""
+        },
+        "No": {
+            "path": "span[@pkwidget='Button' and text()='No']",
+            "frame": ""
+        },
+        "OK": {
+            "path": "span[@pkwidget='Button' and text()='OK']",
+            "frame": ""
+        },
+        "Cancel": {
+            "path": "span[@pkwidget='Button' and text()='Cancel']",
+            "frame": ""
+        }
+    },
+    "GLOBAL_PANES": {
+        "Information": {
+            "path": "td[@id='dialogTitle' and text()='Information']",
+            "frame": "FRAME_DIALOG"
+        }
+    },
+    "GLOBAL_IMAGES": {
+        "SortDescending": {
+            "path": "//img[@sortimage='Y' and contains(@src, 'icon_sort_d.gif')] | //th[@class='sorting_desc'] | //th[contains(@class,'sorted-descending')]"
+        },
+        "SortAscending": {
+            "path": "//img[@sortimage='Y' and contains(@src, 'icon_sort_a.gif')] | //th[@class='sorting_asc'] | //th[contains(@class,'sorted-ascending')]"
+        }
+    },
+    "MISC_ELEMENTS": {
+        "MessageTabMinimized": {
+            "path": "//div[contains(@class,'chat') and contains(@class,'minimized')]",
+            "frame": "NO_FRAME"
+        },
+        "StartAConversation": {
+            "path": "//div[@id = 'chat1']",
+            "frame": "NO_FRAME"
+        },
+        "FirstUserSearchResult": {
+            "path": "//ul[@class='chatlist allUsers']/li[@data-userid]",
+            "frame": "NO_FRAME"
+        },
+        "MakeGroupFirstUserSearchResult": {
+            "path": "//ul[contains(@class, 'chat-list')]/li[@data-userid]/div/label/h4",
+            "frame": "NO_FRAME"
+        },
+        "FirstConversation": {
+            "path": "//ul[@class='chatlist']/li[@data-userid]",
+            "frame": "NO_FRAME"
+        },
+        "CloseConversation": {
+            "path": "//i[@class='fa fa-times' and ancestor::div[@class='flex-shrink']]",
+            "frame": "NO_FRAME"
+        },
+        "UnreadSentMessage": {
+            "path": "//ul[@class='messages flex-fill']/li[last() and contains(@class, 'unread')]",
+            "frame": "NO_FRAME"
+        },
+        "PhoneSettingsButton": {
+            "path": "//div[@class='settingsIcon headerIcon']",
+            "frame": "NO_FRAME"
+        },
+        "SavePhoneSettings": {
+            "path": "//div[@class='chatmenuIcon phoneSave' and contains(text(), 'SAVE')]",
+            "frame": "NO_FRAME"
+        },
+        "PhoneNumberSavedFeedback": {
+            "path": "//p[@class='feedbackText' and contains(text(), 'Number') and (contains(text(), 'Saved') or contains(text(), 'saved'))]",
+            "frame": "NO_FRAME"
+        },
+        "StartPatientContext": {
+            "path": "//div[@class='chat-fixed-table chatMenu']/div[@class='chat-display-cell chatmenuIcon patientIcon currentPortalPatient']",
+            "frame": "NO_FRAME"
+        },
+        "StartPatientContextDisabled": {
+            "path": "//div[@class='chat-fixed-table chatMenu']/div[@class='chat-display-cell chatmenuIcon patientIcon currentPortalPatient disabled']",
+            "frame": "NO_FRAME"
+        },
+        "ClosePatientContext": {
+            "path": "//div[@title='Finish With Patient']",
+            "frame": "NO_FRAME"
+        },
+        "ClosePhoneSettings": {
+            "path": "//div[@class='phone-wrapper']/div[@class='close']/i[@class='fa fa-times']",
+            "frame": "NO_FRAME"
+        },
+        "ClosePatientDetail": {
+            "path": "//span[@pkwidget='Button' and text()='Close']",
+            "frame": "FRAME_POPUP"
+        },
+        "PatientContextClosed": {
+            "path": "//ul[@class='messages flex-fill']/li[@class='message-item message-patient message-context-closedItem']",
+            "frame": "NO_FRAME"
+        },
+        "AddImageToConversation": {
+            "path": "//div[ancestor::div[@title='Insert Image' and @class= 'chat-display-cell chatmenuIcon imageIcon']]",
+            "frame": "NO_FRAME"
+        },
+        "AddImageToConversationDisabled": {
+            "path": "//div[@class='chat-display-cell chatmenuIcon imageIcon disabled']",
+            "frame": "NO_FRAME"
+        },
+        "NewGroup": {
+            "path": "//span[contains(text(), 'New Group') and ancestor::span[@id='create-new-group']]",
+            "frame": "NO_FRAME"
+        },
+        "CreateButton": {
+            "path": "//button[@id='addUsersToGroup' and contains(text(), 'Create')]",
+            "frame": "NO_FRAME"
+        },
+        "RecentConversationsTitle": {
+            "path": "//div[@class='list-title']",
+            "frame": "NO_FRAME"
+        },
+        "SelectUsingPosition": {
+            "path": "//table[@class='visits-table']/tbody",
+            "frame": "PATIENTLIST_VISITS_FRAME"
+        },
+        "GroupUserSearchResults": {
+            "path": "//ul[@class='chat-list new-member-list']",
+            "frame": "NO_FRAME"
+        },
+        "GroupSize3": {
+            "path": "//a[@class='group-name']/span[text()=' (3)']",
+            "frame": "NO_FRAME"
+        },
+        "GroupSize4": {
+            "path": "//a[@class='group-name']/span[text()=' (4)']",
+            "frame": "NO_FRAME"
+        },
+        "GroupIcon": {
+            "path": "//i[contains(@class,'fa fa-users') and @data-groupid]",
+            "frame": "NO_FRAME"
+        },
+        "GroupDetails": {
+            "path": "//span[ancestor::div[contains(@id,'recent-conversation-list')]]",
+            "frame": "NO_FRAME"
+        },
+        "GroupDetailsTitle": {
+            "path": "//span[contains(text(), 'A Group Name') and ancestor::div[contains(@class, 'tab active')]]",
+            "frame": "NO_FRAME"
+        },
+        "GroupMembersList": {
+            "path": "//ul[@id='group-member-list']",
+            "frame": "NO_FRAME"
+        },
+        "CloseGroupDetails": {
+            "path": "//div[@class='card-title-wrapper']/div[@class='close']",
+            "frame": "NO_FRAME"
+        },
+        "OfflineIndicator": {
+            "path": "//li[@data-userid]/div[@class='statusIndicator ']",
+            "frame": "NO_FRAME"
+        },
+        "GroupOfflineIndicator": {
+            "path": "//i[@class='fa fa-circle onlineStatusIndicator ']",
+            "frame": "NO_FRAME"
+        },
+        "ClearSearchText": {
+            "path": "//div[@class='searchbox-wrapper']/i[@id='clean-search-text' and @class='fa fa-times']",
+            "frame": "NO_FRAME"
+        },
+        "AddToGroup": {
+            "path": "//button[@id='addUsersToGroup']",
+            "frame": "NO_FRAME"
+        },
+        "TrashcanIcon": {
+            "path": "//li/div[@class='right-info-box auto-hide']/i[@class='fa fa-trash font-size-14 text-purple']",
+            "frame": "NO_FRAME"
+        },
+        "YesDeleteUser": {
+            "path": "//button[@class='done' and text()='Yes']",
+            "frame": "NO_FRAME"
+        },
+        "CloseButton": {
+            "path": "//*[text()='Close' or @class='close']",
+            "frame": "NO_FRAME"
+        },
+        "LeaveGroupConversation": {
+            "path": "//div[@id='leave-conversation']/a[text()='Leave Conversation']",
+            "frame": "NO_FRAME"
+        },
+        "MessagingOnCallTab": {
+            "path": "//a[@id='Service' and contains(text(), 'On Call')]",
+            "frame": "NO_FRAME"
+        },
+        "MessagingNameTab": {
+            "path": "//a[@id='Name' and contains(@class,'mdl-tabs__tab')]",
+            "frame": "NO_FRAME"
+        },
+        "pkadminNotMessagingUserError": {
+            "path": "//div[@class='pk-modal-content-wrapper']/div/label[text()='Not a User']/parent::div/following-sibling::div[@class='pk-modal-body']/div/span[text()='The Provider \"Perry Kadmin\" is not a PatientKeeper Messaging user.']",
+            "frame": "NO_FRAME"
+        },
+        "PhysicianContactInfo": {
+            "path": "//div[@class='physician-contact-title']/table",
+            "frame": ""
+        },
+        "OnCallSearchResults": {
+            "path": "//ul[@class='chatlist all-services allUsers']/li",
+            "frame": "NO_FRAME"
+        },
+        "MessageInputAreaPath": {
+            "path": "//textarea[@class='messageInput']",
+            "frame": "NO_FRAME"
+        },
+        "NewResultMessage": {
+            "path": "//ul[@class='chatlist']//span[text()='New Results']",
+            "frame": "NO_FRAME"
+        },
+        "ResultMessage": {
+            "path": "//ul[@class='chatlist']/li[not(@class='newMessage')]//span[text()='New Results']",
+            "frame": "NO_FRAME"
+        },
+        "NotPKMessagingUser":{
+            "path":"//i[@class='fa fa-exclamation-triangle fa-2']/following-sibling::span[text()='This user is NOT a PatientKeeper Messaging user.']",
+            "frame":"NO_FRAME"
+        },
+        "LabResultsNavTab":{
+          "path":"//div[@class='navbar side']/ul/li[@id='LABS' and @selected='true' and @class='active']",
+          "frame":"FRAME_POPUP_CLINNAV"
+        },
+        "CloseUserInfoPopUp":{
+            "path":"//div[@class='pk-modal-foot']/div/button[@class='cancel']",
+            "frame": "NO_FRAME"
+        },
+        "LabResultsTitle": {
+            "path": "//td[@class='WEBActivityPaneTable']/descendant::td[@id='paneHeaderTD']/descendant::td[@id='HEADER_TEXTTD']",
+            "frame": "FRAME_LABRESULTS_PANEL_RIGHT"
+        },
+        "MessagingNoSearchResults": {
+            "path": "//div[@class='chatlistCard card all-users showCard']/descendant::p[@class='feedbackText' and text()='No results']",
+            "frame": "NO_FRAME"
+        },
+        "ChatImage": {
+            "path": "//img[@class='chatImage']",
+            "frame": "NO_FRAME"
+        },
+        "StartConversation": {
+            "path": "//div[@id='chat1' and not(contains(@class, 'chatAreaCovered'))]",
+            "frame": "NO_FRAME"
+        },
+        "SchedulingClockIcon": {
+            "path": "//button[@title='Click to start Scheduled Message Delivery']",
+            "frame": "NO_FRAME"
+        }
+    },
+    "TEXT_FIELDS": {
+        "UserSearchBar": {
+            "path": "@name='searchbox' and @placeholder='Search by name or specialty'",
+            "frame": "NO_FRAME"
+        },
+        "MakeGroupUserSearchBar": {
+            "path": "@name='searchbox' and @placeholder='Search for user by name or specialty'",
+            "frame": "NO_FRAME"
+        },
+        "MessageInputArea": {
+            "path": "@class='messageInput'",
+            "frame": "NO_FRAME"
+        },
+        "SetPhoneNumberField": {
+            "path": "@name='phoneNumber'",
+            "frame": "NO_FRAME"
+        },
+        "GroupName": {
+            "path": "//input[@id='group-name' and @placeholder='Group Name (Optional)']",
+            "frame": "NO_FRAME"
+        },
+        "OnCallSearchBar": {
+            "path": "//input[@placeholder='Filter by specialty']",
+            "frame": "NO_FRAME"
+        }
+    },
+    "PANES": {
+        "MessageArea": {
+            "path": "//ul[@class='messages flex-fill']",
+            "frame": "NO_FRAME"
+        },
+        "PkModalBody": {
+            "path": "//div[@class='pk-modal-body']",
+            "frame": "NO_FRAME"
+        },
+        "ClinNavPopup":{
+            "frame": "FRAME_POPUP"
+        },
+        "ChatRoom": {
+            "path": "//div[contains(@class, 'tab active')]",
+            "frame": "NO_FRAME"
+        },
+        "ProviderDetailsContent": {
+            "path": "//div[@class='provider-details-content']",
+            "frame": "NO_FRAME"
+        },
+        "PatientDetailsNavigationBar": {
+            "path": "//div[@class='navbar side']",
+            "frame": "FRAME_POPUP_CLINNAV"
+        }
+    },
+    "PKDROPDOWNS": {
+        "OnCallFacility": {
+            "path": "//div[@class='bbwidgets facility-dropdown-input']/input",
+            "listPath": "//div[@class='facility-items']/ul",
+            "frame": "NO_FRAME"
+        }
+    },
+    "PANE_SECTIONS": {
+        "MessageStatus": {
+            "path": "//li[contains(@class,'message-item from')]",
+            "frame": "NO_FRAME"
+        }
+    }
+}

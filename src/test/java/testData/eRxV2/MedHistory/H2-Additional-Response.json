@@ -1,0 +1,213 @@
+{
+    "medHistoryResponseList": [
+        {
+            "historyResponse": {
+                "approved": {
+                    "approvalReasonCodeDto": [
+                        
+                    ]
+                }
+            },
+            "historyDispensedMedications": [
+                {
+                    "drugDescription": "AMARYL 1 MG TABLET",
+                    "drugCoded": {
+                        "productCode": "00039022110",
+                        "productCodeQualifier": "ND",
+                        "strength": "1MG",
+                        "drugDBCode": "153843",
+                        "drugDBCodeQualifier": "SBD"
+                    },
+                    "quantity": [
+                        {
+                            "value": "30",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C38046",
+                            "uomDesc": "Unspecified"
+                        }
+                    ],
+                    "daysSupply": "30",
+                    "refills": [
+                        
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        1,
+                        1
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "7030687"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "ACCU-CHEK CMFRT CURVE STRIP",
+                    "drugCoded": {
+                        "productCode": "50924038110",
+                        "productCodeQualifier": "ND"
+                    },
+                    "quantity": [
+                        {
+                            "value": "100",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C38046",
+                            "uomDesc": "Unspecified"
+                        }
+                    ],
+                    "daysSupply": "20",
+                    "refills": [
+                        
+                    ],
+                    "lastFillDate": [
+                        2017,
+                        12,
+                        31
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "7022273"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "DEPAKOTE ER 500 MG TABLET",
+                    "drugCoded": {
+                        "productCode": "00074712613",
+                        "productCodeQualifier": "ND",
+                        "strength": "500MG",
+                        "drugDBCode": "1099571",
+                        "drugDBCodeQualifier": "SBD"
+                    },
+                    "quantity": [
+                        {
+                            "value": "30",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C38046",
+                            "uomDesc": "Unspecified"
+                        }
+                    ],
+                    "daysSupply": "30",
+                    "refills": [
+                        
+                    ],
+                    "lastFillDate": [
+                        2017,
+                        12,
+                        30
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "7036282"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "MIACALCIN 200 UNITS NASAL SPRAY",
+                    "drugCoded": {
+                        "productCode": "00078031190",
+                        "productCodeQualifier": "ND",
+                        "strength": "200 U/D",
+                        "drugDBCode": "313919",
+                        "drugDBCodeQualifier": "SCD"
+                    },
+                    "quantity": [
+                        {
+                            "value": "4",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C38046",
+                            "uomDesc": "Unspecified"
+                        }
+                    ],
+                    "daysSupply": "28",
+                    "refills": [
+                        
+                    ],
+                    "lastFillDate": [
+                        2017,
+                        11,
+                        2
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "7022274"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                }
+            ],
+            "historyPrescribedMedications": [
+                
+            ],
+            "benefitsCoordination": [
+                {
+                    "payerName": "PBMF",
+                    "expirationDate": [
+                        2018,
+                        1,
+                        1
+                    ],
+                    "effectiveDate": [
+                        2016,
+                        3,
+                        20
+                    ],
+                    "consent": "Y",
+                    "pbmMemberId": "ZZQ-88-10011-249",
+                    "payerId": "T00000000021633",
+                    "interchangeControlNumber": "391352580"
+                }
+            ]
+        }
+    ],
+    "medHistoryErrorList": [
+        
+    ]
+}

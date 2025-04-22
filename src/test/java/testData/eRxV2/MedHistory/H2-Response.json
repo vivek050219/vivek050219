@@ -1,0 +1,2203 @@
+{
+    "medHistoryResponseList": [
+        {
+            "historyResponse": {
+                "approved": {
+                    "approvalReasonCodeDto": [
+                        "AQ"
+                    ],
+                    "noteDtoprivate": "MORE HISTORY AVAILABLE"
+                }
+            },
+            "historyDispensedMedications": [
+                {
+                    "drugDescription": "LIFESCAN UNISTIK 2 LANCETS",
+                    "drugCoded": {
+                        "productCode": "53885063610",
+                        "productCodeQualifier": "ND"
+                    },
+                    "quantity": [
+                        {
+                            "value": "100",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C38046",
+                            "uomDesc": "Unspecified"
+                        }
+                    ],
+                    "daysSupply": "15",
+                    "refills": [
+                        
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        8,
+                        1
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "7074402"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "BUPROPION HCL 75MG TABLET",
+                    "drugCoded": {
+                        "productCode": "00781105310",
+                        "productCodeQualifier": "ND",
+                        "strength": "75MG",
+                        "drugDBCode": "993691",
+                        "drugDBCodeQualifier": "SCD"
+                    },
+                    "quantity": [
+                        {
+                            "value": "30",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C48542",
+                            "uomDesc": "Tablets"
+                        }
+                    ],
+                    "daysSupply": "30",
+                    "refills": [
+                        
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        7,
+                        31
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "7085305"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "ACTOS 15 MG TABLET",
+                    "drugCoded": {
+                        "productCode": "64764015104",
+                        "productCodeQualifier": "ND",
+                        "strength": "15MG",
+                        "drugDBCode": "261266",
+                        "drugDBCodeQualifier": "SBD"
+                    },
+                    "quantity": [
+                        {
+                            "value": "30",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C38046",
+                            "uomDesc": "Unspecified"
+                        }
+                    ],
+                    "daysSupply": "30",
+                    "refills": [
+                        
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        7,
+                        30
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "7030686"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "AMARYL 1 MG TABLET",
+                    "drugCoded": {
+                        "productCode": "00039022110",
+                        "productCodeQualifier": "ND",
+                        "strength": "1MG",
+                        "drugDBCode": "153843",
+                        "drugDBCodeQualifier": "SBD"
+                    },
+                    "quantity": [
+                        {
+                            "value": "30",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C38046",
+                            "uomDesc": "Unspecified"
+                        }
+                    ],
+                    "daysSupply": "30",
+                    "refills": [
+                        
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        7,
+                        29
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "7030687"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "DEPAKOTE ER 500 MG TABLET",
+                    "drugCoded": {
+                        "productCode": "00074712613",
+                        "productCodeQualifier": "ND",
+                        "strength": "500MG",
+                        "drugDBCode": "1099571",
+                        "drugDBCodeQualifier": "SBD"
+                    },
+                    "quantity": [
+                        {
+                            "value": "30",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C38046",
+                            "uomDesc": "Unspecified"
+                        }
+                    ],
+                    "daysSupply": "30",
+                    "refills": [
+                        
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        7,
+                        28
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "7036282"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "HUMALOG MIX 75/25 VIAL",
+                    "drugCoded": {
+                        "productCode": "00002751101",
+                        "productCodeQualifier": "ND",
+                        "strength": "75-25 U",
+                        "drugDBCode": "752388",
+                        "drugDBCodeQualifier": "SBD"
+                    },
+                    "quantity": [
+                        {
+                            "value": "10",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C38046",
+                            "uomDesc": "Unspecified"
+                        }
+                    ],
+                    "daysSupply": "15",
+                    "refills": [
+                        
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        7,
+                        27
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "7046004"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "ACCU-CHEK CMFRT CURVE STRIP",
+                    "drugCoded": {
+                        "productCode": "50924038110",
+                        "productCodeQualifier": "ND"
+                    },
+                    "quantity": [
+                        {
+                            "value": "100",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C38046",
+                            "uomDesc": "Unspecified"
+                        }
+                    ],
+                    "daysSupply": "20",
+                    "refills": [
+                        
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        7,
+                        26
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "7083071"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "LIFESCAN UNISTIK 2 LANCETS",
+                    "drugCoded": {
+                        "productCode": "53885063610",
+                        "productCodeQualifier": "ND"
+                    },
+                    "quantity": [
+                        {
+                            "value": "100",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C38046",
+                            "uomDesc": "Unspecified"
+                        }
+                    ],
+                    "daysSupply": "15",
+                    "refills": [
+                        
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        7,
+                        25
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "7074402"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "MIRTAZAPINE 15 MG TABLET",
+                    "drugCoded": {
+                        "productCode": "00378351593",
+                        "productCodeQualifier": "ND",
+                        "strength": "15MG",
+                        "drugDBCode": "311275",
+                        "drugDBCodeQualifier": "SCD"
+                    },
+                    "quantity": [
+                        {
+                            "value": "30",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C38046",
+                            "uomDesc": "Unspecified"
+                        }
+                    ],
+                    "daysSupply": "30",
+                    "refills": [
+                        
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        7,
+                        24
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "7085305"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "HUMALOG MIX 75/25 VIAL",
+                    "drugCoded": {
+                        "productCode": "00002751101",
+                        "productCodeQualifier": "ND",
+                        "strength": "75-25 U",
+                        "drugDBCode": "752388",
+                        "drugDBCodeQualifier": "SBD"
+                    },
+                    "quantity": [
+                        {
+                            "value": "10",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C38046",
+                            "uomDesc": "Unspecified"
+                        }
+                    ],
+                    "daysSupply": "15",
+                    "refills": [
+                        
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        7,
+                        23
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "7046004"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "ACTOS 15 MG TABLET",
+                    "drugCoded": {
+                        "productCode": "64764015104",
+                        "productCodeQualifier": "ND",
+                        "strength": "15MG",
+                        "drugDBCode": "261266",
+                        "drugDBCodeQualifier": "SBD"
+                    },
+                    "quantity": [
+                        {
+                            "value": "30",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C38046",
+                            "uomDesc": "Unspecified"
+                        }
+                    ],
+                    "daysSupply": "30",
+                    "refills": [
+                        
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        7,
+                        22
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "7030686"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "AMARYL 1 MG TABLET",
+                    "drugCoded": {
+                        "productCode": "00039022110",
+                        "productCodeQualifier": "ND",
+                        "strength": "1MG",
+                        "drugDBCode": "153843",
+                        "drugDBCodeQualifier": "SBD"
+                    },
+                    "quantity": [
+                        {
+                            "value": "30",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C38046",
+                            "uomDesc": "Unspecified"
+                        }
+                    ],
+                    "daysSupply": "30",
+                    "refills": [
+                        
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        7,
+                        21
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "7030687"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "DEPAKOTE ER 500 MG TABLET",
+                    "drugCoded": {
+                        "productCode": "00074712613",
+                        "productCodeQualifier": "ND",
+                        "strength": "500MG",
+                        "drugDBCode": "1099574",
+                        "drugDBCodeQualifier": "SBD"
+                    },
+                    "quantity": [
+                        {
+                            "value": "30",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C38046",
+                            "uomDesc": "Unspecified"
+                        }
+                    ],
+                    "daysSupply": "30",
+                    "refills": [
+                        
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        7,
+                        20
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "7036282"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "ACCU-CHEK CMFRT CURVE STRIP",
+                    "drugCoded": {
+                        "productCode": "50924038110",
+                        "productCodeQualifier": "ND"
+                    },
+                    "quantity": [
+                        {
+                            "value": "100",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C38046",
+                            "uomDesc": "Unspecified"
+                        }
+                    ],
+                    "daysSupply": "20",
+                    "refills": [
+                        
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        7,
+                        19
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "7083071"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "OXYBUTYNIN 5 MG TABLET",
+                    "drugCoded": {
+                        "productCode": "00832003810",
+                        "productCodeQualifier": "ND",
+                        "strength": "5MG",
+                        "drugDBCode": "863664",
+                        "drugDBCodeQualifier": "SCD"
+                    },
+                    "quantity": [
+                        {
+                            "value": "30",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C38046",
+                            "uomDesc": "Unspecified"
+                        }
+                    ],
+                    "daysSupply": "30",
+                    "refills": [
+                        
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        7,
+                        18
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "7030690"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "LIFESCAN UNISTIK 2 LANCETS",
+                    "drugCoded": {
+                        "productCode": "53885063610",
+                        "productCodeQualifier": "ND"
+                    },
+                    "quantity": [
+                        {
+                            "value": "100",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C38046",
+                            "uomDesc": "Unspecified"
+                        }
+                    ],
+                    "daysSupply": "15",
+                    "refills": [
+                        
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        7,
+                        17
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "7074402"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "CILOXAN 0.3% OINTMENT",
+                    "drugCoded": {
+                        "productCode": "00065065435",
+                        "productCodeQualifier": "ND",
+                        "strength": "0.3%",
+                        "drugDBCode": "213307",
+                        "drugDBCodeQualifier": "SBD"
+                    },
+                    "quantity": [
+                        {
+                            "value": "3",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C38046",
+                            "uomDesc": "Unspecified"
+                        }
+                    ],
+                    "daysSupply": "07",
+                    "refills": [
+                        
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        7,
+                        16
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "7081950"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "ACTOS 15 MG TABLET",
+                    "drugCoded": {
+                        "productCode": "64764015104",
+                        "productCodeQualifier": "ND",
+                        "strength": "15MG",
+                        "drugDBCode": "261266",
+                        "drugDBCodeQualifier": "SBD"
+                    },
+                    "quantity": [
+                        {
+                            "value": "30",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C38046",
+                            "uomDesc": "Unspecified"
+                        }
+                    ],
+                    "daysSupply": "30",
+                    "refills": [
+                        
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        7,
+                        15
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "7030686"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "MIRTAZAPINE 15 MG TABLET",
+                    "drugCoded": {
+                        "productCode": "00093720656",
+                        "productCodeQualifier": "ND",
+                        "strength": "15MG",
+                        "drugDBCode": "311725",
+                        "drugDBCodeQualifier": "SCD"
+                    },
+                    "quantity": [
+                        {
+                            "value": "30",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C38046",
+                            "uomDesc": "Unspecified"
+                        }
+                    ],
+                    "daysSupply": "30",
+                    "refills": [
+                        
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        7,
+                        14
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "7030689"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "DEPAKOTE ER 500 MG TABLET",
+                    "drugCoded": {
+                        "productCode": "00074712613",
+                        "productCodeQualifier": "ND",
+                        "strength": "500MG",
+                        "drugDBCode": "1099571",
+                        "drugDBCodeQualifier": "SBD"
+                    },
+                    "quantity": [
+                        {
+                            "value": "30",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C38046",
+                            "uomDesc": "Unspecified"
+                        }
+                    ],
+                    "daysSupply": "30",
+                    "refills": [
+                        
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        7,
+                        13
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "7036282"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "ACCU-CHEK CMFRT CURVE STRIP",
+                    "drugCoded": {
+                        "productCode": "50924038110",
+                        "productCodeQualifier": "ND",
+                        "strength": ""
+                    },
+                    "quantity": [
+                        {
+                            "value": "100",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C38046",
+                            "uomDesc": "Unspecified"
+                        }
+                    ],
+                    "daysSupply": "20",
+                    "refills": [
+                        
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        7,
+                        12
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "7022273"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "AMARYL 1 MG TABLET",
+                    "drugCoded": {
+                        "productCode": "00039022110",
+                        "productCodeQualifier": "ND",
+                        "strength": "1MG",
+                        "drugDBCode": "153843",
+                        "drugDBCodeQualifier": "SBD"
+                    },
+                    "quantity": [
+                        {
+                            "value": "30",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C38046",
+                            "uomDesc": "Unspecified"
+                        }
+                    ],
+                    "daysSupply": "30",
+                    "refills": [
+                        
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        7,
+                        11
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "7030687"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "OXYBUTYNIN 5 MG TABLET",
+                    "drugCoded": {
+                        "productCode": "00832003810",
+                        "productCodeQualifier": "ND",
+                        "strength": "5MG",
+                        "drugDBCode": "863664",
+                        "drugDBCodeQualifier": "SCD"
+                    },
+                    "quantity": [
+                        {
+                            "value": "30",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C38046",
+                            "uomDesc": "Unspecified"
+                        }
+                    ],
+                    "daysSupply": "30",
+                    "refills": [
+                        
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        7,
+                        10
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "7030690"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "LIFESCAN UNISTIK 2 LANCETS",
+                    "drugCoded": {
+                        "productCode": "53885063610",
+                        "productCodeQualifier": "ND"
+                    },
+                    "quantity": [
+                        {
+                            "value": "100",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C38046",
+                            "uomDesc": "Unspecified"
+                        }
+                    ],
+                    "daysSupply": "30",
+                    "refills": [
+                        
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        7,
+                        9
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "7074402"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "CILOXAN 0.3% OINTMENT",
+                    "drugCoded": {
+                        "productCode": "00065065435",
+                        "productCodeQualifier": "ND",
+                        "strength": "0.3%",
+                        "drugDBCode": "213307",
+                        "drugDBCodeQualifier": "SBD"
+                    },
+                    "quantity": [
+                        {
+                            "value": "3",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C38046",
+                            "uomDesc": "Unspecified"
+                        }
+                    ],
+                    "daysSupply": "07",
+                    "refills": [
+                        
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        7,
+                        8
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "7072066"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "ACCU-CHEK CMFRT CURVE STRIP",
+                    "drugCoded": {
+                        "productCode": "50924038110",
+                        "productCodeQualifier": "ND",
+                        "strength": ""
+                    },
+                    "quantity": [
+                        {
+                            "value": "100",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C38046",
+                            "uomDesc": "Unspecified"
+                        }
+                    ],
+                    "daysSupply": "20",
+                    "refills": [
+                        
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        7,
+                        7
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "7022273"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "IMIPRAMINE HCL 50MG TABLET",
+                    "drugCoded": {
+                        "productCode": "53489033201",
+                        "productCodeQualifier": "ND",
+                        "strength": "50MG",
+                        "drugDBCode": "835568",
+                        "drugDBCodeQualifier": "SCD"
+                    },
+                    "quantity": [
+                        {
+                            "value": "4",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C48542",
+                            "uomDesc": "Tablets"
+                        }
+                    ],
+                    "daysSupply": "28",
+                    "refills": [
+                        
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        7,
+                        6
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "7022274"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "ACTOS 15 MG TABLET",
+                    "drugCoded": {
+                        "productCode": "64764015104",
+                        "productCodeQualifier": "ND",
+                        "strength": "15MG",
+                        "drugDBCode": "261266",
+                        "drugDBCodeQualifier": "SBD"
+                    },
+                    "quantity": [
+                        {
+                            "value": "30",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C38046",
+                            "uomDesc": "Unspecified"
+                        }
+                    ],
+                    "daysSupply": "30",
+                    "refills": [
+                        
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        7,
+                        5
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "7030686"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "MIRTAZAPINE 15 MG TABLET",
+                    "drugCoded": {
+                        "productCode": "00093720656",
+                        "productCodeQualifier": "ND",
+                        "strength": "15MG",
+                        "drugDBCode": "311725",
+                        "drugDBCodeQualifier": "SCD"
+                    },
+                    "quantity": [
+                        {
+                            "value": "30",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C38046",
+                            "uomDesc": "Unspecified"
+                        }
+                    ],
+                    "daysSupply": "30",
+                    "refills": [
+                        
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        7,
+                        4
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "7030689"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "AMARYL 1 MG TABLET",
+                    "drugCoded": {
+                        "productCode": "00039022110",
+                        "productCodeQualifier": "ND",
+                        "strength": "1MG",
+                        "drugDBCode": "153843",
+                        "drugDBCodeQualifier": "SBD"
+                    },
+                    "quantity": [
+                        {
+                            "value": "30",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C38046",
+                            "uomDesc": "Unspecified"
+                        }
+                    ],
+                    "daysSupply": "30",
+                    "refills": [
+                        
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        7,
+                        3
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "7030687"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "ASPIRIN 325 MG COATED TABLET",
+                    "drugCoded": {
+                        "productCode": "00113041678",
+                        "productCodeQualifier": "ND",
+                        "strength": "5MG",
+                        "drugDBCode": "212033",
+                        "drugDBCodeQualifier": "SCD"
+                    },
+                    "quantity": [
+                        {
+                            "value": "30",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C38046",
+                            "uomDesc": "Unspecified"
+                        }
+                    ],
+                    "daysSupply": "30",
+                    "refills": [
+                        
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        7,
+                        2
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "7030690"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "DEPAKOTE ER 500 MG TABLET",
+                    "drugCoded": {
+                        "productCode": "00074712613",
+                        "productCodeQualifier": "ND",
+                        "strength": "500MG",
+                        "drugDBCode": "1099571",
+                        "drugDBCodeQualifier": "SBD"
+                    },
+                    "quantity": [
+                        {
+                            "value": "30",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C38046",
+                            "uomDesc": "Unspecified"
+                        }
+                    ],
+                    "daysSupply": "30",
+                    "refills": [
+                        
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        7,
+                        1
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "7036282"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "LIFESCAN UNISTIK 2 LANCETS",
+                    "drugCoded": {
+                        "productCode": "53885063610",
+                        "productCodeQualifier": "ND"
+                    },
+                    "quantity": [
+                        {
+                            "value": "100",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C38046",
+                            "uomDesc": "Unspecified"
+                        }
+                    ],
+                    "daysSupply": "30",
+                    "refills": [
+                        
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        6,
+                        30
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "7009991"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "ACCU-CHEK CMFRT CURVE STRIP",
+                    "drugCoded": {
+                        "productCode": "50924038110",
+                        "productCodeQualifier": "ND"
+                    },
+                    "quantity": [
+                        {
+                            "value": "100",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C38046",
+                            "uomDesc": "Unspecified"
+                        }
+                    ],
+                    "daysSupply": "20",
+                    "refills": [
+                        
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        6,
+                        29
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "7022273"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "HUMALOG MIX 75/25 VIAL",
+                    "drugCoded": {
+                        "productCode": "00002751101",
+                        "productCodeQualifier": "ND",
+                        "strength": "75-25 U",
+                        "drugDBCode": "752388",
+                        "drugDBCodeQualifier": "SBD"
+                    },
+                    "quantity": [
+                        {
+                            "value": "10",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C38046",
+                            "uomDesc": "Unspecified"
+                        }
+                    ],
+                    "daysSupply": "15",
+                    "refills": [
+                        
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        6,
+                        28
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "7046004"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "MIACALCIN 200 UNITS NASAL SPRAY",
+                    "drugCoded": {
+                        "productCode": "00078031190",
+                        "productCodeQualifier": "ND",
+                        "strength": "200 U/D",
+                        "drugDBCode": "313919",
+                        "drugDBCodeQualifier": "SCD"
+                    },
+                    "quantity": [
+                        {
+                            "value": "4",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C38046",
+                            "uomDesc": "Unspecified"
+                        }
+                    ],
+                    "daysSupply": "28",
+                    "refills": [
+                        
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        6,
+                        27
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "7022274"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "ACTOS 15 MG TABLET",
+                    "drugCoded": {
+                        "productCode": "64764015104",
+                        "productCodeQualifier": "ND",
+                        "strength": "15MG",
+                        "drugDBCode": "261266",
+                        "drugDBCodeQualifier": "SBD"
+                    },
+                    "quantity": [
+                        {
+                            "value": "30",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C38046",
+                            "uomDesc": "Unspecified"
+                        }
+                    ],
+                    "daysSupply": "30",
+                    "refills": [
+                        
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        6,
+                        26
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "7030681"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "MIRTAZAPINE 15 MG TABLET",
+                    "drugCoded": {
+                        "productCode": "00093720656",
+                        "productCodeQualifier": "ND",
+                        "strength": "15MG",
+                        "drugDBCode": "311725",
+                        "drugDBCodeQualifier": "SCD"
+                    },
+                    "quantity": [
+                        {
+                            "value": "30",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C38046",
+                            "uomDesc": "Unspecified"
+                        }
+                    ],
+                    "daysSupply": "30",
+                    "refills": [
+                        
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        6,
+                        25
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "7030689"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "AMARYL 1 MG TABLET",
+                    "drugCoded": {
+                        "productCode": "00039022110",
+                        "productCodeQualifier": "ND",
+                        "strength": "1MG",
+                        "drugDBCode": "153843",
+                        "drugDBCodeQualifier": "SBD"
+                    },
+                    "quantity": [
+                        {
+                            "value": "30",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C38046",
+                            "uomDesc": "Unspecified"
+                        }
+                    ],
+                    "daysSupply": "30",
+                    "refills": [
+                        
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        6,
+                        24
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "7030687"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "DEPAKOTE ER 500 MG TABLET",
+                    "drugCoded": {
+                        "productCode": "00074712613",
+                        "productCodeQualifier": "ND",
+                        "strength": "500MG",
+                        "drugDBCode": "1099571",
+                        "drugDBCodeQualifier": "SBD"
+                    },
+                    "quantity": [
+                        {
+                            "value": "30",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C38046",
+                            "uomDesc": "Unspecified"
+                        }
+                    ],
+                    "daysSupply": "30",
+                    "refills": [
+                        
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        6,
+                        23
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "7036282"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "LIFESCAN UNISTIK 2 LANCETS",
+                    "drugCoded": {
+                        "productCode": "53885063610",
+                        "productCodeQualifier": "ND"
+                    },
+                    "quantity": [
+                        {
+                            "value": "100",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C38046",
+                            "uomDesc": "Unspecified"
+                        }
+                    ],
+                    "daysSupply": "30",
+                    "refills": [
+                        
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        6,
+                        22
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "7009991"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "ACCU-CHEK CMFRT CURVE STRIP",
+                    "drugCoded": {
+                        "productCode": "50924038110",
+                        "productCodeQualifier": "ND",
+                        "strength": ""
+                    },
+                    "quantity": [
+                        {
+                            "value": "100",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C38046",
+                            "uomDesc": "Unspecified"
+                        }
+                    ],
+                    "daysSupply": "20",
+                    "refills": [
+                        
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        6,
+                        21
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "7022273"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "OXYBUTYNIN 5 MG TABLET",
+                    "drugCoded": {
+                        "productCode": "00832003810",
+                        "productCodeQualifier": "ND",
+                        "strength": "5MG",
+                        "drugDBCode": "863664",
+                        "drugDBCodeQualifier": "SCD"
+                    },
+                    "quantity": [
+                        {
+                            "value": "30",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C38046",
+                            "uomDesc": "Unspecified"
+                        }
+                    ],
+                    "daysSupply": "30",
+                    "refills": [
+                        
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        6,
+                        20
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "7030690"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "CILOXAN 0.3% OINTMENT",
+                    "drugCoded": {
+                        "productCode": "00065065435",
+                        "productCodeQualifier": "ND",
+                        "strength": "0.3%",
+                        "drugDBCode": "213307",
+                        "drugDBCodeQualifier": "SBD"
+                    },
+                    "quantity": [
+                        {
+                            "value": "3",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C38046",
+                            "uomDesc": "Unspecified"
+                        }
+                    ],
+                    "daysSupply": "07",
+                    "refills": [
+                        
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        6,
+                        19
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "7060429"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "LORAZEPAM 0.5 MG TABLET",
+                    "drugCoded": {
+                        "productCode": "51079041720",
+                        "productCodeQualifier": "ND",
+                        "strength": "0.5MG",
+                        "drugDBCode": "197900",
+                        "drugDBCodeQualifier": "SCD",
+                        "deaSchedule": "C48677"
+                    },
+                    "quantity": [
+                        {
+                            "value": "15",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C38046",
+                            "uomDesc": "Unspecified"
+                        }
+                    ],
+                    "daysSupply": "30",
+                    "refills": [
+                        
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        6,
+                        18
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "4702698"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "ACCU-CHEK CMFRT CURVE STRIP",
+                    "drugCoded": {
+                        "productCode": "50924038110",
+                        "productCodeQualifier": "ND"
+                    },
+                    "quantity": [
+                        {
+                            "value": "100",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C38046",
+                            "uomDesc": "Unspecified"
+                        }
+                    ],
+                    "daysSupply": "20",
+                    "refills": [
+                        
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        6,
+                        17
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "7022273"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "ACTOS 15 MG TABLET",
+                    "drugCoded": {
+                        "productCode": "64764015104",
+                        "productCodeQualifier": "ND",
+                        "strength": "15MG",
+                        "drugDBCode": "261266",
+                        "drugDBCodeQualifier": "SBD"
+                    },
+                    "quantity": [
+                        {
+                            "value": "30",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C38046",
+                            "uomDesc": "Unspecified"
+                        }
+                    ],
+                    "daysSupply": "30",
+                    "refills": [
+                        
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        6,
+                        16
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "7030686"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "MIRTAZAPINE 15 MG TABLET",
+                    "drugCoded": {
+                        "productCode": "00093720656",
+                        "productCodeQualifier": "ND",
+                        "strength": "15MG",
+                        "drugDBCode": "311725",
+                        "drugDBCodeQualifier": "SCD"
+                    },
+                    "quantity": [
+                        {
+                            "value": "30",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C38046",
+                            "uomDesc": "Unspecified"
+                        }
+                    ],
+                    "daysSupply": "30",
+                    "refills": [
+                        
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        6,
+                        15
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "7030689"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "LIFESCAN UNISTIK 2 LANCETS",
+                    "drugCoded": {
+                        "productCode": "53885063610",
+                        "productCodeQualifier": "ND"
+                    },
+                    "quantity": [
+                        {
+                            "value": "100",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C38046",
+                            "uomDesc": "Unspecified"
+                        }
+                    ],
+                    "daysSupply": "30",
+                    "refills": [
+                        
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        6,
+                        14
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "7009991"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "AMARYL 1 MG TABLET",
+                    "drugCoded": {
+                        "productCode": "00039022110",
+                        "productCodeQualifier": "ND",
+                        "strength": "1MG",
+                        "drugDBCode": "153843",
+                        "drugDBCodeQualifier": "SBD"
+                    },
+                    "quantity": [
+                        {
+                            "value": "30",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C38046",
+                            "uomDesc": "Unspecified"
+                        }
+                    ],
+                    "daysSupply": "30",
+                    "refills": [
+                        
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        5,
+                        1
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "7030687"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                }
+            ],
+            "historyPrescribedMedications": [
+                
+            ],
+            "benefitsCoordination": [
+                {
+                    "payerName": "PBMF",
+                    "expirationDate": [
+                        2018,
+                        8,
+                        1
+                    ],
+                    "effectiveDate": [
+                        2016,
+                        3,
+                        20
+                    ],
+                    "consent": "Y",
+                    "pbmMemberId": "ZZQ-88-10011-249",
+                    "payerId": "T00000000021633",
+                    "interchangeControlNumber": "391352524"
+                }
+            ]
+        }
+    ],
+    "medHistoryErrorList": [
+        
+    ]
+}

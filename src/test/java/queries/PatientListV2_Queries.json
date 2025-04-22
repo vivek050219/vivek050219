@@ -1,0 +1,20 @@
+{
+    "QUERIES": {
+        "PatientListExist": {
+            "columns": "*",
+            "table": "pl_patientlist",
+            "join": "u_user on u_user.user_id = pl_patientlist.owner",
+            "where": "pl_patientlist.del_ind=0"
+        },
+        "PurgedPhoto":{
+            "columns":"SYNCREPOSITORYID AS PhotoId, DONOTPURGE AS PurgeStatus",
+            "table":"PK_PHOTO"
+        },
+        "ActiveNotesCount": {
+            "columns": "*",
+            "table": "pk_formresult",
+            "join": "u_user on u_user.user_id = pk_formresult.syncuserid",
+            "where": "pk_formresult.syncdeleted=0"
+        }
+    }
+}

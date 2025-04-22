@@ -1,0 +1,142 @@
+{
+    "listType":"LIST",
+    "filterBasedCriteria":{
+        "logicExpression":"1",
+        "criterionMap":{
+
+        }
+    },
+    "timeBasedCriteria":[
+        {
+            "pkVisitType":{
+                "name":"Inpatient",
+                "addEvent":"ADMIT",
+                "removeEvent":"DISCHARGE",
+                "infacility":true,
+                "code":null
+            },
+            "daysBeforeAddEvent":0,
+            "daysAfterRemoveEvent":3,
+            "removeNow":false
+        },
+        {
+            "pkVisitType":{
+                "name":"Outpatient",
+                "addEvent":"SCHEDULED",
+                "removeEvent":"SCHEDULED",
+                "infacility":false,
+                "code":null
+            },
+            "daysBeforeAddEvent":3,
+            "daysAfterRemoveEvent":3,
+            "removeNow":false
+        },
+        {
+            "pkVisitType":{
+                "name":"ER",
+                "addEvent":"ADMIT",
+                "removeEvent":"DISCHARGE",
+                "infacility":true,
+                "code":null
+            },
+            "daysBeforeAddEvent":0,
+            "daysAfterRemoveEvent":3,
+            "removeNow":false
+        }
+    ],
+    "displayPositions":[
+        {
+            "type":"DisplayPosition",
+            "rowPosition":0,
+            "columnPosition":0,
+            "columnSpan":1,
+            "textOrder":0,
+            "displayField":null,
+            "label":"Patient Name"
+        },
+        {
+            "type":"DisplayPosition",
+            "rowPosition":0,
+            "columnPosition":1,
+            "columnSpan":1,
+            "textOrder":0,
+            "displayField":null,
+            "label":"Age"
+        },
+        {
+            "type":"DisplayPosition",
+            "rowPosition":0,
+            "columnPosition":1,
+            "columnSpan":1,
+            "textOrder":1,
+            "displayField":null,
+            "label":"Gender"
+        },
+        {
+            "type":"DisplayPosition",
+            "rowPosition":0,
+            "columnPosition":1,
+            "columnSpan":1,
+            "textOrder":2,
+            "displayField":null,
+            "label":"LOS / Scheduled / Discharge Date"
+        },
+        {
+            "type":"DisplayPosition",
+            "rowPosition":1,
+            "columnPosition":0,
+            "columnSpan":1,
+            "textOrder":0,
+            "displayField":null,
+            "label":"Location"
+        },
+        {
+            "type":"BlankDisplayPosition",
+            "rowPosition":1,
+            "columnPosition":1,
+            "columnSpan":1,
+            "textOrder":0,
+            "displayField":"BLANK",
+            "label":null
+        },
+        {
+            "type":"DisplayPosition",
+            "rowPosition":2,
+            "columnPosition":0,
+            "columnSpan":2,
+            "textOrder":0,
+            "displayField":null,
+            "label":"Reason for Visit"
+        }
+    ],
+    "sortOrder":[
+        {
+            "displayField":null,
+            "label":"Patient Name",
+            "displaySortType":"ALPHANUM",
+            "ascendingSort":true,
+            "customSort":[
+
+            ]
+        }
+    ],
+    "subLists":[
+
+    ],
+    "sourceLists":[
+
+    ],
+    "active":null,
+    "allowsAddRemove":true,
+    "favoriteByDefault":true,
+    "listOwner":{
+        "label":"PATIENTLISTV2ADMIN, VERVE",
+        "value":null
+    },
+    "listCreator":{
+        "label":"PATIENTLISTV2ADMIN, VERVE",
+        "value":null
+    },
+    "alias":null,
+    "name":"VerveDel Delete Assignment Test"
+}

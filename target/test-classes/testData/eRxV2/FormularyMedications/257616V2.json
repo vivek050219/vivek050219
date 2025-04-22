@@ -1,0 +1,102 @@
+[
+    {
+        "payerCoverageInfo": {
+            "payer": "PBMF",
+            "planId": "MT-036R",
+            "planNetworkId": "001264",
+            "processorId": "MT-R23-36",
+            "memberId": "PBMF TESTKID 8951-001",
+            "groupNumber": "R230036",
+            "formulary": "FSL102",
+            "alternatives": "ALT101",
+            "copay": "COP102",
+            "interchangeControlNumber": 359386060,
+            "payerId": "T00000000021633",
+            "healthPlanName": "MITSU-036R",
+            "coverages": [
+                {
+                    "type": "RETAIL",
+                    "messages": [
+                        
+                    ]
+                },
+                {
+                    "type": "MAIL",
+                    "messages": [
+                        
+                    ]
+                }
+            ],
+            "cardHolderName": {
+                "lastName": "RODGERSSON",
+                "firstName": "TEAGUE",
+                "middleName": ""
+            },
+            "coverageId": "COV102"
+        },
+        "medications": [
+            {
+                "medId": 257616,
+                "description": "Augmentin ES-600 600 mg-42.9 mg/5 mL oral suspension",
+                "formularyStatus": 2,
+                "ndc": 43598000351,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": false,
+                "genericMedId": 177124,
+                "genericDescription": "amoxicillin 600 mg-potassium clavulanate 42.9 mg/5 mL oral suspension",
+                "coverages": [
+                    {
+                        "textMessageList": [
+                            {
+                                "ndc": 43598000351,
+                                "messageShort": "SHAKE WELL BEFORE USING",
+                                "textMessageType": "GI"
+                            }
+                        ],
+                        "stepTherapy": false,
+                        "priorAuthorization": false,
+                        "productCoverageExclusion": false
+                    }
+                ],
+                "copays": [
+                    {
+                        "ndc": 43598000351,
+                        "summaryDetail": false,
+                        "status": 0,
+                        "copayTier": "2",
+                        "drugRefNumber": "257616",
+                        "maximumCopayTier": "3",
+                        "pharmacyType": "A",
+                        "recordType": "CRT"
+                    }
+                ],
+                "clinicalQuantities": [
+                    {
+                        "desc": "75 mL Bottle",
+                        "quantity": 75.0000000,
+                        "uomDesc": "Milliliter",
+                        "potencyUnitCode": "C28254"
+                    },
+                    {
+                        "desc": "125 mL Bottle",
+                        "quantity": 125.0000000,
+                        "uomDesc": "Milliliter",
+                        "potencyUnitCode": "C28254"
+                    },
+                    {
+                        "desc": "200 mL Bottle",
+                        "quantity": 200.0000000,
+                        "uomDesc": "Milliliter",
+                        "potencyUnitCode": "C28254"
+                    }
+                ],
+                "strength": "600-42.9",
+                "strengthUom": "mg/5 mL",
+                "formDescription": "suspension for reconstitution",
+                "potencyUnitCode": "C38046"
+            }
+        ]
+    }
+]

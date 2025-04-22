@@ -1,0 +1,210 @@
+{
+    "medHistoryResponseList": [
+        {
+            "historyResponse": {
+                "approved": {
+                    "approvalReasonCodeDto": [
+                        
+                    ]
+                }
+            },
+            "historyDispensedMedications": [
+                {
+                    "drugDescription": "VICODIN ES 7.5MG-750MG TABLET",
+                    "drugCoded": {
+                        "productCode": "00074197354",
+                        "productCodeQualifier": "ND",
+                        "strength": "7.5MG-750MG",
+                        "drugDBCode": "856898",
+                        "drugDBCodeQualifier": "SBD",
+                        "deaSchedule": "C48676"
+                    },
+                    "quantity": [
+                        {
+                            "value": "30",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C48542",
+                            "uomDesc": "Tablets"
+                        }
+                    ],
+                    "daysSupply": "30",
+                    "refills": [
+                        
+                    ],
+                    "substitutions": "0",
+                    "lastFillDate": [
+                        2018,
+                        8,
+                        1
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "pharmacy": {
+                        "organizationName": "CVS #02236",
+                        "phonePrimary": "7632018954",
+                        "latitude": 0.0,
+                        "longitude": 0.0,
+                        "distance": 0.0
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "CRESTOR 10 MG TABLET",
+                    "drugCoded": {
+                        "productCode": "54868496303",
+                        "productCodeQualifier": "ND",
+                        "strength": "10MG",
+                        "drugDBCode": "859749",
+                        "drugDBCodeQualifier": "SBD"
+                    },
+                    "quantity": [
+                        {
+                            "value": "30",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C48542",
+                            "uomDesc": "Tablets"
+                        }
+                    ],
+                    "daysSupply": "30",
+                    "refills": [
+                        
+                    ],
+                    "substitutions": "0",
+                    "lastFillDate": [
+                        2018,
+                        7,
+                        1
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "pharmacy": {
+                        "organizationName": "CVS #02236",
+                        "phonePrimary": "7632018954",
+                        "latitude": 0.0,
+                        "longitude": 0.0,
+                        "distance": 0.0
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                }
+            ],
+            "historyPrescribedMedications": [
+                
+            ],
+            "benefitsCoordination": [
+                {
+                    "payerName": "PBMF",
+                    "expirationDate": [
+                        2018,
+                        8,
+                        1
+                    ],
+                    "effectiveDate": [
+                        2016,
+                        3,
+                        20
+                    ],
+                    "consent": "Y",
+                    "pbmMemberId": "ZZQ-88-10011-251",
+                    "payerId": "T00000000021633",
+                    "interchangeControlNumber": "391352741"
+                }
+            ]
+        },
+        {
+            "historyResponse": {
+                "approved": {
+                    "approvalReasonCodeDto": [
+                        
+                    ]
+                }
+            },
+            "historyDispensedMedications": [
+                {
+                    "drugDescription": "AMITRIPTYLINE/CHLORDIAZEPOXIDE ORAL TABLET 25-10MG",
+                    "drugCoded": {
+                        "productCode": "00364215801",
+                        "productCodeQualifier": "ND",
+                        "drugDBCode": "856792",
+                        "drugDBCodeQualifier": "SCD",
+                        "deaSchedule": "C48677"
+                    },
+                    "quantity": [
+                        {
+                            "value": "30",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C48542",
+                            "uomDesc": "Tablets"
+                        }
+                    ],
+                    "daysSupply": "30",
+                    "refills": [
+                        
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        7,
+                        1
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                }
+            ],
+            "historyPrescribedMedications": [
+                
+            ],
+            "benefitsCoordination": [
+                {
+                    "payerName": "PBMF",
+                    "expirationDate": [
+                        2018,
+                        8,
+                        1
+                    ],
+                    "effectiveDate": [
+                        2016,
+                        3,
+                        20
+                    ],
+                    "consent": "Y",
+                    "pbmMemberId": "ZZQ-88-10011-262",
+                    "payerId": "T00000000021633",
+                    "interchangeControlNumber": "391352741"
+                }
+            ]
+        }
+    ],
+    "medHistoryErrorList": [
+        
+    ]
+}

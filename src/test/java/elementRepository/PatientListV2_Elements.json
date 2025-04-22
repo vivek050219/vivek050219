@@ -1,0 +1,4465 @@
+{
+  "BUTTONS": {
+    "PatientNarrativeQT": {
+      "path": "//div[contains(@id,'PatientNarrative')]//a[contains(@class, 'cke_button') and contains(@class, 'quicktext')]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "LoadMoreNotesData": {
+      "path": "//button[contains(@class, 'get-more-notes')]",
+      "frame": "FRAME_NOTELIST"
+    },
+    "EditNote": {
+      "id": "button_EDIT",
+      "frame": "FRAME_NOTEDETAIL"
+    },
+    "Yes": {
+      "path": "//*[@id='button_YES' or text()='Yes']",
+      "frame": "NO_FRAME"
+    },
+    "AddQT": {
+      "path": "//span[@id='button_addquicktext']",
+      "frame": "FRAME_NWQUICKTEXT"
+    },
+    "EditQT": {
+      "path": "//span[@id='button_editquicktext']",
+      "frame": "FRAME_NWQUICKTEXT"
+    },
+    "CloseQT": {
+      "id": "button_closequicktext",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "InsertPrevious": {
+      "path": "//tr[@id='InsertPreviousProblemRow']/td/a",
+      "frame": "FRAME_NWPOPOUTDETAIL"
+    },
+    "Refresh": {
+      "id": "RefreshImg",
+      "frame": "FRAME_PATINFO"
+    },
+    "ConfirmYes": {
+      "path": "//span[text()='Yes']",
+      "frame": "FRAME_PHOTO_LIST"
+    },
+    "ConfirmNo": {
+      "path": "//span[text()='No']",
+      "frame": "FRAME_PHOTO_LIST"
+    },
+    "CreatePatientDeletePatientList": {
+      "path": "//button/span[@testid='PatientList_CreateModify_DeleteButton']/parent::button",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "RefreshPatientList": {
+      "id": "RefreshImg",
+      "frame": "FRAME_LIST"
+    },
+    "Date": {
+      "path": "//div[@id='NoteTypeCell']/font",
+      "frame": "FRAME_NWPOPOUT"
+    },
+    "Delete": {
+      "path": "//span[(@testid ='PatientList_DeleteConfirm_DeleteButton') or (@pkwidget='Button' and text()='Delete')]",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "DeletePatientListCancel": {
+      "path": "//span[@testid ='PatientList_DeleteConfirmViews_CancelButton']",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "Done": {
+      "path": "//button[@type='button' and descendant::div[text()='Done']]"
+    },
+    "SystemDefaultList": {
+      "path": "//input[@id='System Default List']",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "OKTemplate": {
+      "path": "//button[span[text()='OK']]",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "CreatePatientListCreateMyList": {
+      "path": "//span[@testid='PatientList_CreateModify_CreateButton']",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "YesCreateTheLists": {
+      "path": "//span[@class='ui-button-text' and text()='Yes, create the lists >']",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "OKCreate": {
+      "path": "//div[preceding-sibling::div[span[text()='Creating patient lists...']]]//div//span[text()='OK']",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "AddAFilter": {
+      "path": "//span[text()='Add a Filter']",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "Admitting": {
+      "path": "//label[contains(@for,'REL_TO_ME')]//span[text()='Admitting']",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "PKHospital": {
+      "path": "//span[contains(@class,'fancytree-checkbox material-icons') and following-sibling::span[@class='fancytree-title' and text()='PKHospital']]",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "AddFilter": {
+      "path": "//button[contains(@class, 'hidden filter-add-link')]",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "Favorite": {
+      "path": "//span[contains(@id,'PKFavorite')]",
+      "image": "//i[@class='uxf-icon--active icon-star']",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "SearchPatientList": {
+      "path": "//button[contains(@class, 'search-button')] ",
+      "frame": "PATIENTLIST_SEARCH_FRAME"
+    },
+    "CloseSearchForPatientList": {
+      "path": "//button[contains(normalize-space(),'Close')]",
+      "frame": "PATIENTLIST_SEARCH_FRAME"
+    },
+    "CreatePatientListCancel": {
+      "path": "//span[@testid='PatientList_CreateModify_CancelButton']",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "RemoveAdditionalUser": {
+      "path": "//button[ancestor::li/span[text()='textVal']]/span",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "AddAssignmentList": {
+      "path": "//a[@title='Add' and contains(@style, 'inline-block')]",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "SaveButtonTBC": {
+      "path": "//button[@title='Save' and child::span[@class='ui-button-text' and text()='Save']]",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "SelectAPatientList": {
+      "path": "//button[contains(@class,'PKMultiSelectFindMore')]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "TemplateList": {
+      "path": "//input[@id='TemplateList']",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "SaveSortingCriteria": {
+      "path": "//button[@title='save']",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "EditSortingCriteria": {
+      "path": "//button[@title='edit']",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "CancelSortingCriteria": {
+      "path": "//button[@title='cancel']",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "AddAndSave": {
+      "path": "//span[@id='button_SAVE']",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "CreatePatientListSave": {
+      "path": "//span[@testid='PatientList_CreateModify_SaveButton']",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "ViewSearch": {
+      "path": "//button[contains(@class,'ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only') and @title='Search']",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "ManageSearch": {
+      "path": "//button[contains(@class,'ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only') and @title='Search' and ancestor::div[@class='sharing-perm-manage permission']]",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "EditFavoriteSave": {
+      "path": "//span[@testid ='PatientList_EditFavorite_SaveButton']",
+      "frame": "PATIENTLIST_SEARCH_FRAME"
+    },
+    "EditFavoriteCancel": {
+      "path": "//span[@testid ='PatientList_EditFavorite_CancelButton']",
+      "frame": "PATIENTLIST_SEARCH_FRAME"
+    },
+    "RevertListToDefault": {
+      "path": "//button[contains(@class,'pk-hoverable mdl-button mdl-button--raised ') and contains(normalize-space(),'Revert List(s) to Default')]",
+      "frame": "FRAME_PATIENTLIST_REVERT_FRAME"
+    },
+    "OKRevert": {
+      "path": "//span[text()='OK' and ancestor::div[contains(@class,'ui-draggable')]//div[contains(@class,'patient-list-revert-dialog')]]",
+      "frame": "FRAME_PATIENTLIST_REVERT_FRAME"
+    },
+    "SuccessOK": {
+      "path": "//div[preceding-sibling::div[span[text()='Reverting patient lists...']]]//div//span[text()='OK']",
+      "frame": "FRAME_PATIENTLIST_REVERT_FRAME"
+    },
+    "SaveVisit": {
+      "path": "//span[@id='button_SAVE']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "OKCompare": {
+      "path": "//span[text()='OK' and ancestor::div[@class='ui-dialog-buttonset']]",
+      "frame": "PATIENTLIST_DEBUG_FRAME"
+    },
+    "CustomSort": {
+      "path": "//input[@id='Custom Sort']",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "ClosePatientListCriteria": {
+      "path": "//span[text()='Close' and @class='ui-button-text']",
+      "frame": "FRAME_PATIENTLIST_DETAILS"
+    },
+    "Reassign": {
+      "path": "//button/span[text()='Reassign']",
+      "frame": "FRAME_REASSIGN_PATIENTLIST"
+    },
+    "FavoriteInEditScreen": {
+      "path": "//i[@class='uxf-icon--inactive icon-star-empty' and ancestor::div[@class='edit-favorite-view']]",
+      "frame": "PATIENTLIST_SEARCH_FRAME"
+    },
+    "YesDelete": {
+      "path": "//span[@class='ui-button-text' and text()='Yes']",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "RemoveandDelete": {
+      "path": "//button/span[text()='Remove and Delete']",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "CancelQTV2": {
+      "path": "//span[@pkwidget='Button' and text()='Cancel']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "Patients": {
+      "path": ".//button[@data-balloon='patients']"
+    },
+    "OKPatientList": {
+      "path": "//button[contains(@class,'ui-button-text-only') and span[text()='OK']]",
+      "frame": "PATIENTLIST_SEARCH_FRAME"
+    },
+    "CloseQuickText": {
+      "id": "button_closequicktext",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "DischargeMedRec": {
+      "id": "button_dischargemedrec",
+      "frame": "FRAME_ORDERLIST"
+    },
+    "RemoveFilter": {
+      "path": "//button[@title='Remove' and ancestor::div/preceding-sibling::div//span[text() ='textVal']]",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "InsertSelectionQTV2": {
+      "id": "InsertSelectionButton",
+      "frame": "FRAME_NOTEWRITER_INSERT_PREVIOUS"
+    },
+    "AddendumInsertSelected": {
+      "path": "//button[@type='button' and text()='Insert Selected']",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "ViewChargeValidation": {
+      "path": "//button[contains(text(),'View Charge Validation')]",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "SaveAsIs": {
+      "path": "//button[child::span[@class='ui-button-text' and text()='Save As Is']]",
+      "frame": "FRAME_NOTEWRITER_CHARGE_CAPTURE"
+    },
+    "ManageQuickText": {
+      "id": "button_addquicktext",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "SaveNw": {
+      "path": "//span[@pkwidget='Button' and text()='Save']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "CancelQT": {
+      "path": "//span[@pkwidgetid='Button_button_close' and text()='Cancel']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "Close": {
+      "path": "//span[@id='button_CLOSE' and text()='Close']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "Keep": {
+      "id": "button_YES",
+      "frame": "FRAME_DIALOG"
+    },
+    "Discard": {
+      "id": "button_NO",
+      "frame": "FRAME_DIALOG"
+    },
+    "DeleteNw": {
+      "path": "//span[@pkwidget='Button' and text()='Delete']",
+      "frame": "FRAME_CHARGEDETAIL"
+    },
+    "DeleteHighlightedGroups": {
+      "path": "//span[@class='ui-button-text' and text()='Delete Highlighted Groups']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "Discontinue": {
+      "path": "//span[@pkwidgetid='Button_DiscontinueButton' and text()='Discontinue']",
+      "frame": "FRAME_EDITORDER"
+    },
+    "PatientSearchSubmit": {
+      "id": "submit_button",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "EditOrderOK": {
+      "path": "//button[contains(@class,'pk-button md-theme-default-pk') and descendant::div[text()='Done']]",
+      "frame": "FRAME_EDITORDER"
+    },
+    "DuplicateDontOrder": {
+      "path": "//button[contains(@class,'md-button md-layout-item-center-left')]",
+      "frame": "FRAME_CLINICAL_DECISION"
+    },
+    "Cancel": {
+      "path": "//span[@pkwidget='Button' and text()='Cancel']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "OK": {
+      "path": "//span[@id='button_OK']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "OKSignSubmit": {
+      "path": "//span[@id='button_OK' and @pkwidgetid='Button_button_OK']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "SubmitOk_Addendum": {
+      "path": "//button[@type='button' and text()='Ok']",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "OkButton": {
+      "path": "//span[@id='button_detailok']",
+      "frame": "FRAME_DOJO_DIALOG"
+    },
+    "SearchAddr": {
+      "path": "//button[@id='searchID' and text()='Search']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "SearchPharmacyPhone": {
+      "id": "byPhoneSearchID",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "SearchPharmacyMail": {
+      "id": "mailOrderSearchcriteria",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "SubmitPartialMedRec": {
+      "path": "//span[@id='button_NO' and text()='Submit Partial Med Rec']",
+      "frame": "NO_FRAME"
+    },
+    "PrescriptionsReconcileSubmit": {
+      "path": "//button[@id='reconcileAndSubmitButton']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "CancelDeletePatientList": {
+      "path": "//span[@testid='PatientList_DeleteConfirm_CancelButton' and text()='Cancel']",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "DeletePatientListConfirm": {
+      "path": "//span[@testid='PatientList_DeleteConfirm_DeleteButton' and text()='Delete']",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "Back": {
+      "path": "//span[@id='BackButton_label']",
+      "frame": "FRAME_DOJO_DIALOG"
+    },
+    "ReconcileCancel": {
+      "path": "//span[@id='CancelButton_label' and text()='Cancel']",
+      "frame": "FRAME_DOJO_DIALOG"
+    },
+    "Upload": {
+      "path": "//input[@id='Upload']",
+      "frame": "FRAME_PHOTO_ADD"
+    },
+    "Undo": {
+      "path": "//img[@id='UndoDeSelectionButton']",
+      "frame": "FRAME_TESTSELECTION"
+    },
+    "ChooseFile": {
+      "path": "//input[@id='file']",
+      "frame": "FRAME_PHOTO_ADD"
+    },
+    "ClosePhotoViewer": {
+      "path": "//img[@class='closeViewerButton iconPointer' and @title='Close Viewer']",
+      "frame": "FRAME_PHOTO_LIST"
+    },
+    "NavigateNextPhotoViewer": {
+      "path": "//div[@class='navButton nextButton']",
+      "frame": "FRAME_PHOTO_LIST"
+    },
+    "NavigateBackPhotoViewer": {
+      "path": "//div[@class='navButton backButton']",
+      "frame": "FRAME_PHOTO_LIST"
+    },
+    "RotateRight": {
+      "path": "//img[@title='Rotate Image Right']",
+      "frame": "FRAME_PHOTO_LIST"
+    },
+    "RotateRight_POP": {
+      "path": "//img[@title='Rotate Image Right']",
+      "frame": "FRAME_PHOTO_LIST_POP_UP"
+    },
+    "RotateLeft": {
+      "path": "//img[@title='Rotate Image Left']",
+      "frame": "FRAME_PHOTO_LIST"
+    },
+    "ZoomIn": {
+      "path": "//img[@title='Zoom In']",
+      "frame": "FRAME_PHOTO_LIST"
+    },
+    "ZoomOut": {
+      "path": "//img[@title='Zoom Out']",
+      "frame": "FRAME_PHOTO_LIST"
+    },
+    "OriginalSize": {
+      "path": "//img[@title='Original Size']",
+      "frame": "FRAME_PHOTO_LIST"
+    },
+    "FitToScreen": {
+      "path": "//img[@title='Fit to Screen']",
+      "frame": "FRAME_PHOTO_LIST"
+    },
+    "Purge": {
+      "path": "//img[(@title='Click to save photo so that it will not be purged' or @title='Photo will not be purged') and ancestor::div[@id='photoViewer']]",
+      "frame": "FRAME_PHOTO_LIST"
+    },
+    "RefreshPTInfo": {
+      "path": "//img[@id='RefreshImg' and @buttonid = 'refreshpatientpane']",
+      "frame": "FRAME_PATINFO"
+    },
+    "RefreshPTList": {
+      "path": "//img[@id='RefreshImg' and @buttonid='refreshhupl']",
+      "frame": "FRAME_LIST"
+    },
+    "PopOut": {
+      "path": "//div[@id='UnDockButton']",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "EditVisit": {
+      "path": "//span[@id='button_EDITVISIT']",
+      "frame": "FRAME_VISITDETAIL"
+    },
+    "AddChargeVisit": {
+      "path": "//span[@id='button_ADDCHARGE']",
+      "frame": "FRAME_VISITDETAIL"
+    },
+    "Photos": {
+      "path": "//span[@id='ViewPatientPhotos']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "Photos_AddCharge": {
+      "id": "patient_photo_button",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "EditPatient": {
+      "path": "//span[@id='button_EDITPATIENT']",
+      "frame": "FRAME_EDIT_PATIENT"
+    },
+    "CancelNote": {
+      "path": "//span[@id='button_pickercancel']",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "PopIn": {
+      "path": "//div[@id='UnDockButton']",
+      "frame": "FRAME_WIZARD"
+    },
+    "AddAddendum": {
+      "path": "//img[@message='addaddendum']",
+      "frame": "FRAME_NOTEDETAIL"
+    },
+    "ClosePhotoPopup": {
+      "path": "//span[@class='ui-icon ui-icon-closethick']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "DeletePhoto": {
+      "path": "//img[@class='photo-delete-action' and @title='Delete Image']",
+      "frame": "FRAME_PHOTO_LIST"
+    },
+    "DeletePhotoDisabled": {
+      "path": "//img[@class='photo-delete-action-disabled' and @title='Delete Image']",
+      "frame": "FRAME_PHOTO_LIST"
+    },
+    "AddProblem": {
+      "path": "//span[@pkwidgetid='Button_button_toggledxsearch' and text()='Add Problem']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "DataToInsertCancel": {
+      "path": "//span[@pkwidgetid='Button_CancelButton' and text()='Cancel']",
+      "frame": "FRAME_NOTEWRITER_INSERT_PREVIOUS"
+    },
+    "QuickTextClose": {
+      "path": "//span[@id='button_closequicktext' and text()='Close']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "CancelInsertPrevious": {
+      "path": "//span[@id='CancelButton' and text()='Cancel']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "WarningOK": {
+      "id": "button_OK",
+      "frame": "NO_FRAME"
+    },
+    "PharmacyHasBeenCalled": {
+      "path": "//button[@class='pharmacyCalledBtn' and text()='Pharmacy Has Been Called']",
+      "frame": "FRAME_CALL_PHARMACY"
+    },
+    "CloseSecondaryDxs": {
+      "path": "//span[@class='ui-icon ui-icon-closethick' and text()='close']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "CloseSettings": {
+      "path": "//span[@class='ui-icon ui-icon-closethick' and text()='close']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "MarkAsReviewedWithReasons": {
+      "path": "//button[@id='mfr_button' and descendant::span[text()='Mark As Reviewed']]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "MarkAsReviewedWithOutReasons": {
+      "path": "//button[@id='markAsReviewed_button' and descendant::span[text()='Mark As Reviewed']]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "MarkAsReviewedChargeDetail": {
+      "path": "//span[@id='button_REVIEW' and text()='Mark as Reviewed']",
+      "frame": "FRAME_CHARGEDETAIL"
+    },
+    "HoldForReviewPopup": {
+      "path": "//button[@id='hfr_button']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "EditCharge": {
+      "id": "button_EDIT",
+      "frame": "FRAME_CHARGEDETAIL"
+    },
+    "MarkAsReviewed": {
+      "id": "button_REVIEW",
+      "frame": "FRAME_CHARGEDETAIL"
+    },
+    "CopyCharge": {
+      "path": "//span[@id='button_COPY' and text()='Copy']",
+      "frame": "FRAME_CHARGEDETAIL"
+    },
+    "Edits": {
+      "path": "//span[@class='ui-button-text' and text()='Edits']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "HoldForReview": {
+      "id": "hfr_button",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "Finish": {
+      "path": "//span[@class='ui-button-text' and text()='Finish']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "AddToPatientList": {
+      "path": "//div[@class='buttonBar']/span[@pkwidget='Button' and text()='Add To Patient List']",
+      "frame": "FRAME_PATIENTDETAIL_POPUP"
+    },
+    "PatientDetailAdd": {
+      "path": "//button[@type='button']/span[text()='Add']",
+      "frame": "FRAME_ADD_PATIENTS"
+    },
+    "ReassignPatientCancel": {
+      "path": "//button/span[text()='Cancel']",
+      "frame": "FRAME_REASSIGN_PATIENTLIST"
+    },
+    "ProofreaderClose": {
+      "path": "//span[@class='ui-button-text' and text()='Close']",
+      "frame": "NO_FRAME"
+    },
+    "EditOrderCancel": {
+      "id": "CancelButton",
+      "frame": "FRAME_EDITORDER"
+    },
+    "EditOtherPharmacy": {
+      "path": "//span[@id='editOtherPharmacy' and @class='erx-sprite edit']",
+      "frame": "FRAME_DOJO_DIALOG"
+    },
+    "ValidateCharge": {
+      "id": "ValidateChargeButton",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "ClinicalNote": {
+      "id": "clinical_note_button",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "Hold": {
+      "path": "//span[@buttonid='detailhold' and text()='Hold']",
+      "frame": "FRAME_EDITORDER"
+    },
+    "Modify": {
+      "path": "//span[@buttonid='detailmodify' and text()='Modify']",
+      "frame": "FRAME_EDITORDER"
+    },
+    "DMRAddAsFreeText": {
+      "id": "AddAsFreeTextSection",
+      "frame": "FRAME_DOJO_DIALOG"
+    },
+    "orderSubmissionClose": {
+      "path": "//span[@pkwidgetid='Button_Close' and text()='Close']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "DisabledDelete": {
+      "path": "//span[@pkwidget='Button' and @title='Shared drafts cannot be deleted' and @disabled='disable']",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "CloseVisitMenu": {
+      "path": "//button[contains(@class,'visit-menu-close') and text()='Close']",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "ExamENTNormal": {
+      "id": "ExamENTNormalLink",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "Confirm": {
+      "path": "//button[contains(@class,'mdl-button') and text()='Confirm']",
+      "frame": "FRAME_DIALOG"
+    },
+    "SubmitCoSigNoteConfirm": {
+      "path": "//button[contains(@class,'mdl-button') and text()='Confirm' and ancestor::dialog[contains(@class,'cosign-dialog')]]",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "ChiefComplaintABCQTV2": {
+      "path": "//div[@class='qt-action mini-action' and ancestor::div[@id='ChiefComplaint']]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ROSRespNormal": {
+      "path": "//button[@id='ROSRespNormalLink' and text()='Normal']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ROSCVAbnormal": {
+      "path": "//button[@id='ROSCVAbormalLink' and text()='Findings']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ROSRespAbnormal": {
+      "path": "//button[@id='ROSRespAbormalLink' and text()='Findings']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ROSCONSTNormal": {
+      "path": "//button[(@id='ROSConstNormalLink' or @id='ROSConstNormal') and text()='Normal']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ROSCONSTAbnormal": {
+      "path": "//button[@id='ROSConstAbnormalLink']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ROSSkinNormal": {
+      "path": "//button[(@id='ROSSkinNormalLink' or @id='ROSSkinNormal') and text()='Normal']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ROSCVABCQTV2": {
+      "path": "//div[@class='qt-action mini-action' and ancestor::div[@id='ROSCV']]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ROSSkinABCQTV2": {
+      "path": "//i[contains(@class,'icon-add-text') and ancestor::div[@id='ROSSkin']]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ROSGINormal": {
+      "path": "//button[@id='ROSGINormalLink']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ROSSkinAbnormal": {
+      "path": "//button[@id='ROSSkinAbormalLink']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ROSEYESNormal": {
+      "path": "//button[@id='ROSEyesNormalLink']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ROSEYESAbnormal": {
+      "path": "//button[@id='ROSEyesAbnormalLink']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ROSENT/MOUTHNormal": {
+      "path": "//button[@id='ROSENTNormalLink']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ROSENT/MOUTHAbnormal": {
+      "path": "//button[@id='ROSENTAbnormalLink']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ROSRESPIRATORYNormal": {
+      "path": "//button[@id='ROSRespNormal']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ROSRESPIRATORYAbnormal": {
+      "path": "//button[@id='ROSRespAbnormal']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ROSCARDIOVASCULARNormal": {
+      "path": "//button[@id='ROSCVNormalLink']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ROSCARDIOVASCULARAbnormal": {
+      "path": "//button[@id='ROSCVAbnormalLink']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ROSGASTROINTESTINALNormal": {
+      "path": "//button[@id='ROSGINormalLink']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ROSGASTROINTESTINALAbnormal": {
+      "path": "//button[@id='ROSGIAbnormalLink']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ROSGENITOURINARYNormal": {
+      "path": "//button[@id='ROSGUNormalLink']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ROSGENITOURINARYAbnormal": {
+      "path": "//button[@id='ROSGUAbnormalLink']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ROSMUSCULOSKELETALNormal": {
+      "path": "//button[@id='ROSMSKNormalLink']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ROSMUSCULOSKELETALAbnormal": {
+      "path": "//button[@id='ROSMSKAbnormalLink']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ROSSKINNormal": {
+      "path": "//button[@id='ROSSkinNormalLink']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ROSSKINAbnormal": {
+      "path": "//button[@id='ROSSkinAbnormalLink']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ROSNEUROLOGICALNormal": {
+      "path": "//button[@id='ROSNeuroNormalLink']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ROSNEUROLOGICALAbnormal": {
+      "path": "//button[@id='ROSNeuroAbnormalLink']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ROSPSYCHIATRICNormal": {
+      "path": "//button[@id='ROSPsychNormalLink']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ROSPSYCHIATRICAbnormal": {
+      "path": "//button[@id='ROSPsychAbnormalLink']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ROSHEMATALOGIC/LYMPHORETICULARNormal": {
+      "path": "//button[@id='ROSHemaLymphNormalLink']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ROSHEMATALOGIC/LYMPHORETICULARAbnormal": {
+      "path": "//button[@id='ROSHemaLymphAbnormalLink']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ROSALLERGIC/IMMUNOLOGICNormal": {
+      "path": "//button[@id='ROSAllImmNormalLink']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ROSALLERGIC/IMMUNOLOGICAbnormal": {
+      "path": "//button[@id='ROSAllImmAbnormalLink']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ROSNEURONormal": {
+      "path": "//button[@id='ROSNeuroNormalLink'and text()='Normal']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ExamCONSTNormal": {
+      "path": "//button[@id='ExamConstNormalLink'and text()='Normal']",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "ExamEyesNormal": {
+      "path": "//button[@id='ExamEyesNormalLink'and text()='Normal']",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "ExamNoseNormal": {
+      "path": "//button[@id='ExamNoseNormalLink'and text()='Normal']",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "ExamRespNormal": {
+      "path": "//button[@id='ExamRespNormal'and text()='Normal']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ExamMUSCULOSKELETALNormal": {
+      "path": "//button[@id='ExamMSKNormalLink']",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "ExamMUSCULOSKELETALAbnormal": {
+      "path": "//button[@id='ExamMSKAbnormalLink']",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "ExamSKINNormal": {
+      "path": "//button[@id='ExamSkinNormalLink']",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "ExamSKINAbnormal": {
+      "path": "//button[@id='ExamSkinAbnormalLink']",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "ExamNEUROLOGICALNormal": {
+      "path": "//button[@id='ExamNeuroNormalLink']",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "ExamNEUROLOGICALAbnormal": {
+      "path": "//button[@id='ExamNeuroAbnormalLink']",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "ExamPSYCHIATRICNormal": {
+      "path": "//button[@id='ExamPsychNormalLink']",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "ExamPSYCHIATRICAbnormal": {
+      "path": "//button[@id='ExamPsychAbnormalLink']",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "ExamneuroNormal": {
+      "path": "//button[@id='ExamNeuroNormalLink'and text()='Normal']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ExamCVAbnormal": {
+      "path": "//button[@id='ExamCVAbnormalLink'and text()='Abnormal']",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "ExamCVABCQTV2": {
+      "path": "//i[contains(@class,'icon-add-text') and ancestor::div[@id='ExamCV']]",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "ROSSkinAbnormalABCQTV2": {
+      "path": "//div[contains(@class,'qt-action mini-action') and ancestor::div[@id='ROSSkin']]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "Change": {
+      "path": "//span[@class='plan-change-link' and contains(normalize-space(),'Change')]",
+      "frame": "FRAME_DOJO_DIALOG"
+    },
+    "ChangePlanCancel": {
+      "path": "//div[@class='md-ripple' and descendant::div[@class='md-button-content' and text()='Cancel']]",
+      "frame": "FRAME_DOJO_DIALOG"
+    },
+    "ChangePlanSave": {
+      "path": "//div[@class='md-ripple' and descendant::div[@class='md-button-content' and text()='Save']]",
+      "frame": "FRAME_DOJO_DIALOG"
+    },
+    "BulletListChartAM": {
+      "path": "//i[contains(@class, 'adv-action-ul')]",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "ManageFavoriteOK": {
+      "path": "//span[@id='button_detailok']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "ROSENTAbnormal": {
+      "path": "//button[@id='ROSENTAbormalLink'and text()='Findings']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ROSNEUROAbnormal": {
+      "path": "//button[@id='ROSNeuroAbormalLink'and text()='Findings']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ROSGUNormal": {
+      "path": "//button[@id='ROSGUNormalLink'and text()='Normal']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ROSPSYCHAbnormal": {
+      "path": "//button[@id='ROSPsychAbormalLink'and text()='Findings']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ROSCVNormal": {
+      "path": "//button[@id='ROSCVNormalLink'and text()='Normal']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ROSMSKNormal": {
+      "path": "//button[@id='ROSMSKNormalLink'and text()='Normal']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ROSHEMAAbnormal": {
+      "path": "//button[@id='ROSHemaLymphAbormalLink'and text()='Findings']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ROSALL/IMMNormal": {
+      "path": "//button[@id='ROSAllImmNormalLink'and text()='Normal']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ROSGUAbnormal": {
+      "path": "//button[@id='ROSGUAbormalLink'and text()='Findings']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "NoteWriterCancel": {
+      "path": "//span[@id='button_cancel']",
+      "frame": "NO_FRAME"
+    },
+    "ExamOtherFreeText": {
+      "path": "//button[@id='ExamOtherNormalLink' and text()='Free Text']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "QuestionYes": {
+      "path": "//span[@id='button_YES' and @title='Yes']",
+      "frame": "FRAME_CPOEMAIN"
+    },
+    "FavoritedInEditScreen": {
+      "path": "//i[@class='uxf-icon--active icon-star' and ancestor::div[@class='edit-favorite-view']]",
+      "frame": "PATIENTLIST_SEARCH_FRAME"
+    },
+    "ROSSkinFindings": {
+      "path": "//button[@id='ROSSkinAbormalLink' and text()='Findings']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ROSGeneralNormal": {
+      "path": "//button[@id='ROSGeneralNormalLink' and text()='Normal']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "CloseNoteSelection": {
+      "path": "//i[contains(@class,'nw-header-cancel-note') and ancestor::div[@class='nw-header-layout']]",
+      "frame": "FRAME_ADDNOTE_NOTEWRITER"
+    },
+    "PDMPNext": {
+      "path": "//button[@id='prescriptionReviewButton' and text()='Next']",
+      "frame": "FRAME_ENTER_OTHER_CHOICE_TEXT"
+    },
+    "PDMPReconcileAndSubmit": {
+      "path": "//button[@id='reconcileAndSubmitButton' and text()='Reconcile and Submit']",
+      "frame": "FRAME_ENTER_OTHER_CHOICE_TEXT"
+    },
+    "Cancel2FA": {
+      "id": "SignCS2FAEnterCodeCancelButton",
+      "frame": "FRAME_ENTER_OTHER_CHOICE_TEXT"
+    },
+    "Ok2FA": {
+      "id": "SignCS2FAEnterCodeOKButton",
+      "frame": "FRAME_ENTER_OTHER_CHOICE_TEXT"
+    },
+    "CreatePatientListFavorite": {
+      "path": "//i[@class='uxf-icon--active icon-star']",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "BackToDMR": {
+      "path": "//button[@id='backButton' and text()='Back to DMR']",
+      "frame": "FRAME_ENTER_OTHER_CHOICE_TEXT"
+    },
+    "EPCSDownloadReport": {
+      "id": "epcsDownloadRequestButton",
+      "frame": "FRAME_EPCSREPORT_9X"
+    },
+    "EPCSDownload": {
+      "path": "//button[@id='submitBtn' and ancestor::div[@id='epcsDownloadDlgId']]",
+      "frame": "FRAME_EPCSREPORT_9X"
+    },
+    "EPCSCancel": {
+      "path": "//button[@id='cancelBtn' and ancestor::div[@id='epcsDownloadDlgId']]",
+      "frame": "FRAME_EPCSREPORT_9X"
+    }
+  },
+  "PANES": {
+    "APNoteTab": {
+      "path": "//div[@id='AP']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "HistoryNoteTab": {
+      "path": "//div[@id='Subjective']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "InsertPrevious": {
+      "path": "//div[@id='SingleFieldControls']",
+      "frame": "FRAME_NWPOPOUTINSERTPREV"
+    },
+    "NewNote": {
+      "path": "//div[contains(@class,'mdl-layout__container nw-container')]",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "PopoutForm": {
+      "path": "//form[@id='NoteEditForm']",
+      "frame": "FRAME_NWPOPOUTDETAIL"
+    },
+    "NoteDetails": {
+      "path": "//table[@id='cedTable']",
+      "frame": "FRAME_NOTEDETAIL"
+    },
+    "ClinicalNotePopOut": {
+      "path": "//div[@class='flex-column height100']",
+      "frame": "FRAME_NWPOPOUT"
+    },
+    "ClinicalNote": {
+      "path": "//div[@class='flex-column height100']",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "Photos": {
+      "path": "//html",
+      "frame": "FRAME_PHOTO_LIST"
+    },
+    "AddPhoto": {
+      "path": "//td[@class='WEBActivityPaneTable']/table[@id='MAINPANETABLE']",
+      "frame": "FRAME_PHOTO_ADD"
+    },
+    "NoPhotoMessage": {
+      "path": "//div[@id='pageContent']",
+      "frame": "FRAME_PHOTO_LIST"
+    },
+    "NoPhotoMessage_POP_UP": {
+      "path": "//div[@id='pageContent']",
+      "frame": "FRAME_PHOTO_POP_UP"
+    },
+    "DeletePatientList": {
+      "path": "//div[div[span[text()='Delete patient list']]]",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "PatientVisit": {
+      "path": "//div[@class='patient-list-visits-list-view']",
+      "frame": "PATIENTLIST_VISITS_FRAME",
+      "type": "PatientListFullName"
+    },
+    "ChooseTemplate": {
+      "path": "//div[div[div[@class='patient-list-defaultpatlist-view']]]",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "ListWereCreatedForUserComplete": {
+      "path": "//div[@class ='progress-label' and text() = 'Complete!']",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "CreatePatientLists": {
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "Relationships": {
+      "path": "//div[contains(@id,'REL_TO_ME')]",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "InsuranceCompany": {
+      "path": "//div[contains(@class,'INSURANCE_COMPANY')]",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "FilterCriteria": {
+      "path": "//legend[text()='Filter Criteria']",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "CreatePatientListUsers": {
+      "path": "//div[@class='errors hidden' and text()='Please fix the following errors:']",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "AdditionalUsers": {
+      "path": "//div[@id='patientListCreateTabUsersview2']",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "AdditionalSocialHistoryInfo": {
+      "path": "//div[@role='textbox' and @testid='it_AdditionalSocialHistory']|//textarea[contains(@id, 'AdditionalSocialHistory')]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "DiagnosesFSHQTV2": {
+      "path": "//div[@role='textbox' and @testid='it_FamilySocialDiagnosesInput']|//textarea[contains(@id, 'FamilySocialDiagnosesInput')]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "AddPatientsToYourPatientList": {
+      "path": "//table[@id='mainTable']",
+      "frame": "FRAME_POPUP"
+    },
+    "TimeCriteria": {
+      "path": "//div[@class='patient-list-time-criteria PKTimeBasedCriteria']",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "MedicalService": {
+      "path": "//div[contains(@id,'MEDICAL_SERVICE')]",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "PatientListPreviewTab": {
+      "path": "//div[@id='patientListPreviewTabs']",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "PreviewTab": {
+      "path": "//tr[descendant::span[@class='PAT_FULLNAME' and text()='patientName']]",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "AssignmentSubList": {
+      "path": "//div[contains(@id,'createPatientAssignmentSubListsview')]",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "locations": {
+      "path": "//div[@class='custom-sort-list']",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "ComparePatientToList": {
+      "path": "//div[div[span[text()='Compare patient to list']]]",
+      "frame": "PATIENTLIST_DEBUG_FRAME"
+    },
+    "Location": {
+      "path": "//div[contains(@id,'LOCATION')]",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "Permissions": {
+      "path": "//div[contains(@id,'patientListCreateTabPermsview')]",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "Summary": {
+      "path": "//div[contains(@id,'patientListCreateSummaryDetailsview')]",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "PatientListRevertSettings": {
+      "path": "//span[@class ='ui-dialog-title' and text() = 'Revert to System Default patient list settings']",
+      "frame": "FRAME_PATIENTLIST_REVERT_FRAME"
+    },
+    "PatientListRevertComplete": {
+      "path": "//div[@class ='progress-label' and text() = 'Complete!']",
+      "frame": "FRAME_PATIENTLIST_REVERT_FRAME"
+    },
+    "SelectedOptionsOnDisplay": {
+      "path": "//span[@class='layout-builder-icon remove-field' and ancestor::div[@class='table-wrapper']]",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "InfacilityWarning": {
+      "path": "//div[@class='warning-message' and ancestor::div[@class='infacility-warning']]",
+      "frame": "PATIENTLIST_DEBUG_FRAME"
+    },
+    "ReassignPatient": {
+      "path": "//div[@class='ui-dialog ui-widget ui-widget-content ui-corner-all ui-draggable']",
+      "frame": "FRAME_REASSIGN_PATIENTLIST"
+    },
+    "EditFavorite": {
+      "path": "//div[@class= 'edit-favorite-view']",
+      "frame": "PATIENTLIST_SEARCH_FRAME"
+    },
+    "PatientList": {
+      "frame": "PATIENTLIST_VISITS_FRAME"
+    },
+    "EditPatientLists": {
+      "path": "//div[@id='patientListCreateTabs']|//span[@id='ui-dialog-title-1']",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "PatientListCriteria": {
+      "path": "//span[@id='ui-dialog-title-1' and text()='Patient List Criteria']",
+      "frame": "FRAME_PATIENTLIST_DETAILS"
+    },
+    "FamilySocialHistory": {
+      "path": "//div[@data-step-id='FSHistory']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "FamilySocialHistoryDiagnoses": {
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ClickToInsertV2": {
+      "path": "//div[@class='quicktext-header' and starts-with(text(), 'Click To Insert')]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ROSHistory": {
+      "path": "//div[@id='ROSLinkTable']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ROSSkinAbnormalQTV2": {
+      "path": "//div[@id='ROSSkin']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ExamHistory": {
+      "path": "//div[@id='Exam']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "DiagnosticsHistory": {
+      "path": "//div[@id='Diagnostics']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "SearchDetails": {
+      "path": "//div[@id='CONTENTDIV']",
+      "frame": "FRAME_TESTDETAIL_POPUP"
+    },
+    "TestSelectionNwQtv2": {
+      "path": "//div[@id='SelectedText']",
+      "frame": "FRAME_TESTSELECTION_POPUP"
+    },
+    "PatientListPreview": {
+      "path": "//div[following-sibling::div/div[@class='patient-list-visits-list-view']]",
+      "frame": "PATIENTLIST_SEARCH_FRAME"
+    },
+    "PatientListPreviewList": {
+      "path": "//div[@class='patient-list-visits-list-view']",
+      "frame": "PATIENTLIST_SEARCH_FRAME",
+      "type": "PatientListFullName"
+    },
+    "Warning": {
+      "path": "//div[@class='warning-message']",
+      "frame": "PATIENTLIST_DEBUG_FRAME"
+    },
+    "HospitalCourse": {
+      "path": "//div[@id='HospitalCourse']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ClinicalNoteHospitalCourse": {
+      "path": "//div[@id='ContentClinicalNotes']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "DischargeMedications": {
+      "path": "//div[@id='Medications']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "DisplayOptionsExist": {
+      "path": "iframe[@id='contentIFRAME' and contains(@style,'226')]",
+      "frame": "FRAME_POPUP"
+    },
+    "PatientNarrativeQTV2": {
+      "path": "//div[@role='textbox' and @testid='it_PatientNarrative']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "PatientNarrativeQuickText": {
+      "path": "//div[@id='PTHistory'",
+      "frame": "FRAME_NWQUICKTEXT"
+    },
+    "Billing": {
+      "path": "//div[@id='Billing']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ChargeCodeValidation": {
+      "path": "//div[@id='ChargeCodeValidationTable']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "AddCharge": {
+      "frame": "FRAME_NOTEWRITER_CHARGE_CAPTURE"
+    },
+    "AddChargeDetails": {
+      "path": "//table[@id='mainTable']",
+      "frame": "FRAME_POPUP"
+    },
+    "Data": {
+      "path": "//div[@id='Data' and @navtext='Data']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "AddQuickText": {
+      "path": "//div[@id='titleBar' and starts-with(text(), 'Add Quick Text')]",
+      "frame": "FRAME_POPUP"
+    },
+    "AddQuickTextContent": {
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "AddQuickTextV2left": {
+      "path": "//div[@class='leftcolContentWrapper']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "DeleteQuickTextGroup": {
+      "path": "//div[@class='ui-dialog ui-widget ui-widget-content ui-corner-all hideX deleteGroupsDialog ui-draggable']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "AddQuickTextV2Right": {
+      "path": "//div[@class='quicktextForm-wrapper']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "NoteWriterContentDiv": {
+      "id": "mainDiv",
+      "path": "//div[@id='mainDiv']",
+      "frame": "FRAME_NOTEDETAIL"
+    },
+    "QTV2Description": {
+      "path": "//div[@role='textbox' and @testid='it_DisplayText']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "WarningList": {
+      "path": "//td[@id='dialogTable' and text()='Warning']",
+      "frame": "NO_FRAME"
+    },
+    "WarningQT": {
+      "path": "//td[@id='dialogTitle' and text()='Warning']",
+      "frame": "NO_FRAME"
+    },
+    "EditQuickTextContent": {
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "EditQuickText": {
+      "path": "//table[@id='mainTable']",
+      "frame": "FRAME_POPUP"
+    },
+    "TestResultList": {
+      "path": "//td[@id='HEADER_TEXTTD' and text()='Test Results']",
+      "frame": "FRAME_TESTLIST_POPUP"
+    },
+    "LabList": {
+      "frame": "FRAME_LABLIST_POPUP"
+    },
+    "MedicationList": {
+      "path": "//td[@id='HEADER_TEXTTD' and text()='Medication Orders']",
+      "frame": "FRAME_MEDICATIONLIST_POPUP"
+    },
+    "ClinicalNoteList": {
+      "path": "//td[@id='HEADER_TEXTTD' and text()='Clinical Notes']",
+      "frame": "FRAME_NOTELIST_POPUP"
+    },
+    "VitalList": {
+      "frame": "FRAME_VITALLIST_POPUP"
+    },
+    "clinicalDataNoteContent": {
+      "path": "//div[starts-with(@id, 'AccordionContentClinicalNotes')]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "Error": {
+      "path": "//td[@id='dialogTitle' and text()='Error']",
+      "frame": "FRAME_DIALOG"
+    },
+    "Alias": {
+      "id": "favoriteAlias",
+      "path": "input[@id= 'favoriteAlias']",
+      "frame": "PATIENTLIST_SEARCH_FRAME"
+    },
+    "NoteWriterHistoryDXSearch": {
+      "frame": "FRAME_NOTEWRITER_HISTORYDXSEARCH"
+    },
+    "NoteWriterPopoutHistoryDXSearch": {
+      "frame": "FRAME_NOTEWRITERPOPOUT_HISTORYDXSEARCH"
+    },
+    "NoteWriterAPDXSearchQTV2": {
+      "frame": "FRAME_NOTEWRITER_APDXSEARCHQTV2"
+    },
+    "NoteWriterAPDXSearch": {
+      "frame": "FRAME_NOTEWRITER_APDXSEARCH"
+    },
+    "AllergyDetail": {
+      "path": "//td[@id='HEADER_TEXTTD']",
+      "frame": "FRAME_ALLERGYDETAIL"
+    },
+    "PanelTable": {
+      "path": "//td[@id='HEADER_TEXTTD' and text()='Panel Table']",
+      "frame": "FRAME_PANELTABLE"
+    },
+    "PanelDetail": {
+      "path": "//td[@id='HEADER_TEXTTD']",
+      "frame": "FRAME_PANELDETAIL"
+    },
+    "OverviewChargeDetail": {
+      "path": "//div[@id='paneDiv']",
+      "frame": "FRAME_OVERVIEW_CHARGEDETAIL"
+    },
+    "OverviewClinicalNotes": {
+      "path": "//td[@id='HEADER_TEXTTD' and text()='Clinical Notes']",
+      "frame": "FRAME_OVERVIEW_NOTES"
+    },
+    "SignSubmitNote": {
+      "path": "//div[child::div[@id='promptDIV']]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "Sign-Out": {
+      "path": "//td[@id='HEADER_TEXTTD' and text()='Sign-Out']",
+      "frame": "FRAME_SIGNOUT"
+    },
+    "ClinicalRoundingReport": {
+      "path": "//div[@id='titleBar' and text()='Clinical Rounding Report']",
+      "frame": "FRAME_REPORT_POPUP"
+    },
+    "Forms": {
+      "path": "//td[@id='HEADER_TEXTTD' and text()='Forms']",
+      "frame": "FRAME_FORMS"
+    },
+    "Filters": {
+      "path": "//div[@class='filter-input']",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "CheckAll": {
+      "path": "//a[@class ='check-all-sections' and ancestor::div[@class='ui-dialog ui-widget ui-widget-content ui-corner-all ui-draggable']]",
+      "frame": "FRAME_PATIENTLIST_REVERT_FRAME"
+    },
+    "Prescription": {
+      "path": "//div[@id='ButtonsSection']",
+      "frame": "FRAME_DOJO_DIALOG"
+    },
+    "PreferredAlternates": {
+      "path": "//div[@id='preferredAlternatesTable']",
+      "frame": "FRAME_DOJO_DIALOG"
+    },
+    "DefaultPharmacy": {
+      "path": "//div[@id='defaultPharmacyView']",
+      "frame": "FRAME_DOJO_DIALOG"
+    },
+    "OtherPharmacy": {
+      "path": "//div[@id='otherPharmacyView']",
+      "frame": "FRAME_DOJO_DIALOG"
+    },
+    "SelectOtherPharmacy": {
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "SelectDefaultPharmacy": {
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "EditOrder": {
+      "path": "//div[@id='detailsDlg']",
+      "frame": "FRAME_EDITORDER"
+    },
+    "EditOrderInEnterOrder": {
+      "path": "//div[@id='OrderDetailSection']",
+      "frame": "FRAME_EDITORDER"
+    },
+    "EditOrderErx": {
+      "frame": "FRAME_DOJO_DIALOG"
+    },
+    "ReviewPrescriptions": {
+      "path": "//table[@id='mainTable']",
+      "frame": "FRAME_POPUP"
+    },
+    "ReviewPrescriptionsContents": {
+      "path": "//div[@id='content' and descendant::div[@class='prescription-table']]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "FollowUp": {
+      "path": "//div[@id='FollowUp']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "SelectedMedication": {
+      "path": "//div[@id='preferredAlternatesTableDiv']",
+      "frame": "FRAME_DOJO_DIALOG"
+    },
+    "NotationQTV2": {
+      "path": "//div[@role='textbox' and @testid='it_NotationField']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "UpdateNote": {
+      "path": "//div[@role='textbox' and @testid='it_AuthorCommentsNotation']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "AdmittingDiagnoses": {
+      "path": "//div[@id='HistoryProblemTarget']",
+      "frame": "FRAME_NOTE_WIZARD"
+    },
+    "DischargeDiagnoses": {
+      "path": "//div[@id='DischargeProblemTarget']",
+      "frame": "FRAME_NOTE_WIZARD"
+    },
+    "DataToInsertFromPreviousNotes": {
+      "path": "//div[@id='ContentDIV' and preceding-sibling::div[@id='HeaderSection' and descendant::*[text()='Data to Insert from Previous Notes']]]",
+      "frame": "FRAME_NOTEWRITER_INSERT_PREVIOUS"
+    },
+    "HistoryPhysicalContents": {
+      "path": "ancestor::td[@id='HEADER_TEXTTD' and text()='History and Physical']",
+      "frame": "FRAME_NOTEWRITER_DETAIL"
+    },
+    "ProgressNoteContents": {
+      "path": "ancestor::td[@id='HEADER_TEXTTD' and text()='Progress Note']",
+      "frame": "FRAME_NOTEWRITER_DETAIL"
+    },
+    "HistoryAndPhysical": {
+      "path": "//table[@id='MAINPANETABLE']",
+      "frame": "FRAME_NOTEWRITER_DETAIL"
+    },
+    "ProgressNote": {
+      "path": "//table[@id='MAINPANETABLE']//td[@id='HEADER_TEXTTD' and text()='Progress Note']",
+      "frame": "FRAME_NOTEWRITER_DETAIL"
+    },
+    "HCAProgressNote": {
+      "path": "//table[@id='MAINPANETABLE']//td[@id='HEADER_TEXTTD' and text()='HCA Progress Note']",
+      "frame": "FRAME_NOTEWRITER_DETAIL"
+    },
+    "WarningMessage": {
+      "path": "//div[@id='movableDialog']",
+      "frame": "NO_FRAME"
+    },
+    "ProblemTarget": {
+      "path": "//div[@id='ProblemTarget']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ActionRequiredCallPharmacy": {
+      "path": "//div[@class='window-title' and text()='Action Required']",
+      "frame": "FRAME_CALL_PHARMACY_POPUP"
+    },
+    "ActionRequiredCallPharmacyContents": {
+      "path": "//div[@class='instructionsToPhysicianView']",
+      "frame": "FRAME_CALL_PHARMACY"
+    },
+    "PastMedicalHistory": {
+      "path": "//div[@id='HistoryProblemContainer']",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "PastSurgicalHistory": {
+      "path": "//div[@id='SurgicalProblemContainer']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "Calendar": {
+      "path": "//table[@id='calendarTable']",
+      "frame": "FRAME_CALENDAR"
+    },
+    "OptionsMenu": {
+      "path": "//div[@class='options-menu-overlay ui-corner-all']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "Settings": {
+      "path": "//div[@id='settings_popover']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "ClinicalNoteDetails": {
+      "frame": "FRAME_TESTDETAIL_POPUP"
+    },
+    "LabDetails": {
+      "frame": "FRAME_LABRESULTS_PANEL"
+    },
+    "SearchForPatientLists": {
+      "path": "//div[@class='ui-dialog ui-widget ui-widget-content ui-corner-all ui-draggable']",
+      "frame": "PATIENTLIST_SEARCH_FRAME"
+    },
+    "HoldForReviewReasons": {
+      "id": "hfrReasonsPopupContainer",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "LabResultsLoading": {
+      "path": "//div[@id='LOADINGDIV']",
+      "frame": "FRAME_LABLIST"
+    },
+    "HeldForReviewEditsReasons": {
+      "path": "//div[@class='status-bar-messages status-bar-transparent ui-widget-content']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "ChargeDetails": {
+      "path": "//div[@class='ui-layout-west ui-layout-pane ui-layout-pane-west'']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "ChargeDetail": {
+      "path": "//table[@id='MAINPANETABLE']",
+      "frame": "FRAME_OVERVIEW_CHARGEDETAIL"
+    },
+    "ChargesSearch": {
+      "path": "//div[@id='charges_split_pane']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "AddMultiDateCharge": {
+      "path": "//ul[@id='service_date_type_picker']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "NoteVisitInfo": {
+      "path": "//div[@id='VisitInfoCell']",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "NoteWriterForm": {
+      "path": "//form[@id='NoteEditForm']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "StepDown": {
+      "path": "//div[@class='post_coordination_workflow ui-helper-hidden' and contains(@style,'display')]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "EditMedicationDetails": {
+      "path": "//div[@id='EditDetailSection']",
+      "frame": "FRAME_DOJO_DIALOG"
+    },
+    "MiscellaneousFields": {
+      "path": "//div[@id='MiscellaneousFields']",
+      "frame": "FRAME_NOTE_WIZARD"
+    },
+    "LookUptable": {
+      "path": "//div[@id='lookupTable']",
+      "frame": "FRAME_PROVIDERLOOKUP"
+    },
+    "PatientNarrative": {
+      "path": "//div[@id='PatientNarrative']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "MiscellaneousAdmissionDate": {
+      "path": "//*[@id='AdmissionDate']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "Subjective": {
+      "path": "//div[@id='ROS' and @navtext='Subjective']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "Objective": {
+      "path": "//div[@id='Exam' and @navtext='Objective']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "DiagnosisHistory": {
+      "path": "//div[@id='Subjective' and @navtext='Diagnosis Picker - History']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "DiagnosisA/P": {
+      "path": "//div[@id='AP' and @navtext='Diagnosis Picker - A/P']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "Attestation": {
+      "path": "//div[@id='Attestation' and @navtext='Attestation']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "AllergiesContent": {
+      "path": "//div[contains(@id,'AccordionContentAllergies') and @style='display: block;']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ClinicalNotesContent": {
+      "path": "//div[contains(@id,'AccordionContentClinicalNotes') and @style='display: block;']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "IOContent": {
+      "path": "//div[contains(@id,'AccordionContentIOs') and @style='display: block;']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "LabResultsContent": {
+      "path": "//div[contains(@id,'AccordionContentLabs') and @style='display: block;']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "MedicationsContent": {
+      "path": "//div[contains(@id,'AccordionContentMedications') and @style='display: block;']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "TestResultsContent": {
+      "path": "//div[contains(@id,'AccordionContentTests') and @style='display: block;']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "VitalsContent": {
+      "path": "//div[contains(@id,'AccordionContentVitals') and @style='display: block;']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ClinicalNoteBody": {
+      "path": "//div[@id='note-body']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "Proofread": {
+      "path": "//div[@id='proofread-dialog']",
+      "frame": "NO_FRAME"
+    },
+    "NoteEditInstance": {
+      "path": "//div[@id='WIZARDFRAMES']",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "OrderSubmissionRecords": {
+      "path": "//table[@id='mainTable' and descendant::div[contains(text(),'Order Submission Records')]]",
+      "frame": "FRAME_POPUP"
+    },
+    "FreeTextOrder": {
+      "path": "//div[@id='FreeTextOrderTypeSelection']",
+      "frame": "FRAME_DOJO_DIALOG"
+    },
+    "PatientSummary": {
+      "frame": "FRAME_NEW_RESULTS"
+    },
+    "PatientClinicalData": {
+      "frame": "FRAME_POPUP"
+    },
+    "ErrorDialog": {
+      "path": "//td[@id='msgTD' and ancestor::table[@id='dialogTable']]",
+      "frame": "NO_FRAME"
+    },
+    "NWQuestionDialog": {
+      "path": "//dialog[@class='mdl-dialog yes-no-dialog']",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "CurrentAllergy": {
+      "path": "//div[contains(@class,'CurrentAllergyView')]",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "DiagnosisSearch": {
+      "path": "//div[@class='problem-picker Icd10DxContainerClass nw-dx-mini-mode']",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "NoteWriterWizard": {
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "ClickToInsert": {
+      "path": "//div[@class='quicktext-header' and child::span[starts-with(text(), 'Click To Insert')]]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ClickToInsertPatientNarrative": {
+      "path": "//div[contains(@id, 'PatientNarrative') and @class='QuickTextSelector']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "MedicationsView": {
+      "path": "//div[@class='cd-list-row-wrapper' and ancestor::div[contains(@class,'MedicationsView')]]",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "AllergiesView": {
+      "path": "//div[contains(@class,'cd-list-row-wrapper') and ancestor::div[contains(@class,'AllergiesView')]]",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "ClinicalNotesView": {
+      "path": "//div[contains(@class,'cd-list-row-wrapper') and ancestor::div[contains(@class,'ClinicalNotesView')]]",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "TestResultsView": {
+      "path": "//div[contains(@class,'cd-list-row-wrapper') and ancestor::div[contains(@class,'TestResultsView')]]",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "OrdersView": {
+      "path": "//div[contains(@class,'cd-list-row-wrapper') and ancestor::div[contains(@class,'OrdersView')]]",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "LabsView": {
+      "path": "//div[contains(@class,'cd-list-row-wrapper') and ancestor::div[contains(@class,'LabsView')]]",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "NewEditOrder": {
+      "path": "//div[@id='detailsDlg']",
+      "frame": "FRAME_ORDER_EDITORDER"
+    },
+    "WriteANote": {
+      "path": "//div[contains(@class,'note-type-accordion')]",
+      "frame": "FRAME_ADDNOTE_NOTEWRITER"
+    },
+    "PopoutWizard": {
+      "frame": "FRAME_WIZARD"
+    },
+    "PopoutNoteWizard": {
+      "path": "//div[@id='WizardSection']",
+      "frame": "FRAME_NOTE_WIZARD"
+    },
+    "PopOutHistoryDxSearch": {
+      "frame": "FRAME_NOTE_WIZARD_HISTORY_Dx_SEARCH"
+    },
+    "PopOutAPDxSearch": {
+      "frame": "FRAME_NOTE_WIZARD_AP_Dx_SEARCH"
+    },
+    "PopOutInsertPrevious": {
+      "path": "//div[@id='ControlSections' and descendant::td[text()='Data to Insert from Previous Notes']]",
+      "frame": "FRAME_NOTE_WIZARD_INSERTPREVIOUS"
+    },
+    "ReviewPDMP": {
+      "path": "//div[@class='reviewPresContainer']",
+      "frame": "FRAME_ENTER_OTHER_CHOICE_TEXT"
+    },
+    "SignControlledSubstance2FA": {
+      "path": "//dialog[@id='SignCS2FAEnterCodeDialog']",
+      "frame": "FRAME_ENTER_OTHER_CHOICE_TEXT"
+    },
+    "EPCSPrescriberReport": {
+      "frame": "FRAME_EPCSREPORT_9X"
+    }
+  },
+  "PKMENUS": {
+    "PatientList": {
+      "path": "//span[@id='PATIENTLISTButton']",
+      "id": "PATIENTLIST",
+      "frame": "FRAME_LIST"
+    },
+    "CreateVisit": {
+      "path": "//span[@title='Add Visit']",
+      "id": "manageMenu",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "FilterDropDown": {
+      "path": "//span[@id='MarkViewedButton']",
+      "id": "MarkViewed",
+      "frame": "FRAME_NEW_RESULTS"
+    },
+    "EditPatientLists": {
+      "path": "//div[@id='patientListCreateTabs']",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    }
+  },
+  "TEXT_FIELDS": {
+    "DosesTextbox": {
+      "barexpath": "//input[@type='text' and preceding-sibling::label[text()='Doses']]",
+      "frame": "FRAME_EDITORDER"
+    },
+    "TextToInsert": {
+      "path": "//textarea[@id='DisplayText']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "PatientNarrativeSubjective": {
+      "name": "PTHistory",
+      "frame": "FRAME_NWPOPOUTDETAIL"
+    },
+    "AddendumComments": {
+      "id": "AddendumField",
+      "frame": "FRAME_NWPOPOUTDETAIL"
+    },
+    "Filter": {
+      "id": "hPickerSearchInput",
+      "frame": "FRAME_NWPOPOUT"
+    },
+    "SelectaNoteTypeFilter": {
+      "path": "//input[@id='hPickerSearchInput']",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "PhotoDescription": {
+      "id": "description",
+      "frame": "FRAME_PHOTO_ADD"
+    },
+    "Name": {
+      "path": "contains(@id,'createPatientListName')",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "Description": {
+      "id": "createPatientListDescriptionview4",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "CreateForAdditionalUsersSearch": {
+      "barexpath": "//div[@class='lookup-inputs']//input[@type='search']",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "PatientListSearch": {
+      "path": "contains(@id,'_SearchCriteria_Input')",
+      "frame": "PATIENTLIST_SEARCH_FRAME"
+    },
+    "InsuranceFilterSearch": {
+      "barexpath": "//input[@placeholder='Enter keywords']",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "FilterSearch": {
+      "barexpath": "//input[@placeholder='Enter keywords' and @type='search']",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "SublistName": {
+      "path": "//input[starts-with(@name,'name_')]",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "PatientListFilterSearch": {
+      "path": "ancestor::div[contains(@class,'ui-multiselect-menu ui-widget ui-widget-content ui-corner-all PKMultiSelectFindMore PKMultiSelectFindMore_')]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "AdmitDateTime-Date": {
+      "id": "ArriveDate_date",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "AdmitDateTime-Time": {
+      "id": "ArriveDate_time",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "ViewSearch": {
+      "path": "parent::div[@class='lookup-wrapper pk-hidden' and ancestor::div[@class='sharing-perm-view permission']]",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "ManageSearch": {
+      "path": "parent::div[@class='lookup-wrapper pk-hidden' and ancestor::div[@class='sharing-perm-manage permission']]",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "AdmitDateTime-Date1": {
+      "id": "ArriveDate_date",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "AdmitDateTime-Time1": {
+      "id": "ArriveDate_time",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "RevertDisplayList": {
+      "path": "contains(@id,'_SearchCriteria_Input')",
+      "frame": "FRAME_PATIENTLIST_REVERT_FRAME"
+    },
+    "DischargeDateTime-Date1": {
+      "id": "DischargeDate_date",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "DischargeDateTime-Time1": {
+      "id": "DischargeDate_time",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "NoteDate": {
+      "id": "NoteDate_date",
+      "frame": "FRAME_NWPOPOUT"
+    },
+    "NoteTime": {
+      "id": "NoteDate_time",
+      "frame": "FRAME_NWPOPOUT"
+    },
+    "Users": {
+      "id": "usersLookup",
+      "frame": "PATIENTLIST_SEARCH_FRAME"
+    },
+    "Alias": {
+      "id": "favoriteAlias",
+      "frame": "PATIENTLIST_SEARCH_FRAME"
+    },
+    "PacksPerDay": {
+      "name": "TobaccoUsePackInput",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "PacksPerDayInput": {
+      "path": "//input[@id='TobaccoUsePackInput']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "NoofYears": {
+      "name": "TobaccoUseYears",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "NoOfYearsInput": {
+      "path": "//input[@id='TobaccoUseYearInput']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "TobaccoUseComments": {
+      "id": "it_TobaccoUseComments",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "TobaccoUseInput": {
+      "path": "//input[@id='TobaccoUseCommentsInput']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "AlcoholUseComment": {
+      "id": "it_AlcoholUseComments",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "AlcoholUseInput": {
+      "path": "//input[@id='AlcoholUseComment']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "DrugUseComment": {
+      "id": "it_DrugUseComments",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "DrugUseInput": {
+      "path": "//input[@id='DrugUseInput']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "LivingSituation": {
+      "id": "it_LivingSituation",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "LivingSituationInput": {
+      "path": "//input[@id='LivingSituation']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "AdditionalSocialHistoryInfo": {
+      "barexpath": "//div[@testid='it_AdditionalSocialHistory']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "HealthCareProxy": {
+      "id": "HealthcareProxy",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "HealthCareProxyInput": {
+      "path": "//input[@id='HealthcareProxy']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "HistoryDiagnosisSearch": {
+      "id": "nw_diagnosis_search_0",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "PNDiagnosisSearch": {
+      "id": "nw_diagnosis_search_0",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "FSDiagnosisSearch": {
+      "id": "nw_diagnosis_search_1",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "APDiagnosisSearch": {
+      "id": "nw_diagnosis_search_2",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "DiagnosisSearchInput": {
+      "barexpath": "//input[@id='diagnosis_search']",
+      "frame": "FRAME_NOTEWRITER_HISTORYDXSEARCH"
+    },
+    "DiagnosesFSHQTV2": {
+      "path": "//div[@role='textbox' and @testid='it_FamilySocialDiagnosesInput']|//textarea[contains(@id, 'FamilySocialDiagnosesInput')]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "DiagnosesFamilyHistory": {
+      "path": "//textarea[@externalid='FamilyHx']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "VitalTemp": {
+      "id": "VitalValue",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "NoteSearchTextQTV2": {
+      "id": "searchTextInput",
+      "frame": "FRAME_TESTDETAIL_POPUP"
+    },
+    "AccountNumber": {
+      "id": "AccountNumber",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "VisitTypeFilterSearch": {
+      "barexpath": "//input[@placeholder='Enter keywords' and ancestor::div[contains(@class,'VISIT_TYPE')]]",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "DischargeConditionQTV2": {
+      "barexpath": "//div[@role='textbox' and @testid='it_DischargeConditionTextArea']",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "RecommendationsDischargeInstructionsQTV2": {
+      "barexpath": "//div[@role='textbox' and @testid='it_RecommendAndInstrTextArea']",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "PhysiciansLookup": {
+      "barexpath": "//input[contains(@id,'Providerview')]",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "PhysicianFax": {
+      "barexpath": "//input[contains(@id,'fax-numberview')]",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "HospitalCourseQTV2": {
+      "path": "//div[@role='textbox' and @testid='it_HospitalCourseTextArea']",
+      "frame": "FRAME_NOTE_WIZARD"
+    },
+    "AllergyDischargeTextbox": {
+      "path": "//textarea[@id='Annotation']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "PatientNarrative": {
+      "barexpath": "//div[@role='textbox' and @testid='it_PTHistory']",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "HCAPatientNarrative": {
+      "barexpath": "//div[@role='textbox' and @testid='it_PatientNarrative']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "PastMedicalHistory": {
+      "barexpath": "//div[contains(@testid, 'it_PastMedHistory')]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "PastSurgicalHistory": {
+      "barexpath": "//div[contains(@testid, 'it_PastSurgHistory')]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "PatientNarrativeQTV2": {
+      "barexpath": "//div[@role='textbox' and @testid='it_PatientNarrative']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "DischargeMedsDetailsQTV2": {
+      "path": "//textarea[@id='OtherDischargeMeds']|//div[@role='textbox' and @testid='it_OtherDischargeMeds']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "DischargeInstructionsDetailsQTV2": {
+      "path": "//textarea[@id='DischargeInstructions']|//div[@role='textbox' and @testid='it_DischargeInstructions']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "DischargeEmergencyInstructionsQTV2": {
+      "path": "//textarea[@id='EmergencyInstructions']|//div[@role='textbox' and @testid='it_EmergencyInstructions']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "DischargeInstructionsAdditionalDetailsQTV2": {
+      "path": "//textarea[@id='Dischargecomments']|//div[@role='textbox' and @testid='it_Dischargecomments']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "DischargeInsAttestationDetailsQTV2": {
+      "path": "//textarea[@id='Dischargecomments']|//div[@role='textbox' and @testid='it_AttestationDetail']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ProgressSubjectiveHPIQTV2": {
+      "path": "//textarea[@id='HPI_P']|//div[@role='textbox' and @testid='it_HPI_P']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ProgressSubjectiveNarrativeQTV2": {
+      "path": "//textarea[@id='PatientNarrative']|//div[@role='textbox' and @testid='it_PatientNarrative']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ProgressObjectiveAdditionalVSQTV2": {
+      "id": "additionalVS",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ProgressDataAdditionalCommentsQTV2": {
+      "path": "//textarea[@id='DataAdditionalCmt_PR']|//div[@role='textbox' and @testid='it_DataAdditionalCmt_PR']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ProgressAPHospitalCourseQTV2": {
+      "path": "//textarea[@id='APHospCrse']|//div[@role='textbox' and @testid='it_APHospCrse']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ProgressAPGeneralAssessmentQTV2": {
+      "path": "//textarea[@id='APGeneralAssmnt']|//div[@role='textbox' and @testid='it_APGeneralAssmnt']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ProgressAPAdditionalCommentsQTV2": {
+      "path": "//textarea[@id='APAdditionalComments']|//div[@role='textbox' and @testid='it_APAdditionalComments']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ProgressAttestationAdditionalDeatilQTV2": {
+      "path": "//textarea[@id='AttestationDetail']|//div[@role='textbox' and @testid='it_AttestationDetail']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ROSCardiovascularAbnormalQTV2": {
+      "path": "//div[@role='textbox' and @testid='it_ROSCV']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ROSkinQTV2": {
+      "path": "//div[@role='textbox' and @testid='it_ROSSkin']",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "RRQTV2": {
+      "path": "//input[@id='VitalValue' and ancestor::div[@id='VitalLabelDiv' and descendant::font[@id='AbbrevName' and contains(text(), 'RR')]]]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "HRQTV2": {
+      "path": "//input[@id='VitalValue' and preceding-sibling::div[@id='VitalLabelDiv' and child::font[@id='AbbrevName' and text()='HR']]]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "SBP/DBPQTV2": {
+      "path": "//input[@id='VitalValue' and preceding-sibling::div[@id='VitalLabelDiv' and child::font[@id='AbbrevName' and text()='SBP/DBP']]]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "O2satQTV2": {
+      "path": "//input[@id='VitalValue' and preceding-sibling::div[@id='VitalLabelDiv' and child::font[@id='AbbrevName' and text()='O2sat']]]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "FSBGQTV2": {
+      "path": "//input[@id='VitalValue' and preceding-sibling::div[@id='VitalLabelDiv' and child::font[@id='AbbrevName' and text()='FSBG']]]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "TempQTV2": {
+      "path": "//input[@id='VitalValue' and preceding-sibling::div[@id='VitalLabelDiv' and child::font[@id='AbbrevName' and text()='Temp']]]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ExamNeckNormalQTV2": {
+      "path": "//div[@role='textbox' and @testid='it_ExamNeck']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ExamRespNormalQTV2": {
+      "barexpath": "//div[@role='textbox' and @testid='it_ExamResp']",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "ExamNeuroNormalQTV2": {
+      "path": "//div[@role='textbox' and @testid='it_ExamNeuro']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ExamSkinAbnormalQTV2": {
+      "path": "//div[@role='textbox' and @testid='it_ExamSkin']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ROSCONSTComment": {
+      "barexpath": "//div[@role='textbox' and @testid='it_ROSConstitutional']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ROSGASTROINTESTINALComment": {
+      "barexpath": "//div[@role='textbox' and @testid='it_ROSGI']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ExamSKINComment": {
+      "barexpath": "//div[@role='textbox' and @testid='it_ExamSkin']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ExamCVQTV2": {
+      "path": "//div[@role='textbox' and @testid='it_ExamCV']",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "SearchTextQTV2": {
+      "path": "//img[@id='searchImg']",
+      "frame": "FRAME_TESTDETAIL_POPUP"
+    },
+    "NameQTV2": {
+      "barexpath": "//input[@id='Name' and @name='Description']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "KeyboardShortcut": {
+      "barexpath": "//input[@id='Shortcut' and @name='Shortcut']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "QuickTextGroup": {
+      "barexpath": "//input[@class='titleTextbox']",
+      "value": "Group QTV2",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "QTV2Name": {
+      "id": "Name",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "QTV2Description": {
+      "path": "//div[@role='textbox' and @testid='it_DisplayText']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "ListLabel": {
+      "name": "listLabel",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "NotationQTV2": {
+      "barexpath": "//div[@role='textbox' and @testid='it_NotationField']",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "SearchForProblem": {
+      "id": "ProblemSearchHelperInput",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "HospitalSearchForOrder": {
+      "id": "SearchDialogInput",
+      "frame": "FRAME_DOJO_DIALOG"
+    },
+    "ProblemDxSearch": {
+      "id": "diagnosis_search",
+      "frame": "FRAME_NOTEWRITER_HISTORYDXSEARCH"
+    },
+    "Assessment": {
+      "id": "Assessment",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "Plan": {
+      "id": "PlanField",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "RequestedBy": {
+      "id": "RequestedByLOOKUP",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ListOption": {
+      "name": "listOption_0",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "ListOption1": {
+      "name": "listOption_1",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "HPIQTV2": {
+      "path": "//div[@role='textbox' and @testid='it_HPI']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ChiefComplaint": {
+      "barexpath": "//div[@testid='it_Complaint' or @testid='it_ChiefComplaint']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "AdditionalPMHCommentsQTV2": {
+      "path": "//div[@role='textbox' and @testid='it_AdditionalPMHComments']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "Disp": {
+      "id": "Quantity",
+      "frame": "FRAME_DOJO_DIALOG"
+    },
+    "NearBy": {
+      "id": "searchcriteria",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "DispenseUnit": {
+      "name": "dispenseUnit",
+      "frame": "FRAME_DOJO_DIALOG"
+    },
+    "PhoneNumberSearch": {
+      "id": "byPhoneSearchcriteria",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "MailOrderSearch": {
+      "id": "mailOrderSearchcriteria",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "RefineNearBy": {
+      "id": "refineByInputID",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "TitleField": {
+      "barexpath": "//div[@role='textbox' and @testid='it_NotationTitle']",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "PasswordField": {
+      "barexpath": "//input[contains(@class,'validation-input')]",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "lookupField": {
+      "id": "ProviderLOOKUP",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "UpdateNote": {
+      "barexpath": "//div[@role='textbox' and @testid='it_AuthorCommentsNotation']",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "PlanQTV2": {
+      "path": "//div[@role='textbox' and @testid='it_ProblemPlan']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "DescriptionOfOperationQTV2": {
+      "barexpath": "//div[@role='textbox' and @testid='it_OperativeDescription']",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "UpdateNoteSubjective": {
+      "path": "//div[@role='textbox' and @testid='it_AuthorCommentsSubjective']",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "UpdateNoteExam": {
+      "path": "//div[@role='textbox' and @testid='it_AuthorCommentsExam']",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "UpdateNoteAP": {
+      "path": "//div[@role='textbox' and @testid='it_AuthorCommentsAP']",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "AssessmentAndPlan": {
+      "path": "//div[@role='textbox' and @testid='it_ProblemPlan']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "DataAdditionalResults": {
+      "path": "//div[@role='textbox' and @testid='it_DataAdditionalResults']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "DataSummary": {
+      "path": "//div[@role='textbox' and @testid='it_DataSummaryResults']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "AdditionalSurgeriesQTV2": {
+      "path": "//div[@role='textbox' and @testid='it_AdditionalSurgeriesAndProcedures']",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "AllergiesQTV2": {
+      "path": "//div[@role='textbox' and @testid='it_AdditionalAllergies']",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "HomeMedicationsQTV2": {
+      "path": "//div[@role='textbox' and @testid='it_HomeMedications']",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "AdditionalFamilyHistoryInfo": {
+      "path": "//div[@role='textbox' and @testid='it_AdditionalFamilyHistory']|//textarea[contains(@id, 'AdditionalFamilyHistory')]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "PlanCPOE": {
+      "path": "//div[@role='textbox' and @testid='it_PlanField']",
+      "frame": "FRAME_NOTEWRITER_CPOE"
+    },
+    "ROSAbnormalQTV2": {
+      "path": "//div[@role='textbox' and @testid='it_ROSResp']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "EyesAbnormalQTV2": {
+      "path": "//div[@role='textbox' and @testid='it_ExamEyes']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ExamOtherQTV2": {
+      "path": "//div[@role='textbox' and @testid='it_ExamOther']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ExamOtherTextbox": {
+      "path": "//div[@role='textbox' and @testid='it_ExamOther']|//textarea[contains(@id, 'ExamOther')]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ROSConstQTV2": {
+      "path": "//div[@role='textbox' and @testid='it_ROSConstitutional']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "RosEyesNormalQTV2": {
+      "id": "it_ROSEyes",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ROSNEUROAbnormalQTV2": {
+      "path": "//div[@role='textbox' and @testid='it_ROSNeuro']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "AppendectomyDate": {
+      "path": "ancestor::td[preceding::font[@id='SurgicalProblemDesc' and text()= 'S/P appendectomy']]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "AddChargeComments": {
+      "path": "@class='comment_text_input commentTextAreaCss'",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "AdditionalDatesStartDate": {
+      "path": "@class='date_input startDt hasDatepicker'",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "AdditionalDatesEndDate": {
+      "path": "@class='date_input endDt hasDatepicker'",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "SurgeryDate": {
+      "id": "SurgeryDate",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "SurgeryTime": {
+      "id": "SurgeryTime",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "SurgeonLOOKUP": {
+      "id": "SurgeonLOOKUP",
+      "frame": "FRAME_NOTE_WIZARD"
+    },
+    "EstimatedBloodLoss": {
+      "id": "EstimatedBloodLoss",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "TobaccoUseType": {
+      "barexpath": "//div[@role='textbox' and @testid='it_TobaccoUseType']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "TobaccoUseAmount": {
+      "barexpath": "//div[@role='textbox' and @testid='it_TobaccoUseAmount']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "TobaccoUseYears": {
+      "id": "TobaccoUseYears",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "TobaccoComments": {
+      "barexpath": "//div[@role='textbox' and @testid='it_TobaccoUseComments']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "AlcoholUseType": {
+      "barexpath": "//div[@role='textbox' and @testid='it_AlcoholUseType']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "AlcoholUseAmount": {
+      "barexpath": "//div[@role='textbox' and @testid='it_AlcoholUseAmount']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "AlcoholUseYears": {
+      "id": "AlcoholUseYears",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "AlcoholComments": {
+      "barexpath": "//div[@role='textbox' and @testid='it_AlcoholUseComments']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "DrugUseType": {
+      "barexpath": "//div[@role='textbox' and @testid='it_DrugUseType']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "DrugUseAmount": {
+      "barexpath": "//div[@role='textbox' and @testid='it_DrugUseAmount']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "DrugUseYears": {
+      "id": "DrugUseYears",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "DrugComments": {
+      "barexpath": "//div[@role='textbox' and @testid='it_DrugUseComments']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "UnableToObtainROSComments": {
+      "barexpath": "//div[@role='textbox' and @testid='it_UnableToObtainROSComments']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ROSEyesFindings": {
+      "barexpath": "//div[@role='textbox' and @testid='it_ROSEyes']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ROSCommentFreeText": {
+      "barexpath": "//div[@role='textbox' and @testid='it_ROSOther']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ExamHeadFindings": {
+      "barexpath": "//div[@role='textbox' and @testid='it_ExamHead']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ExamCommentFreeText": {
+      "barexpath": "//div[@role='textbox' and @testid='it_ExamOther']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "UnableToObtainHistoryComments": {
+      "barexpath": "//div[@role='textbox' and @testid='it_UnableToObtainHxComments']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "HeadacheOnsetDate": {
+      "barexpath": "//input[@id='OnsetDate' and ancestor::td[preceding-sibling::td/font[contains(text(),'Headache')]]]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ShoulderOnsetDate": {
+      "barexpath": "//input[@id='OnsetDate' and ancestor::td[preceding-sibling::td/font[contains(text(),'Shoulder')]]]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "KneeProblemPlan": {
+      "barexpath": "//div[@testid='it_ProblemPlan' and ancestor::div[@class='planningDiv apProblemDiv' and preceding-sibling::div[@id='ProblemDescriptionDiv' and contains(normalize-space(),'Knee')]]]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ToeProblemPlan": {
+      "barexpath": "//div[@testid='it_ProblemPlan' and ancestor::div[@class='planningDiv apProblemDiv' and preceding-sibling::div[@id='ProblemDescriptionDiv' and contains(normalize-space(),'Toe')]]]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ProstateCancer": {
+      "barexpath": "//div[@testid='it_ProblemPlan' and ancestor::div[@class='planningDiv apProblemDiv' and preceding-sibling::div[@id='ProblemDescriptionDiv' and contains(normalize-space(),'FH: prostate cancer')]]]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ChronicPainSyndrome": {
+      "barexpath": "//div[@testid='it_ProblemPlan' and ancestor::div[@class='planningDiv apProblemDiv' and preceding-sibling::div[@id='ProblemDescriptionDiv' and contains(normalize-space(),'Chronic pain syndrome')]]]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "StrongOdorOfStools": {
+      "barexpath": "//div[@testid='it_ProblemPlan' and ancestor::div[@class='planningDiv apProblemDiv' and preceding-sibling::div[@id='ProblemDescriptionDiv' and contains(normalize-space(),'Strong odor of stools')]]]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "KidneyAbscess": {
+      "barexpath": "//div[@testid='it_ProblemPlan' and ancestor::div[@class='planningDiv apProblemDiv' and preceding-sibling::div[@id='ProblemDescriptionDiv' and contains(normalize-space(),'Kidney abscess')]]]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ChronicKidneyDisease": {
+      "barexpath": "//div[@testid='it_ProblemPlan' and ancestor::div[@class='planningDiv apProblemDiv' and preceding-sibling::div[@id='ProblemDescriptionDiv' and contains(normalize-space(),'Chronic kidney disease, unspecified CKD stage')]]]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "HospitalCourse": {
+      "barexpath": "//div[@testid='it_HospitalCourseTextArea']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "APAdditionalComments": {
+      "barexpath": "//div[@role='textbox' and @testid='it_APAdditionalComments']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "TimeSpentCounseling": {
+      "id": "TimeSpentCounseling",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "AttestationDetail": {
+      "barexpath": "//div[@role='textbox' and @testid='it_AttestationDetail']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "HoldReason": {
+      "id": "HoldReason",
+      "frame": "FRAME_EDITORDER"
+    },
+    "ResumeDate": {
+      "id": "ResumeDate_date",
+      "frame": "FRAME_EDITORDER"
+    },
+    "OrderingProvider": {
+      "id": "LookupFieldLOOKUP",
+      "frame": "FRAME_EDITORDER"
+    },
+    "NoteSearch": {
+      "path": "//input[@id='note-search' and @class='PKTextSearch']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "AddendumCommentsQTV2": {
+      "path": "//div[@testid='it_AddendumField' and @role='textbox']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "FrequencyOtherField": {
+      "id": "FrequencyOtherField",
+      "frame": "FRAME_DOJO_DIALOG"
+    },
+    "TotalNoOfDays": {
+      "id": "NumberOfDaysField",
+      "frame": "FRAME_DOJO_DIALOG"
+    },
+    "PRNReason": {
+      "barexpath": "//div[contains(@class, 'md-field') and descendant::*[contains(text(), 'PRN Reason')]]",
+      "frame": "FRAME_DOJO_DIALOG"
+    },
+    "AllergyDischargeSummary": {
+      "barexpath": "//div[@role='textbox' and (@testid='it_Annotate' or @testid='it_Annotation')]",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "DiagnosisSearch": {
+      "id": "diagnosis_search",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "HCAHistoryDiagnosisSearch": {
+      "barexpath": "//input[@id='diagnosis_search']",
+      "frame": "FRAME_NOTEWRITER_HISTORYDXSEARCH"
+    },
+    "HCAAPDiagnosisSearch": {
+      "barexpath": "//input[@id='diagnosis_search']",
+      "frame": "FRAME_NOTEWRITER_APDXSEARCH"
+    },
+    "TotalNumberOfDays": {
+      "path": "preceding-sibling::label[text()='Days'] and parent::div[contains(@class,'md-field radio-field')]",
+      "frame": "FRAME_CLINICAL_DECISION"
+    },
+    "NotesToPharmacy": {
+      "path": "parent::div[contains(@class,'md-field pharmacy-notes-field') and ancestor::div[@class='rxdest-content']]",
+      "frame": "FRAME_DOJO_DIALOG"
+    },
+    "CreateFilePassword": {
+      "path": "@placeholder='password' and ancestor::div[@id='epcsDownloadDlgId']",
+      "frame": "FRAME_EPCSREPORT_9X"
+    }
+  },
+  "SECTION": {
+    "Users": {
+      "path": "//a[text()='Users']",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "Filters": {
+      "path": "//a[text()='Filters']",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "Permissions": {
+      "path": "//a[text()='Permissions']",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "Display": {
+      "path": "//a[text()='Display']",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "TimeCriteria": {
+      "path": "//a[text()='Time Criteria']",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "Overview": {
+      "path": "//a[text()='Overview']",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "Summary": {
+      "path": "//a[text()='Summary']",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "Name": {
+      "path": "contains(@id,'createPatientListName')",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "Description": {
+      "id": "createPatientListDescriptionview2",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "CreateForAdditionalUsersSearch": {
+      "path": "ancestor::div[@class='create-for-others']",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "SublistName": {
+      "path": "input[starts-with(@name,'name_')]",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "FilterSearch": {
+      "path": "ancestor::div[contains(@id,'MEDICAL_SERVICE')]",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "RxDefaultDestinationSection": {
+      "path": "//div[@id='erxDefaultDestination']",
+      "frame": "FRAME_DOJO_DIALOG"
+    },
+    "NewRetailPrescriptions": {
+      "path": "//div[@id='prescriptionsToPickup']",
+      "frame": "FRAME_ENTER_OTHER_CHOICE_TEXT"
+    },
+    "ElectronicallyCancelledPrescriptions": {
+      "path": "//div[@id='electronicallyCancelledPrescriptions']",
+      "frame": "FRAME_ENTER_OTHER_CHOICE_TEXT"
+    }
+  },
+  "CHECKBOXES": {
+    "CodedDiagnosis": {
+      "barexpath": "//input[@id='HistorySectionCheckbox']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "SubscribeToResultNotification": {
+      "name": "OrderResultNotificationChecked",
+      "frame": "FRAME_EDITORDER"
+    },
+    "CreateForMe": {
+      "id": "createPatientListForMe",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "Cigna": {
+      "path": "@title='Cigna'",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "ER": {
+      "path": "@value='ER'",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "ER2": {
+      "path": "@value='ER2'",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "ERAutoDisch24h": {
+      "path": "@value='ERAutoDisch24h'",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "ERAutoDisch36h": {
+      "path": "@value='ERAutoDisch36h'",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "ERAutoDisch48h": {
+      "path": "@value='ERAutoDisch48h'",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "ERAutoDisch60h": {
+      "path": "@value='ERAutoDisch60h'",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "ERAutoDisch72h": {
+      "path": "@value='ERAutoDisch72h'",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "ERAutoDischNextD": {
+      "path": "@value='ERAutoDischNextD'",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "Inpatient": {
+      "path": "@value='Inpatient'",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "Outpatient": {
+      "path": "@value='Outpatient'",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "PLM2Test-TBC": {
+      "path": "@title='PLM2Test-TBC'",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "PLM2Test-AD": {
+      "path": "@title='PLM2Test-AD'",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "PLM2Test-AD2": {
+      "path": "@title='PLM2Test-AD2'",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "PLv2-CustomSortTest": {
+      "path": "@title='PLv2-CustomSortTest'",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "SortOnLocation": {
+      "type": "dynatree",
+      "path": "//span[@class='dynatree-checkbox' and following-sibling::span[@class='dynatree-title' and text()='textVal']]",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "AllowManualAdd/RemoveOfPatients": {
+      "id": "createPatientListAllowAddRemove",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "RevertDisplayCheckbox": {
+      "name": "Display",
+      "frame": "FRAME_PATIENTLIST_REVERT_FRAME"
+    },
+    "Me": {
+      "id": "editFavoriteForMe",
+      "frame": "PATIENTLIST_SEARCH_FRAME"
+    },
+    "OtherUsers": {
+      "id": "editFavoriteForOthers",
+      "frame": "PATIENTLIST_SEARCH_FRAME"
+    },
+    "TobaccoUse": {
+      "path": "//label[@field-id='TobaccoUse']",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "AlcoholUse": {
+      "path": "//label[@field-id='AlcoholUse']",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "DrugUse": {
+      "path": "//label[@field-id='DrugUse']",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "InpatientFilter": {
+      "path": "@title='Inpatient'",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "Penicillin": {
+      "path": "parent::td[@id='C1' and following-sibling::td[text()='Penicillin']]",
+      "frame": "FRAME_ALLERGYLIST"
+    },
+    "BeeSting": {
+      "id": "AllergyCheckbox",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "SeverityQTV2": {
+      "path": "//label[@field-id='HPISeverity']",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "ContextQTV2": {
+      "path": "//label[@field-id='HPIContext']",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "ModifyingFactorsQTV2": {
+      "path": "//label[@field-id='HPIModifyingFactors']",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "QualityQTV2": {
+      "path": "//label[@field-id='HPIQuality']",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "ReviewedHistory": {
+      "path": "//label[@field-id='ReviewedHistory']",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "ExaminedPatient": {
+      "path": "//label[@field-id='ExaminedPatient']",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "ReviewedProgress": {
+      "path": "//label[@field-id='ReviewedProgress']",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "DiscussedCondition": {
+      "path": "//label[@field-id='DiscussedCondition']",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "DefaultQTV2": {
+      "name": "IsDefault",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "HideFromPopup": {
+      "name": "HideFromPopup",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "HoldForReview": {
+      "path": "@class='holdForReview'",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "Default": {
+      "id": "Default",
+      "frame": "FRAME_TERTIARY_POPUP_CONTENTS"
+    },
+    "RevertFiltersCheckbox": {
+      "name": "Filters",
+      "frame": "FRAME_PATIENTLIST_REVERT_FRAME"
+    },
+    "RevertTimeCheckbox": {
+      "name": "TimeCriteria",
+      "frame": "FRAME_PATIENTLIST_REVERT_FRAME"
+    },
+    "RevertPermissionsCheckbox": {
+      "name": "Permissions",
+      "frame": "FRAME_PATIENTLIST_REVERT_FRAME"
+    },
+    "RxNeeded": {
+      "id": "rxneededvisible",
+      "frame": "FRAME_DOJO_DIALOG"
+    },
+    "InsertPreviousNoteSelect": {
+      "id": "selectcheck",
+      "frame": "FRAME_NOTEWRITER_INSERT_PREVIOUS"
+    },
+    "RespQtv2": {
+      "path": "@controlid='ROSRespNormalLink'",
+      "frame": "FRAME_NOTEWRITER_INSERT_PREVIOUS"
+    },
+    "ChestPainQtv2": {
+      "path": "@id='selectcheck'",
+      "frame": "FRAME_NOTEWRITER_INSERT_PREVIOUS"
+    },
+    "NeuroQtv2": {
+      "path": "@controlid='ExamNeuroNormalLink'",
+      "frame": "FRAME_NOTEWRITER_INSERT_PREVIOUS"
+    },
+    "GIQtv2": {
+      "path": "@controlid='ExamGINormalLink'",
+      "frame": "FRAME_NOTEWRITER_INSERT_PREVIOUS"
+    },
+    "Reason2": {
+      "path": "ancestor::div[text()= 'Reason2']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "Reason1": {
+      "path": "ancestor::div[text()= 'Reason1']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "CustomReason": {
+      "path": "ancestor::div[text()= 'CustomReason']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "ReviewRequested": {
+      "path": "ancestor::div[text()= 'Review requested']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "CommentReview": {
+      "path": "ancestor::div[text()= 'Comment Review']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "AddReason1": {
+      "path": "ancestor::div[text()= 'AddReason1']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "AddReason2": {
+      "path": "ancestor::div[text()= 'AddReason2']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "AddReason3": {
+      "path": "ancestor::div[text()= 'AddReason3']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "AddReason_1": {
+      "path": "//input[(@type='checkbox' or @type='Checkbox') and ancestor::div[text()='AddReason1']]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "AddReason_2": {
+      "path": "//input[(@type='checkbox' or @type='Checkbox') and ancestor::div[text()='AddReason2']]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "TimeOutCompleted": {
+      "id": "TimeOutCompleted",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "UnableToObtainROS": {
+      "id": "UnableToObtainROS",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "UnableToObtainHistory": {
+      "id": "UnableToObtainHx",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "Counseling": {
+      "id": "Counseling",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "KeepWindowOpen": {
+      "id": "SearchDialogWindowOpen",
+      "frame": "FRAME_DOJO_DIALOG"
+    },
+    "Aspirintablet": {
+      "path": "parent::td[@class='orderCheckboxCell' and following-sibling::td[child::div/*[contains(text(),'ASPIRIN')]]]",
+      "frame": "FRAME_DOJO_DIALOG"
+    },
+    "SelectedLabResults": {
+      "path": "parent::td[parent::tr[@selected='Y']]",
+      "frame": "FRAME_LABLIST"
+    },
+    "Disabled": {
+      "path": "//input[@type='checkbox' and @disabled='disabled']"
+    },
+    "PRN": {
+      "path": "//div[contains(@class, 'md-checkbox') and descendant::label[text()='PRN']]",
+      "frame": "FRAME_DOJO_DIALOG"
+    },
+    "ExaminedThisPatient": {
+      "path": "//input[@id='ExaminedPatient']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "NeckQtv2": {
+      "path": "@controlid='ExamNeckNormalLink'",
+      "frame": "FRAME_NOTEWRITER_INSERT_PREVIOUS"
+    }
+  },
+  "DROPDOWNS": {
+    "NoteType": {
+      "id": "NoteTypeAlias",
+      "frame": "FRAME_NWPOPOUT"
+    },
+    "Specialty": {
+      "id": "Speciality",
+      "frame": "FRAME_NWPOPOUT"
+    },
+    "CreateForAdditionalUsers": {
+      "name": "create-for-others",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "FilterOn": {
+      "name": "filterField",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "View": {
+      "name": "sharing-perm-view",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "PatientListSearchDepartment": {
+      "path": "//select[@class='department']",
+      "frame": "PATIENTLIST_SEARCH_FRAME"
+    },
+    "SortOn": {
+      "name": "sort0",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "SortOrder": {
+      "path": "//div[@name='sort0_type']/select",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "AddFacility": {
+      "id": "FacilityId",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "Unit": {
+      "id": "NurseUnitId",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "Room": {
+      "id": "Room",
+      "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+    },
+    "Manage": {
+      "name": "sharing-perm-manage",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "Add/Remove": {
+      "name": "sharing-perm-add-remove",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "AddFacility1": {
+      "id": "FacilityId",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "Unit1": {
+      "id": "NurseUnitId",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "Room1": {
+      "id": "Room",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "TobaccoUseStatus": {
+      "path": "//div[@field-id='TobaccoUseInput'] | //select[@name='TobaccoUseStatus' or @name='TobaccoUseInput']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "Frequency": {
+      "path": "//div[@field-id='AlcoholUseInput']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "MaritalStatus": {
+      "path": "//select[@id='MaritalStatus']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "CodeStatus": {
+      "path": "//div[@field-id='CodeStatus']",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "LevelOfDecision": {
+      "name": "LevelOfDecision",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "TestResult": {
+      "name": "TestResult",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "SecondarySortOn": {
+      "name": "sort1",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "DischargeCondition": {
+      "path": "//div[@class='dropdown-icon' and preceding-sibling::div[@field-id='ConditionLevel']]",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "ClinicalData": {
+      "id": "clinicalSelect",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "SecondarySortOrder": {
+      "path": "//div[@name='sort1_type']/select",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "Approximatetimespent": {
+      "path": "//div[@class='dropdown-icon' and preceding-sibling::div[@field-id='TimeSpent']]",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "SelectReportType": {
+      "id": "CRReportId",
+      "frame": "FRAME_CLIN_ROUNDING_OPTIONS"
+    },
+    "SelectAVisit": {
+      "id": "visits",
+      "frame": "FRAME_WIZARD"
+    },
+    "ChangePrescriptionPlan": {
+      "path": "//div[@class='md-menu md-select' and parent::div[preceding-sibling::div[text()='Change Plan: ']]]",
+      "frame": "FRAME_DOJO_DIALOG"
+    },
+    "HoldForReviewPopup": {
+      "path": "//button[@id='holdforreview_popup']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "MarkAsReviewPopup": {
+      "path": "//button[@id='markasreviewed_popup']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "OrderSource": {
+      "path": "//select[@id='orderSource']",
+      "frame": "FRAME_EDITORDER"
+    },
+    "ManageFavoriteSourceField": {
+      "path": "//td[preceding::td[1]/span[text()='SourceField:']]//select",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "ManageFavoriteSourceDescription": {
+      "path": "//td[preceding::td[1]/span[text()='SourceDescription:']]//select",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "DateLastSmoked": {
+      "path": "//select[@name='TobaccoUsedtsmkd']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "AlcoholUseStatus": {
+      "path": "//select[@name='AlcoholUseStatus']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "DrugUseStatus": {
+      "path": "//select[@name='DrugUseStatus']",
+      "frame": "FRAME_NOTEWRITER"
+    }
+  },
+  "TABLES": {
+    "DialogBox": {
+      "id": "dialogTable",
+      "frame": "FRAME_PHOTO_ADD"
+    },
+    "PhotoList": {
+      "id": "photoListTable",
+      "name": "",
+      "path": "//div[@id='photoListTable_wrapper']",
+      "frame": "FRAME_PHOTO_LIST",
+      "head": "//thead",
+      "body": "//tbody",
+      "Date/Time_Column_Format": "MM/dd/yy hh:mm aa"
+    },
+    "PhotoListPOPUP": {
+      "id": "photoListTable",
+      "name": "",
+      "path": "//div[@id='photoListTable_wrapper']",
+      "frame": "FRAME_PHOTO_POP_UP",
+      "head": "//thead",
+      "body": "//tbody",
+      "Date/Time_Column_Format": "MM/dd/yy hh:mm aa"
+    },
+    "Notes": {
+      "id": "dynamicDetailTable",
+      "name": "",
+      "path": "//table[@id='dynamicDetailTable']",
+      "frame": "FRAME_NOTELIST",
+      "head": "",
+      "body": "//table[@id='dynamicDetailTable']/tbody"
+    },
+    "PatientListSearchResults": {
+      "id": "",
+      "name": "",
+      "path": "//div[@class='results']",
+      "frame": "PATIENTLIST_SEARCH_FRAME",
+      "head": ".//div[@class='dataTables_scrollHead ui-state-default']//table/thead",
+      "body": ".//div[@class='dataTables_scrollBody']//table/tbody"
+    },
+    "PatientListCreateView": {
+      "id": "",
+      "name": "",
+      "path": "//table[@class='visits-table']",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST",
+      "head": "",
+      "body": "//tbody"
+    },
+    "UserDepartmentFacilitySearch": {
+      "path": "//div[@class='dataTables_scroll' and ancestor::div[@class='sharing-perm-view permission']]",
+      "head": "//div[@class='dataTables_scrollHeadInner']//table[@class='PKLookup-results dataTable no-footer']/thead",
+      "body": "//div[@class='dataTables_scrollBody']//table[@class='PKLookup-results dataTable no-footer']/tbody",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "UserDepartmentFacilityManageSearch": {
+      "path": "//div[@class='dataTables_scroll' and ancestor::div[@class='sharing-perm-manage permission']]",
+      "head": "//div[@class='dataTables_scroll' and ancestor::div[@class='sharing-perm-manage permission']]//thead",
+      "body": "//div[@class='dataTables_scroll' and ancestor::div[@class='sharing-perm-manage permission']]//tbody",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "Permissions": {
+      "path": "//div[@class='pk-hidden permissions-details']/table",
+      "head": "thead",
+      "body": "tbody",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "PatientList": {
+      "id": "",
+      "name": "",
+      "path": "//table[@class='visits-table']",
+      "frame": "PATIENTLIST_VISITS_FRAME",
+      "head": "",
+      "body": "//tbody"
+    },
+    "PatientListResultRevert": {
+      "id": "",
+      "name": "",
+      "path": "//div[@class='results']",
+      "frame": "FRAME_PATIENTLIST_REVERT_FRAME",
+      "head": "//div[@class='results']//table/thead",
+      "body": "//div[@class='results']//table/tbody"
+    },
+    "Lists/ViewstoInclude": {
+      "path": "//table[@id='viewDetailsViewSourceLists']",
+      "head": "//thead",
+      "body": "//tbody",
+      "frame": "FRAME_PATIENTLIST_DETAILS"
+    },
+    "AssignmentDetails": {
+      "path": "//table[@id='subListDescription']",
+      "head": "//tbody/tr[1]",
+      "body": "//tbody",
+      "frame": "FRAME_VISITDETAIL"
+    },
+    "AssignmentSubLists": {
+      "path": "//div[@class='field-value']",
+      "head": "//thead",
+      "body": "//tbody",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "UsersSearch": {
+      "id": "",
+      "name": "",
+      "path": "//div[@class='dataTables_scroll' and ancestor::div[@class='edit-favorite-view']]",
+      "frame": "PATIENTLIST_SEARCH_FRAME",
+      "head": "//div[@class='dataTables_scrollHead ui-state-default' and ancestor::div[@class='edit-favorite-view']]//table/thead",
+      "body": "//div[@class='dataTables_scroll' and ancestor::div[@class='edit-favorite-view']]//table/tbody"
+    },
+    "PatientListPreviewTable": {
+      "path": "//table[@class='visits-table']",
+      "body": "//tbody",
+      "frame": "PATIENTLIST_SEARCH_FRAME"
+    },
+    "PreviewTab": {
+      "id": "",
+      "name": "",
+      "path": "//table[@class='visits-table']",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST",
+      "head": "",
+      "body": "//tbody"
+    },
+    "PendingLabsTests": {
+      "path": "//table[@id='ClinicalDataTargetLabs']",
+      "head": "//thead",
+      "body": "//tbody",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "AllergyDischargeSummary": {
+      "path": "//table[@id='ClinicalDataCurrentAllergiesTarget']",
+      "body": "//tbody",
+      "frame": "FRAME_NOTE_WIZARD"
+    },
+    "VitalsQTV2": {
+      "path": "//tr[@id='ExamVitalRow']",
+      "head": "//thead",
+      "body": "//tbody",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "I/OQTV2": {
+      "path": "//tr[@id='ExamIORow']",
+      "head": "//thead",
+      "body": "//tbody",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ClinicalNotesResults": {
+      "path": "//div[@id='listTable']",
+      "head": "//div[@class='scrollingTableHeaderDiv']/table/thead",
+      "body": "//div[@class='scrollingTableDetailDiv']/table/tbody",
+      "frame": "FRAME_NOTELIST_POPUP"
+    },
+    "RadiologyOrders": {
+      "id": "",
+      "name": "",
+      "path": "//div[@id='SearchResults-Radiology']",
+      "head": "div[@class='scrollingTableHeaderDiv']/table/thead",
+      "body": "div[@class='scrollingTableDetailDiv']/table/tbody",
+      "frame": "FRAME_EDITORDER"
+    },
+    "NursingOrders": {
+      "id": "",
+      "name": "",
+      "path": "//div[@id='SearchResults-Nursing']",
+      "head": "div[@class='scrollingTableHeaderDiv']/table/thead",
+      "body": "div[@class='scrollingTableDetailDiv']/table/tbody",
+      "frame": "FRAME_EDITORDER"
+    },
+    "OtherOrders": {
+      "path": "//div[@id='SearchResults-Other']",
+      "head": "div[@class='scrollingTableHeaderDiv']/table/thead",
+      "body": "div[@class='scrollingTableDetailDiv']/table/tbody",
+      "frame": "FRAME_EDITORDER"
+    },
+    "DietOrders": {
+      "path": "//div[@id='SearchResults-Diet']",
+      "head": "div[@class='scrollingTableHeaderDiv']/table/thead",
+      "body": "div[@class='scrollingTableDetailDiv']/table/tbody",
+      "frame": "FRAME_EDITORDER"
+    },
+    "SearchedRadiologyOrders": {
+      "id": "",
+      "name": "",
+      "path": "//div[@id='SearchResults-Radiology']",
+      "head": "div[@class='scrollingTableHeaderDiv']/table/thead",
+      "body": "div[@class='scrollingTableDetailDiv']/table/tbody",
+      "frame": "FRAME_DOJO_DIALOG"
+    },
+    "SearchedNursingOrders": {
+      "path": "//div[@id='SearchResults-Nursing']",
+      "head": "div[@class='scrollingTableHeaderDiv']/table/thead",
+      "body": "div[@class='scrollingTableDetailDiv']/table/tbody",
+      "frame": "FRAME_DOJO_DIALOG"
+    },
+    "SearchedOtherOrders": {
+      "path": "//div[@id='SearchResults-Other']",
+      "head": "div[@class='scrollingTableHeaderDiv']/table/thead",
+      "body": "div[@class='scrollingTableDetailDiv']/table/tbody",
+      "frame": "FRAME_DOJO_DIALOG"
+    },
+    "SearchedDietOrders": {
+      "path": "//div[@id='SearchResults-Diet']",
+      "head": "div[@class='scrollingTableHeaderDiv']/table/thead",
+      "body": "div[@class='scrollingTableDetailDiv']/table/tbody",
+      "frame": "FRAME_DOJO_DIALOG"
+    },
+    "SearchedLabOrders": {
+      "path": "//div[@id='SearchResults-Lab']",
+      "head": "div[@class='scrollingTableHeaderDiv']/table/thead",
+      "body": "div[@class='scrollingTableDetailDiv']/table/tbody",
+      "frame": "FRAME_DOJO_DIALOG"
+    },
+    "EditQuickText": {
+      "path": "//table[@id='hPickerTable']",
+      "body": "//tbody",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "OverviewVisits": {
+      "path": "//div[@id='listTable']",
+      "head": "div[@class='scrollingTableHeaderDiv']/table/thead",
+      "body": "div[@class='scrollingTableDetailDiv']/table/tbody",
+      "frame": "FRAME_OVERVIEW_VISITS"
+    },
+    "OverviewCharges": {
+      "path": "//div[@id='listTable']",
+      "head": "div[@class='scrollingTableHeaderDiv']/table/thead",
+      "body": "div[@class='scrollingTableDetailDiv']/table/tbody",
+      "frame": "FRAME_OVERVIEW_CHARGES"
+    },
+    "Charges": {
+      "path": "//div[@id='listTable']",
+      "head": "div[@class='scrollingTableHeaderDiv']/table/thead",
+      "body": "div[@class='scrollingTableDetailDiv']/table/tbody",
+      "frame": "FRAME_CHARGES_TABLE",
+      "Date/Time_Column_Format": "MM/DD/YY"
+    },
+    "OverviewClinicalNotes": {
+      "path": "//div[@id='listTable']",
+      "head": "//div[@class='scrollingTableHeaderDiv']/table/thead",
+      "body": "//div[@class='scrollingTableDetailDiv']/table/tbody",
+      "frame": "FRAME_OVERVIEW_NOTES"
+    },
+    "OverviewLabResults": {
+      "path": "//div[@id='listTable']",
+      "head": "div[@class='scrollingTableHeaderDiv']/table/thead",
+      "body": "div[@class='scrollingTableDetailDiv']/table/tbody",
+      "frame": "FRAME_LABLIST_POPUP"
+    },
+    "ClinicalRoundingReportPatientList": {
+      "path": "//div[@id='listTableCRR']",
+      "head": "//div[@class='scrollingTableHeaderDiv']/table/thead",
+      "body": "//div[@class='scrollingTableDetailDiv']/table/tbody",
+      "frame": "FRAME_CLIN_ROUNDING_LIST"
+    },
+    "MailOrdersList": {
+      "path": "//div[@id='mailOrderSearchResult']",
+      "body": "//table[@id='mailOrderSearchResultTable' and descendant::tr[@class='pharmacyViewRow clickable']]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "PhoneOrdersList": {
+      "path": "//div[@id='byPhoneSearchResultTable']",
+      "body": "//table[@id='byPhoneSearchResultTable' and descendant::tr[@class='pharmacyViewRow clickable']]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "PharmacySearchResults": {
+      "path": "//table[@id='searchResultTable']",
+      "frame": "FRAME_POPUP_CONTENTS",
+      "body": "tbody"
+    },
+    "MedRecPreviouslyReconciled": {
+      "path": "//div[@id='PreviousReconciliations']",
+      "head": "//thead[@id='TableHeaders']",
+      "body": "//tbody[@maintbody='Y']",
+      "frame": "FRAME_DOJO_DIALOG"
+    },
+    "PendingLabsOrTestsAtDischarge": {
+      "path": "//div[contains(@class,'scrollingDiv') and descendant::table[@id='ClinicalDataTargetLabs']]",
+      "head": "//thead",
+      "body": "//tbody",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "PharmacyMailOrderSearchResults": {
+      "path": "//div[@id='mailOrderSearchResult']",
+      "frame": "FRAME_POPUP_CONTENTS",
+      "body": "tbody"
+    },
+    "PharmacyPhoneOrderSearchResults": {
+      "path": "//div[@id='byPhoneSearchResult']",
+      "frame": "FRAME_POPUP_CONTENTS",
+      "body": "tbody"
+    },
+    "SelectMedication": {
+      "path": "//table[@class='alt-meds-table']",
+      "frame": "FRAME_DOJO_DIALOG",
+      "body": ""
+    },
+    "CoSiglookupTable": {
+      "id": "",
+      "name": "",
+      "path": "//div[@id='lookupTable']",
+      "frame": "FRAME_PROVIDERLOOKUP",
+      "head": "//thead[@class='staticHeader']",
+      "body": "//table[@id='dynamicDetailTable' and @class='standardTable']/tbody"
+    },
+    "DischargeMedications": {
+      "path": "//table[@id='OrderTable']",
+      "head": "//thead",
+      "body": "//tbody",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ROSTargetTable": {
+      "id": "ROSTargetTable",
+      "path": "//table[@id='ROSTargetTable']",
+      "frame": "FRAME_NOTEWRITER",
+      "head": "//thead",
+      "body": "//table[@id='ROSTargetTable']/tbody"
+    },
+    "AllergiesHistorySection": {
+      "path": "//table[@id='HistoryAllergyClinicalDataTarget']",
+      "head": "//thead",
+      "body": "tbody",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "LabResults": {
+      "path": "//div[@id='listTable']",
+      "id": "listTable",
+      "head": "//div[@class='scrollingTableHeaderDiv']/table/thead",
+      "body": "//div[@class='scrollingTableDetailDiv']/table/tbody",
+      "frame": "FRAME_LABLIST_POPUP"
+    },
+    "HoldForReviewMultiDayCharges": {
+      "path": "//div[@class='status_list_container']",
+      "head": "//thead",
+      "body": "//tbody",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "ProvidersToVisit": {
+      "id": "",
+      "name": "",
+      "path": "//div[@id='listTable']",
+      "frame": "FRAME_PATIENTDETAIL_VISTS",
+      "head": "//div[@class='scrollingTableHeaderDiv']/table/thead",
+      "body": "//div[@class='scrollingTableDetailDiv']/table/tbody"
+    },
+    "ClinicalNotesListTable": {
+      "path": "//table[@id='clinicalNoteListTable']",
+      "head": "thead",
+      "body": "tbody",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "OrderSubmissionRecords": {
+      "path": "//table[@id='dynamicDetailTable']",
+      "head": "thead",
+      "body": "tbody",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "DisplayOptions": {
+      "path": "//table[@childentity='WebEntity']",
+      "body": "tbody",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "NotesInDraftStatus": {
+      "path": "//div[@id='TableSection']",
+      "head": "//div[@class='scrollingTableHeaderDiv']/table/thead",
+      "body": "//div[@class='scrollingTableDetailDiv']/table/tbody",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    }
+  },
+  "RADIOS": {
+    "Doses": {
+      "path": "//div[contains(@class, 'md-radio radio-with-field') and descendant::input[@type='radio' and @value='Doses']]",
+      "frame": "FRAME_EDITORDER"
+    },
+    "Other": {
+      "path": "//div[@class='md-radio-container' and following-sibling::*[descendant::*[text()='Other...']]]",
+      "frame": "FRAME_EDITORDER"
+    },
+    "Type": {
+      "name": "createPatientListType",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "ToSubList": {
+      "id": "//ul[@id='view5_reassignSubLists']",
+      "frame": "FRAME_REASSIGN_PATIENTLIST",
+      "select_by": "span"
+    },
+    "IsThisaGroup": {
+      "name": "folder",
+      "frame": "FRAME_POPUP_CONTENTS",
+      "select_by": "value"
+    },
+    "PastSurgicalHistory": {
+      "path": "//label[@for='SurgicalProblem'] | //input[@id='SurgicalType']",
+      "select_by": "xpath",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "Printer": {
+      "path": "//div[@class='radio-indicator' and parent::label[@for='printerRadioID' and preceding-sibling::input[@id='printerRadioID']]]",
+      "select_by": "xpath",
+      "frame": "FRAME_DOJO_DIALOG"
+    },
+    "DefaultPharmacy": {
+      "path": "//div[@class='radio-indicator' and parent::label[@for='defaultPharmacyRadioID' and preceding-sibling::input[@id='defaultPharmacyRadioID']]]",
+      "select_by": "xpath",
+      "frame": "FRAME_DOJO_DIALOG"
+    },
+    "OtherPharmacy": {
+      "path": "//div[@class='radio-indicator' and parent::label[@for='otherPharmacyRadioID' and preceding-sibling::input[@id='otherPharmacyRadioID']]]",
+      "select_by": "xpath",
+      "frame": "FRAME_DOJO_DIALOG"
+    },
+    "RxDefaultDestination": {
+      "id": "pharmacyRadioBtnID",
+      "frame": "FRAME_DOJO_DIALOG"
+    },
+    "PastMedicalHistory": {
+      "path": "//label[@for='HistoryProblem'] | //input[ @id='AdmittingType']",
+      "select_by": "xpath",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "StepDown": {
+      "path": "//input[@type='radio']",
+      "select_by": "value",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "FullCode": {
+      "path": "//input[@id='Full Code' and @name='Codestatus_CTC']",
+      "select_by": "xpath",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "LimitedInterventions": {
+      "path": "//input[@id='Limited Interventions' and @name='Codestatus_CTC']",
+      "select_by": "xpath",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "CodeStatus": {
+      "path": "//input[@type='radio' and @name='Codestatus_CTC']",
+      "select_by": "xpath",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "TotalNumberOfDays": {
+      "path": "//div[@class='md-radio-container' and ancestor::div[@class='total-number-box']]",
+      "frame": "FRAME_CLINICAL_DECISION"
+    },
+    "RxDefaultDestinationPharmacyID": {
+      "id": "erxDefaultDestinationFirstrowIDPharmacyID",
+      "frame": "FRAME_DOJO_DIALOG"
+    }
+  },
+  "RADIO_BUTTONS_TEMP": {
+    "OnAdmitDate": {
+      "name": "//input[contains(@id, 'TBCStartOn')]",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "OnScheduledDate": {
+      "name": "//input[contains(@id, 'TBCStartOn')]",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    }
+  },
+  "TEXT_FIELDS_TEMP": {
+    "daysbeforeAdmitDate": {
+      "path": "//input[@type='textbox' and @testid='CreateModify_TBCDaysBeforeDays']",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "daysafterAdmitDate": {
+      "id": "//input[@type='textbox' and @testid='CreateModify_TBCDaysBeforeDaysEnd']",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "daysafterDischargeDate": {
+      "path": "//input[@type='textbox' and @testid='CreateModify_TBCDaysAfterDays']",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "daysbeforeScheduledDate": {
+      "path": "//input[@type='textbox' and @testid='CreateModify_TBCDaysBeforeDays']",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "daysafterScheduledDate": {
+      "path": "//input[@type='textbox' and @testid='CreateModify_TBCDaysAfterDays']",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    }
+  },
+  "MISC_ELEMENTS": {
+    "CheckAll": {
+      "path": "//a[@class='ui-multiselect-all' and descendant::span[text()='Check all'] and ancestor::div[@class='ui-widget-header ui-corner-all ui-multiselect-header ui-helper-clearfix ui-multiselect-hasfilter']]",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "AddOrderSubmit": {
+      "path": "//span[@pkwidget='Button' and text()='Sign/Submit']",
+      "frame": "FRAME_NWPOPOUT"
+    },
+    "Template": {
+      "path": "//div[@id='hPickerTreeCell']/div[@displayname='Progress Note']",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "Location": {
+      "path": "span[@class='LOCATION']"
+    },
+    "locationsListFirstElement": {
+      "path": "//ul[@class='ui-sortable']",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "locationsWithText": {
+      "path": "//ul[@class='ui-sortable']/li[text()='textVal']",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "TBC": {
+      "path": "//div[label[input[@value='Name']]]",
+      "frame": "PATIENTLIST_DEBUG_FRAME"
+    },
+    "MedicalService": {
+      "path": "//div[@name='MEDICAL_SERVICE' and descendant::span[text()='Name']]",
+      "frame": "PATIENTLIST_DEBUG_FRAME"
+    },
+    "YES": {
+      "path": "//img[contains(@src, 'checkmark-greencircle')]",
+      "frame": "PATIENTLIST_DEBUG_FRAME"
+    },
+    "NO": {
+      "path": "//img[contains(@src, 'xmark-redcircle')]",
+      "frame": "PATIENTLIST_DEBUG_FRAME"
+    },
+    "PatientListFavorite": {
+      "path": "//i[@class='uxf-icon--inactive icon-star-empty' and ancestor::div[@class='PKFavorite']]",
+      "frame": "PATIENTLIST_SEARCH_FRAME"
+    },
+    "VisitForAPatient": {
+      "path": "//tr[@visitid ='visitId' and ancestor::table[@class='visits-table']]"
+    },
+    "InpatientSummary": {
+      "path": "//label[@class='tbc-name' and descendant::input[contains(@id, 'Inpatient_TBC')]]",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "OutpatientSummary": {
+      "path": "//label[@class='tbc-name' and descendant::input[contains(@id, 'Outpatient_TBC')]]",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "Remove": {
+      "path": "//a[@class='dtIcon dtDeleteIcon dtRemoveIconBackgroundColor']",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "Favorite": {
+      "path": ".//i[@class='uxf-icon--inactive icon-star-empty' and ancestor::div[@class='PKFavorite']]"
+    },
+    "FamilyDiagnosesABCQTV2": {
+      "path": "//i[contains(@class,'nw-quick-text-action') and ancestor::div[contains(@id,'FamilySocialDiagnosesInput')]]",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "ROSCVAbnormalFindings": {
+      "path": "//a[@id='ROSCVAbormalLink'and text()='Findings']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ExamCVAbnormalFindings": {
+      "path": "//a[@id='ExamCVAbnormalLink'and text()='Findings']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ExamGINormal": {
+      "path": "//button[@id='ExamGINormalLink'and text()='Normal']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ExamSkinAbnormal": {
+      "path": "//button[@id='ExamSkinAbnormalLink'and text()='Abnormal']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ExamSkinAbnormalFindings": {
+      "path": "//button[@id='ExamSkinAbormalLink'and text()='Findings']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ExamSkinABCQTV2": {
+      "path": "//div[contains(@class,'qt-action mini-action') and ancestor::div[@id='ExamSkin']]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ExamPsychNormal": {
+      "path": "//button[@id='ExamPsychNormalLink'and text()='Normal']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "SearchTextQTV2": {
+      "path": "//img[@id='searchImg']",
+      "frame": "FRAME_TESTDETAIL_POPUP"
+    },
+    "AddSelectedTextV3": {
+      "path": "//img[contains(@onclick, 'gettextselection')]",
+      "frame": "FRAME_TESTDETAIL_POPUP"
+    },
+    "RemoveSelectedText": {
+      "path": "//img[@buttonid='deselectselectedtext']",
+      "frame": "FRAME_TESTSELECTION"
+    },
+    "RemoveAll": {
+      "path": "//img[@buttonid='removeselectedtext']",
+      "frame": "FRAME_TESTSELECTION"
+    },
+    "Undo": {
+      "path": "//img[@buttonID='undoselectedtext']",
+      "frame": "FRAME_TESTSELECTION"
+    },
+    "Annotation": {
+      "path": "//img[@id='AddAnnotation']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "PatientName": {
+      "path": "span[@class='PAT_FULLNAME']"
+    },
+    "Admitting": {
+      "path": "span[@class='ADMITTING_REL']"
+    },
+    "Attending": {
+      "path": "span[@class='ATTENDING_REL']"
+    },
+    "Consulting": {
+      "path": "span[@class='CONSULTING_REL']"
+    },
+    "Admit/ScheduledDate": {
+      "path": "span[@class='ADMIT_SCHEDULED_DATETIME']"
+    },
+    "AccountNumber": {
+      "path": "span[@class='ACCNUMBER']"
+    },
+    "DischargeConditionABC": {
+      "path": "//i[contains(@class,'icon-add-text') and preceding-sibling::span[text()='Discharge Condition Details']]",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "RecommendationsDischargeInstructionsABC": {
+      "path": "//i[contains(@class,'icon-add-text') and preceding-sibling::span[text()='Recommendations and Discharge Instructions']]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "PhysicianLookup": {
+      "path": "//img[@id='ProviderIMG']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ListSelect": {
+      "path": "//span[@data-widget='qtTag_singleSelect']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "AllergyPlus": {
+      "path": "//*[@class = 'q4 ui-icon ui-icon-plus' and ancestor::div[contains(@id, 'Allergies')]]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ClinicalNotesPlus": {
+      "path": "//*[@class = 'q4 ui-icon ui-icon-plus' and ancestor::div[contains(@id, 'ClinicalNotes')]]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ClinicalNotesMinus": {
+      "path": "//*[@class = 'q4 ui-icon ui-icon-minus' and ancestor::div[contains(@id, 'ClinicalNotes')]]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "I/OPlus": {
+      "path": "//*[@class = 'q4 ui-icon ui-icon-plus' and ancestor::div[contains(@id, 'IOs')]]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "LabsPlus": {
+      "path": "//*[@class = 'q4 ui-icon ui-icon-plus' and ancestor::div[contains(@id, 'Labs')]]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "MedicationsPlus": {
+      "path": "//*[@class = 'q4 ui-icon ui-icon-plus' and ancestor::div[contains(@id, 'Medications')]]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "TestResultsPlus": {
+      "path": "//*[@class = 'q4 ui-icon ui-icon-plus' and ancestor::div[contains(@id, 'Tests')]]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "VitalsPlus": {
+      "path": "//*[@class = 'q4 ui-icon ui-icon-plus' and ancestor::div[contains(@id, 'Vitals')]]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "VisitType": {
+      "path": "//div[@name='VISIT_TYPE' and descendant::span[text()='Name']]",
+      "frame": "PATIENTLIST_DEBUG_FRAME"
+    },
+    "InsertPreviousExam": {
+      "path": "//a[@class='commandLink' and @insertpreviousid='ExamTarget']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ProblemTrash": {
+      "path": "//img[@id='RemoveLinkedContent']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "PatientnarrativeABCQTV2": {
+      "path": "//span[contains(@class,'cke_button__quicktext_icon') and ancestor::div[@id='PatientNarrative']]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "HCAPatientNarrativeQTlink": {
+      "path": "//img[@id='PatientNarrative__QT_CONTROL']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "Bold": {
+      "path": "//a[contains(@class, 'cke_button__bold')]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "BoldChartAM": {
+      "path": "//i[contains(@class,'adv-action-bold')]",
+      "frame": "FRAME_NOTEWRITER_MIAN"
+    },
+    "Italic": {
+      "path": "//a[contains(@class, 'cke_button__italic')]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "ItalicChartAM": {
+      "path": "//i[contains(@class, 'adv-action-italic')]",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "NumberedListChartAM": {
+      "path": "//div[@id='NotationField']//a[contains(@class, 'cke_button__numberedlist')]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "NumberedList": {
+      "path": "//a[contains(@class, 'cke_button__numberedlist')]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "BulletList": {
+      "path": "//a[contains(@class, 'cke_button__bulletedlist')]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "InsertFreeText": {
+      "path": "//a[@title='Insert Free Text']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "InsertSelectList": {
+      "path": "//a[@title='Insert Single Select']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "WikiSource": {
+      "path": "//a[@title='View Wiki Markup']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "InformationIcon": {
+      "path": "//span[@title='tooltip']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "Sort": {
+      "path": "//span[@class='qtIcon sort sortASC']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "GroupPlusIcon": {
+      "path": "//span[@class='quicktext-folder-toggle']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "DeleteGroup": {
+      "path": "//span[@class='qtIcon deleteQtList']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "DeleteFilter": {
+      "path": "//button[@class='filter-item-remove-link ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only']",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "QuickTextGroup": {
+      "path": "//span[@class='qtTitleText']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "NotationABCQTV2": {
+      "path": "//i[contains(@class,'nw-quick-text-action') and ancestor::div[@class='field-label' and child::span[text()='Notation:']]]",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "AnnotationABC": {
+      "path": "//img[@id='Annotation__QT_CONTROL']"
+    },
+    "ExamEENTNormal": {
+      "path": "//a[@id='ExamENTNormalLink' and text()='Normal']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ExamEENTABC": {
+      "path": "//img[@id='ExamENTMouth__QT_CONTROL']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ExamConstABC": {
+      "path": "//img[@id='ExamConstitutional__QT_CONTROL']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "RemoveClinicalData": {
+      "path": "//img[@id='RemoveClinicalDataCategory']"
+    },
+    "ROSCONSTITUTIONALABC": {
+      "path": "//img[@id='ROSConstitutional__QT_CONTROL']"
+    },
+    "HistoryofPresentIllnessABC": {
+      "path": "//img[@id='HPI__QT_CONTROL']"
+    },
+    "GlobalText": {
+      "path": "//li[contains(@class, 'quicktext-entry-folder') and text() = 'Global Text    ']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "Resident": {
+      "path": "//li[contains(@class, 'quicktext-entry-folder') and text() = 'Resident               ']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "Reportedby": {
+      "path": "//li[contains(@class, 'quicktext-entry-folder') and text() = 'Reported by:       ']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "PatientQT": {
+      "path": "//li[@class = 'quicktext-entry' and text() = 'Patient']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "MailOrders": {
+      "path": "//a[@name='tab2' and text()='Mail Order']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "PhoneOrders": {
+      "path": "//a[@name='tab3' and text()='Search by Phone']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "SelectPharmacyIcon": {
+      "path": "//span[@class='erx-sprite edit']",
+      "frame": "FRAME_DOJO_DIALOG"
+    },
+    "StopIcon": {
+      "path": "//td[@id='UnreconciledOrderStatusCell' and @hasstopicon='true']",
+      "frame": "FRAME_DOJO_DIALOG"
+    },
+    "OrderDetails": {
+      "path": "//div[@class='erx-dialog-section-summary' and descendant-or-self::span[@class='summary-title' and text()='Order Details']]",
+      "frame": "FRAME_DOJO_DIALOG"
+    },
+    "Continuedicon": {
+      "path": "//td[@id='UnreconciledOrderStatusCell' and @hascontinuedicon='true']",
+      "frame": "FRAME_DOJO_DIALOG"
+    },
+    "BGPointer": {
+      "path": "//td[@id='UnreconciledOrderStatusCell' and @class='unreconciledOrderStatus pointer unreconciledBG1']",
+      "frame": "FRAME_DOJO_DIALOG"
+    },
+    "CloseMod": {
+      "path": "//a[@role='button' and child::span[contains(@class, 'ui-icon-closethick') and text()='close'] and preceding-sibling::span[text()='Modifiers Selection']]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "PreviouslyReconciled": {
+      "path": "//td[@id='PreviouslyReconciledOrdersTabInactive' and @class='inactive' and text()='Previously Reconciled']",
+      "frame": "FRAME_DOJO_DIALOG"
+    },
+    "MedstoReconcile": {
+      "path": "//td[@id='OrdersToReconciledTabInactive' and @class='inactive' and text()='Meds to Reconcile']",
+      "frame": "FRAME_DOJO_DIALOG"
+    },
+    "SelectPharmacy": {
+      "path": "//a[contains(@id,'organizationnamedmr') and contains(normalize-space(./text()), 'Select Pharmacy')]",
+      "frame": "FRAME_DOJO_DIALOG"
+    },
+    "SearchImage": {
+      "path": "//img[@id='ProviderIMG']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "Discontinue": {
+      "path": "//span[@id='DCInlineButton' and contains(@style,'visible')]",
+      "frame": "FRAME_EDITORDER"
+    },
+    "CurrentImage": {
+      "path": "//img[@class='photo-row-icon ui-draggable']",
+      "frame": "FRAME_PHOTO_LIST"
+    },
+    "CurrentImage_POP_UP": {
+      "path": "//img[@class='photo-row-icon ui-draggable']",
+      "frame": "FRAME_PHOTO_LIST_POP_UP"
+    },
+    "InsertPreviousA/P": {
+      "path": "//a[@class='commandLink' and @insertpreviousid='ProblemList']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "Previous": {
+      "path": "//img[@id='PagePreviousImg']|//img[@tooltip='Previous' and @elementdisabled='Y']",
+      "frame": "FRAME_NOTEWRITER_INSERT_PREVIOUS"
+    },
+    "MyNotes": {
+      "path": "(//*[@id='IncludeDeptRadio'])[1]",
+      "frame": "FRAME_NOTEWRITER_INSERT_PREVIOUS"
+    },
+    "MyDepartmentNotes": {
+      "path": "(//*[@id='IncludeDeptRadio'])[2]",
+      "frame": "FRAME_NOTEWRITER_INSERT_PREVIOUS"
+    },
+    "ExamRespAbnormal": {
+      "path": "//a[@id='ExamRespAbnormal'and text()='Abnormal']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "QuickTextContainer": {
+      "path": "//ul[@class='quicktext-global-entries quicktext-entries quicktext-entry-container']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "QuickText": {
+      "path": "//li[@class='quicktext-entry quicktext-entry-active']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "InsertPreviousNoteRemove": {
+      "path": "//img[@id='RemoveLinkedContent']",
+      "frame": "FRAME_NOTEWRITER_INSERT_PREVIOUS"
+    },
+    "PagePreviousImage": {
+      "path": "//img[@id='PagePreviousImg']",
+      "frame": "FRAME_NOTEWRITER_INSERT_PREVIOUS"
+    },
+    "PageNextImage": {
+      "path": "//img[@id='PageNextImg']",
+      "frame": "FRAME_NOTEWRITER_INSERT_PREVIOUS"
+    },
+    "ExamOtherLink": {
+      "path": "//a[@id='ExamOtherLink'and text()='Free Text']",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "ROSCONSTAbnormal": {
+      "path": "//a[@id='ROSConstAbnormalLink'and text()='Abnormal']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "AddAllExistingDiagnosis": {
+      "path": "//a[@class='add_all_link'and text()='Add all']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "WarningMessage": {
+      "path": "//table[@id='dialogTable' and descendant::td[@id='dialogTitle' and contains(text(), 'Warning')]]",
+      "frame": "NO_FRAME"
+    },
+    "PlanFieldABCQTV2": {
+      "path": "//div[@class='qt-action mini-action' and ancestor::div[@id='ProblemPlan']]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "MUSCULOSKELETALABCQTV2": {
+      "path": "//div[@id='ExamMSK']//div[@class='qt-action mini-action']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "FavoriteDx": {
+      "path": "//img[@buttonid='favoritedx' and @favorite='false']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "FavoriteProblem": {
+      "path": "//img[@buttonid='favoritedx' and @favorite='true']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "AllergiesABC": {
+      "path": "//i[contains(@class,'nw-quick-text-action') and ancestor::div[@class='field-label' and child::span[text()='Additional Allergies:']]]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "HomeMedicationsABC": {
+      "path": "//i[contains(@class,'nw-quick-text-action') and ancestor::div[@class='field-label' and child::span[text()='Home Medications:']]]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "TrashDX": {
+      "path": "//img[@id='RemoveClinicalDataItem']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "Today'sDate": {
+      "path": "//td[@class='today in-range' or @class='dateCurrent']",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "TyphoidCalendar": {
+      "path": "//img[@id='OnsetDate_img' and ancestor::td[preceding::font[@id='HistoryProblemDesc' and text()= 'Typhoid Fever']]]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "AppendectomyCalendar": {
+      "path": "//img[@id='OnsetDate_img' and ancestor::td[preceding::font[@id='SurgicalProblemDesc' and text()= 'S/P appendectomy']]]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "CABGCalendar": {
+      "path": "//img[@id='OnsetDate_img' and ancestor::td[preceding::font[@id='HistoryProblemDesc' and text()= 'Hx of CABG']]]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "MoreOptions": {
+      "path": "//span[@class='ui-icon menudots']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "ScreenSettings": {
+      "path": "//*[@id='configsettings']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "PrintCharge": {
+      "path": "//*[@id='print_button']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "LabResultNoteWriterPreselectionIcon": {
+      "path": "//img[@buttonid='selectallclinicaldatalabresults']",
+      "frame": "FRAME_LABRESULTS_PANEL"
+    },
+    "HoldForReviewAddCharges": {
+      "path": "//button[@id='holdforreview_popup' and @title='Hold For Review Reasons']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "EditsCustomReasons": {
+      "path": "//ul[@class='status-bar-message-list' and descendant::li[contains(text(),'Held for Review: AddReason1, AddReason2')]]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "EditsReviewRequestedReason": {
+      "path": "//ul[@class='status-bar-message-list' and descendant::li[contains(text(),'Held for Review: Review requested')]]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "AdditionalDates": {
+      "path": "//span[@id='add_service_date_trigger']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "AddDateRange": {
+      "path": "//a[@class='addServiceDateRange ui-corner-all' and text()='Add Date Range']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "Comments": {
+      "path": "//h3[@class='comments-maximize clickable']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "PatientDetailVisits": {
+      "path": "//div[@class='navbar side']/ul/li[text()='Visits']",
+      "frame": "FRAME_PATIENTDETAIL_SIDEBAR"
+    },
+    "ClearDiagnoses": {
+      "path": "//span[@id='clear_dx_search']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "CurrentList": {
+      "path": "//span[@id='_currentList']",
+      "frame": "FRAME_REASSIGN_PATIENTLIST"
+    },
+    "SurgeryDateCalendar": {
+      "path": "//img[@id='SurgeryDate_img']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "SurgeonIMG": {
+      "path": "//img[@id='SurgeonIMG']",
+      "frame": "FRAME_NOTE_WIZARD"
+    },
+    "MiscellaneousPatientNarrativeABC": {
+      "path": "//div[@class='qt-action mini-action' and ancestor::div[@id='PatientNarrative']]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "EditOtherMaritalStatus": {
+      "path": "//span[@id='EditOtherLinkMaritalStatus']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ROSEyesFindings": {
+      "path": "//button[@id='ROSEyesAbormalLink' and text()='Findings']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "All/ImmTrash": {
+      "path": "//img[@id='RemoveLinkedContent' and ancestor::td[preceding-sibling::td[contains(text(), 'ALLERGIC / IMMUNOLOGIC')]]]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ROSCommentFreeText": {
+      "path": "//button[@id='ROSOtherNormalLink' and text()='Free Text']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "AllNormal": {
+      "path": "//a[@id='EmptyLink' and text()='All Normal']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "AdmissionDate": {
+      "path": "//font[@id='AdmissionDate']",
+      "frame": "FRAME_NOTE_WIZARD"
+    },
+    "ExamGeneralNormal": {
+      "path": "//button[@id='ExamGeneralNormalLink' and text()='Normal']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ExamHeadFindings": {
+      "path": "//button[@id='ExamHeadAbormalLink' and text()='Findings']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "PsychTrash": {
+      "path": "//img[@id='RemoveLinkedContent' and ancestor::td[preceding-sibling::td[contains(text(),'PSYCHIATRIC')]]]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ExamCommentFreeText": {
+      "path": "//button[@id='ExamOtherNormalLink' and text()='Free Text']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "HeadacheCalendar": {
+      "path": "//img[@id='OnsetDate_img' and ancestor::td[preceding::font[@id='HistoryProblemDesc' and contains(text(), 'Headache')]]]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ShoulderCalendar": {
+      "path": "//img[@id='OnsetDate_img' and ancestor::td[preceding::font[@id='SurgicalProblemDesc' and contains(text(), 'Shoulder')]]]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "AdditionalAttestationABC": {
+      "path": "//div[@class='qt-action mini-action' and ancestor::div[@id='AttestationDetail']]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "HospitalCourseABC": {
+      "path": "//div[@class='qt-action mini-action' and ancestor::div[@id='HospitalCourseTextArea']]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "CurrentMonth": {
+      "path": "//span[@class='anchor' and @title='Go To Current Month']",
+      "frame": "FRAME_CALENDAR"
+    },
+    "ProgressHPIABC": {
+      "path": "//a[@class='cke_button cke_button__quicktext cke_button_off' and ancestor::div[@id='cke_HPI_P']]|//a[@class='cke_button cke_button__quicktext cke_button_off' and ancestor::span[@id='cke_HPI_P']]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "DischargeProceduresPerformedABC": {
+      "path": "//a[@class='cke_button cke_button__quicktext cke_button_off' and ancestor::div[@id='cke_ProcedurePerformed']]|//a[@class='cke_button cke_button__quicktext cke_button_off' and ancestor::span[@id='cke_ProcedurePerformed']]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "DischargeDataAddCommentsABC": {
+      "path": "//a[@class='cke_button cke_button__quicktext cke_button_off' and ancestor::div[@id='cke_DataAdditionalCmt_DS']]|//a[@class='cke_button cke_button__quicktext cke_button_off' and ancestor::span[@id='cke_DataAdditionalCmt_DS']]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "DischargeMedicationsAddCommentsABC": {
+      "path": "//a[@class='cke_button cke_button__quicktext cke_button_off' and ancestor::div[@id='cke_OtherDischargeMeds']]|//a[@class='cke_button cke_button__quicktext cke_button_off' and ancestor::span[@id='cke_OtherDischargeMeds']]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "DischargeInstructionsABC": {
+      "path": "//a[@class='cke_button cke_button__quicktext cke_button_off' and ancestor::div[@id='cke_DischargeInstructions']]|//a[@class='cke_button cke_button__quicktext cke_button_off' and ancestor::span[@id='cke_DischargeInstructions']]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "DischageInstructionsEmergencyInstrucitonsABC": {
+      "path": "//a[@class='cke_button cke_button__quicktext cke_button_off' and ancestor::div[@id='cke_EmergencyInstructions']]|//a[@class='cke_button cke_button__quicktext cke_button_off' and ancestor::span[@id='cke_EmergencyInstructions']]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "DischageInstructionsAdditionalDetailABC": {
+      "path": "//a[@class='cke_button cke_button__quicktext cke_button_off' and ancestor::div[@id='cke_Dischargecomments']]|//a[@class='cke_button cke_button__quicktext cke_button_off' and ancestor::span[@id='cke_Dischargecomments']]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "DischageAttestationDetailABC": {
+      "path": "//a[@class='cke_button cke_button__quicktext cke_button_off' and ancestor::div[@id='cke_AttestationDetail']]|//a[@class='cke_button cke_button__quicktext cke_button_off' and ancestor::span[@id='cke_AttestationDetail']]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ProgressSubjectiveHPIABC": {
+      "path": "//a[@class='cke_button cke_button__quicktext cke_button_off' and ancestor::div[@id='cke_HPI_P']]|//a[@class='cke_button cke_button__quicktext cke_button_off' and ancestor::span[@id='cke_HPI_P']]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ProgressSubjectiveNarrativeIABC": {
+      "path": "//a[@class='cke_button cke_button__quicktext cke_button_off' and ancestor::div[@id='cke_PatientNarrative']]|//a[@class='cke_button cke_button__quicktext cke_button_off' and ancestor::span[@id='cke_PatientNarrative']]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ProgressDataAdditionalCommentsIABC": {
+      "path": "//a[@class='cke_button cke_button__quicktext cke_button_off' and ancestor::div[@id='cke_DataAdditionalCmt_PR']]|//a[@class='cke_button cke_button__quicktext cke_button_off' and ancestor::span[@id='cke_DataAdditionalCmt_PR']]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ProgressAPHospitalCourseIABC": {
+      "path": "//a[@class='cke_button cke_button__quicktext cke_button_off' and ancestor::div[@id='cke_APHospCrse']]|//a[@class='cke_button cke_button__quicktext cke_button_off' and ancestor::span[@id='cke_APHospCrse']]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ProgressAPGeneralAssessmentABC": {
+      "path": "//a[@class='cke_button cke_button__quicktext cke_button_off' and ancestor::div[@id='cke_APGeneralAssmnt']]|//a[@class='cke_button cke_button__quicktext cke_button_off' and ancestor::span[@id='cke_APGeneralAssmnt']]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ProgressAPAdditionalCommentsABC": {
+      "path": "//a[@class='cke_button cke_button__quicktext cke_button_off' and ancestor::div[@id='cke_APAdditionalComments']]|//a[@class='cke_button cke_button__quicktext cke_button_off' and ancestor::span[@id='cke_APAdditionalComments']]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ProgressAttestationAdditionalDetailABC": {
+      "path": "//a[@class='cke_button cke_button__quicktext cke_button_off' and ancestor::div[@id='cke_AttestationDetail']]|//a[@class='cke_button cke_button__quicktext cke_button_off' and ancestor::span[@id='cke_AttestationDetail']]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ClearSelectionReferring": {
+      "path": "//span[contains(@class,'clearSelection') and ancestor::div[@class='header_info' and child::*[contains(text(),'Referring')]]]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "ProofreadIcon": {
+      "path": "//div[@class='proofread-action' and ancestor::div[@pkwidgetid='PKQuickText2_PatientNarrative']]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "Misspellword": {
+      "path": "//span[@class='scayt-misspell-word']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "AddendumCommentsABCQTV2": {
+      "path": "//i[contains(@class,'icon-add-text') and ancestor::div[@data-step-id='AddendumSigned']]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "AMRContinueChange": {
+      "path": "//div[@id='StopContinueReadOnly' and text()='Continue / Change']",
+      "frame": "FRAME_DOJO_DIALOG"
+    },
+    "AMRStop": {
+      "path": "//div[@id='StopContinueReadOnly' and text()='Stop']",
+      "frame": "FRAME_DOJO_DIALOG"
+    },
+    "Logo": {
+      "path": "//*[@id='Logo']",
+      "frame": "FRAME_LOGOUT"
+    },
+    "EditDraft": {
+      "path": "//span[@pkwidget='Button' and text()='Edit']",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "DraftWatermark": {
+      "path": "//div[@class='watermark' and text()='Draft']",
+      "frame": "FRAME_NOTEDETAIL"
+    },
+    "PastMedicalHistoryRadio": {
+      "path": "//span[contains(@class,'mdl-radio__ripple-container') and ancestor::label[@for='HistoryProblem']]",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "FamilyHistoryAddAsFreeText": {
+      "path": "//span[text()='Add as Free Text' and ancestor::div[@class='problem-view-container' and descendant::label[@field-id='FamilyHistory']]]",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "CoSignLookUpSearchList": {
+      "path": "//ul[@class='mdl-list lp-search-list' and ancestor::div[@class='cosign-container']]",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "APProblemPicker": {
+      "path": "//ul[@id='ui-id-3' and ancestor::div[contains(@class,'problem-picker Icd10DxContainerClass')]]",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "HistoryProblemPicker": {
+      "path": "//ul[@id='ui-id-1' and ancestor::div[contains(@class,'problem-picker Icd10DxContainerClass')]]",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "FSProblemPicker": {
+      "path": "//ul[@id='ui-id-2' and ancestor::div[contains(@class,'problem-picker Icd10DxContainerClass')]]",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "RecentVitals": {
+      "path": "//div[@class='cd-list-table' and ancestor::div[contains(@class,'RecentVitals')]]",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "RecentIO": {
+      "path": "//div[@class='cd-list-table' and ancestor::div[contains(@class,'RecentIO')]]",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "PendingLabTests": {
+      "path": "//div[@class='cd-list-table' and ancestor::div[contains(@class,'PendingClinical')]]",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "ExamCONSTNormal": {
+      "path": "//button[@id='ExamConstNormalLink'and text()='Normal']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ExamEyesNormal": {
+      "path": "//button[@id='ExamEyesNormalLink'and text()='Normal']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ExamRespNormal": {
+      "path": "//button[@id='ExamRespNormal'and text()='Normal']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ExamNeuroNormal": {
+      "path": "//button[@id='ExamNeuroNormalLink'and text()='Normal']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ExamCVAbnormal": {
+      "path": "//button[@id='ExamCVAbormalLink'and text()='Findings']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ExamCVABCQTV2": {
+      "path": "//i[contains(@class,'icon-add-text') and ancestor::div[@id='ExamCV']]",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "PhysicanLookUpSearchList": {
+      "path": "//ul[@class='mdl-list lp-search-list' and ancestor::div[@class='lookup-person-field-container']]",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "OnsetDate": {
+      "path": "//span[@class='selected-date nw-clickable' and preceding-sibling::i[text()='Onset Date:']]",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "SurgeryDate": {
+      "path": "//span[@class='selected-date nw-clickable' and preceding-sibling::i[text()='Surgery Date:']]",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "RxNeeded": {
+      "path": "//div[@class='md-checkbox-container' and following-sibling::label[contains(text(),'Rx Needed')]]",
+      "frame": "FRAME_DOJO_DIALOG"
+    },
+    "OriginalMedication": {
+      "path": "//div[@class='formulary-status-single-digit' and text()='3']",
+      "frame": "FRAME_DOJO_DIALOG"
+    },
+    "DefaultPharmacy": {
+      "path": "//span[@class='icon-write-comment' and ancestor::div[contains(text(),'Default Pharmacy')]]",
+      "frame": "FRAME_DOJO_DIALOG"
+    },
+    "+Icon": {
+      "id": "addBtnID",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "OtherPharmacy": {
+      "path": "//span[@class='icon-write-comment' and ancestor::div[contains(text(),'Other Pharmacy ')]]",
+      "frame": "FRAME_DOJO_DIALOG"
+    },
+    "ROSCVAbnormalABCQTV2": {
+      "path": "//div[@class='qt-action mini-action' and ancestor::div[@id='ROSCV']]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ROSCVAbnormal": {
+      "path": "//button[@id='ROSCVAbnormalLink'and text()='Abnormal']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "TobaccoUseCheckbox": {
+      "id": "TobaccoUse",
+      "frame": "PopoutNoteWizard"
+    },
+    "AlcoholUseCheckbox": {
+      "id": "AlcoholUse",
+      "frame": "PopoutNoteWizard"
+    },
+    "DrugUseCheckbox": {
+      "id": "DrugUse",
+      "frame": "PopoutNoteWizard"
+    },
+    "Favorited": {
+      "path": ".//i[@class='uxf-icon--active icon-star' and ancestor::div[@class='PKFavorite']]"
+    },
+    "HospitalCourseListSelect": {
+      "path": "//span[@data-widget='qtTag_singleSelect']",
+      "frame": "FRAME_NOTE_WIZARD"
+    },
+    "ExamNeckNormalQTV2": {
+      "path": "//div[@role='textbox' and @testid='it_ExamNeck']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "PharmacyEditIcon": {
+      "path": "//span[@class='icon-write-comment' and ancestor::div[@id='erxDefaultDestination']]",
+      "frame": "FRAME_DOJO_DIALOG"
+    },
+    "DeletePreSelectedPharmacy": {
+      "path": "//span[contains(@class,'icon-trash') and ancestor::div[@id='patientPharmaciesSection']]",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "PKHospital": {
+      "path": "//span[contains(@class,'fancytree-checkbox material-icons') and following-sibling::span[@class='fancytree-title' and text()='PKHospital']]",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    },
+    "PatientNarrativeBold": {
+      "path": "//a[contains(@class, 'cke_button__bold') and ancestor::div[contains(@id,'PatientNarrative')]]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "PatientNarrativeItalic": {
+      "path": "//a[contains(@class, 'cke_button__italic') and ancestor::div[contains(@id,'PatientNarrative')]]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "PatientNarrativeBulletedList": {
+      "path": "//a[contains(@class, 'cke_button__bulletedlist') and ancestor::div[contains(@id,'PatientNarrative')]]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ExamNeckNormal": {
+      "path": "//button[@id='ExamNeckNormalLink'and text()='Normal']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "NoteWriterTemplateHeader": {
+      "path": "//div[contains(@class,'nw-template-name')]",
+      "frame": "NO_FRAME"
+    },
+    "ExamEyesAbnormal": {
+      "path": "//button[@id='ExamEyesAbormalLink'and text()='Findings']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ClinicalDataAddendumInsertPrevious": {
+      "path": "//i[@externalid='ClinicalDataAddendum']",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "ContinueIcon": {
+      "path": "//td[@id='UnreconciledOrderStatusCell' and contains(@class,'continueIcon')]",
+      "frame": "FRAME_DOJO_DIALOG"
+    },
+    "DiagnosisSearch": {
+      "id": "diagnosis_search",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "EPCSPrescriberReportTab": {
+      "path": "//li[@id='EPCSREPORT' and text()='EPCS Prescriber Report']",
+      "frame": "FRAME_MAIN_NAV"
+    }
+  },
+  "DRAG_AND_DROP": {
+    "Display": {
+      "source": "//div[@class='patient-list-field ui-draggable ui-draggable-handle' and span[text() ='sourceName']]",
+      "target": "//div[contains(@id,'createPatientListDisplayBuilder')]/div[1]/table/tbody/",
+      "frame": "FRAME_CREATEMODIFY_PATIENTLIST"
+    }
+  },
+  "PKDROPDOWNS": {
+    "SelectaPatientList": {
+      "path": "//button[descendant::span[text()='Select one or more']]",
+      "listPath": "//ul[@class='ui-multiselect-checkboxes ui-helper-reset']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "HoldForReviewPopup": {
+      "path": "//button[@id='holdforreview_popup']",
+      "listPath": "//div[@id= 'hfrReasonsPopupContainer']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "MarkAsReviewPopup": {
+      "path": "//button[@id='markasreviewed_popup']",
+      "listPath": "//div[@id= 'hfrReasonsPopupContainer']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    }
+  },
+  "NOTE_FIELDS": {
+    "Patientnarrative": {
+      "path": "//body[@class='RS_MultiLineTB']",
+      "frame": "FRAME_NOTEWRITER_PROGRESSNOTE"
+    },
+    "HistoryDiagnosisSearch": {
+      "path": "//body[@class='RS_SingleLineTB']",
+      "frame": "FRAME_NOTEWRITER_HISTORYNOTE"
+    },
+    "AddQuickTextLabel": {
+      "path": "//input[@id='Name']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    },
+    "AddQuickTextShortCut": {
+      "path": "//input[@id='Shortcut']",
+      "frame": "FRAME_POPUP_CONTENTS"
+    }
+  },
+  "PANE_SECTIONS": {
+    "ProblemDescription": {
+      "path": "//div[@class='problemDescriptionFieldWrapper']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "PastMedicalHistory": {
+      "path": "//div[@id='HistoryProblemContainer']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "HospitalCourseTextArea": {
+      "path": "//div[@id='hospitalCourseTextAreaWrapper']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "HospitalCourseClinicalData": {
+      "path": "//td[@id='left' and descendant::label[@id='clinicalSelectLabel']]",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "ExamTargetTable": {
+      "path": "//div[@id='ExamLinkTable']",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    },
+    "AddendumDetail": {
+      "path": "//div[@id='WebViewAddendumForSignedNote']",
+      "frame": "FRAME_NOTEWRITER"
+    },
+    "NotesToPharmacyCharCount": {
+      "path": "//span[@class='md-count' and parent::div[contains(@class,'md-field pharmacy-notes-field')]]",
+      "frame": "FRAME_DOJO_DIALOG"
+    }
+  },
+  "PKLISTS": {
+    "When": {
+      "path": "//ul[@id='listbox' and preceding-sibling::span[text()='Start First Dose']]",
+      "frame": "FRAME_EDITORDER"
+    },
+    "Dose": {
+      "path": "//ul[@id='listbox' and preceding-sibling::*[contains(text(),'Dose')]]",
+      "frame": "FRAME_EDITORDER"
+    },
+    "Frequency": {
+      "path": "//ul[@id='listbox' and preceding-sibling::*[contains(text(), 'Frequency')]]",
+      "frame": "FRAME_EDITORDER"
+    },
+    "Refills": {
+      "path": "//ul[@id='listbox' and preceding::div[contains(normalize-space(text()),'Refills')]]",
+      "frame": "FRAME_EDITORDER"
+    },
+    "StartMeal": {
+      "path": "//div[@id='listbox-element' and descendant::span[text()='Start Meal']]",
+      "frame": "FRAME_EDITORDER"
+    },
+    "Route": {
+      "path": "//ul[@id='listbox' and preceding-sibling::span[text()='Route']]",
+      "frame": "FRAME_EDITORDER"
+    }
+  },
+  "TOGGLES": {
+    "WriteANote": {
+      "path": "//div[contains(@class, 'wizard-accordion') and contains(@class, 'note-type-accordion nw-collapsible') and descendant::*[text()='Write a Note']]",
+      "frame": "FRAME_NOTEWRITER_MAIN"
+    }
+  }
+}

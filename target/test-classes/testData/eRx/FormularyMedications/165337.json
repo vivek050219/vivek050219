@@ -1,0 +1,94 @@
+[
+    {
+        "payerCoverageInfo": {
+            "payer": "THISPBMNAMEISHUGE-T21633",
+            "planId": "890healthid",
+            "planNetworkId": "thisisaverrrylongbinnumber#fortestingmaxlengthhere",
+            "processorId": "thisisanextremelylooooooonnnnggggggpcnnnnamethatisgoiingrightothe80charlimit4x12",
+            "memberId": "ZZX$$^JJSDYY-9929933 BBQQW-55&99-88@HHSDHTKK@YYWTT-4-60CHARS",
+            "groupNumber": "thisisaverry13longgroupidnumbernotshorterthanthe50",
+            "formulary": "FSL102",
+            "alternatives": "ALT101",
+            "copay": "201",
+            "interchangeControlNumber": 342617488,
+            "payerId": "T00000000021633",
+            "healthPlanName": "THISISA_REALLYREALLY_LONG_PLAN-NAME12345",
+            "patient": {
+                "name": {
+                    "lastName": "MYLONGLASTNAMEISCRAZYATFORTYCHARSYUKIKNO",
+                    "firstName": "BOBZIMBABWAYALPHAPAINUBERDOOBERNAME",
+                    "middleName": "ZACHARYTYPOGALORE",
+                    "suffix": "JUNIOR"
+                },
+                "address": {
+                    "address1": "27732 WEST ALAMEDA POTHOLELADEN STREET",
+                    "address2": "APT 22A",
+                    "city": "RANCHO CUCAMONGA",
+                    "state": "CA",
+                    "postalCode": "917011515"
+                },
+                "dob": 1017619200000,
+                "gender": "UNDEFINED"
+            },
+            "coverages": [
+                {
+                    "type": "RETAIL",
+                    "messages": [
+                        
+                    ]
+                },
+                {
+                    "type": "MAIL",
+                    "messages": [
+                        
+                    ]
+                },
+                {
+                    "type": "SPECIALTY",
+                    "messages": [
+                        "Message [text=SPECIALTY PHARMACY]"
+                    ]
+                },
+                {
+                    "type": "SPECIALTY",
+                    "messages": [
+                        "Message [text=LTC]"
+                    ]
+                }
+            ],
+            "cardHolderName": {
+                "lastName": "MYLONGLASTNAMEISCRAZYATFORTYCHARSYUKIKNO",
+                "firstName": "BOBZIMBABWAYALPHAPAINUBERDOOBERNAME",
+                "middleName": "ZACHARYTYPOGALORE"
+            },
+            "cardHolderId": "thisisareallyreallylongcardholderidnum12345678910",
+            "coverageId": "COV103"
+        },
+        "medications": [
+            {
+                "medId": 165337,
+                "description": "Celexa 10 mg tablet",
+                "formularyStatus": 1,
+                "ndc": 456401001,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": false,
+                "genericMedId": 176094,
+                "genericDescription": "citalopram 10 mg tablet",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "10",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            }
+        ]
+    }
+]

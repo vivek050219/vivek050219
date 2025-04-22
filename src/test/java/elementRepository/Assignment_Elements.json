@@ -1,0 +1,84 @@
+{
+  "LINKS": {
+    "Search": {
+      "path": "//a[text() = 'search...']",
+      "frame": "FRAME_PATIENTLIST_ASSIGNMENT"
+    }
+  },
+  "PKDROPDOWNS": {
+    "AssignmentList": {
+      "path": "//button[contains(@class, 'PKMultiSelectFindMore') and contains(@class,'assignmentListSelector')]",
+      "listPath": "//ul[@testid='AssignmentList_MultiSelect_MenuItems']",
+      "frame": "FRAME_PATIENTLIST_ASSIGNMENT"
+    },
+    "ListsToDisplay": {
+      "path": "//div[@class='ui-multiselect-wrapper' and preceding::label[text()='Lists to Display']]",
+      "listPath": "//ul[@testid='SubAssignmentList_MultiSelect_MenuItems']",
+      "frame": "FRAME_PATIENTLIST_ASSIGNMENT"
+    }
+  },
+  "BUTTONS": {
+    "Refresh": {
+      "path": "//img[@class='refresh-assignment-list-pane']",
+      "frame": "FRAME_PATIENTLIST_ASSIGNMENT"
+    },
+    "SearchPatientList": {
+      "path": "//button[contains(@class,'search-button')]",
+      "frame": "FRAME_PATIENTLIST_ASSIGNMENT"
+    },
+    "SelectPatientList": {
+      "path": "//button[contains(text(),'Select Patient List')]",
+      "frame": "FRAME_PATIENTLIST_ASSIGNMENT"
+    },
+    "CancelPatientSearchPopUp": {
+      "path": "//button[contains(text(),'Cancel')]",
+      "frame": "FRAME_PATIENTLIST_ASSIGNMENT"
+    }
+  },
+  "CHECKBOXES": {
+    "VerveDelReassign1Assignment1": {
+      "path": "//input[@title='VerveDel Reassign1 Assignment1']",
+      "frame": "FRAME_PATIENTLIST_ASSIGNMENT"
+    }
+  },
+  "DROPDOWNS": {
+    "Department": {
+      "path": "//select[@class='department']",
+      "frame": "FRAME_PATIENTLIST_ASSIGNMENT"
+    },
+    "ListsToDisplay": {
+      "path": "//button[contains(@class, 'PKMultiSelectFindMore') and contains(@class,'assignmentSubListSelector')]",
+      "frame": "FRAME_PATIENTLIST_ASSIGNMENT"
+    }
+  },
+  "MISC_ELEMENTS": {
+    "CheckAll": {
+      "path": "//a[@class='ui-multiselect-all' and descendant::span[text()='Check all' and preceding::span[text()='Uncheck all']]]",
+      "frame": "FRAME_PATIENTLIST_ASSIGNMENT"
+    },
+    "ListToDisplay": {
+      "path": "//label[contains(text(),'Lists to Display')]",
+      "frame": "FRAME_PATIENTLIST_ASSIGNMENT"
+    }
+  },
+  "PANES": {
+    "ListsToDisplay": {
+      "path": "//div[contains(@class, 'PKMultiSelectFindMore') and contains(@class,'assignmentSubListSelector')]",
+      "frame": "FRAME_PATIENTLIST_ASSIGNMENT"
+    }
+  },
+  "TABLES": {
+    "PatientListSearchResults": {
+      "path": "//div[@class='results']",
+      "head": ".//div[@class='dataTables_scrollHead ui-state-default']//table/thead",
+      "body": ".//div[@class='dataTables_scrollBody']//table/tbody",
+      "frame": "FRAME_PATIENTLIST_ASSIGNMENT"
+    }
+  },
+  "TEXT_FIELDS": {
+    "PatientListSearch": {
+      "path": "contains(@id,'_SearchCriteria_Input')",
+      "frame": "FRAME_PATIENTLIST_ASSIGNMENT"
+    }
+  }
+}

@@ -1,0 +1,612 @@
+{
+    "medHistoryResponseList": [
+        {
+            "historyResponse": {
+                "approved": {
+                    "approvalReasonCodeDto": [
+                        
+                    ]
+                }
+            },
+            "historyDispensedMedications": [
+                {
+                    "drugDescription": "PERCOCET 10MG/650MG TABLET",
+                    "drugCoded": {
+                        "productCode": "63481062270",
+                        "productCodeQualifier": "ND",
+                        "strength": "10MG/650MG",
+                        "drugDBCode": "1049650",
+                        "drugDBCodeQualifier": "SBD",
+                        "formSourceCode": "AA",
+                        "formCode": "C42998",
+                        "strengthSourceCode": "AB",
+                        "strengthCode": "C28253",
+                        "deaSchedule": "C48675"
+                    },
+                    "quantity": [
+                        {
+                            "value": "90",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C48542",
+                            "uomDesc": "Tablets"
+                        }
+                    ],
+                    "daysSupply": "90",
+                    "refills": [
+                        {
+                            "qualifier": "R",
+                            "value": "0"
+                        }
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        8,
+                        1
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "6636785"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "FENTANYL 100 MCG/HR TRANSDERM PATCH",
+                    "drugCoded": {
+                        "productCode": "00093690345",
+                        "productCodeQualifier": "ND",
+                        "strength": "100MCG/HR",
+                        "drugDBCode": "245136",
+                        "drugDBCodeQualifier": "SCD",
+                        "formSourceCode": "AA",
+                        "formCode": "C42968",
+                        "strengthSourceCode": "AB",
+                        "strengthCode": "C67394",
+                        "deaSchedule": "C48675"
+                    },
+                    "quantity": [
+                        {
+                            "value": "30",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C48524",
+                            "uomDesc": "Patches"
+                        }
+                    ],
+                    "daysSupply": "30",
+                    "refills": [
+                        {
+                            "qualifier": "R",
+                            "value": "0"
+                        }
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        7,
+                        31
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "6654139"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "DILAUDID 8 MG TABLET",
+                    "drugCoded": {
+                        "productCode": "59011045810",
+                        "productCodeQualifier": "ND",
+                        "strength": "8MG",
+                        "drugDBCode": "897712",
+                        "drugDBCodeQualifier": "SBD",
+                        "formSourceCode": "AA",
+                        "formCode": "C42998",
+                        "strengthSourceCode": "AB",
+                        "strengthCode": "C28253",
+                        "deaSchedule": "C48675"
+                    },
+                    "quantity": [
+                        {
+                            "value": "90",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C48542",
+                            "uomDesc": "Tablets"
+                        }
+                    ],
+                    "daysSupply": "90",
+                    "refills": [
+                        {
+                            "qualifier": "R",
+                            "value": "0"
+                        }
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        7,
+                        30
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "4840646"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "OXYCONTIN 80 MG TABLET",
+                    "drugCoded": {
+                        "productCode": "59011048010",
+                        "productCodeQualifier": "ND",
+                        "strength": "80MG",
+                        "drugDBCode": "1049601",
+                        "drugDBCodeQualifier": "SBD",
+                        "formSourceCode": "AA",
+                        "formCode": "C42998",
+                        "strengthSourceCode": "AB",
+                        "strengthCode": "C28253",
+                        "deaSchedule": "C48675"
+                    },
+                    "quantity": [
+                        {
+                            "value": "90",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C48542",
+                            "uomDesc": "Tablets"
+                        }
+                    ],
+                    "daysSupply": "90",
+                    "refills": [
+                        {
+                            "qualifier": "R",
+                            "value": "0"
+                        }
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        7,
+                        29
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "4242923"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "PERCOCET 10MG/650MG TABLET",
+                    "drugCoded": {
+                        "productCode": "63481062270",
+                        "productCodeQualifier": "ND",
+                        "strength": "10MG/650MG",
+                        "drugDBCode": "1049650",
+                        "drugDBCodeQualifier": "SBD",
+                        "formSourceCode": "AA",
+                        "formCode": "C42998",
+                        "strengthSourceCode": "AB",
+                        "strengthCode": "C28253",
+                        "deaSchedule": "C48675"
+                    },
+                    "quantity": [
+                        {
+                            "value": "90",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C48542",
+                            "uomDesc": "Tablets"
+                        }
+                    ],
+                    "daysSupply": "90",
+                    "refills": [
+                        {
+                            "qualifier": "R",
+                            "value": "0"
+                        }
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        7,
+                        28
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "6946785"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "CODEINE SULFATE 60 MG TABLET",
+                    "drugCoded": {
+                        "productCode": "54868254102",
+                        "productCodeQualifier": "ND",
+                        "strength": "60MG",
+                        "drugDBCode": "997296",
+                        "drugDBCodeQualifier": "SCD",
+                        "formSourceCode": "AA",
+                        "formCode": "C42998",
+                        "strengthSourceCode": "AB",
+                        "strengthCode": "C28253",
+                        "deaSchedule": "C48675"
+                    },
+                    "quantity": [
+                        {
+                            "value": "360",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C48542",
+                            "uomDesc": "Tablets"
+                        }
+                    ],
+                    "daysSupply": "90",
+                    "refills": [
+                        {
+                            "qualifier": "R",
+                            "value": "0"
+                        }
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        7,
+                        27
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "4553720"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "FENTANYL 100 MCG/HR TRANSDERM PATCH",
+                    "drugCoded": {
+                        "productCode": "00093690345",
+                        "productCodeQualifier": "ND",
+                        "strength": "100MCG/HR",
+                        "drugDBCode": "245136",
+                        "drugDBCodeQualifier": "SCD",
+                        "formSourceCode": "AA",
+                        "formCode": "C42968",
+                        "strengthSourceCode": "AB",
+                        "strengthCode": "C67394",
+                        "deaSchedule": "C48675"
+                    },
+                    "quantity": [
+                        {
+                            "value": "30",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C48524",
+                            "uomDesc": "Patches"
+                        }
+                    ],
+                    "daysSupply": "30",
+                    "refills": [
+                        {
+                            "qualifier": "R",
+                            "value": "0"
+                        }
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        7,
+                        26
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "7854539"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "DILAUDID 8 MG TABLET",
+                    "drugCoded": {
+                        "productCode": "59011045810",
+                        "productCodeQualifier": "ND",
+                        "strength": "8MG",
+                        "drugDBCode": "897712",
+                        "drugDBCodeQualifier": "SBD",
+                        "formSourceCode": "AA",
+                        "formCode": "C42998",
+                        "strengthSourceCode": "AB",
+                        "strengthCode": "C28253",
+                        "deaSchedule": "C48675"
+                    },
+                    "quantity": [
+                        {
+                            "value": "90",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C48542",
+                            "uomDesc": "Tablets"
+                        }
+                    ],
+                    "daysSupply": "90",
+                    "refills": [
+                        {
+                            "qualifier": "R",
+                            "value": "0"
+                        }
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        7,
+                        25
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "4841554"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "FENTANYL 100 MCG/HR TRANSDERM PATCH",
+                    "drugCoded": {
+                        "productCode": "00093690345",
+                        "productCodeQualifier": "ND",
+                        "strength": "100MCG/HR",
+                        "drugDBCode": "245136",
+                        "drugDBCodeQualifier": "SCD",
+                        "formSourceCode": "AA",
+                        "formCode": "C42968",
+                        "strengthSourceCode": "AB",
+                        "strengthCode": "C67394",
+                        "deaSchedule": "C48675"
+                    },
+                    "quantity": [
+                        {
+                            "value": "30",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C48524",
+                            "uomDesc": "Patches"
+                        }
+                    ],
+                    "daysSupply": "30",
+                    "refills": [
+                        {
+                            "qualifier": "R",
+                            "value": "0"
+                        }
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        7,
+                        24
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "8124147"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "OXYCONTIN 80 MG TABLET",
+                    "drugCoded": {
+                        "productCode": "59011048010",
+                        "productCodeQualifier": "ND",
+                        "strength": "80MG",
+                        "drugDBCode": "1049601",
+                        "drugDBCodeQualifier": "SBD",
+                        "formSourceCode": "AA",
+                        "formCode": "C42998",
+                        "strengthSourceCode": "AB",
+                        "strengthCode": "C28253",
+                        "deaSchedule": "C48675"
+                    },
+                    "quantity": [
+                        {
+                            "value": "90",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C48542",
+                            "uomDesc": "Tablets"
+                        }
+                    ],
+                    "daysSupply": "90",
+                    "refills": [
+                        {
+                            "qualifier": "R",
+                            "value": "0"
+                        }
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        7,
+                        23
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "4243544"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "PERCOCET 10MG/650MG TABLET",
+                    "drugCoded": {
+                        "productCode": "63481062270",
+                        "productCodeQualifier": "ND",
+                        "strength": "10MG/650MG",
+                        "drugDBCode": "1049650",
+                        "drugDBCodeQualifier": "SBD",
+                        "formSourceCode": "AA",
+                        "formCode": "C42998",
+                        "strengthSourceCode": "AB",
+                        "strengthCode": "C28253",
+                        "deaSchedule": "C48675"
+                    },
+                    "quantity": [
+                        {
+                            "value": "90",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C48542",
+                            "uomDesc": "Tablets"
+                        }
+                    ],
+                    "daysSupply": "90",
+                    "refills": [
+                        {
+                            "qualifier": "R",
+                            "value": "0"
+                        }
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        6,
+                        1
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "priorAuthorization": {
+                        "qualifier": "94",
+                        "value": "6457711"
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                }
+            ],
+            "historyPrescribedMedications": [
+                
+            ],
+            "benefitsCoordination": [
+                {
+                    "payerName": "PBMF",
+                    "expirationDate": [
+                        2018,
+                        8,
+                        1
+                    ],
+                    "effectiveDate": [
+                        2016,
+                        3,
+                        20
+                    ],
+                    "consent": "Y",
+                    "pbmMemberId": "ZZQ 88-1  0011-248",
+                    "payerId": "T00000000021633",
+                    "interchangeControlNumber": "391353140"
+                }
+            ]
+        }
+    ],
+    "medHistoryErrorList": [
+        
+    ]
+}

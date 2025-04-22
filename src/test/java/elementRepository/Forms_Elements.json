@@ -1,0 +1,30 @@
+{
+    "PANES":{
+        "MeasureSearch":{
+            "path":"//td[@id='HEADER_TEXTTD' and text()='Measure Search']",
+            "frame":"FRAME_MEASURES"
+        },
+        "MeasureSearchResults":{
+            "frame":"FRAME_MEASURES_RESULTS"
+        }
+    },
+    "BUTTONS":{
+        "ResetCriteria":{
+            "id":"button_Clear"
+        },
+        "Search":{
+            "id":"button_Search"
+        }
+    },
+    "DROPDOWNS":{
+        "Timeframe":{
+            "id":"timeframe"
+        }
+    },
+    "TEXT_FIELDS":{
+        "ExternalMeasureId":{
+            "id":"measurename",
+            "frame":"FRAME_MEASURES"
+        }
+    }
+}

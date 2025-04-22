@@ -1,0 +1,59 @@
+[
+    {
+        "payerCoverageInfo": {
+            "payer": "PBMF",
+            "memberId": "ZZQ 88-1  0011-248",
+            "groupNumber": "F000000",
+            "formulary": "0649",
+            "interchangeControlNumber": 342617461,
+            "payerId": "T00000000021633",
+            "healthPlanName": "",
+            "coverages": [
+                {
+                    "type": "RETAIL",
+                    "messages": [
+                        
+                    ]
+                },
+                {
+                    "type": "MAIL",
+                    "messages": [
+                        
+                    ]
+                }
+            ],
+            "cardHolderName": {
+                "lastName": "WAYNE",
+                "firstName": "BRUCE",
+                "middleName": ""
+            },
+            "cardHolderId": "111111115"
+        },
+        "medications": [
+            {
+                "medId": 164059,
+                "description": "Neurontin 300 mg capsule",
+                "formularyStatus": -1,
+                "ndc": 71080524,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": false,
+                "genericMedId": 258949,
+                "genericDescription": "gabapentin 300 mg capsule",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Capsule",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Capsule",
+                        "potencyUnitCode": "C48480"
+                    }
+                ],
+                "strength": "300",
+                "strengthUom": "mg",
+                "formDescription": "capsule",
+                "potencyUnitCode": "C48480"
+            }
+        ]
+    }
+]

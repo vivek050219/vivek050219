@@ -1,0 +1,130 @@
+{
+    "PANES":{
+        "PatientSummary": {
+            "path": "//td[@id='HEADER_TEXTTD' and text()='Patient Summary']",
+            "frame": "FRAME_PATSUMMARY"
+        },
+        "PatientSummaryList": {
+            "path": "//table[@id='VIEW__PTSUMMARYTAB__TABLE']",
+            "frame": "FRAME_PATSUMMARYLIST"
+        },
+        "DisplayOptions": {
+            "path": "//table[@childentity='WebEntity']",
+            "frame": "FRAME_POPUP_CONTENTS"
+        },
+        "PrintPreview":{
+            "path":"//tr[@id='titleTR' and descendant-or-self::*[text()='Print Preview']]",
+            "frame":"FRAME_POPUP"
+        }
+    },
+    "BUTTONS":{
+        "Options": {
+            "id": "button_options",
+            "frame": "FRAME_PATSUMMARYLIST"
+        },
+        "OptionsOK": {
+            "id": "button_ok",
+            "frame": "FRAME_POPUP_CONTENTS"
+        },
+        "Print": {
+            "id": "button_ADD",
+            "frame": "FRAME_POPUP"
+        },
+        "SelectAll": {
+            "id": "button_SELECTALL",
+            "frame": "FRAME_POPUP_CONTENTS"
+        },
+        "PrintImage": {
+            "path":"//img[@id='PrintImg']",
+            "frame": "FRAME_SIGNOUT"
+        },
+        "Close": {
+            "path": "//span[@pkwidget='Button' and text()='Close']",
+            "frame": "FRAME_POPUP"
+        },
+        "SelectNone": {
+            "id": "button_SELECTNONE",
+            "frame": "FRAME_POPUP_CONTENTS"
+        }
+    },
+    "TABLES":{
+        "PatientSummary": {
+            "path": "//div[@id='ItemTable']",
+            "head": "//div[@class='scrollingTableHeaderDiv']/table/thead",
+            "body": "//div[@class='scrollingTableDetailDiv']/table/tbody",
+            "frame": "FRAME_PATSUMMARYLIST"
+        },
+        "Sign-Out": {
+            "path": "//div[@id='SignOutList']",
+            "head": "//div[@class='scrollingTableHeaderDiv']/table/thead",
+            "body": "//div[@class='scrollingTableDetailDiv']/table/tbody",
+            "frame": "FRAME_SIGNOUT",
+            "double": true
+        },
+        "SelectPatients": {
+            "path": "//div[@id='SelectPatients']",
+            "head": "//div[@class='scrollingTableDetailDiv']/table/tbody",
+            "body": "//table[@id='dynamicDetailTable']/tbody",
+            "frame": "FRAME_POPUP_CONTENTS"
+        }
+    },
+    "CHECKBOXES":{
+        "Allergies": {
+            "id": "IncludeAllergies",
+            "frame": "FRAME_POPUP_CONTENTS"
+        },
+        "ClinicalNotes": {
+            "id": "IncludeNotes",
+            "frame": "FRAME_POPUP_CONTENTS"
+        },
+        "Medications": {
+            "id": "IncludeMeds",
+            "frame": "FRAME_POPUP_CONTENTS"
+        },
+        "Orders": {
+            "id": "IncludeOrders",
+            "frame": "FRAME_POPUP_CONTENTS"
+        },
+        "Problems": {
+            "id": "IncludeProblems",
+            "frame": "FRAME_POPUP_CONTENTS"
+        },
+        "TestResults": {
+            "id": "IncludeTests",
+            "frame": "FRAME_POPUP_CONTENTS"
+        }
+    },
+    "PKMENUS":{
+        "Actions": {
+            "path": "//span[@id='ActionsButton']",
+            "id": "ActionsButton",
+            "frame": "FRAME_SIGNOUT"
+        },
+        "Sign-OutPatients": {
+            "path": "//span[@id='OnlyPatientsWith']",
+            "id": "OnlyPatientsWithMenu",
+            "frame": "FRAME_SIGNOUT"
+        },
+        "Profile": {
+            "path": "//span[@id='PROFILEButton']",
+            "id": "PROFILE",
+            "frame": "FRAME_SIGNOUT"
+        },
+        "PatientList": {
+            "path": "//span[@id='PATIENTLISTButton']",
+            "id": "PATIENTLIST",
+            "frame": "FRAME_SIGNOUT"
+        },
+        "Department": {
+            "path": "//span[@id='DepartmentDropdown']",
+            "id": "DepartmentDropdownMenu",
+            "frame": "FRAME_SIGNOUT"
+        },
+        "Print": {
+            "path": "//span[@id='PrintPLButton']",
+            "id": "PrintPL",
+            "frame": "FRAME_SIGNOUT"
+        }
+    }
+
+}

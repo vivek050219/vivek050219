@@ -1,0 +1,4 @@
+{
+    "status": 200,
+    "message": "PayerCoverageInfo [payer=PBMF, planId=PLAN123, planNetworkId=BIN123, processorId=CAR-123, memberId=ZZQ%PBM-UID-888877222-%VVVVAAAA10011XX-XX261L, groupNumber=CG1111111111/CGID333333X, formulary=FSL105, copay=COP105, interchangeControlNumber=391390393, payerId=T00000000021633, healthPlanName=CARPLANNAME, coverages=[Coverage{type=RETAIL, messages=[]}, Coverage{type=MAIL, messages=[]}], cardHolderName=Name [lastName=THROWER, firstName=DAVID, middleName=, suffix=null, prefix=null], cardHolderId=MID4444444444444, coverageId=COV105]"
+}

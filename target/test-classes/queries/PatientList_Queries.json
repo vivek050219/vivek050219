@@ -1,0 +1,210 @@
+{
+    "QUERIES": {
+        "PatientDemographics": {
+            "columns": "to_char(brth_dttm, 'MM/DD/YYYY'), mrn",
+            "table": "e_patient"
+        },
+        "PatientTests": {
+            "columns": "to_char(c_obs.end_eff_dttm, 'MM/DD/YY HH:MIAM') AS \"Date/Time\", typ_cd.cd_desc AS \"Test\", sts_cd.cd_desc AS \"Status\"",
+            "table": "c_obsrvtn_tx",
+            "join":"c_obsrvtn c_obs ON c_obs.obs_id=c_obsrvtn_tx.obs_id;;m_code typ_cd ON typ_cd.cd_cd=c_obsrvtn_tx.res_typ_cd;;m_code sts_cd ON sts_cd.cd_cd=c_obs.cmp_sts_cd",
+            "where":"end_eff_dttm > sysdate - 30",
+            "helpers": "patientidcolumn=c_obs.pat_id"
+        },
+        "PatientVitalsMostRecent": {
+            "nolimit":"true",
+            "columns": "vtl.value_txt, vtl.begin_eff_dttm as most_recent, vtl.vital_name",
+            "nested_table":
+                [
+                    {
+                        "table": "PatientVitalsRank",
+                        "alias": "vtl"
+                    }
+                ]
+            ,
+            "where":"vtl.rnk = 1"
+        },
+        "PatientVitalsPrevious": {
+            "nolimit":"true",
+            "columns": "vtl.value_txt, vtl.begin_eff_dttm as most_recent, vtl.vital_name",
+            "nested_table":
+                [
+                    {
+                        "table": "PatientVitalsRank",
+                        "alias": "vtl"
+                    }
+                ]
+            ,
+            "where":"vtl.rnk = 2"
+        },
+        "PatientVitalsRank": {
+            "columns": "pat_id, value_txt, begin_eff_dttm, DENSE_RANK() OVER (PARTITION BY typ_code.cd_desc ORDER BY begin_eff_dttm DESC) AS rnk, typ_code.cd_desc AS vital_name",
+            "table": "c_obsrvtn_vtl",
+            "join":"m_code typ_code ON typ_code.cd_cd = c_obsrvtn_vtl.vital_typ_cd"
+        },
+        "PatientVitalTypes": {
+            "nolimit":"true",
+            "columns": "distinct(cd_title)",
+            "table": "c_obsrvtn_vtl",
+            "join":"m_code on c_obsrvtn_vtl.vital_typ_cd=m_code.cd_cd"
+        },
+        "PatientAllergies": {
+            "columns": "al_code.cd_desc AS \"Allergy\", al_code.cd_category AS \"Type\", sev_code.cd_desc AS \"Severity\", reaction AS \"Reaction\"",
+            "table": "c_allergy",
+            "join":"m_code al_code ON al_code.cd_cd=c_allergy.substance_cd;;m_code sev_code ON sev_code.cd_cd=c_allergy.severity_cd"
+        },
+        "PatientBloodLabMostRecent": {
+            "columns": "typ_cd.cd_desc AS test, c_obsrvtn_ce.VALUE_TXT",
+            "table": "c_obsrvtn_ce",
+            "join":"c_obsrvtn c_obs ON c_obs.obs_id=c_obsrvtn_ce.obs_id;;m_code typ_cd ON typ_cd.cd_cd=c_obsrvtn_ce.comp_typ_cd;;m_code sts_cd ON sts_cd.cd_cd=c_obs.cmp_sts_cd;;m_code panel_cd ON panel_cd.cd_cd=c_obs.panel_typ_cd",
+            "where":"(typ_cd.cd_desc='WBC' OR typ_cd.cd_desc='Plt' OR typ_cd.cd_desc='Hb' OR typ_cd.cd_desc='Hct')"
+        },
+        "PatientLabMostRecent": {
+            "columns": "typ_cd.cd_desc AS test, c_obsrvtn_ce.VALUE_TXT",
+            "table": "c_obsrvtn_ce",
+            "join":"c_obsrvtn c_obs ON c_obs.obs_id=c_obsrvtn_ce.obs_id;;m_code typ_cd ON typ_cd.cd_cd=c_obsrvtn_ce.comp_typ_cd;;m_code sts_cd ON sts_cd.cd_cd=c_obs.cmp_sts_cd;;m_code panel_cd ON panel_cd.cd_cd=c_obs.panel_typ_cd"
+        },
+        "PatientLabs": {
+            "columns": "DISTINCT to_char(end_eff_dttm, 'MM/DD/YY HH:MIAM') AS \"Date/Time\", panel_cd.cd_desc AS \"Panel\"",
+            "table": "c_obsrvtn_ce",
+            "join":"c_obsrvtn c_obs ON c_obs.obs_id=c_obsrvtn_ce.obs_id;;m_code panel_cd ON panel_cd.cd_cd=c_obs.panel_typ_cd;;m_code sts_cd ON sts_cd.cd_cd=c_obs.cmp_sts_cd",
+            "where":"c_obs.end_eff_dttm > (sysdate - 30)",
+            "order":"\"Date/Time\" DESC"
+        },
+        "PatientNotesBody": {
+            "columns": "DOC_TXT || CHR(13) || CHR(10) || 'Author: ' || e_person.nm_last || ', ' || e_person.nm_first || CHR(13) || CHR(10) || nte_code.cd_desc AS DOC_TXT",
+            "table": "c_obsrvtn_nte",
+            "join":"c_obsrvtn c_obs ON c_obsrvtn_nte.obs_nte_id=c_obs.obs_id;;m_code nte_code ON nte_code.cd_cd=c_obsrvtn_nte.doc_typ_cd;;e_person ON e_person.pers_id=c_obs.provider_pers_id",
+            "where":"c_obs.end_eff_dttm > (sysdate - 30)",
+            "order":"c_obs.end_eff_dttm DESC",
+            "helpers": "patientidcolumn=c_obs.pat_id"
+        },
+        "PatientActiveMedications": {
+            "nolimit": "true",
+            "columns": "typ_cd.cd_title AS \"Medication\", CASE WHEN c_order.parent_id IS NOT NULL THEN '' ELSE lower(to_char(start_date, 'MM/DD/YY HH:MIAM')) END AS \"Order Start\", CASE WHEN c_order.parent_id IS NOT NULL THEN '' ELSE lower(to_char(end_date, 'MM/DD/YY HH:MIAM')) END AS \"Order Stop\", dose || ' ' || unit_cd.cd_desc AS \"Dose\", rte_cd.cd_desc || ' ' || frequency AS SIG",
+            "table": "c_order",
+            "join":"m_code typ_cd ON typ_cd.cd_cd=c_order.order_typ_cd;;m_code unit_cd ON unit_cd.cd_cd=c_order.units_cd;;m_code rte_cd ON rte_cd.cd_cd=c_order.route_cd",
+            "where":"order_clss_cd=101 AND c_order.end_date > sysdate"
+        },
+        "PatientAllMedications": {
+            "columns": "typ_cd.cd_title AS \"Medication\", CASE WHEN c_order.parent_id IS NOT NULL THEN '' ELSE lower(to_char(start_date, 'MM/DD/YY HH:MIAM')) END AS \"Order Start\", CASE WHEN c_order.parent_id IS NOT NULL THEN '' ELSE lower(to_char(end_date, 'MM/DD/YY HH:MIAM')) END AS \"Order Stop\", dose || ' ' || unit_cd.cd_desc AS \"Dose\", rte_cd.cd_desc || ' ' || frequency AS SIG",
+            "table": "c_order",
+            "join":"m_code typ_cd ON typ_cd.cd_cd=c_order.order_typ_cd;;m_code unit_cd ON unit_cd.cd_cd=c_order.units_cd;;m_code rte_cd ON rte_cd.cd_cd=c_order.route_cd",
+            "where":"order_clss_cd=101"
+        },
+        "PatientOrdersSinceYesterday": {
+            "option": "DISTINCT",
+            "columns": "c_order.cpoe_description AS \"Existing Orders\", lower(to_char(MAX(start_date) KEEP (DENSE_RANK FIRST ORDER BY start_date) OVER (PARTITION BY typ_cd.cd_desc), 'MM/DD FMHH:FMMIAM')) AS \"Start\", CASE WHEN c_order.order_clss_cd = '101' and c_order.end_date < SYSDATE THEN 'Complete' ELSE REPLACE(sts_cd.cd_desc, 'Final', 'Complete') END AS \"Status\"",
+            "table": "c_order",
+            "join":"m_code typ_cd ON typ_cd.cd_cd=c_order.order_typ_cd;;m_code sts_cd ON sts_cd.cd_cd=c_order.order_sts_cd;;m_code rte_cd ON rte_cd.cd_cd=c_order.route_cd;;m_code unit_cd ON unit_cd.cd_cd=c_order.units_cd;;cpoe_r_orderdef_ndc ON cpoe_r_orderdef_ndc.ndc=C_ORDER.FORMATTED_NDC;;cpoe_orderdef ON cpoe_orderdef.orderdef_id=cpoe_r_orderdef_ndc.orderdef_id",
+            "where":"cpoe_description IS NOT NULL AND parent_id IS NULL AND order_id NOT IN (SELECT parent_id FROM c_order WHERE parent_id IS NOT NULL) AND END_DATE > trunc(sysdate-1)"
+        },
+        "SubmissionRecordId": {
+            "columns": "syncrepositoryid,pat_id,session_id",
+            "table": "pk_submission",
+            "join":"cpoe_order on cpoe_order.session_id = pk_submission.routing_session_id",
+            "where":"submission_state='SUCCESS'"
+        },
+        "PatientNotes": {
+            "columns": "to_char(c_obs.end_eff_dttm, 'MM/DD/YY HH:MIAM') AS \"Date_\", nte_code.cd_desc AS \"Note_Type\", e_person.nm_last || ',' || e_person.nm_first AS \"Author\"",
+            "table": "c_obsrvtn_nte",
+            "join":"c_obsrvtn c_obs ON c_obsrvtn_nte.obs_nte_id=c_obs.obs_id;;m_code nte_code ON nte_code.cd_cd=c_obsrvtn_nte.doc_typ_cd;;e_person ON e_person.pers_id=c_obs.provider_pers_id",
+            "helpers":"datetimecolumn=c_obs.end_eff_dttm;;patientidcolumn=c_obs.pat_id"
+        },
+        "PatientNoteWriterNotesNotDraft": {
+            "nolimit":"true",
+            "columns": "to_char(f.notedate, 'MM/DD/YY HH:MIAM') AS \"Date_\", CASE f.status WHEN 2 THEN '*DRAFT* ' || t.templatetitle ELSE t.templatetitle END as \"Note_Type\", f.createdby as \"Author\"",
+            "table": "pk_formresult f",
+            "join":"pk_formtemplate t ON f.templateversionid=t.activeversionid",
+            "where":"f.syncdeleted = 0 AND f.status != 0 AND f.status != 2",
+            "helpers":"datetimecolumn=f.notedate;;patientidcolumn=f.patientid"
+        },
+        "PatientNoteWriterNotesUsersDraft": {
+            "nolimit":"true",
+            "columns": "to_char(f.notedate, 'MM/DD/YY HH:MIAM') AS \"Date_\", CASE f.status WHEN 2 THEN '*DRAFT* ' || t.templatetitle ELSE t.templatetitle END as \"Note_Type\", f.createdby as \"Author\"",
+            "table": "pk_formresult f",
+            "join":"pk_formtemplate t ON f.templateversionid=t.activeversionid",
+            "where":"f.syncdeleted = 0 AND f.status = 2",
+            "helpers":"datetimecolumn=f.notedate;;patientidcolumn=f.patientid;;useridcolumn=f.syncuserid"
+        },
+        "PatientMedications": {
+            "columns": "typ_cd.cd_title AS \"Existing orders\", CASE WHEN c_order.parent_id IS NOT NULL THEN '' ELSE lower(to_char(start_date, 'MM/DD/YY HH:MIAM')) END AS \"Start\", CASE WHEN c_order.parent_id IS NOT NULL THEN '' ELSE lower(to_char(end_date, 'MM/DD/YY HH:MIAM')) END AS \"Stop\", dose || ' ' || unit_cd.cd_desc AS \"Dose\", rte_cd.cd_desc || ' ' || frequency AS \"Sig\"",
+            "table": "c_order",
+            "join":"m_code typ_cd ON typ_cd.cd_cd=c_order.order_typ_cd;;m_code unit_cd ON unit_cd.cd_cd=c_order.units_cd;;m_code rte_cd ON rte_cd.cd_cd=c_order.route_cd",
+            "where":"order_clss_cd=101 AND c_order.start_date > sysdate - 30"
+        },
+        "PatientIOs": {
+            "columns": "to_char(sum(value_)) AS value_, shift_date, io_type",
+            "nested_table": [
+                {
+                    "table": "PatientIOsNested",
+                    "alias": "io"
+                }
+            ],
+            "group": "shift, shift_date, io_type",
+            "order": "shift_date DESC"
+        },
+        "PatientIOsNested": {
+            "columns": "pat_id, value_, CASE shift WHEN 1 THEN shift_date || ' 07:00AM - ' || shift_date || ' 03:00PM' WHEN 2 THEN shift_date || ' 03:00PM - ' || shift_date || ' 11:00PM' ELSE shift_date || ' 11:00PM - ' || to_char(trunc(to_date(shift_date, 'MM/DD/YY') + INTERVAL '1' DAY), 'MM/DD/YY') || ' 07:00AM' END AS shift_date, io_type, shift",
+            "nested_table": [
+                {
+                    "table": "PatientIOsNested2",
+                    "alias": "io2"
+                }
+            ]
+        },
+        "PatientIOsNested2": {
+            "columns": "pat_id, io_type, to_number(value_) AS value_, CASE WHEN hr BETWEEN 7 AND 15 THEN 1 WHEN hr BETWEEN 15 AND 23 THEN 2 ELSE 3 END AS shift, to_char(trunc(time_ - INTERVAL '7' HOUR), 'MM/DD/YY') AS shift_date",
+            "nested_table": [
+                {
+                    "table": "PatientIOsNested3",
+                    "alias": "io3"
+                }
+            ]
+        },
+        "PatientIOsNested3": {
+            "columns": "pat_id, typ_cd.cd_desc AS io_type, end_eff_dttm AS time_, value_txt AS value_, to_number(to_char(end_eff_dttm, 'HH24')) AS hr",
+            "table": "c_obsrvtn_io",
+            "join": "m_code typ_cd ON typ_cd.cd_cd=c_obsrvtn_io.io_typ_cd",
+            "where": "end_eff_dttm > sysdate - 7",
+            "order": "end_eff_dttm DESC"
+        },
+        "DisableDuplication-Non-MedicationBetweenNewOrders": {
+            "nolimit":"true",
+            "update":"true",
+            "columns": "*",
+            "table": "CPOE_INTERACTION_DISPLAY_PREF",
+            "set": "CPOE_INTERACTION_DISPLAY_PREF.DISPLAY_CLASS_NAME = 'Disabled'",
+            "where":"CPOE_INTERACTION_DISPLAY_PREF.INTERACTION_TYPE_CD = (select M_CODE.CD_CD from M_CODE where M_CODE.CD_TITLE = 'Duplication - Non-Medication(between new orders') and CPOE_INTERACTION_DISPLAY_PREF.FACILITY_GROUP_ID in (select M_FACILITY_GROUP.FACILITY_GROUP_ID from M_FACILITY_GROUP where M_FACILITY_GROUP.NAME ='DefaultFacilityGroup')"
+        },
+        "PopupWithReasonDuplication-Non-MedicationBetweenNewOrders": {
+            "nolimit":"true",
+            "update":"true",
+            "columns": "*",
+            "table": "CPOE_INTERACTION_DISPLAY_PREF",
+            "set": "CPOE_INTERACTION_DISPLAY_PREF.DISPLAY_CLASS_NAME = 'PopupWithReason'",
+            "where":"CPOE_INTERACTION_DISPLAY_PREF.INTERACTION_TYPE_CD = (select M_CODE.CD_CD from M_CODE where M_CODE.CD_TITLE = 'Duplication - Non-Medication(between new orders') and CPOE_INTERACTION_DISPLAY_PREF.FACILITY_GROUP_ID in (select M_FACILITY_GROUP.FACILITY_GROUP_ID from M_FACILITY_GROUP where M_FACILITY_GROUP.NAME ='DefaultFacilityGroup')"
+        },
+        "EnableAllCodeEdits": {
+            "nolimit":"true",
+            "update":"true",
+            "columns": "*",
+            "table": "PK_CODEEDIT",
+            "set": "ACTIVE = '1'"
+        },
+        "DisableAllCodeEdits": {
+            "nolimit":"true",
+            "update":"true",
+            "columns": "*",
+            "table": "PK_CODEEDIT",
+            "set": "ACTIVE = '0'"
+        },
+        "PatientMostRecentVisits": {
+            "nolimit":"true",
+            "columns": "pat_id, to_char(beg_eff_dttm, 'MM/DD/YY') AS most_recent",
+            "table": "A_ENCNTR",
+            "where": "beg_eff_dttm is not null",
+            "order": "beg_eff_dttm DESC"
+        }
+    }
+}

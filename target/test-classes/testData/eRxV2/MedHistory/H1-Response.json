@@ -1,0 +1,350 @@
+{
+    "medHistoryResponseList": [
+        {
+            "historyResponse": {
+                "approved": {
+                    "approvalReasonCodeDto": [
+                        
+                    ]
+                }
+            },
+            "historyDispensedMedications": [
+                {
+                    "drugDescription": "Amoxicillin 125 MG/5 ML suspension",
+                    "drugCoded": {
+                        "productCode": "65862070655",
+                        "productCodeQualifier": "ND",
+                        "strength": "125 MG/5 ML",
+                        "drugDBCode": "313797",
+                        "drugDBCodeQualifier": "SCD",
+                        "formSourceCode": "AA",
+                        "formCode": "C68981",
+                        "strengthSourceCode": "AB",
+                        "strengthCode": "C91131",
+                        "deaSchedule": "C38046"
+                    },
+                    "quantity": [
+                        {
+                            "value": "150",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C28254",
+                            "uomDesc": "Milliliters"
+                        }
+                    ],
+                    "daysSupply": "10",
+                    "refills": [
+                        {
+                            "qualifier": "R",
+                            "value": "1"
+                        }
+                    ],
+                    "substitutions": "0",
+                    "lastFillDate": [
+                        2018,
+                        8,
+                        1
+                    ],
+                    "diagnosis": [
+                        {
+                            "clinicalInformationQualifier": "1",
+                            "primary": {
+                                "qualifier": "ABF",
+                                "value": "H6504"
+                            }
+                        }
+                    ],
+                    "pharmacy": {
+                        "organizationName": "WALGREENS",
+                        "phonePrimary": "8005251212",
+                        "latitude": 0.0,
+                        "longitude": 0.0,
+                        "distance": 0.0
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "Ciprodex Otic Suspension",
+                    "drugCoded": {
+                        "productCode": "00065853302",
+                        "productCodeQualifier": "ND",
+                        "drugDBCode": "404630",
+                        "drugDBCodeQualifier": "SBD",
+                        "formSourceCode": "AA",
+                        "formCode": "C60995",
+                        "strengthSourceCode": "AB",
+                        "strengthCode": "C28254",
+                        "deaSchedule": "C38046"
+                    },
+                    "quantity": [
+                        {
+                            "value": "7.5",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C28254",
+                            "uomDesc": "Milliliters"
+                        }
+                    ],
+                    "daysSupply": "7",
+                    "refills": [
+                        {
+                            "qualifier": "R",
+                            "value": "0"
+                        }
+                    ],
+                    "substitutions": "0",
+                    "lastFillDate": [
+                        2018,
+                        7,
+                        31
+                    ],
+                    "diagnosis": [
+                        {
+                            "clinicalInformationQualifier": "1",
+                            "primary": {
+                                "qualifier": "ABF",
+                                "value": "H60519"
+                            }
+                        }
+                    ],
+                    "pharmacy": {
+                        "organizationName": "WALGREENS",
+                        "phonePrimary": "8005251212",
+                        "latitude": 0.0,
+                        "longitude": 0.0,
+                        "distance": 0.0
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "Cefdinir 125 MG/5 ML suspension",
+                    "drugCoded": {
+                        "productCode": "65862021801",
+                        "productCodeQualifier": "ND",
+                        "strength": "125 MG/5 ML",
+                        "drugDBCode": "309054",
+                        "drugDBCodeQualifier": "SCD",
+                        "formSourceCode": "AA",
+                        "formCode": "C68981",
+                        "strengthSourceCode": "AB",
+                        "strengthCode": "C91131",
+                        "deaSchedule": "C38046"
+                    },
+                    "quantity": [
+                        {
+                            "value": "200",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C28254",
+                            "uomDesc": "Milliliters"
+                        }
+                    ],
+                    "daysSupply": "10",
+                    "refills": [
+                        {
+                            "qualifier": "R",
+                            "value": "0"
+                        }
+                    ],
+                    "substitutions": "0",
+                    "lastFillDate": [
+                        2018,
+                        7,
+                        30
+                    ],
+                    "diagnosis": [
+                        {
+                            "clinicalInformationQualifier": "1",
+                            "primary": {
+                                "qualifier": "ABF",
+                                "value": "J0100"
+                            }
+                        }
+                    ],
+                    "pharmacy": {
+                        "organizationName": "WALGREENS",
+                        "phonePrimary": "8005251212",
+                        "latitude": 0.0,
+                        "longitude": 0.0,
+                        "distance": 0.0
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "Amoxicillin 125 MG/5 ML suspension",
+                    "drugCoded": {
+                        "productCode": "65862070655",
+                        "productCodeQualifier": "ND",
+                        "strength": "125 MG/5 ML",
+                        "drugDBCode": "313797",
+                        "drugDBCodeQualifier": "SCD",
+                        "formSourceCode": "AA",
+                        "formCode": "C68981",
+                        "strengthSourceCode": "AB",
+                        "strengthCode": "C91131",
+                        "deaSchedule": "C38046"
+                    },
+                    "quantity": [
+                        {
+                            "value": "150",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C28254",
+                            "uomDesc": "Milliliters"
+                        }
+                    ],
+                    "daysSupply": "10",
+                    "refills": [
+                        {
+                            "qualifier": "R",
+                            "value": "1"
+                        }
+                    ],
+                    "substitutions": "0",
+                    "lastFillDate": [
+                        2018,
+                        7,
+                        29
+                    ],
+                    "diagnosis": [
+                        {
+                            "clinicalInformationQualifier": "1",
+                            "primary": {
+                                "qualifier": "ABF",
+                                "value": "H6504"
+                            }
+                        }
+                    ],
+                    "pharmacy": {
+                        "organizationName": "WALGREENS",
+                        "phonePrimary": "8005251212",
+                        "latitude": 0.0,
+                        "longitude": 0.0,
+                        "distance": 0.0
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "ERYthromycin 0.5% ophthalmic ointment",
+                    "drugCoded": {
+                        "productCode": "24208091055",
+                        "productCodeQualifier": "ND",
+                        "strength": "3.5 grams of Erythromycin at 0.5% Erythromycin (USP) in 1/8 ounce tube",
+                        "drugDBCode": "310149",
+                        "drugDBCodeQualifier": "SCD",
+                        "formSourceCode": "AA",
+                        "formCode": "C91162",
+                        "strengthSourceCode": "AB",
+                        "strengthCode": "C48155",
+                        "deaSchedule": "C38046"
+                    },
+                    "quantity": [
+                        {
+                            "value": "3.5",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C48155",
+                            "uomDesc": "Grams"
+                        }
+                    ],
+                    "daysSupply": "7",
+                    "note": "Please demonstrate to the customer how to apply this ointment directly to the child's lower eyelid properly without touching tube to the eye",
+                    "refills": [
+                        {
+                            "qualifier": "R",
+                            "value": "0"
+                        }
+                    ],
+                    "substitutions": "0",
+                    "lastFillDate": [
+                        2018,
+                        6,
+                        1
+                    ],
+                    "diagnosis": [
+                        {
+                            "clinicalInformationQualifier": "1",
+                            "primary": {
+                                "qualifier": "ABF",
+                                "value": "H1030"
+                            }
+                        }
+                    ],
+                    "pharmacy": {
+                        "organizationName": "WALGREENS",
+                        "phonePrimary": "8005251212",
+                        "latitude": 0.0,
+                        "longitude": 0.0,
+                        "distance": 0.0
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                }
+            ],
+            "historyPrescribedMedications": [
+                
+            ],
+            "benefitsCoordination": [
+                {
+                    "payerName": "PBMF",
+                    "expirationDate": [
+                        2018,
+                        8,
+                        1
+                    ],
+                    "effectiveDate": [
+                        2016,
+                        3,
+                        20
+                    ],
+                    "consent": "Y",
+                    "pbmMemberId": "PBMF TESTKID 8951-001",
+                    "payerId": "T00000000021633",
+                    "interchangeControlNumber": "391352509"
+                }
+            ]
+        }
+    ],
+    "medHistoryErrorList": [
+        
+    ]
+}

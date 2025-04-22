@@ -1,0 +1,45 @@
+{
+    "status": "SUCCESS",
+    "statusMessage": "OK",
+    "startTime": 1528998945912,
+    "pharmacies": [
+        {
+            "id": "2070438",
+            "storeNumber": "1",
+            "organizationName": "Test Update Pharmacy",
+            "addressLine1": "121 Water St.",
+            "addressLine2": "Apt #10",
+            "city": "Waltham",
+            "state": "MA",
+            "zip": "02451",
+            "standardizedAddressLinel": "121 Water St.",
+            "standardizedCity": "Waltham",
+            "standardizedState": "MA",
+            "standardizedZip": "02451",
+            "phonePrimary": "7818998787",
+            "fax": "7818998788",
+            "email": "addpharmacy@test.com",
+            "activeStartTime": "2017-10-11T13:55:50.0Z",
+            "activeEndTime": "2099-12-31T00:00:00.0Z",
+            "serviceLevel": "New~Refill",
+            "lastModifiedDate": "2017-10-11T13:56:24.0Z",
+            "version": "v10_6",
+            "nPI": "1234567893",
+            "specialtyType": "Retail~FaxPharmacySurescripts",
+            "organizationType": "Pharmacy",
+            "organizationID": "7353",
+            "latitude": 42.41469,
+            "longitude": -71.251431,
+            "precise": "N",
+            "distance": 5270.015093687057
+        }
+    ],
+    "foundCityList": [
+        "Waltham"
+    ],
+    "foundOrganizationNameList": [
+        "Test Update Pharmacy"
+    ],
+    "numFound": 1,
+    "elapsedTimeMillis": 32
+}

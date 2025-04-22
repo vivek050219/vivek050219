@@ -1,0 +1,330 @@
+{
+    "medHistoryResponseList": [
+        {
+            "historyResponse": {
+                "approved": {
+                    "approvalReasonCodeDto": [
+                        
+                    ]
+                }
+            },
+            "historyDispensedMedications": [
+                {
+                    "drugDescription": "DICYCLOMINE 10 MG CAPSULE",
+                    "drugCoded": {
+                        "productCode": "00591079401",
+                        "productCodeQualifier": "ND",
+                        "strength": "10MG",
+                        "drugDBCode": "991061",
+                        "drugDBCodeQualifier": "SCD"
+                    },
+                    "quantity": [
+                        {
+                            "value": "120",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C48480",
+                            "uomDesc": "Capsules"
+                        }
+                    ],
+                    "daysSupply": "30",
+                    "refills": [
+                        
+                    ],
+                    "substitutions": "0",
+                    "lastFillDate": [
+                        2018,
+                        8,
+                        1
+                    ],
+                    "diagnosis": [
+                        {
+                            "clinicalInformationQualifier": "1",
+                            "primary": {
+                                "qualifier": "DX",
+                                "value": "564.1"
+                            }
+                        }
+                    ],
+                    "pharmacy": {
+                        "organizationName": "WALGREENS",
+                        "phonePrimary": "8005551212",
+                        "latitude": 0.0,
+                        "longitude": 0.0,
+                        "distance": 0.0
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "TRANSDERM SCOP (scopolamine) 1.5MG PATCH, 4 POUCHES IN 1 PACKAGE",
+                    "drugCoded": {
+                        "productCode": "00067434504",
+                        "productCodeQualifier": "ND",
+                        "strength": "1.5MG",
+                        "drugDBCode": "351875",
+                        "drugDBCodeQualifier": "SBD"
+                    },
+                    "quantity": [
+                        {
+                            "value": "10",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C48520",
+                            "uomDesc": "Packages"
+                        }
+                    ],
+                    "daysSupply": "30",
+                    "refills": [
+                        
+                    ],
+                    "substitutions": "0",
+                    "lastFillDate": [
+                        2018,
+                        7,
+                        31
+                    ],
+                    "diagnosis": [
+                        {
+                            "clinicalInformationQualifier": "1",
+                            "primary": {
+                                "qualifier": "DX",
+                                "value": "787.01"
+                            },
+                            "secondary": {
+                                "qualifier": "DX",
+                                "value": "291.1"
+                            }
+                        }
+                    ],
+                    "pharmacy": {
+                        "organizationName": "WALGREENS",
+                        "phonePrimary": "8005551212",
+                        "latitude": 0.0,
+                        "longitude": 0.0,
+                        "distance": 0.0
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "AMBIEN 10 MG TABLET",
+                    "drugCoded": {
+                        "productCode": "68115001930",
+                        "productCodeQualifier": "ND",
+                        "strength": "10MG",
+                        "drugDBCode": "854875",
+                        "drugDBCodeQualifier": "SBD",
+                        "deaSchedule": "C48677"
+                    },
+                    "quantity": [
+                        {
+                            "value": "30",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C48542",
+                            "uomDesc": "Tablets"
+                        }
+                    ],
+                    "daysSupply": "30",
+                    "refills": [
+                        {
+                            "qualifier": "R",
+                            "value": "5"
+                        }
+                    ],
+                    "substitutions": "1",
+                    "lastFillDate": [
+                        2018,
+                        7,
+                        30
+                    ],
+                    "diagnosis": [
+                        {
+                            "clinicalInformationQualifier": "1",
+                            "primary": {
+                                "qualifier": "DX",
+                                "value": "327.02"
+                            },
+                            "secondary": {
+                                "qualifier": "DX",
+                                "value": "291.1"
+                            }
+                        }
+                    ],
+                    "pharmacy": {
+                        "organizationName": "WALGREENS",
+                        "phonePrimary": "8005551212",
+                        "latitude": 0.0,
+                        "longitude": 0.0,
+                        "distance": 0.0
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "CARAFATE 100 MG/ML ORAL SUSPENSION",
+                    "drugCoded": {
+                        "productCode": "54868373500",
+                        "productCodeQualifier": "ND",
+                        "strength": "100MG/ML",
+                        "drugDBCode": "208094",
+                        "drugDBCodeQualifier": "SBD"
+                    },
+                    "quantity": [
+                        {
+                            "value": "48",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C38046",
+                            "uomDesc": "Unspecified"
+                        }
+                    ],
+                    "daysSupply": "90",
+                    "refills": [
+                        
+                    ],
+                    "substitutions": "0",
+                    "lastFillDate": [
+                        2018,
+                        7,
+                        29
+                    ],
+                    "diagnosis": [
+                        {
+                            "clinicalInformationQualifier": "1",
+                            "primary": {
+                                "qualifier": "DX",
+                                "value": "707.00"
+                            },
+                            "secondary": {
+                                "qualifier": "DX",
+                                "value": "291.1"
+                            }
+                        }
+                    ],
+                    "pharmacy": {
+                        "organizationName": "ACME PHARMACY",
+                        "phonePrimary": "8005551212",
+                        "latitude": 0.0,
+                        "longitude": 0.0,
+                        "distance": 0.0
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "DICYCLOMINE 10 MG CAPSULE",
+                    "drugCoded": {
+                        "productCode": "00591079401",
+                        "productCodeQualifier": "ND",
+                        "strength": "10MG",
+                        "drugDBCode": "991061",
+                        "drugDBCodeQualifier": "SCD"
+                    },
+                    "quantity": [
+                        {
+                            "value": "120",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C48480",
+                            "uomDesc": "Capsules"
+                        }
+                    ],
+                    "daysSupply": "30",
+                    "refills": [
+                        
+                    ],
+                    "substitutions": "0",
+                    "lastFillDate": [
+                        2018,
+                        6,
+                        1
+                    ],
+                    "diagnosis": [
+                        {
+                            "clinicalInformationQualifier": "1",
+                            "primary": {
+                                "qualifier": "DX",
+                                "value": "564.1"
+                            },
+                            "secondary": {
+                                "qualifier": "DX",
+                                "value": "291.1"
+                            }
+                        }
+                    ],
+                    "pharmacy": {
+                        "organizationName": "WALGREENS",
+                        "phonePrimary": "8005551212",
+                        "latitude": 0.0,
+                        "longitude": 0.0,
+                        "distance": 0.0
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                }
+            ],
+            "historyPrescribedMedications": [
+                
+            ],
+            "benefitsCoordination": [
+                {
+                    "payerName": "PBMF",
+                    "expirationDate": [
+                        2018,
+                        8,
+                        1
+                    ],
+                    "effectiveDate": [
+                        2016,
+                        3,
+                        20
+                    ],
+                    "consent": "Y",
+                    "pbmMemberId": "ZZQ-88-10011-245",
+                    "payerId": "T00000000021633",
+                    "interchangeControlNumber": "391353321"
+                }
+            ]
+        }
+    ],
+    "medHistoryErrorList": [
+        
+    ]
+}

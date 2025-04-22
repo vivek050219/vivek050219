@@ -1,0 +1,270 @@
+[
+    {
+        "payerCoverageInfo": {
+            "payer": "PBMF",
+            "memberId": "ZZQ-88-10011-245",
+            "groupNumber": "D000000",
+            "formulary": "FSL101",
+            "alternatives": "ALT101",
+            "interchangeControlNumber": 391355912,
+            "payerId": "T00000000021633",
+            "healthPlanName": "",
+            "patient": {
+                "name": {
+                    "lastName": "AUBAINE",
+                    "firstName": "CHENIN BLANC",
+                    "middleName": "PINOT",
+                    "suffix": ""
+                },
+                "address": {
+                    "address1": "927 OFFICIONADO BLVD",
+                    "city": "MINNEAPOLIS",
+                    "state": "MN",
+                    "postalCode": "55419"
+                },
+                "dob": -483926400000,
+                "gender": "FEMALE"
+            },
+            "coverages": [
+                {
+                    "type": "RETAIL",
+                    "messages": [
+                        
+                    ]
+                }
+            ],
+            "cardHolderName": {
+                "lastName": "AUBAINE",
+                "firstName": "CHENIN BLANC",
+                "middleName": "PINOT"
+            },
+            "cardHolderId": "111111113"
+        },
+        "medications": [
+            {
+                "medId": 558647,
+                "description": "Edluar 5 mg sublingual tablet",
+                "formularyStatus": 1,
+                "ndc": 37605030,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": false,
+                "genericMedId": 558617,
+                "genericDescription": "zolpidem 5 mg sublingual tablet",
+                "clinicalQuantities": [
+                    {
+                        "desc": "30 Tablet Blister Pack",
+                        "quantity": 30.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "5",
+                "strengthUom": "mg",
+                "formDescription": "tablet, sublingual",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 290568,
+                "description": "Ambien 10 mg tablet",
+                "formularyStatus": 2,
+                "ndc": 24542131,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": false,
+                "preferenceLevel": "5",
+                "genericMedId": 278649,
+                "genericDescription": "zolpidem 10 mg tablet",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "10",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 289261,
+                "description": "Ambien 5 mg tablet",
+                "formularyStatus": 2,
+                "ndc": 24540131,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": false,
+                "preferenceLevel": "5",
+                "genericMedId": 270070,
+                "genericDescription": "zolpidem 5 mg tablet",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "5",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 475015,
+                "description": "Ambien CR 12.5 mg tablet,extended release",
+                "formularyStatus": 3,
+                "ndc": 24552131,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": false,
+                "preferenceLevel": "4",
+                "genericMedId": 475012,
+                "genericDescription": "zolpidem ER 12.5 mg tablet,extended release,multiphase",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "12.5",
+                "strengthUom": "mg",
+                "formDescription": "tablet,ext release multiphase",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 475014,
+                "description": "Ambien CR 6.25 mg tablet,extended release",
+                "formularyStatus": 3,
+                "ndc": 24550131,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": false,
+                "preferenceLevel": "4",
+                "genericMedId": 475011,
+                "genericDescription": "zolpidem ER 6.25 mg tablet,extended release,multiphase",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "6.25",
+                "strengthUom": "mg",
+                "formDescription": "tablet,ext release multiphase",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 472797,
+                "description": "Lunesta 1 mg tablet",
+                "formularyStatus": 2,
+                "ndc": 63402019030,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": false,
+                "preferenceLevel": "3",
+                "genericMedId": 472776,
+                "genericDescription": "eszopiclone 1 mg tablet",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "1",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 472798,
+                "description": "Lunesta 2 mg tablet",
+                "formularyStatus": 2,
+                "ndc": 63402019110,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": false,
+                "preferenceLevel": "3",
+                "genericMedId": 472775,
+                "genericDescription": "eszopiclone 2 mg tablet",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "2",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 472799,
+                "description": "Lunesta 3 mg tablet",
+                "formularyStatus": 2,
+                "ndc": 63402019310,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": false,
+                "preferenceLevel": "3",
+                "genericMedId": 472774,
+                "genericDescription": "eszopiclone 3 mg tablet",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "3",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 272077,
+                "description": "Halcion 0.25 mg tablet",
+                "formularyStatus": 2,
+                "ndc": 9001758,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": false,
+                "preferenceLevel": "2",
+                "genericMedId": 169027,
+                "genericDescription": "triazolam 0.25 mg tablet",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "0.25",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            }
+        ]
+    }
+]

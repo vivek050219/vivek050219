@@ -1,0 +1,532 @@
+{
+    "medHistoryResponseList": [
+        {
+            "historyResponse": {
+                "approved": {
+                    "approvalReasonCodeDto": [
+                        
+                    ]
+                }
+            },
+            "historyDispensedMedications": [
+                {
+                    "drugDescription": "HYDROCODONE/APAP 5/500 TABLET",
+                    "drugCoded": {
+                        "productCode": "00406036601",
+                        "productCodeQualifier": "ND",
+                        "drugDBCode": "856903",
+                        "drugDBCodeQualifier": "SCD",
+                        "deaSchedule": "C48676"
+                    },
+                    "quantity": [
+                        {
+                            "value": "14",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C48542",
+                            "uomDesc": "Tablets"
+                        }
+                    ],
+                    "daysSupply": "2",
+                    "refills": [
+                        {
+                            "qualifier": "R",
+                            "value": "1"
+                        }
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        8,
+                        1
+                    ],
+                    "diagnosis": [
+                        {
+                            "clinicalInformationQualifier": "1",
+                            "primary": {
+                                "qualifier": "ABF",
+                                "value": "G8929"
+                            },
+                            "secondary": {
+                                "qualifier": "ABF",
+                                "value": "S98112D"
+                            }
+                        },
+                        {
+                            "clinicalInformationQualifier": "1",
+                            "primary": {
+                                "qualifier": "ABF",
+                                "value": "G64"
+                            },
+                            "secondary": {
+                                "qualifier": "ABF",
+                                "value": "E1140"
+                            }
+                        }
+                    ],
+                    "pharmacy": {
+                        "organizationName": "CVS #00000",
+                        "addressLine1": "100 ASHTON STREET",
+                        "city": "INDIANAPOLIS",
+                        "state": "IN",
+                        "zip": "46201",
+                        "phonePrimary": "8005551212",
+                        "latitude": 0.0,
+                        "longitude": 0.0,
+                        "distance": 0.0
+                    },
+                    "prescriber": {
+                        "lastName": "SMITH",
+                        "firstName": "JOHN",
+                        "deaNumber": "AA1234567",
+                        "npi": "1972529550",
+                        "addressDto": {
+                            "addressLine1": "100 MAGNOLIA LANE",
+                            "city": "INDIANAPOLIS",
+                            "state": "IN",
+                            "zipCode": "46219"
+                        },
+                        "communicationNumberDtoList": [
+                            
+                        ]
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "AMOXICILLIN 875 MG TABLET",
+                    "drugCoded": {
+                        "productCode": "00603402321",
+                        "productCodeQualifier": "ND",
+                        "strength": "875 MG",
+                        "drugDBCode": "308194",
+                        "drugDBCodeQualifier": "SCD",
+                        "strengthSourceCode": "AB",
+                        "strengthCode": "C42998"
+                    },
+                    "quantity": [
+                        {
+                            "value": "10",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C48542",
+                            "uomDesc": "Tablets"
+                        }
+                    ],
+                    "daysSupply": "5",
+                    "refills": [
+                        {
+                            "qualifier": "R",
+                            "value": "1"
+                        }
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        7,
+                        31
+                    ],
+                    "diagnosis": [
+                        {
+                            "clinicalInformationQualifier": "1",
+                            "primary": {
+                                "qualifier": "ABF",
+                                "value": "H6504"
+                            }
+                        },
+                        {
+                            "clinicalInformationQualifier": "1",
+                            "primary": {
+                                "qualifier": "ABF",
+                                "value": "H838X1"
+                            },
+                            "secondary": {
+                                "qualifier": "ABF",
+                                "value": "B953"
+                            }
+                        }
+                    ],
+                    "pharmacy": {
+                        "organizationName": "WALGREENS #00000",
+                        "addressLine1": "1000 ALEX STREET",
+                        "city": "INDIANAPOLIS",
+                        "state": "IN",
+                        "zip": "46219",
+                        "phonePrimary": "8005551212",
+                        "latitude": 0.0,
+                        "longitude": 0.0,
+                        "distance": 0.0
+                    },
+                    "prescriber": {
+                        "lastName": "DILLON",
+                        "firstName": "BOB",
+                        "middleName": "R",
+                        "deaNumber": "BB1234567",
+                        "npi": "1972529550",
+                        "addressDto": {
+                            "addressLine1": "ACME HOSPITAL",
+                            "city": "INDIANAPOLIS",
+                            "state": "IN",
+                            "zipCode": "46219"
+                        },
+                        "communicationNumberDtoList": [
+                            
+                        ]
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "RESTORIL 30 MG CAPSULE",
+                    "drugCoded": {
+                        "drugDBCode": "208465",
+                        "drugDBCodeQualifier": "SBD"
+                    },
+                    "quantity": [
+                        {
+                            "value": "60",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C48480"
+                        }
+                    ],
+                    "daysSupply": "45",
+                    "refills": [
+                        {
+                            "qualifier": "R",
+                            "value": "3"
+                        }
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        7,
+                        30
+                    ],
+                    "diagnosis": [
+                        {
+                            "clinicalInformationQualifier": "1",
+                            "primary": {
+                                "qualifier": "ABF",
+                                "value": "F5105"
+                            }
+                        },
+                        {
+                            "clinicalInformationQualifier": "1",
+                            "primary": {
+                                "qualifier": "ABF",
+                                "value": "F309"
+                            },
+                            "secondary": {
+                                "qualifier": "ABF",
+                                "value": "F315"
+                            }
+                        }
+                    ],
+                    "pharmacy": {
+                        "organizationName": "WALGREENS #00000",
+                        "addressLine1": "1000 ALEX STREET",
+                        "city": "INDIANAPOLIS",
+                        "state": "IN",
+                        "zip": "46219",
+                        "phonePrimary": "8005551212",
+                        "latitude": 0.0,
+                        "longitude": 0.0,
+                        "distance": 0.0
+                    },
+                    "prescriber": {
+                        "lastName": "DILLON",
+                        "firstName": "BOB",
+                        "middleName": "R",
+                        "deaNumber": "BB1234567",
+                        "npi": "1972529550",
+                        "addressDto": {
+                            "addressLine1": "ACME HOSPITAL",
+                            "city": "INDIANAPOLIS",
+                            "state": "IN",
+                            "zipCode": "46219"
+                        },
+                        "communicationNumberDtoList": [
+                            
+                        ]
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "HYDROCODONE/APAP 5/500 TAB",
+                    "drugCoded": {
+                        "productCode": "00406036601",
+                        "productCodeQualifier": "ND",
+                        "drugDBCode": "856903",
+                        "drugDBCodeQualifier": "SCD",
+                        "deaSchedule": "C48676"
+                    },
+                    "quantity": [
+                        {
+                            "value": "10",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C48542",
+                            "uomDesc": "Tablets"
+                        }
+                    ],
+                    "daysSupply": "2",
+                    "refills": [
+                        {
+                            "qualifier": "R",
+                            "value": "2"
+                        }
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        7,
+                        29
+                    ],
+                    "diagnosis": [
+                        {
+                            "clinicalInformationQualifier": "1",
+                            "primary": {
+                                "qualifier": "ABF",
+                                "value": "G8929"
+                            },
+                            "secondary": {
+                                "qualifier": "ABF",
+                                "value": "S98112D"
+                            }
+                        },
+                        {
+                            "clinicalInformationQualifier": "1",
+                            "primary": {
+                                "qualifier": "ABF",
+                                "value": "G64"
+                            },
+                            "secondary": {
+                                "qualifier": "ABF",
+                                "value": "E1140"
+                            }
+                        }
+                    ],
+                    "pharmacy": {
+                        "organizationName": "CORNER PHARMACY",
+                        "addressLine1": "123 MAIN STREET",
+                        "city": "INDIANAPOLIS",
+                        "state": "IN",
+                        "zip": "46202",
+                        "phonePrimary": "8005551212",
+                        "latitude": 0.0,
+                        "longitude": 0.0,
+                        "distance": 0.0
+                    },
+                    "prescriber": {
+                        "lastName": "JOHNSON",
+                        "firstName": "MAX",
+                        "middleName": "L",
+                        "npi": "1972529550",
+                        "addressDto": {
+                            "addressLine1": "1234 ANYWHERE AVENUE",
+                            "city": "INDIANAPOLIS",
+                            "state": "IN",
+                            "zipCode": "46202"
+                        },
+                        "communicationNumberDtoList": [
+                            
+                        ]
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "METHYLPREDNISOLONE 4 MG DOSEPK",
+                    "drugCoded": {
+                        "productCode": "59762444002",
+                        "productCodeQualifier": "ND",
+                        "strength": "4MG",
+                        "drugDBCode": "762675",
+                        "drugDBCodeQualifier": "GPK"
+                    },
+                    "quantity": [
+                        {
+                            "value": "21",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C48542",
+                            "uomDesc": "Tablets"
+                        }
+                    ],
+                    "daysSupply": "21",
+                    "refills": [
+                        {
+                            "qualifier": "R",
+                            "value": "1"
+                        }
+                    ],
+                    "substitutions": "0",
+                    "lastFillDate": [
+                        2018,
+                        7,
+                        28
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "pharmacy": {
+                        "organizationName": "CVS #00000",
+                        "addressLine1": "100 ASHTON STREET",
+                        "city": "INDIANAPOLIS",
+                        "state": "IN",
+                        "zip": "46201",
+                        "phonePrimary": "8005551212",
+                        "latitude": 0.0,
+                        "longitude": 0.0,
+                        "distance": 0.0
+                    },
+                    "prescriber": {
+                        "lastName": "SMITH",
+                        "firstName": "JOHN",
+                        "deaNumber": "AA1234567",
+                        "npi": "1972529550",
+                        "addressDto": {
+                            "addressLine1": "100 MAGNOLIA LANE",
+                            "city": "INDIANAPOLIS",
+                            "state": "IN",
+                            "zipCode": "46219"
+                        },
+                        "communicationNumberDtoList": [
+                            
+                        ]
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                },
+                {
+                    "drugDescription": "DEXPAK 10 DAY 1.5 MG TABLET",
+                    "drugCoded": {
+                        "productCode": "00095008735",
+                        "productCodeQualifier": "ND",
+                        "strength": "1.5MG",
+                        "drugDBCode": "797022",
+                        "drugDBCodeQualifier": "BPK"
+                    },
+                    "quantity": [
+                        {
+                            "value": "35",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C48542",
+                            "uomDesc": "Tablets"
+                        }
+                    ],
+                    "daysSupply": "35",
+                    "refills": [
+                        {
+                            "qualifier": "R",
+                            "value": "0"
+                        }
+                    ],
+                    "substitutions": "0",
+                    "lastFillDate": [
+                        2018,
+                        6,
+                        1
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "pharmacy": {
+                        "organizationName": "CVS #00000",
+                        "addressLine1": "100 ASHTON STREET",
+                        "city": "INDIANAPOLIS",
+                        "state": "IN",
+                        "zip": "46201",
+                        "phonePrimary": "8005551212",
+                        "latitude": 0.0,
+                        "longitude": 0.0,
+                        "distance": 0.0
+                    },
+                    "prescriber": {
+                        "lastName": "SMITH",
+                        "firstName": "JOHN",
+                        "deaNumber": "AA1234567",
+                        "npi": "1972529550",
+                        "addressDto": {
+                            "addressLine1": "100 MAGNOLIA LANE",
+                            "city": "INDIANAPOLIS",
+                            "state": "IN",
+                            "zipCode": "46219"
+                        },
+                        "communicationNumberDtoList": [
+                            
+                        ]
+                    },
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                }
+            ],
+            "historyPrescribedMedications": [
+                
+            ],
+            "benefitsCoordination": [
+                {
+                    "payerName": "PBMF",
+                    "expirationDate": [
+                        2018,
+                        8,
+                        1
+                    ],
+                    "effectiveDate": [
+                        2016,
+                        3,
+                        20
+                    ],
+                    "consent": "Y",
+                    "pbmMemberId": "ZZQ-88-10011-255",
+                    "payerId": "T00000000021633",
+                    "interchangeControlNumber": "391353032"
+                }
+            ]
+        }
+    ],
+    "medHistoryErrorList": [
+        
+    ]
+}

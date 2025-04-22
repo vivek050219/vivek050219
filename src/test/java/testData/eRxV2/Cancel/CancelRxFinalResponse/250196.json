@@ -1,0 +1,10 @@
+{
+    "approvedOrDenied": {
+        "cancelOrderId": 7453938,
+        "codes": [],
+        "noteOrDenialReason": "1 dispense made",
+        "approved": true
+    },
+    "error": false,
+    "responsePresent": true
+}

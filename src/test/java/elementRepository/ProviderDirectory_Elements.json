@@ -1,0 +1,40 @@
+{
+    "PANES": {
+        "ProviderDirectory": {
+            "path": "//td[@id='HEADER_TEXTTD' and text()='Provider Directory']",
+            "frame": "FRAME_PARENT"
+        },
+        "ProviderDirectorySearch": {
+            "frame": "PROVIDER_DIRECTORY_SEARCH"
+        }
+    },
+    "TABLES": {
+        "ProviderDirectory": {
+            "path": "//div[@id='lookupTable']",
+            "head": "//div[@class='scrollingTableHeaderDiv']/table/thead",
+            "body": "//div[@class='scrollingTableDetailDiv']/table/tbody",
+            "frame": "PROVIDER_DIRECTORY_SEARCH_RESULTS"
+        }
+    },
+    "BUTTONS": {
+        "Search": {
+            "path": "//span[@pkwidget='Button' and text()='Search']",
+            "frame": "PROVIDER_DIRECTORY_SEARCH"
+        },
+        "Reset": {
+            "path": "//span[@pkwidget='Button' and text()='Reset']",
+            "frame": "PROVIDER_DIRECTORY_SEARCH"
+        }
+    },
+    "TEXT_FIELDS": {
+        "FirstName": {
+            "id": "firstName",
+            "frame": "PROVIDER_DIRECTORY_SEARCH"
+        },
+        "LastName": {
+            "id": "lastName",
+            "frame": "PROVIDER_DIRECTORY_SEARCH"
+        }
+    }
+    
+}

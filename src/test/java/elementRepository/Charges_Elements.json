@@ -1,0 +1,578 @@
+{
+    "PANES": {
+        "ChargeSummary": {
+            "path": "//td[@id='HEADER_TEXTTD' and text()='Charge Summary']",
+            "frame": "FRAME_SUMMARY"
+        },
+        "Worklist": {
+            "path": "//td[@id='HEADER_TEXTTD' and text()='Worklist']",
+            "frame": "FRAME_WORKLIST"
+        },
+        "HoldingBin": {
+            "path": "//td[@id='HEADER_TEXTTD' and text()='Holding Bin']",
+            "frame": "FRAME_HOLDINGBIN"
+        },
+        "HoldingBinResults": {
+            "frame": "FRAME_HOLDINGBIN_RESULTS"
+        },
+        "ConfirmSendtoOutbox": {
+            "path": "//div[@class='window-title' and @id='titleBar' and text()='Title ']",
+            "frame": "FRAME_POPUP_CONTENTS"
+        },
+        "ChargeSearch": {
+            "path": "//td[@id='HEADER_TEXTTD' and text()='Charge Search']",
+            "frame": "FRAME_SEARCH"
+        },
+        "ChargeResults": {
+            "frame": "FRAME_SEARCH_RESULTS"
+        },
+        "Confirm": {
+            "path": "//div[@role='dialog' and starts-with(@class, 'ui-dialog ui-widget')]",
+            "frame": "FRAME_POPUP_CONTENTS"
+        },
+        "ChargeEntry": {
+            "frame": "FRAME_POPUP_CONTENTS"
+        },
+        "ChargeDetails": {
+            "path": "//table[@id='mainTable']",
+            "frame": "FRAME_POPUP"
+        },
+        "ChargeDetail": {
+            "path": "//table[@id='MAINPANETABLE']",
+            "frame": "FRAME_PATIENTDETAIL_CHARGEDETAIL"
+        },
+        "Outbox": {
+            "path": "//td[@id='HEADER_TEXTTD' and text()='Outbox']",
+            "frame": "FRAME_OUTBOX"
+        },
+        "PatientChargeStatus": {
+            "path": "//td[text()='Patient Charge Status' and ancestor-or-self::*[@id='HEADER_TEXTTD']]",
+            "frame": "FRAME_PATIENTCHARGESTATUS"
+        },
+        "PatientDetail": {
+            "path": "//table[@id='mainTable']",
+            "frame": "FRAME_POPUP"
+        },
+        "PatientDetailCharges": {
+            "path": "//table[@id='MAINPANETABLE']",
+            "frame": "FRAME_PATIENTDETAIL_CHARGES"
+        },
+        "BatchChargeEntry": {
+            "path": "//td[text()='Batch Charge Entry' and ancestor-or-self::*[@id='HEADER_TEXTTD']]",
+            "frame": "FRAME_BATCHCHARGEENTRY_MAIN"
+        },
+        "Question": {
+            "path": "//td[@id='dialogTitle' and text()='Question']",
+            "frame": "NO_FRAME"
+          },
+        "BillArea":{
+            "frame": "FRAME_TABLEDROPDOWN"
+        },
+        "SvcSite":{
+            "frame": "FRAME_TABLEDROPDOWN"
+        },
+        "Information": {
+            "path": "//td[@id='dialogTitle' and text()='Information']",
+            "frame": "NO_FRAME"
+         },
+        "HeldForReviewCharge":{
+            "path":"//tr[@id='titleTR']",
+            "frame":"FRAME_POPUP"
+        },
+        "Search":{
+            "frame":"FRAME_SEARCH"
+        }
+    },
+    "BUTTONS":{
+        "ResetCriteria":{
+            "path":"//span[@pkwidget='Button' and text()='Reset Criteria']"
+        },
+        "ShowCharges":{
+            "path":"//span[@pkwidget='Button' and text()='Show Charges']"
+        },
+        "SendtoOutbox":{
+            "id":"PostButton",
+            "frame":"FRAME_SEARCH_RESULTS"
+        },
+        "SendallEligibleTransactions":{
+            "id":"button_SENDELIGIBLE",
+            "frame":"FRAME_POPUP_CONTENTS"
+        },
+        "BackToCriteria":{
+            "id":"BackButton",
+            "frame":"FRAME_SEARCH_RESULTS"
+        },
+        "Submit":{
+            "id":"submit_button",
+            "frame":"FRAME_POPUP_CONTENTS"
+        },
+        "SaveAsIs":{
+            "path":"//button[child::span[@class='ui-button-text' and text()='Save As Is']]",
+            "frame":"FRAME_POPUP_CONTENTS"
+        },
+        "SubmitDraft":{
+            "id":"submit_draft_button",
+            "frame":"FRAME_POPUP_CONTENTS"
+        },
+        "RefreshWorklist": {
+            "path":"//span[@pkwidget='Button' and text()='Refresh Worklist']"
+        },
+
+        "AddEditCharges": {
+            "path":"//span[@pkwidget='Button' and text()='Add/Edit Charges']"
+        },
+        "CPT":{
+            "path":"//span[text()='CPT']",
+            "frame":"FRAME_POPUP_CONTENTS"
+        },
+        "SaveasDraft": {
+            "id": "SaveAsDraftButton",
+            "frame":"FRAME_BATCHCHARGEENTRY_VISITS"
+        },
+        "OK": {
+            "id": "button_YES"
+        },
+        "OKInformation": {
+            "id": "button_OK",
+            "frame":"NO_FRAME"
+        },
+        "InformationOK":  {
+            "id": "button_OK",
+            "frame": "NO_FRAME"
+        },
+        "Clearthisproviderfield": {
+            "id": "button_CLEAR",
+            "frame":"FRAME_TABLEDROPDOWN"
+        },
+        "Clearthisfield": {
+            "id": "button_CLEAR",
+            "frame":"FRAME_TABLEDROPDOWN"
+        },
+        "ProviderCriteriaSearch": {
+            "path":"//table[@id='ProviderCriteria']//span[@pkwidget='Button' and text()='Search']"
+        },
+        "DepartmentCriteriaSearch": {
+            "path": "//table[@id='DepartmentCriteria']//span[@pkwidget='Button' and text()='Search']"
+        },
+        "MedicalServiceCriteriaSearch": {
+            "path": "//table[@id='MedicalServiceCriteria']//span[@pkwidget='Button' and text()='Search']"
+        },
+        "SaveCharges": {
+            "path": "//span[@pkwidget='Button' and text()='Save Charges']",
+            "frame": "FRAME_BATCHCHARGEENTRY_VISITS"
+        },
+        "Cancel": {
+            "path": "//span[@pkwidget='Button' and descendant-or-self::*[text()='Cancel']]",
+            "frame": "NO_FRAME"
+        },
+        "CancelChargeDetails": {
+            "path": "//button[@id='cancel_button']",
+            "frame": "FRAME_POPUP_CONTENTS"
+        },
+        "SendToOutboxAndNext": {
+            "id": "submit_next_button",
+            "frame": "FRAME_POPUP_CONTENTS"
+        },
+        "SaveAndNext": {
+            "id": "submit_next_button",
+            "frame": "FRAME_POPUP_CONTENTS"
+        },
+        "Commit": {
+            "path": "//span[@pkwidget='Button' and descendant-or-self::*[text()='Commit']]",
+            "frame": "FRAME_OUTBOX_MAIN"
+        },
+        "Validate": {
+            "id": "validate_button",
+            "frame": "FRAME_POPUP_CONTENTS"
+        },
+        "MarkAsReviewed": {
+            "path": "//button[@id='mfr_button']",
+            "frame": "FRAME_POPUP_CONTENTS"
+        },
+        "MarkAsReviewedChargeDetails": {
+            "path": "//button[@id='markAsReviewed_button']",
+            "frame": "FRAME_POPUP_CONTENTS"
+        },
+        "MarkAsReviewedChargeSearch": {
+            "path": "//span[@id='ReviewButton']",
+            "frame": "FRAME_SEARCH_RESULTS"
+        },
+        "Yes": {
+            "path": "//span[@id='button_YES' and text()='Yes']",
+            "frame": "NO_FRAME"
+        },
+        "MarkAsReviewedWithReasons": {
+            "path": "//button[@id='mfr_button' and descendant::span[text()='Mark As Reviewed']]",
+            "frame": "FRAME_POPUP_CONTENTS"
+        },
+        "SendToOutboxHoldingBin": {
+            "id": "send_to_outbox_button",
+            "frame": "FRAME_POPUP_CONTENTS"
+        },
+        "ExportExcel": {
+            "id": "ExportTxtButton",
+            "frame": "FRAME_SEARCH_RESULTS"
+        },
+        "ExportTabs": {
+          "path": "//span[@id='ExportTxtButton']",
+          "frame": "FRAME_SEARCH_RESULTS"
+        },
+        "PatientDetailClose":{
+            "id":"button_CLOSE",
+            "frame": "FRAME_POPUP"
+        }
+    },
+    "DROPDOWNS":{
+        "Type":"",
+        "Timeframe":{
+            "name":"timeframe"
+        },
+        "ErrorType":{
+            "id": "ErrorFlag",
+            "name":"errorflag"
+        },
+        "Filter":{
+            "name":"errorflag"
+        },
+        "PatientChargeStatus":{
+            "path":"//span[@id='SearchMenu']",
+            "frame":"FRAME_PATIENTCHARGESTATUS"
+        },
+        "IncludeChargesFor": {
+            "name": "ProvChargeList"
+        },
+        "DepartmentIncludeChargesFor": {
+            "name": "DeptChargeList"
+        },
+        "ProviderType": {
+            "name": "ProviderType"
+        },
+        "Department": {
+            "name": "singledepartment"
+        },
+        "Dept": {
+            "name": "singledepartment"
+        },
+        "BillArea": {
+            "name": "singlebillingarea"
+        },
+        "OutboxDepartment": {
+            "name": "dept",
+            "frame":"FRAME_OUTBOX_TOP"
+        },
+        "BCEHoldForReviewPopup":{
+            "path":"//span[@id='HfrReasonsButton']",
+            "frame":"FRAME_BATCHCHARGEENTRY_VISITS"
+        },
+        "ChargeHoldForReviewpopup":{
+            "path":"//button[@id='holdforreview_popup']",
+            "frame":"FRAME_POPUP_CONTENTS"
+        },
+        "LimitResults": {
+            "name": "resultlimit"
+        }
+    },
+    "TABLES":{
+        "Worklist":{
+            "id":"",
+            "name":"",
+            "path":"//div[@id='chargeResultList']",
+            "frame":"FRAME_WORKLIST_RESULTS",
+            "head":"//div[@class='scrollingTableHeaderDiv']/table/thead",
+            "body":"//div[@class='scrollingTableDetailDiv']/table/tbody",
+            "date_format":"%D"
+        },
+        "HoldingBin":{
+            "id":"",
+            "name":"",
+            "path":"//div[@id='chargeResultList']",
+            "frame":"FRAME_HOLDINGBIN_RESULTS",
+            "head":"//div[@class='scrollingTableHeaderDiv']/table/thead",
+            "body":"//div[@class='scrollingTableDetailDiv']/table/tbody",
+            "date_format":"%D"
+        },
+        "PatientDetailCharges":{
+            "id":"",
+            "name":"",
+            "path":"//div[@id='listTable']",
+            "head":"//div[@class='scrollingTableHeaderDiv']/table/thead",
+            "body":"//div[@class='scrollingTableDetailDiv']/table/tbody",
+            "frame":"FRAME_PATIENTDETAIL_INTERACTIONLIST"
+        },
+        "ChargeSearchResults":{
+            "id":"",
+            "name":"",
+            "path":"//div[@id='chargeResultList']",
+            "frame":"FRAME_SEARCH_RESULTS",
+            "head":"//div[@class='scrollingTableHeaderDiv']/table/thead",
+            "body":"//div[@class='scrollingTableDetailDiv']/table/tbody",
+            "date_format":"%D",
+            "rowPath": "tr",
+            "cellPath": "td"
+        },
+        "ChargeList": {
+            "path":"//div[@id='ChargeList']",
+            "head":"//div[@class='scrollingTableHeaderDiv']/table/thead",
+            "body":"//div[@class='scrollingTableDetailDiv']/table/tbody",
+            "frame":"FRAME_BATCHCHARGEENTRY_MAIN"
+        },
+
+        "Visits": {
+            "path":"//div[@id='AccountListTable']",
+            "head":"//div[@class='scrollingTableHeaderDiv']/table/thead",
+            "body":"//div[@class='scrollingTableDetailDiv']/table/tbody",
+            "frame":"FRAME_BATCHCHARGEENTRY_VISITS"
+         },
+        "BillArea": {
+            "path":"//div[@class='dropdownField' and parent::td[@headerdefinition='Bill Area']]",
+            "table": "SelectBillArea",
+            "frame": "FRAME_POPUP_CONTENTS"
+        },
+        "PatientChargeStatus":{
+            "id":"",
+            "name":"",
+            "path":"//div[@id='PatientChargeStatusTable']",
+            "frame":"FRAME_PATIENTCHARGESTATUS",
+            "head":"//div[@class='scrollingTableDetailDiv' and @headerdiv='Y']",
+            "body":"//div[@class='scrollingTableDetailDiv' and @detaildiv='Y']/table/tbody",
+            "date_format":"%D"
+        },
+        "ChargesByDepartment": {
+            "path":"//div[@id='DepartmentTable']",
+            "head":"//thead[@class='staticHeader']",
+            "body":"//table[@id='dynamicDetailTable']/tbody",
+            "frame":"FRAME_SUMMARY"
+        },
+        "Outbox": {
+            "path":"form[@name='billingareas']//table[position()=2]",
+            "head":"//tbody/tr[position()=1]",
+            "body":"//tbody",
+            "frame":"FRAME_OUTBOX_MAIN"
+        },
+        "SelectBillArea": {
+            "path": "//div[@id='ScrollingValueList']",
+            "body": "//table[@id='ValueList']/tbody",
+            "frame": "FRAME_TABLEDROPDOWN"
+        },
+        "SelectSvcSite": {
+            "path": "//div[@id='ScrollingValueList']",
+            "body": "//table[@id='ValueList']/tbody",
+            "frame": "FRAME_TABLEDROPDOWN"
+        },
+        "HoldReasons": {
+            "path":"//div[@class='scrollingDiv']",
+            "head":"//thead",
+            "body":"//tbody",
+            "frame":"FRAME_HOLDINGBIN_REASONS"
+        }
+
+    },
+    "CHECKBOXES":{
+        "Draft":{
+            "id":"DRAFT"
+        },
+        "MyChargesOnly":{
+            "id": "MyChargesOnly"
+        },
+        "IncludeChargeswithNoEdits":{
+            "id": "IncludeNoErrors"
+        },
+        "IncludeAllVisits": {
+            "id": "IncludeAllVisits",
+            "frame": "FRAME_PATIENTCHARGESTATUS"
+        },
+        "OnlyPatientsMissingCharges": {
+            "id": "OnlyMissingChargePatients",
+            "frame": "FRAME_PATIENTCHARGESTATUS"
+        },
+        "ImportedChargesOnly": {
+           "id":"ImportedOnly"
+       },
+        "IncludeTodaysAppt":{
+            "name": "includetoday"
+        },
+        "AdultUnit":{
+            "name": "ba_5339",
+            "frame": "FRAME_OUTBOX_MAIN"
+        },
+        "HoldReasonReportField":{
+            "id":"ReportField",
+            "frame":"FRAME_HOLDINGBIN"
+        },
+        "ShowVisits":{
+            "id":"ShowVisitCBX",
+            "frame":"FRAME_PATIENTDETAIL_CHARGES"
+        },
+        "ValidityErrors":{
+            "id":"VALIDITY",
+            "frame":"FRAME_PATIENTDETAIL_CHARGES"
+        }
+    },
+    "TEXT_FIELDS": {
+        "DiagnosisSearch":{
+            "id":"diagnosis_search",
+            "frame":"FRAME_POPUP_CONTENTS"
+        },
+        "ChargeSearch": {
+            "id": "charge_search",
+            "frame": "FRAME_POPUP_CONTENTS"
+        },
+        "BCEDate": {
+            "id":"FieldValueDate",
+            "frame": "FRAME_BATCHCHARGEENTRY_MAIN"
+        },
+        "ProviderSearch": {
+            "id":"ProviderLOOKUP",
+            "frame": "FRAME_PATIENTCHARGESTATUS"
+        },
+        "DepartmentSearch": {
+            "id": "DepartmentLOOKUP",
+            "frame": "FRAME_PATIENTCHARGESTATUS"
+        },
+        "MedicalServiceSearch": {
+            "id": "MedicalServiceLOOKUP",
+            "frame": "FRAME_PATIENTCHARGESTATUS"
+        },
+        "Date": {
+            "path": "contains(@class, 'headerDateInputField') and parent::div[preceding-sibling::span[text()='Date']]",
+            "frame": "FRAME_POPUP_CONTENTS"
+        },
+        "HoldReasonSearch":{
+            "id":"slhfrReasonLOOKUP",
+            "frame":"FRAME_HOLDINGBIN"
+        }
+    },
+    "MISC_ELEMENTS":{
+        "Diagnoses": {
+            "path": "//span[@class ='accordion_title' and text()='Diagnoses']",
+            "frame": "FRAME_POPUP_CONTENTS"
+        },
+        "ChargesLeftNav": {
+            "path": "//li[@id='CHARGES']/div[@class='label' and text()='Charges']",
+            "frame": "FRAME_PATIENTDETAIL_CLINICALNAV"
+        },
+        "Checkbox": {
+            "path": "//div[@id='noerrors' and  @style = '']/img[contains(@src, 'checkmark.gif')]",
+            "frame": "FRAME_BATCHCHARGEENTRY_VISITS"
+        },
+        "Exclamation":{
+            "path": "//img[@buttonid='edittransaction' and parent::div[@id='witherrors' and @style='']]",
+            "frame": "FRAME_BATCHCHARGEENTRY_VISITS"
+        },
+        "Close": {
+            "path": "//img[@id='childwindow_closeicon']",
+            "frame": "FRAME_POPUP"
+        },
+        "OutboxRefresh": {
+            "path":"//img[contains(@src, 'icon_refresh.gif')]",
+            "frame":"FRAME_OUTBOX_TOP"
+        },
+        "HoldReasonLookUp":{
+            "path":"//img[@id='slhfrReasonIMG' and @title='Click to lookup values']",
+            "frame":"FRAME_HOLDINGBIN"
+        },
+        "ViewPatientDetails":{
+            "path":"//img[@buttonid='patientdetails']",
+            "frame": "FRAME_HOLDINGBIN_RESULTS"
+        }
+    },
+    "PANE_SECTIONS":{
+        "ChargeList":{
+            "path":"//div[@id='chargeItemsContainer']"
+        },
+        "DiagnosisList":{
+            "path":"//div[@id='dxItemsContainer']"
+        },
+        "ModifierList":{
+            "path":"//div[@id='modifiersSelectionHolder']",
+            "frame":"FRAME_POPUP_CONTENTS"
+        },
+        "DiagnosesSearchHeaderContainer":{
+            "path":"//div[@class='search_info_header']"
+        },
+        "Charges":{
+            "path":"//div[@id='charge_tree']",
+            "frame":"FRAME_POPUP_CONTENTS"
+        },
+        "DiagnosesSearchContainer":{
+            "path":"//div[@class='search_info ui-corner-bottom ui-widget-content ui-corner-right']"
+        },
+        "Diagnoses": {
+            "path":"//div[@id='diagnosis_tree']",
+            "frame":"FRAME_POPUP_CONTENTS"
+        }
+    },
+
+    "IMAGES": {
+        "Checkbox": {
+            "path":"//img[contains(@src, 'checkmark.gif')]",
+            "frame":"FRAME_BATCHCHARGEENTRY_VISITS"
+        },
+
+        "Exclamation": {
+            "path":"//img[contains(@src, 'problems.gif')]",
+            "frame":"FRAME_BATCHCHARGEENTRY_VISITS"
+        }
+     },
+
+    "TABLEDROPDOWNS": {
+        "BillArea": {
+            "path": "//div[@class='dropdownField' and parent::td[@headerdefinition='Bill Area']]",
+            "table": "SelectBillArea",
+            "buttonToClear": "Clearthisproviderfield",
+            "frame": "FRAME_BATCHCHARGEENTRY_MAIN"
+        },
+
+        "SvcSite": {
+            "path": "//div[@class='dropdownField' and parent::td[@headerdefinition='Svc Site']]",
+            "table": "SelectSvcSite",
+            "buttonToClear": "Clearthisproviderfield",
+            "frame": "FRAME_BATCHCHARGEENTRY_MAIN"
+        }
+    },
+
+    "PKMENUS":{
+        "PatientChargeStatus":{
+            "path":"//span[@id='SearchMenu']",
+            "id":"SearchMenuMenu",
+            "frame":"FRAME_PATIENTCHARGESTATUS"
+        },
+        "PatientList": {
+            "path": "//span[@id='PATIENTLISTButton']",
+            "id": "PATIENTLIST",
+            "frame": "FRAME_PATIENTCHARGESTATUS"
+        },
+        "PCSFilter": {
+            "path": "//span[@id='filterButton']",
+            "id": "filter",
+            "frame": "FRAME_PATIENTCHARGESTATUS"
+        },
+        "BatchChargeEntry": {
+            "path": "//span[@id='PATIENTLISTButton']",
+            "id": "PATIENTLIST",
+            "frame": "FRAME_BATCHCHARGEENTRY_VISITS"
+        }
+    },
+    "BATCHCHARGEENTRY_SUBSECTION": {
+        "PKMENUS": {
+            "PatientList": {
+                "path": "//span[@id='PATIENTLISTButton']",
+                "id": "PATIENTLIST",
+                "frame": "FRAME_BATCHCHARGEENTRY_VISITS"
+            }
+        }
+    },
+    "PKDROPDOWNS": {
+        "ChargeHoldForReviewpopup":{
+            "path":"//button[@id='holdforreview_popup']",
+            "listPath": "//div[@id='hfrReasonsPopupContainer']",
+            "frame": "FRAME_POPUP_CONTENTS"
+        },
+        "BCEHoldForReviewPopup":{
+            "path":"//span[@id='HfrReasonsButton']",
+            "listPath": "//div[@id='HfrReasons']",
+            "frame":"FRAME_BATCHCHARGEENTRY_VISITS"
+        }
+    }
+
+}

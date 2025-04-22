@@ -1,0 +1,5 @@
+{
+  "status": 200,
+  "message": "PayerCoverageInfo [payer=RXHUBPBM, planId=1234, planNetworkId=234876, processorId=AV, memberId=DD145645645601, groupNumber=DD1, formulary=201, copay=201, interchangeControlNumber=231899448, payerId=T00000000001000, healthPlanName=PLANA, coverages=[Coverage{type=MAIL, messages=[]}], cardHolderName=Name [lastName=CROSS, firstName=DAVID, middleName=M, suffix=null, prefix=null], cardHolderId=456456456, coverageId=201]",
+  "eventId": null
+}

@@ -1,0 +1,10 @@
+{
+    "approvedOrDenied": {
+        "cancelOrderId": 7453973,
+        "codes": [],
+        "noteOrDenialReason": "All dispenses have been made; no refills remaining",
+        "approved": true
+    },
+    "error": false,
+    "responsePresent": true
+}

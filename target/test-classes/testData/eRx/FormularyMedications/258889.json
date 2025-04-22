@@ -1,0 +1,70 @@
+[
+    {
+        "payerCoverageInfo": {
+            "payer": "RXHUBPBM",
+            "memberId": "C000000%111111112%001",
+            "groupNumber": "C000000",
+            "interchangeControlNumber": 342624028,
+            "payerId": "T00000000001000",
+            "healthPlanName": "",
+            "patient": {
+                "name": {
+                    "lastName": "STEINBERG",
+                    "firstName": "TIMOTHY",
+                    "middleName": "ROBERT",
+                    "suffix": "SR"
+                },
+                "address": {
+                    "address1": "614 ZACHARY LANE",
+                    "address2": "UNIT 403",
+                    "city": "ALANTA",
+                    "state": "GA",
+                    "postalCode": "30303"
+                },
+                "dob": -190857600000,
+                "gender": "MALE"
+            },
+            "coverages": [
+                
+            ],
+            "cardHolderName": {
+                "lastName": "STEINBERG",
+                "firstName": "TIMOTHY",
+                "middleName": "ROBERT"
+            },
+            "cardHolderId": "111111112"
+        },
+        "medications": [
+            {
+                "medId": 258889,
+                "description": "Retin-A Micro 0.1 % topical gel",
+                "formularyStatus": -1,
+                "ndc": 187514020,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": false,
+                "genericMedId": 298153,
+                "genericDescription": "tretinoin microspheres 0.1 % topical gel",
+                "clinicalQuantities": [
+                    {
+                        "desc": "20 gram Tube",
+                        "quantity": 20.0000000,
+                        "uomDesc": "Gram",
+                        "potencyUnitCode": "C48155"
+                    },
+                    {
+                        "desc": "45 gram Tube",
+                        "quantity": 45.0000000,
+                        "uomDesc": "Gram",
+                        "potencyUnitCode": "C48155"
+                    }
+                ],
+                "strength": "0.1",
+                "strengthUom": "%",
+                "formDescription": "gel",
+                "potencyUnitCode": "C38046"
+            }
+        ]
+    }
+]

@@ -1,0 +1,799 @@
+[
+    {
+        "payerCoverageInfo": {
+            "payer": "RXHUBPBM",
+            "planId": "1234",
+            "planNetworkId": "234876",
+            "processorId": "AV",
+            "memberId": "DD145645645601",
+            "groupNumber": "DD1",
+            "formulary": "201",
+            "copay": "201",
+            "interchangeControlNumber": 342617232,
+            "payerId": "T00000000001000",
+            "healthPlanName": "PLANA",
+            "coverages": [
+                {
+                    "type": "MAIL",
+                    "messages": [
+                        
+                    ]
+                }
+            ],
+            "cardHolderName": {
+                "lastName": "CROSS",
+                "firstName": "DAVID",
+                "middleName": "M"
+            },
+            "cardHolderId": "456456456",
+            "coverageId": "201"
+        },
+        "medications": [
+            {
+                "medId": 261128,
+                "description": "lisinopril 20 mg-hydrochlorothiazide 25 mg tablet",
+                "formularyStatus": 1,
+                "ndc": 143126401,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": false,
+                "genericMedId": 0,
+                "copays": [
+                    {
+                        "ndc": 143126401,
+                        "summaryDetail": false,
+                        "status": 0,
+                        "copayTier": "2",
+                        "drugRefNumber": "261128",
+                        "maximumCopayTier": "3",
+                        "pharmacyType": "A",
+                        "recordType": "CRT"
+                    }
+                ],
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    },
+                    {
+                        "desc": "30 Tablet Blister Pack",
+                        "quantity": 30.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "20-25",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 275733,
+                "description": "lisinopril 10 mg-hydrochlorothiazide 12.5 mg tablet",
+                "formularyStatus": 10,
+                "ndc": 143126201,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "copays": [
+                    {
+                        "ndc": 143126201,
+                        "summaryDetail": false,
+                        "status": 0,
+                        "copayTier": "1",
+                        "drugRefNumber": "275733",
+                        "maximumCopayTier": "3",
+                        "pharmacyType": "A",
+                        "recordType": "CRT"
+                    }
+                ],
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    },
+                    {
+                        "desc": "30 Tablet Blister Pack",
+                        "quantity": 30.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "10-12.5",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 296073,
+                "description": "benazepril 10 mg-hydrochlorothiazide 12.5 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 832048311,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "10-12.5",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 204185,
+                "description": "benazepril 20 mg-hydrochlorothiazide 12.5 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 64980019501,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "20-12.5",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 191934,
+                "description": "benazepril 20 mg-hydrochlorothiazide 25 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 60505026401,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "20-25",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 182716,
+                "description": "benazepril 5 mg-hydrochlorothiazide 6.25 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 60505026101,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "5-6.25",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 287115,
+                "description": "captopril 25 mg-hydrochlorothiazide 15 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 378008101,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "25-15",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 221656,
+                "description": "captopril 25 mg-hydrochlorothiazide 25 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 378008301,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "25-25",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 192315,
+                "description": "captopril 50 mg-hydrochlorothiazide 15 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 378008401,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "50-15",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 246934,
+                "description": "captopril 50 mg-hydrochlorothiazide 25 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 378008601,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "50-25",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 208934,
+                "description": "enalapril 10 mg-hydrochlorothiazide 25 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 68682014601,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "10-25",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 182213,
+                "description": "enalapril 5 mg-hydrochlorothiazide 12.5 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 378071201,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "5-12.5",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 265458,
+                "description": "fosinopril 10 mg-hydrochlorothiazide 12.5 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 23155006001,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "10-12.5",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 153773,
+                "description": "fosinopril 20 mg-hydrochlorothiazide 12.5 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 57237002701,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "20-12.5",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 171884,
+                "description": "lisinopril 20 mg-hydrochlorothiazide 12.5 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 68180051930,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    },
+                    {
+                        "desc": "30 Tablet Blister Pack",
+                        "quantity": 30.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "20-12.5",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 263564,
+                "description": "moexipril 7.5 mg-hydrochlorothiazide 12.5 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 93521301,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "7.5-12.5",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 280890,
+                "description": "quinapril 20 mg-hydrochlorothiazide 12.5 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 60505341005,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "20-12.5",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 228846,
+                "description": "quinapril 20 mg-hydrochlorothiazide 25 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 65862016390,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "20-25",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 400055,
+                "description": "moexipril 15 mg-hydrochlorothiazide 12.5 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 68462020601,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "15-12.5",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 152614,
+                "description": "moexipril 15 mg-hydrochlorothiazide 25 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 68462020501,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "15-25",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 193057,
+                "description": "quinapril 10 mg-hydrochlorothiazide 12.5 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 378054277,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "10-12.5",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 245870,
+                "description": "Accuretic 10 mg-12.5 mg tablet",
+                "formularyStatus": 2,
+                "ndc": 71022223,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 193057,
+                "genericDescription": "quinapril 10 mg-hydrochlorothiazide 12.5 mg tablet",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "10-12.5",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 215708,
+                "description": "Accuretic 20 mg-12.5 mg tablet",
+                "formularyStatus": 2,
+                "ndc": 71022023,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 280890,
+                "genericDescription": "quinapril 20 mg-hydrochlorothiazide 12.5 mg tablet",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "20-12.5",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 239908,
+                "description": "Accuretic 20 mg-25 mg tablet",
+                "formularyStatus": 2,
+                "ndc": 71022323,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 228846,
+                "genericDescription": "quinapril 20 mg-hydrochlorothiazide 25 mg tablet",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "20-25",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 198689,
+                "description": "Lotensin HCT 10 mg-12.5 mg tablet",
+                "formularyStatus": 2,
+                "ndc": 30698045201,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 296073,
+                "genericDescription": "benazepril 10 mg-hydrochlorothiazide 12.5 mg tablet",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "10-12.5",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 280394,
+                "description": "Lotensin HCT 20 mg-12.5 mg tablet",
+                "formularyStatus": 2,
+                "ndc": 30698045301,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 204185,
+                "genericDescription": "benazepril 20 mg-hydrochlorothiazide 12.5 mg tablet",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "20-12.5",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 172563,
+                "description": "Lotensin HCT 20 mg-25 mg tablet",
+                "formularyStatus": 2,
+                "ndc": 30698045401,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 191934,
+                "genericDescription": "benazepril 20 mg-hydrochlorothiazide 25 mg tablet",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "20-25",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 230456,
+                "description": "Vaseretic 10 mg-25 mg tablet",
+                "formularyStatus": 2,
+                "ndc": 187014601,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 208934,
+                "genericDescription": "enalapril 10 mg-hydrochlorothiazide 25 mg tablet",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "10-25",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 166281,
+                "description": "Zestoretic 20 mg-25 mg tablet",
+                "formularyStatus": 2,
+                "ndc": 52427043790,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 261128,
+                "genericDescription": "lisinopril 20 mg-hydrochlorothiazide 25 mg tablet",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "20-25",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 164694,
+                "description": "Zestoretic 10 mg-12.5 mg tablet",
+                "formularyStatus": 2,
+                "ndc": 310014111,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 275733,
+                "genericDescription": "lisinopril 10 mg-hydrochlorothiazide 12.5 mg tablet",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "10-12.5",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 194263,
+                "description": "Zestoretic 20 mg-12.5 mg tablet",
+                "formularyStatus": 2,
+                "ndc": 310014211,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 171884,
+                "genericDescription": "lisinopril 20 mg-hydrochlorothiazide 12.5 mg tablet",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "20-12.5",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            }
+        ]
+    }
+]

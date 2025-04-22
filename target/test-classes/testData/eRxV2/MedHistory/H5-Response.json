@@ -1,0 +1,42 @@
+{
+    "medHistoryResponseList": [
+        {
+            "historyResponse": {
+                "denied": {
+                    "denialReasonCodeDto": [
+                        
+                    ],
+                    "denialReasonDto": "CONTRACT DOES NOT EXIST"
+                }
+            },
+            "historyDispensedMedications": [
+                
+            ],
+            "historyPrescribedMedications": [
+                
+            ],
+            "benefitsCoordination": [
+                {
+                    "payerName": "RXHUBPBM",
+                    "expirationDate": [
+                        2018,
+                        8,
+                        1
+                    ],
+                    "effectiveDate": [
+                        2016,
+                        3,
+                        20
+                    ],
+                    "consent": "Y",
+                    "pbmMemberId": "DD145645645601",
+                    "payerId": "T00000000001000",
+                    "interchangeControlNumber": "391352717"
+                }
+            ]
+        }
+    ],
+    "medHistoryErrorList": [
+        
+    ]
+}

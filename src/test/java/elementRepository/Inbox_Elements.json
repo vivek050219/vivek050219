@@ -1,0 +1,525 @@
+{
+	"PANES": {
+		"SendPKMail": {
+			"path": "//table[@id='MAINPANETABLE']",
+			"frame": "FRAME_SENDPKMAIL"
+		},
+		"eSigAndPKMailContent": {
+			"path": "//dialog[@class='mdl-dialog message-detail-pane detail-dialog']",
+			"frame": "FRAME_ESIGANDPKMAIL_INBOX"
+		},
+		"Information": {
+			"path": "//*[@class='pk-dialog info' or @id='dialogTable' and descendant-or-self::*/text()='Information']",
+			"frame": "NO_FRAME"
+		},
+		"SubmitNote": {
+			"path": "//div[@id='promptDIV']",
+			"frame": "FRAME_POPUP_CONTENTS"
+		},
+		"Sign/SubmitNote": {
+			"path": "//div[@id='promptDIV']",
+			"frame": "FRAME_POPUP_CONTENTS"
+		},
+		"CoSigNote": {
+			"frame": "FRAME_POPUP_CONTENTS"
+		},
+		"Decline": {
+			"frame": "FRAME_ESIGANDPKMAIL_INBOX"
+		},
+		"ReassignNote": {
+			"frame": "FRAME_PROVIDERLOOKUP"
+		},
+		"Warning": {
+			"path": "//td[@id='dialogTitle' and text()='Warning']",
+			"frame": "NO_FRAME"
+		},
+		"CoSigNoteContents": {
+			"frame": "FRAME_NOTEWRITER"
+		},
+		"DataToInsertFromPreviousNotes": {
+			"path": "ancestor::td[@class='font-lg bold' and @text()='Data to Insert from Previous Notes']",
+			"frame": "FRAME_NOTEWRITER_INSERT_PREVIOUS"
+		},
+		"Question": {
+			"path": "//td[@id='dialogTitle' and text()='Question']",
+			"frame": "NO_FRAME"
+		},
+		"UserSearchCriteria": {
+			"path": "//form[@id='userSearchCriteria']",
+			"frame": "FRAME_SENDPKMAIL_USERSEARCH"
+		},
+		"MailContent": {
+			"path":"//div[@class='page-content inbox-right-side']",
+             "frame":"FRAME_ESIGANDPKMAIL_INBOX" 
+             },
+		"eSigNoteContent": {
+			"path": "//dialog[@class='note-header mdl-dialog note-detail-view detail-dialog']",
+			"frame": "FRAME_ESIGANDPKMAIL_INBOX"
+		},
+		"SignNote": {
+			"frame": "FRAME_ESIGANDPKMAIL_INBOX"
+		},
+		"Confirm": {
+			"path": "//dialog[@class='mdl-dialog confirm-view dialog-position']",
+			"frame": "FRAME_ESIGANDPKMAIL_INBOX"
+		},
+		"NoteWriterWizard": {
+			"path": "//div[@id='titleBar' and @class='window-title']",
+			"frame": "FRAME_POPUP_CONTENTS"
+		},
+		"TestResultList": {
+			"path": "//td[@id='HEADER_TEXTTD' and text()='Test Results']",
+			"frame": "FRAME_ESIG_TESTRESULT"
+		},
+		"LabList": {
+			"frame": "FRAME_ESIG_LABLIST"
+		},
+		"Signature": {
+			"path": "//dialog[@class=mdl-dialog note-signature-popup dialog-position']",
+			"frame": "FRAME_ESIGANDPKMAIL_INBOX"
+		},
+		"OrderNoteContent": {
+			"path": "//dialog[@class='transcribed-header mdl-dialog transcribed-detail-view detail-dialog-max']",
+			"frame": "FRAME_ESIGANDPKMAIL_INBOX"
+		},
+		"CollapsedScannedDialog": {
+			"path": "//dialog[@class='transcribed-header mdl-dialog transcribed-detail-view detail-dialog']",
+			"frame": "FRAME_ESIGANDPKMAIL_INBOX"
+		},
+		"ExpandedScannedDialog": {
+			"path": "//dialog[contains(@class,'detail-dialog-max')]",
+			"frame": "FRAME_ESIGANDPKMAIL_INBOX"
+		},
+		"SendPkmailAtReply": {
+			"frame": "FRAME_POPUP"
+		},
+		"UserSearchAtReply": {
+			"frame": "FRAME_POPUP_CONTENTS_USERSEARCH"
+		},
+		"InboxSendPKMailPopUp": {
+			"frame": "FRAME_POPUP_CONTENTS"
+		}
+	},
+	"BUTTONS": {
+		"Search": {
+			"path": "//span[@pkwidget='Button' and text()='Search']",
+			"frame": "FRAME_SENDPKMAIL_USERSEARCH"
+		},
+		"AddSelectedUsers": {
+			"path": "//span[@pkwidget='Button' and text()='Add Selected Users']",
+			"frame": "FRAME_SENDPKMAIL_USERSEARCH"
+		},
+		"Send": {
+			"path": "//span[@pkwidget='Button' and text()='Send']",
+			"frame": "FRAME_SENDPKMAIL"
+		},
+		"SelectAll": {
+			"path": "//span[@pkwidget='Button' and text()='Select All']",
+			"frame": "FRAME_SENDPKMAIL_USERSEARCHRESULTS"
+		},
+		"Delete": {
+			"path": "//button[normalize-space(.)='Delete']",
+			"frame": "FRAME_ESIGANDPKMAIL_INBOX"
+		},
+		"Refresh": {
+			"path": "//button[normalize-space(.)='Refresh']",
+			"frame": "FRAME_ESIGANDPKMAIL_INBOX"
+		},
+		"OK": {
+			"path": "//*[text()='OK']"
+		},
+		"Attest": {
+			"path": "//button[text()='Attest' or text()='ATTEST']",
+			"frame": "FRAME_ESIGANDPKMAIL_INBOX"
+		},
+		"Skip": {
+			"path": "//button[normalize-space(.)='Skip']",
+			"frame": "FRAME_ESIGANDPKMAIL_INBOX"
+		},
+		"Decline": {
+			"path": "//button[normalize-space(.)='Decline']",
+			"frame": "FRAME_ESIGANDPKMAIL_INBOX"
+		},
+		"NextTag": {
+			"path": "//span[@pkwidget='Button' and text()='Next Tag']",
+			"frame": "FRAME_ESIGANDPKMAIL_DETAIL"
+		},
+		"Flag": {
+			"path": "//span[@pkwidget='Button' and text()='Flag']",
+			"frame": "FRAME_ESIGANDPKMAIL_DETAIL"
+		},
+		"Sign": {
+			"path": "//button[normalize-space(.)='Sign']",
+			"frame": "FRAME_ESIGANDPKMAIL_INBOX"
+		},
+		"Submit": {
+			"id": "button_sign",
+			"frame": "FRAME_POPUP_CONTENTS"
+		},
+		"Reassign": {
+			"path": "//button[text()='Reassign' or text()='REASSIGN']",
+			"frame": "FRAME_ESIGANDPKMAIL_INBOX"
+		},
+		"ProviderLOOKUP": {
+			"id": "ProviderLOOKUP",
+			"frame": "FRAME_ESIGANDPKMAIL_INBOX"
+		},
+		"InsertSelectionQTV2": {
+			"id": "InsertSelectionButton",
+			"frame": "FRAME_NOTEWRITER_INSERT_PREVIOUS"
+		},
+		"NoteWriterCancelNote": {
+			"id": "button_cancel",
+			"frame": "FRAME_POPUP_CONTENTS"
+		},
+		"Yes": {
+			"id": "button_YES",
+			"frame": "FRAME_DIALOG"
+		},
+		"ReassignOK": {
+			"path": "//button[@class='button reassign-button decline-ok primary mdl-button' and text()='OK']",
+			"frame": "FRAME_ESIGANDPKMAIL_INBOX"
+		},
+		"BackToInbox": {
+			"path": "//button[normalize-space(.)='Back to Inbox']",
+			"frame": "FRAME_ESIGANDPKMAIL_INBOX"
+		},
+		"NWProgressNoteSkip": {
+			"path": "//span[text()='Skip' or text()='SKIP']",
+			"frame": "FRAME_ESIGANDPKMAIL_INBOX"
+		},
+		"EDIT/SIGN": {
+			"path": "//button[normalize-space(.)='Edit/Sign']",
+			"frame": "FRAME_ESIGANDPKMAIL_INBOX"
+		},
+		"Xclose": {
+			"path": "//button[@class='uxf-mdl-dialog__close mdl-button mdl-js-button mdl-button--icon note-button close mdl-cell--hide-phone mdl-cell--hide-tablet']",
+			"frame": "FRAME_ESIGANDPKMAIL_INBOX"
+		},
+		"ShareDraft": {
+			"path": "//span[@id='button_share' and text()='Share Draft']",
+			"frame": "FRAME_POPUP_CONTENTS"
+		},
+		"DisabledSign": {
+			"path": "//span[@id='button_sign_temp' and text()='Sign' and @disabled='disable']",
+			"frame": "FRAME_POPUP_CONTENTS"
+		},
+		"CopytoNote": {
+			"id": "button_ADD",
+			"frame": "FRAME_SECONDARY_POPUP"
+		},
+		"SaveasDraft": {
+			"path": "//span[@pkwidget='Button' and (text()='Save as Draft' or text()='Save Draft')]",
+			"frame": "FRAME_POPUP_CONTENTS"
+		},
+		"No": {
+			"id": "button_NO",
+			"frame": "NO_FRAME"
+		},
+		"SubmitNoteConfirm": {
+			"path": "//button[(@class='mdl-button confirm') and text()='Confirm']",
+			"frame": "FRAME_NOTEWRITER_MAIN"
+		},
+		"Reply": {
+			"path": "//button[normalize-space(.)='Reply']",
+			"frame": "FRAME_ESIGANDPKMAIL_INBOX"
+		},
+		"ReplyToAll": {
+			"path": "//button[normalize-space(.)='Reply to All']",
+			"frame": "FRAME_ESIGANDPKMAIL_INBOX"
+		},
+		"Forward": {
+			"path": "//button[normalize-space(.)='Forward']",
+			"frame": "FRAME_ESIGANDPKMAIL_INBOX"
+		},
+		"Save&Sign": {
+			"path": "//button[normalize-space(.)='Save & Sign']",
+			"frame": "FRAME_ESIGANDPKMAIL_INBOX"
+		},
+		"Save": {
+			"path": "//button[normalize-space(.)='Save']",
+			"frame": "FRAME_ESIGANDPKMAIL_INBOX"
+		},
+		"Minimize": {
+			"path": "//button[@class='mdl-button mdl-js-button mdl-button--icon note-button fullscreen mdl-cell--hide-phone mdl-cell--hide-tablet']",
+			"frame": "FRAME_ESIGANDPKMAIL_INBOX"
+		},
+		"Edit": {
+			"path": "//button[normalize-space(.)='Edit']",
+			"frame": "FRAME_ESIGANDPKMAIL_INBOX"
+		},
+		"CloseAtReply": {
+			"path": "//span[@id='button_close']",
+			"frame": "FRAME_POPUP_CONTENTS"
+		},
+		"Cancel": {
+			"path": "//button[normalize-space(.)='Cancel']",
+			"frame": "FRAME_ESIGANDPKMAIL_INBOX"
+		},
+		"Print": {
+			"path": "//button[normalize-space(.)='Print']",
+			"frame": "FRAME_ESIGANDPKMAIL_INBOX"
+		},
+		"ConfirmOK": {
+			"path": "//button[normalize-space(.)='OK']",
+			"frame": "FRAME_ESIGANDPKMAIL_INBOX"
+		}
+	},
+	"TEXT_FIELDS": {
+		"UserName": {
+			"id": "searchText",
+			"frame": "FRAME_SENDPKMAIL_USERSEARCH"
+		},
+		"Subject": {
+			"id": "subject",
+			"frame": "FRAME_SENDPKMAIL"
+		},
+		"Body": {
+			"id": "body",
+			"frame": "FRAME_SENDPKMAIL"
+		},
+		"PasswordField": {
+			"barexpath": "//input[contains(@class,'validation-input')]",
+			"frame": "FRAME_POPUP_CONTENTS"
+		},
+		"CoSignatureAdditionsSubjective": {
+			"path": "//div[@role='textbox' and @testid='it_CoSigCommentsSubjective']",
+			"frame": "FRAME_NOTEWRITER"
+		},
+		"CoSignatureAdditionsFSHistory": {
+			"path": "//div[@role='textbox' and @testid='it_CoSigCommentsFSHistory']",
+			"frame": "FRAME_NOTEWRITER"
+		},
+		"CoSignatureAdditionsROS": {
+			"path": "//div[@role='textbox' and @testid='it_CoSigCommentsROS']",
+			"frame": "FRAME_NOTEWRITER"
+		},
+		"CoSignatureAdditionsExam": {
+			"path": "//div[@role='textbox' and @testid='it_CoSigCommentsExam']",
+			"frame": "FRAME_NOTEWRITER"
+		},
+		"CoSignatureAdditionsData": {
+			"path": "//div[@role='textbox' and @testid='it_CoSigCommentsData']",
+			"frame": "FRAME_NOTEWRITER"
+		},
+		"CoSignatureAdditionsAP": {
+			"path": "//div[@role='textbox' and @testid='it_CoSigCommentsAP']",
+			"frame": "FRAME_NOTEWRITER"
+		},
+		"CoSignatureAdditionsBilling": {
+			"path": "//div[@role='textbox' and @testid='it_CoSigCommentsBilling']",
+			"frame": "FRAME_NOTEWRITER"
+		},
+		"CoSignatureGeneralComments": {
+			"path": "//div[@role='textbox' and @testid='it_CoSigGeneralComments']",
+			"frame": "FRAME_NOTEWRITER"
+		},
+		"AdditionalComments": {
+			"id": "notecomments",
+			"frame": "FRAME_ESIGANDPKMAIL_INBOX"
+		},
+		"ProviderLOOKUP": {
+			"id": "ProviderLOOKUP",
+			"frame": "FRAME_ESIGANDPKMAIL_INBOX"
+		},
+		"SearchBox": {
+			"id": "searchBox",
+			"frame": "FRAME_ESIGANDPKMAIL_INBOX"
+		},
+		"Password": {
+			"id": "validationMethod",
+			"frame": "FRAME_ESIGANDPKMAIL_INBOX"
+		},
+		"Notation": {
+			"id": "cke_2_contents",
+			"frame": "FRAME_NOTEWRITER"
+		},
+		"PatientNarrativeQTV2": {
+			"path": "//div[@role='textbox' and @testid='it_PTHistory']",
+			"frame": "FRAME_NOTEWRITER"
+		},
+		"HPI": {
+			"path": "//div[@role='textbox' and @testid='it_HPI']",
+			"frame": "FRAME_NOTEWRITER"
+		},
+		"AdditionalSocialHistoryInfo": {
+			"path": "//div[@testid='it_AdditionalSocialHistory']",
+			"frame": "FRAME_NOTEWRITER"
+		},
+		"ProblemDxSearch": {
+			"id": "diagnosis_search",
+			"frame": "FRAME_ESIG_APDXSEARCHQTV2"
+		},
+		"lookupField": {
+			"id": "ProviderLOOKUP",
+			"frame": "FRAME_POPUP_CONTENTS"
+		},
+		"OrderTextField": {
+			"path": "//textarea[@class='mdl-textfield__input section-content']",
+			"frame": "FRAME_ESIGANDPKMAIL_INBOX"
+		}
+	},
+	"TABLES": {
+		"Messages": {
+			"path": "//div[@class='list']",
+			"head": "//table/thead",
+			"body": "//table/tbody",
+			"rowPath": "tr",
+			"frame": "FRAME_ESIGANDPKMAIL_INBOX"
+		},
+		"UserSearchResults": {
+			"path": "//div[@id='lookupTable']",
+			"head": "//div/table/thead[@class='staticHeader']",
+			"body": "//div/table[@class='standardTable']/tbody",
+			"frame": "FRAME_SENDPKMAIL_USERSEARCHRESULTS"
+		},
+		"Recipients": {
+			"path": "//div[@id='selectedUsersTable']",
+			"head": "//div/table/thead[@class='staticHeader']",
+			"body": "//div/table[@class='standardTable']/tbody",
+			"frame": "FRAME_SENDPKMAIL_RECIPIENTS"
+		},
+		"UserSearchResultsReply": {
+			"path": "//div[@id='lookupTable']",
+			"head": "//div/table/thead[@class='staticHeader']",
+			"body": "//div/table[@class='standardTable']/tbody",
+			"frame": "FRAME_POPUP_CONTENTS_USERSEARCHRESULT"
+		},
+		"RecipientsReply": {
+			"path": "//div[@id='selectedUsersTable']",
+			"head": "//div/table/thead[@class='staticHeader']",
+			"body": "//div/table[@class='standardTable']/tbody",
+			"frame": "FRAME_POPUP_CONTENTS_USERSEARCH_RECIPIENTS"
+		}
+	},
+	"CHECKBOXES": {
+		"Co-SignRequired": {
+			"id": "ShowUnsignedNotes",
+			"frame": "FRAME_ESIGANDPKMAIL_LIST"
+		},
+		"UrgentImportance": {
+			"path": "//input[@id='urgentImportance']",
+			"frame": "FRAME_POPUP_CONTENTS"
+		}
+	},
+	"MISC_ELEMENTS": {
+		"AutoPlay": {
+			"id": "playbutton",
+			"frame": "FRAME_ESIGANDPKMAIL_DETAIL"
+		},
+		"SearchImage": {
+			"path": "//img[@id='ProviderIMG_INBOX']",
+			"frame": "FRAME_ESIGANDPKMAIL_INBOX"
+		},
+		"Mail": {
+			"path": "//a[@moduleid='messages' and @modulename='Mail']",
+			"frame": "FRAME_ESIGANDPKMAIL_INBOX"
+		},
+		"Co-Sign": {
+			"path": "//a[@moduleid='cosign' and @modulename='CoSign']",
+			"frame": "FRAME_ESIGANDPKMAIL_INBOX"
+		},
+		"Search": {
+			"path": "//label[@for='searchBox' and descendant::*[text()='search']]",
+			"frame": "FRAME_ESIGANDPKMAIL_INBOX"
+		},
+		"Descending": {
+			"path": "//th[contains(@class,'sorted-ascending') and text()='Date']",
+			"frame": "FRAME_ESIGANDPKMAIL_INBOX"
+		},
+		"ProviderLOOKUP": {
+			"path": "//input[@id='ProviderLOOKUP']",
+			"frame": "FRAME_ESIGANDPKMAIL_INBOX"
+		},
+		"Co-SignAll": {
+			"path": "//span[@class='mdl-checkbox__ripple-container mdl-js-ripple-effect mdl-ripple--center' and ancestor::th[@name='inbox-multi-col']]",
+			"frame": "FRAME_ESIGANDPKMAIL_INBOX"
+		},
+		"FirstNoteCheckbox": {
+			"path": "//div[@class='list']/table/tbody/tr[1]/td[contains(@class,'select-row')]/label/span[contains(@class,'mdl-checkbox__ripple-container')]",
+			"frame": "FRAME_ESIGANDPKMAIL_INBOX"
+		},
+		"SecondNoteCheckbox": {
+			"path": "//div[@class='list']/table/tbody/tr[2]/td[contains(@class,'select-row')]/label/span[contains(@class,'mdl-checkbox__ripple-container')]",
+			"frame": "FRAME_ESIGANDPKMAIL_INBOX"
+		},
+		"Notes": {
+			"path": "//a[contains(@class,'mdl-navigation__link deficiency-category all-notes')]",
+			"frame": "FRAME_ESIGANDPKMAIL_INBOX"
+		},
+		"Drafts": {
+			"path": "//a[@moduleid='draft' and @modulename='Drafts']",
+			"frame": "FRAME_ESIGANDPKMAIL_INBOX"
+		},
+		"ROSGITrash": {
+			"path": "//img[@id='RemoveLinkedContent' and parent::td[preceding-sibling::td/div[text()= 'GASTROINTESTINAL:']]]",
+			"frame": "FRAME_POPUP_CONTENTS"
+		},
+		"ROSCVNormal": {
+			"path": "//a[@id='ROSCVNormalLink' and text()='Normal']",
+			"frame": "FRAME_POPUP_CONTENTS"
+		},
+		"ExamEyesTrash": {
+			"path": "//img[@id='RemoveLinkedContent' and parent::td[preceding-sibling::td/div[text()= 'EYES:']]]",
+			"frame": "FRAME_POPUP_CONTENTS"
+		},
+		"ExamMSKNormal": {
+			"path": "//a[@id='ExamMSKNormalLink' and text()='Normal']",
+			"frame": "FRAME_POPUP_CONTENTS"
+		},
+		"NoteWriterPreselectionIcon": {
+			"path": "//img[@buttonid='selectallclinicaldata' and ancestor::div[@class='scrollingTableHeaderDiv']]",
+			"frame": "FRAME_ESIG_LABLIST"
+		},
+		"Scanned": {
+			"path": "//a[@moduleid='esig' and @modulename='Scanned']",
+			"frame": "FRAME_ESIGANDPKMAIL_INBOX"
+		},
+		"Ascending": {
+			"path": "//th[contains(@class,'sorted-descending') and text()='Date']",
+			"frame": "FRAME_ESIGANDPKMAIL_INBOX"
+		},
+		"Close": {
+			"path": "//i[@class='uxf-mdl-dialog__close-icon material-icons' and text()='close']",
+			"frame": "FRAME_ESIGANDPKMAIL_INBOX"
+		},
+		"Orders": {
+			"path": "//a[@moduleid='orders' and @modulename='Orders']",
+			"frame": "FRAME_ESIGANDPKMAIL_INBOX"
+		},
+		"All": {
+			"path": "//a[@moduleid='all' and @modulename='All']",
+			"frame": "FRAME_ESIGANDPKMAIL_INBOX"
+		},
+        "TopLevelCheckbox":{
+            "path":" //th[@name='inbox-multi-col']",
+            "frame": "FRAME_ESIGANDPKMAIL_INBOX"
+        },
+		"Expand": {
+			"path": "//i[@class='uxf-icon fullscreen icon-arrow-expand']",
+			"frame": "FRAME_ESIGANDPKMAIL_INBOX"
+		},
+		"Collapse": {
+			"path": "//i[@class='uxf-icon fullscreen icon-arrow-collapse']",
+			"frame": "FRAME_ESIGANDPKMAIL_INBOX"
+		},
+		"SubjectText":{
+            "path":"//span[contains(text(),'test message 1')]",
+            "frame": "FRAME_ESIGANDPKMAIL_INBOX"
+        }
+	},
+	"DROPDOWNS": {
+		"autoscrollspeed": {
+			"id": "autoscrollspeed",
+			"frame": "FRAME_ESIGANDPKMAIL_DETAIL"
+		},
+		"Reason": {
+			"id": "reason",
+			"frame": "FRAME_ESIGANDPKMAIL_INBOX"
+		},
+		"LevelOfDecision": {
+			"id": "LevelOfDecision",
+			"frame": "FRAME_NOTEWRITER"
+		}
+	}
+}
