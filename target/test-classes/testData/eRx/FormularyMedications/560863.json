@@ -1,0 +1,701 @@
+[
+    {
+        "payerCoverageInfo": {
+            "payer": "RXHUBPBM",
+            "planId": "1234",
+            "planNetworkId": "234876",
+            "processorId": "AV",
+            "memberId": "DD145645645601",
+            "groupNumber": "DD1",
+            "formulary": "201",
+            "copay": "201",
+            "interchangeControlNumber": 342617232,
+            "payerId": "T00000000001000",
+            "healthPlanName": "PLANA",
+            "coverages": [
+                {
+                    "type": "MAIL",
+                    "messages": [
+                        
+                    ]
+                }
+            ],
+            "cardHolderName": {
+                "lastName": "CROSS",
+                "firstName": "DAVID",
+                "middleName": "M"
+            },
+            "cardHolderId": "456456456",
+            "coverageId": "201"
+        },
+        "medications": [
+            {
+                "medId": 560863,
+                "description": "Dexilant 30 mg capsule, delayed release",
+                "formularyStatus": 2,
+                "ndc": 64764017130,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": false,
+                "genericMedId": 557294,
+                "genericDescription": "dexlansoprazole 30 mg capsule,biphase delayed release",
+                "coverages": [
+                    {
+                        "stepTherapy": false,
+                        "priorAuthorization": true,
+                        "productCoverageExclusion": false
+                    }
+                ],
+                "copays": [
+                    {
+                        "ndc": 64764017130,
+                        "summaryDetail": false,
+                        "status": 0,
+                        "copayTier": "2",
+                        "drugRefNumber": "560863",
+                        "maximumCopayTier": "3",
+                        "pharmacyType": "A",
+                        "recordType": "CRT"
+                    }
+                ],
+                "clinicalQuantities": [
+                    {
+                        "desc": "Capsule",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Capsule",
+                        "potencyUnitCode": "C48480"
+                    }
+                ],
+                "strength": "30",
+                "strengthUom": "mg",
+                "formDescription": "capsule,biphase delayed releas",
+                "potencyUnitCode": "C48480"
+            },
+            {
+                "medId": 594787,
+                "description": "Acid Reducer (omeprazole) 20 mg capsule,delayed release",
+                "formularyStatus": 3,
+                "ndc": 96295013085,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 561431,
+                "genericDescription": "omeprazole magnesium 20 mg capsule,delayed release",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Capsule",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Capsule",
+                        "potencyUnitCode": "C48480"
+                    }
+                ],
+                "strength": "20",
+                "strengthUom": "mg",
+                "formDescription": "capsule,delayed release(DR/EC)",
+                "potencyUnitCode": "C48480"
+            },
+            {
+                "medId": 581284,
+                "description": "Heartburn Treatment 24 Hour 15 mg capsule,delayed release",
+                "formularyStatus": 3,
+                "ndc": 536103488,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 255331,
+                "genericDescription": "lansoprazole 15 mg capsule,delayed release",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Capsule",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Capsule",
+                        "potencyUnitCode": "C48480"
+                    }
+                ],
+                "strength": "15",
+                "strengthUom": "mg",
+                "formDescription": "capsule,delayed release(DR/EC)",
+                "potencyUnitCode": "C48480"
+            },
+            {
+                "medId": 591990,
+                "description": "Nexium 24HR 20 mg capsule,delayed release",
+                "formularyStatus": 3,
+                "ndc": 573245028,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 298924,
+                "genericDescription": "esomeprazole magnesium 20 mg capsule,delayed release",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Capsule",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Capsule",
+                        "potencyUnitCode": "C48480"
+                    }
+                ],
+                "strength": "20",
+                "strengthUom": "mg",
+                "formDescription": "capsule,delayed release(DR/EC)",
+                "potencyUnitCode": "C48480"
+            },
+            {
+                "medId": 588548,
+                "description": "Nexium 24HR 20 mg tablet,delayed release",
+                "formularyStatus": 3,
+                "ndc": 573245114,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 564959,
+                "genericDescription": "esomeprazole magnesium 20 mg tablet,delayed release",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "20",
+                "strengthUom": "mg",
+                "formDescription": "tablet,delayed release (DR/EC)",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 559806,
+                "description": "Prevacid 24Hr 15 mg capsule,delayed release",
+                "formularyStatus": 3,
+                "ndc": 67628614,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 255331,
+                "genericDescription": "lansoprazole 15 mg capsule,delayed release",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Capsule",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Capsule",
+                        "potencyUnitCode": "C48480"
+                    }
+                ],
+                "strength": "15",
+                "strengthUom": "mg",
+                "formDescription": "capsule,delayed release(DR/EC)",
+                "potencyUnitCode": "C48480"
+            },
+            {
+                "medId": 451488,
+                "description": "Prilosec OTC 20 mg tablet,delayed release",
+                "formularyStatus": 3,
+                "ndc": 37000045904,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 451486,
+                "genericDescription": "omeprazole magnesium 20 mg tablet,delayed release",
+                "clinicalQuantities": [
+                    {
+                        "desc": "14 Tablet Blister Pack",
+                        "quantity": 14.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    },
+                    {
+                        "desc": "28 Tablet Blister Pack",
+                        "quantity": 28.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    },
+                    {
+                        "desc": "42 Tablet Blister Pack",
+                        "quantity": 42.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "20",
+                "strengthUom": "mg",
+                "formDescription": "tablet,delayed release (DR/EC)",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 298924,
+                "description": "esomeprazole magnesium 20 mg capsule,delayed release",
+                "formularyStatus": 3,
+                "ndc": 43598050990,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Capsule",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Capsule",
+                        "potencyUnitCode": "C48480"
+                    }
+                ],
+                "strength": "20",
+                "strengthUom": "mg",
+                "formDescription": "capsule,delayed release(DR/EC)",
+                "potencyUnitCode": "C48480"
+            },
+            {
+                "medId": 241473,
+                "description": "esomeprazole magnesium 40 mg capsule,delayed release",
+                "formularyStatus": 3,
+                "ndc": 93645198,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Capsule",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Capsule",
+                        "potencyUnitCode": "C48480"
+                    }
+                ],
+                "strength": "40",
+                "strengthUom": "mg",
+                "formDescription": "capsule,delayed release(DR/EC)",
+                "potencyUnitCode": "C48480"
+            },
+            {
+                "medId": 473757,
+                "description": "esomeprazole sodium 20 mg intravenous solution",
+                "formularyStatus": 3,
+                "ndc": 62756050840,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Vial",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Vial",
+                        "potencyUnitCode": "C48551"
+                    }
+                ],
+                "strength": "20",
+                "strengthUom": "mg",
+                "formDescription": "recon soln",
+                "potencyUnitCode": "C38046"
+            },
+            {
+                "medId": 473758,
+                "description": "esomeprazole sodium 40 mg intravenous solution",
+                "formularyStatus": 3,
+                "ndc": 17478085010,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Vial",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Vial",
+                        "potencyUnitCode": "C48551"
+                    }
+                ],
+                "strength": "40",
+                "strengthUom": "mg",
+                "formDescription": "recon soln",
+                "potencyUnitCode": "C38046"
+            },
+            {
+                "medId": 255331,
+                "description": "lansoprazole 15 mg capsule,delayed release",
+                "formularyStatus": 3,
+                "ndc": 60687011121,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Capsule",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Capsule",
+                        "potencyUnitCode": "C48480"
+                    }
+                ],
+                "strength": "15",
+                "strengthUom": "mg",
+                "formDescription": "capsule,delayed release(DR/EC)",
+                "potencyUnitCode": "C48480"
+            },
+            {
+                "medId": 450469,
+                "description": "lansoprazole 15 mg delayed release,disintegrating tablet",
+                "formularyStatus": 3,
+                "ndc": 93300893,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    },
+                    {
+                        "desc": "100 Tablet Blister Pack",
+                        "quantity": 100.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "15",
+                "strengthUom": "mg",
+                "formDescription": "tablet,disintegrat, delay rel",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 245569,
+                "description": "lansoprazole 30 mg capsule,delayed release",
+                "formularyStatus": 3,
+                "ndc": 70700026390,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Capsule",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Capsule",
+                        "potencyUnitCode": "C48480"
+                    }
+                ],
+                "strength": "30",
+                "strengthUom": "mg",
+                "formDescription": "capsule,delayed release(DR/EC)",
+                "potencyUnitCode": "C48480"
+            },
+            {
+                "medId": 450468,
+                "description": "lansoprazole 30 mg delayed release,disintegrating tablet",
+                "formularyStatus": 3,
+                "ndc": 93300993,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "100 Tablet Blister Pack",
+                        "quantity": 100.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "30",
+                "strengthUom": "mg",
+                "formDescription": "tablet,disintegrat, delay rel",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 224550,
+                "description": "omeprazole 10 mg capsule,delayed release",
+                "formularyStatus": 3,
+                "ndc": 51991064290,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Capsule",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Capsule",
+                        "potencyUnitCode": "C48480"
+                    }
+                ],
+                "strength": "10",
+                "strengthUom": "mg",
+                "formDescription": "capsule,delayed release(DR/EC)",
+                "potencyUnitCode": "C48480"
+            },
+            {
+                "medId": 259872,
+                "description": "omeprazole 20 mg capsule,delayed release",
+                "formularyStatus": 3,
+                "ndc": 51991064310,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Capsule",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Capsule",
+                        "potencyUnitCode": "C48480"
+                    }
+                ],
+                "strength": "20",
+                "strengthUom": "mg",
+                "formDescription": "capsule,delayed release(DR/EC)",
+                "potencyUnitCode": "C48480"
+            },
+            {
+                "medId": 554070,
+                "description": "omeprazole 20 mg tablet,delayed release",
+                "formularyStatus": 3,
+                "ndc": 36800091501,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "14 Tablet Box",
+                        "quantity": 14.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    },
+                    {
+                        "desc": "28 Tablet Blister Pack",
+                        "quantity": 28.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    },
+                    {
+                        "desc": "28 Tablet Box",
+                        "quantity": 28.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    },
+                    {
+                        "desc": "42 Tablet Blister Pack",
+                        "quantity": 42.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    },
+                    {
+                        "desc": "42 Tablet Box",
+                        "quantity": 42.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "20",
+                "strengthUom": "mg",
+                "formDescription": "tablet,delayed release (DR/EC)",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 205113,
+                "description": "omeprazole 40 mg capsule,delayed release",
+                "formularyStatus": 3,
+                "ndc": 93529498,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Capsule",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Capsule",
+                        "potencyUnitCode": "C48480"
+                    }
+                ],
+                "strength": "40",
+                "strengthUom": "mg",
+                "formDescription": "capsule,delayed release(DR/EC)",
+                "potencyUnitCode": "C48480"
+            },
+            {
+                "medId": 561431,
+                "description": "omeprazole magnesium 20 mg capsule,delayed release",
+                "formularyStatus": 3,
+                "ndc": 11673039752,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Capsule",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Capsule",
+                        "potencyUnitCode": "C48480"
+                    },
+                    {
+                        "desc": "14 Capsule Blister Pack",
+                        "quantity": 14.0000000,
+                        "uomDesc": "Capsule",
+                        "potencyUnitCode": "C48480"
+                    },
+                    {
+                        "desc": "28 Capsule Blister Pack",
+                        "quantity": 28.0000000,
+                        "uomDesc": "Capsule",
+                        "potencyUnitCode": "C48480"
+                    },
+                    {
+                        "desc": "42 Capsule Blister Pack",
+                        "quantity": 42.0000000,
+                        "uomDesc": "Capsule",
+                        "potencyUnitCode": "C48480"
+                    }
+                ],
+                "strength": "20",
+                "strengthUom": "mg",
+                "formDescription": "capsule,delayed release(DR/EC)",
+                "potencyUnitCode": "C48480"
+            },
+            {
+                "medId": 213238,
+                "description": "pantoprazole 20 mg tablet,delayed release",
+                "formularyStatus": 3,
+                "ndc": 13668009605,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "20",
+                "strengthUom": "mg",
+                "formDescription": "tablet,delayed release (DR/EC)",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 193225,
+                "description": "pantoprazole 40 mg intravenous solution",
+                "formularyStatus": 3,
+                "ndc": 143928401,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Vial",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Vial",
+                        "potencyUnitCode": "C48551"
+                    }
+                ],
+                "strength": "40",
+                "strengthUom": "mg",
+                "formDescription": "recon soln",
+                "potencyUnitCode": "C38046"
+            },
+            {
+                "medId": 238235,
+                "description": "pantoprazole 40 mg tablet,delayed release",
+                "formularyStatus": 3,
+                "ndc": 33342002010,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    },
+                    {
+                        "desc": "100 Tablet Blister Pack",
+                        "quantity": 100.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "40",
+                "strengthUom": "mg",
+                "formDescription": "tablet,delayed release (DR/EC)",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 161355,
+                "description": "rabeprazole 20 mg tablet,delayed release",
+                "formularyStatus": 3,
+                "ndc": 51991068390,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "20",
+                "strengthUom": "mg",
+                "formDescription": "tablet,delayed release (DR/EC)",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 579486,
+                "description": "esomeprazole strontium 49.3 mg capsule,delayed release",
+                "formularyStatus": 3,
+                "ndc": 70849040030,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Capsule",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Capsule",
+                        "potencyUnitCode": "C48480"
+                    }
+                ],
+                "strength": "49.3",
+                "strengthUom": "mg",
+                "formDescription": "capsule,delayed release(DR/EC)",
+                "potencyUnitCode": "C48480"
+            }
+        ]
+    }
+]

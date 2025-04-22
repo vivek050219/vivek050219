@@ -1,0 +1,170 @@
+[
+    {
+        "payerCoverageInfo": {
+            "payer": "PBMF",
+            "memberId": "VV%PBMF0011111%BBB222233333%RRID33337777%MBZZ44444444%3210",
+            "interchangeControlNumber": 342617276,
+            "payerId": "T00000000021633",
+            "healthPlanName": "",
+            "coverages": [
+                
+            ],
+            "cardHolderName": {
+                "lastName": "Surescripts",
+                "firstName": "",
+                "middleName": ""
+            }
+        },
+        "medications": [
+            {
+                "medId": 270211,
+                "description": "Coumadin 5 mg tablet",
+                "formularyStatus": -1,
+                "ndc": 56017201,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": false,
+                "genericMedId": 247449,
+                "genericDescription": "warfarin 5 mg tablet",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "5",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            }
+        ]
+    },
+    {
+        "payerCoverageInfo": {
+            "payer": "PBMF",
+            "memberId": "ZZQ-88-10011-262",
+            "groupNumber": "G000000",
+            "formulary": "FSL101",
+            "alternatives": "ALT101",
+            "copay": "COP101",
+            "interchangeControlNumber": 342617276,
+            "payerId": "T00000000021633",
+            "healthPlanName": "PLAN101",
+            "coverages": [
+                {
+                    "type": "RETAIL",
+                    "messages": [
+                        
+                    ]
+                },
+                {
+                    "type": "MAIL",
+                    "messages": [
+                        
+                    ]
+                },
+                {
+                    "type": "SPECIALTY",
+                    "messages": [
+                        "Message [text=LTC]"
+                    ]
+                }
+            ],
+            "cardHolderName": {
+                "lastName": "SWIFT",
+                "firstName": "JOHNATHAN",
+                "middleName": ""
+            },
+            "cardHolderId": "111111116"
+        },
+        "medications": [
+            {
+                "medId": 270211,
+                "description": "Coumadin 5 mg tablet",
+                "formularyStatus": 1,
+                "ndc": 56017201,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": false,
+                "genericMedId": 247449,
+                "genericDescription": "warfarin 5 mg tablet",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "5",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            }
+        ]
+    },
+    {
+        "payerCoverageInfo": {
+            "payer": "PBMF",
+            "planId": "1234",
+            "planNetworkId": "610415",
+            "memberId": "ZZQ-88-10011-251",
+            "groupNumber": "TTC1",
+            "formulary": "FSL102",
+            "copay": "COP102",
+            "interchangeControlNumber": 342617276,
+            "payerId": "T00000000021633",
+            "healthPlanName": "PLANX",
+            "coverages": [
+                {
+                    "type": "RETAIL",
+                    "messages": [
+                        
+                    ]
+                },
+                {
+                    "type": "MAIL",
+                    "messages": [
+                        
+                    ]
+                }
+            ],
+            "cardHolderName": {
+                "lastName": "SWIFT",
+                "firstName": "JOHNATHAN",
+                "middleName": ""
+            },
+            "coverageId": "COV102"
+        },
+        "medications": [
+            {
+                "medId": 270211,
+                "description": "Coumadin 5 mg tablet",
+                "formularyStatus": 1,
+                "ndc": 56017201,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": false,
+                "genericMedId": 247449,
+                "genericDescription": "warfarin 5 mg tablet",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "5",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            }
+        ]
+    }
+]

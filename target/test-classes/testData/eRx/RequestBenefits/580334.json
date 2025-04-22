@@ -1,0 +1,5 @@
+{
+  "status": 200,
+  "message": "PayerCoverageInfo [payer=PBMF, planNetworkId=610014, processorId=MEDDPRIME, memberId=ZZQ-88-10011-249, groupNumber=B000000, formulary=FSL101, alternatives=ALT101, interchangeControlNumber=230946169, payerId=T00000000021633, healthPlanName=, patient=Patient [name=Name [lastName=KYLE, firstName=SELENA, middleName=R, suffix=, prefix=null], address=Address [address1=23230 PORT LANE, address2=null, city=AKRON, state=OH, postalCode=443061214, country=null], dob=Tue Oct 11 00:00:00 UTC 1966, gender=FEMALE, phone=null], coverages=[Coverage{type=RETAIL, messages=[]}, Coverage{type=MAIL, messages=[]}], cardHolderName=Name [lastName=KYLE, firstName=SELENA, middleName=R, suffix=null, prefix=null], cardHolderId=111111110, ]",
+  "eventId": null
+}

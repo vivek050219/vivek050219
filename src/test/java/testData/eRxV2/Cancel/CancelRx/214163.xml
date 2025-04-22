@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><Message>
+
+    <Body>
+        <CancelRx>
+            <Pharmacy>
+                <Identification>
+                    <NCPDPID>3105551</NCPDPID>
+                    <NPI>1700134780</NPI>
+                </Identification>
+                <StoreName>10Dot6 Pharmacy Store1 MU Long Name</StoreName>
+                <Address>
+                    <AddressLine1>56789 Long Pharmacy Name for 10.6MU</AddressLine1>
+                    <AddressLine2>1234 Long Address Line 2 for 10.6MU</AddressLine2>
+                    <City>ReallyLongCityNameForPharmacy 106MU</City>
+                    <State>CA</State>
+                    <ZipCode>900098989</ZipCode>
+                    <PlaceLocationQualifier>AD2</PlaceLocationQualifier>
+                </Address>
+                <CommunicationNumbers>
+                    <Communication>
+                        <Number>3102683115x123456</Number>
+                        <Qualifier>TE</Qualifier>
+                    </Communication>
+                    <Communication>
+                        <Number>3102683116</Number>
+                        <Qualifier>FX</Qualifier>
+                    </Communication>
+                </CommunicationNumbers>
+            </Pharmacy>
+            <Prescriber>
+                <Identification>
+                    <NPI>1740258391</NPI>
+                </Identification>
+                <Name>
+                    <LastName>UMUTLAR</LastName>
+                    <FirstName>ERDINC</FirstName>
+                </Name>
+                <Address>
+                    <AddressLine1>880 Winter Street</AddressLine1>
+                    <AddressLine2>Suite 300</AddressLine2>
+                    <City>Waltham</City>
+                    <State>MA</State>
+                    <ZipCode>02135</ZipCode>
+                    <PlaceLocationQualifier>AD2</PlaceLocationQualifier>
+                </Address>
+                <CommunicationNumbers>
+                    <Communication>
+                        <Number>7819992577</Number>
+                        <Qualifier>TE</Qualifier>
+                    </Communication>
+                    <Communication>
+                        <Number>7819992578</Number>
+                        <Qualifier>FX</Qualifier>
+                    </Communication>
+                </CommunicationNumbers>
+            </Prescriber>
+            <Patient>
+                <Name>
+                    <LastName>#$%'()*+,-/:;=?@[\]^_`{}~0000ABCDE</LastName>
+                    <FirstName>#$%'()*+,-/:;=?@[\]^_`{}~0000ABCDE</FirstName>
+                    <MiddleName>#$%'()*+,-/:;=?@[\]^_`{}~0000ABCDE</MiddleName>
+                </Name>
+                <Gender>M</Gender>
+                <DateOfBirth>
+                    <Date>1948-01-01</Date>
+                </DateOfBirth>
+                <Address>
+                    <AddressLine1>#$%'()*+,-/:;=?@[\]^_`{}~0000 12345</AddressLine1>
+                    <City>#$%'()*+,-/:;=?@[\]^_`{}~0000CITY</City>
+                    <State>CO</State>
+                    <ZipCode>803615977</ZipCode>
+                </Address>
+                <CommunicationNumbers>
+                    <Communication>
+                        <Number>5719212122x12345678904444</Number>
+                        <Qualifier>TE</Qualifier>
+                    </Communication>
+                </CommunicationNumbers>
+            </Patient>
+            <MedicationPrescribed>
+                <DrugDescription>Kenalog 40 mg/mL suspension for injection</DrugDescription>
+                <DrugCoded>
+                    <ProductCode>00003029305</ProductCode>
+                    <ProductCodeQualifier>ND</ProductCodeQualifier>
+                    <Strength>40 mg/mL</Strength>
+                    <DrugDBCode>1085756</DrugDBCode>
+                    <DrugDBCodeQualifier>SBD</DrugDBCodeQualifier>
+                </DrugCoded>
+                <Quantity>
+                    <Value>12345.1234</Value>
+                    <CodeListQualifier>38</CodeListQualifier>
+                    <UnitSourceCode>AC</UnitSourceCode>
+                    <PotencyUnitCode>C28254</PotencyUnitCode>
+                </Quantity>
+                <DaysSupply>999</DaysSupply>
+                <Directions>!"#$%'()*+,-/:;=?@[\]^_`{}~0000 Inject 0.5 ML of Kenalog-40 injection intramuscular, daily for 1 wk, then every alternate for 999 days.</Directions>
+                <Refills>
+                    <Qualifier>R</Qualifier>
+                    <Value>11</Value>
+                </Refills>
+                <Substitutions>0</Substitutions>
+                <Diagnosis>
+                    <ClinicalInformationQualifier>1</ClinicalInformationQualifier>
+                    <Primary>
+                        <Qualifier>ABF</Qualifier>
+                        <Value>I4891</Value>
+                    </Primary>
+                </Diagnosis>
+            </MedicationPrescribed>
+        </CancelRx>
+    </Body>
+</Message>

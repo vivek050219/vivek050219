@@ -1,0 +1,2084 @@
+[
+    {
+        "payerCoverageInfo": {
+            "payer": "PBMF",
+            "memberId": "ZZQ-88-10011-246",
+            "groupNumber": "G000000",
+            "formulary": "FSL101",
+            "alternatives": "ALT101",
+            "interchangeControlNumber": 359386333,
+            "payerId": "T00000000021633",
+            "healthPlanName": "PLANABX",
+            "coverages": [
+                {
+                    "type": "RETAIL",
+                    "messages": [
+                        
+                    ]
+                },
+                {
+                    "type": "MAIL",
+                    "messages": [
+                        
+                    ]
+                }
+            ],
+            "cardHolderName": {
+                "lastName": "WHITESIDE",
+                "firstName": "KARA",
+                "middleName": ""
+            },
+            "coverageId": "COV101"
+        },
+        "medications": [
+            {
+                "medId": 262620,
+                "description": "Risperdal 0.5 mg tablet",
+                "formularyStatus": 2,
+                "ndc": 50458030206,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": false,
+                "genericMedId": 293161,
+                "genericDescription": "risperidone 0.5 mg tablet",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "0.5",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            }
+        ]
+    },
+    {
+        "payerCoverageInfo": {
+            "payer": "PBMB",
+            "planId": "AA1",
+            "planNetworkId": "612001",
+            "processorId": "A4-AA1",
+            "memberId": "HQR%K883883%ZZ88-002",
+            "groupNumber": "AA1V",
+            "formulary": "FSL103",
+            "copay": "COP103",
+            "interchangeControlNumber": 359386333,
+            "payerId": "T00000000001011",
+            "healthPlanName": "PLANA4",
+            "coverages": [
+                {
+                    "type": "RETAIL",
+                    "messages": [
+                        
+                    ]
+                },
+                {
+                    "type": "MAIL",
+                    "messages": [
+                        
+                    ]
+                }
+            ],
+            "cardHolderName": {
+                "lastName": "WHITESIDE",
+                "firstName": "KARA",
+                "middleName": ""
+            },
+            "cardHolderId": "123456789",
+            "coverageId": "COV103"
+        },
+        "medications": [
+            {
+                "medId": 262620,
+                "description": "Risperdal 0.5 mg tablet",
+                "formularyStatus": 2,
+                "ndc": 50458030206,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": false,
+                "genericMedId": 293161,
+                "genericDescription": "risperidone 0.5 mg tablet",
+                "copays": [
+                    {
+                        "summaryDetail": true,
+                        "status": 2,
+                        "daysSupplyPerCopay": "30",
+                        "maximumCopay": "100",
+                        "minimumCopay": "20",
+                        "percentageCopayRate": ".2",
+                        "pharmacyType": "R",
+                        "recordType": "CDT",
+                        "productType": "A"
+                    },
+                    {
+                        "summaryDetail": true,
+                        "status": 2,
+                        "daysSupplyPerCopay": "90",
+                        "firstCopayTerm": "F",
+                        "flatCopayAmount": "10",
+                        "maximumCopay": "30",
+                        "minimumCopay": "10",
+                        "percentageCopayRate": ".5",
+                        "pharmacyType": "M",
+                        "recordType": "CDT",
+                        "productType": "A"
+                    }
+                ],
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "0.5",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 559444,
+                "description": "paliperidone ER 1.5 mg tablet,extended release 24 hr",
+                "formularyStatus": 4,
+                "ndc": 378397893,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "1.5",
+                "strengthUom": "mg",
+                "formDescription": "tablet extended release 24hr",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 548640,
+                "description": "paliperidone ER 3 mg tablet,extended release 24 hr",
+                "formularyStatus": 4,
+                "ndc": 10147095203,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    },
+                    {
+                        "desc": "100 Tablet Blister Pack",
+                        "quantity": 100.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "3",
+                "strengthUom": "mg",
+                "formDescription": "tablet extended release 24hr",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 548641,
+                "description": "paliperidone ER 6 mg tablet,extended release 24 hr",
+                "formularyStatus": 4,
+                "ndc": 378398093,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    },
+                    {
+                        "desc": "100 Tablet Blister Pack",
+                        "quantity": 100.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "6",
+                "strengthUom": "mg",
+                "formDescription": "tablet extended release 24hr",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 548642,
+                "description": "paliperidone ER 9 mg tablet,extended release 24 hr",
+                "formularyStatus": 4,
+                "ndc": 591369530,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    },
+                    {
+                        "desc": "100 Tablet Blister Pack",
+                        "quantity": 100.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "9",
+                "strengthUom": "mg",
+                "formDescription": "tablet extended release 24hr",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 198781,
+                "description": "risperidone 0.25 mg tablet",
+                "formularyStatus": 4,
+                "ndc": 13668003505,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "0.25",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 293161,
+                "description": "risperidone 0.5 mg tablet",
+                "formularyStatus": 4,
+                "ndc": 43547034006,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "0.5",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 288311,
+                "description": "risperidone 1 mg tablet",
+                "formularyStatus": 4,
+                "ndc": 50458059210,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "1",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 231819,
+                "description": "risperidone 1 mg/mL oral solution",
+                "formularyStatus": 4,
+                "ndc": 65162067384,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "30 mL Bottle",
+                        "quantity": 30.0000000,
+                        "uomDesc": "Milliliter",
+                        "potencyUnitCode": "C28254"
+                    }
+                ],
+                "strength": "1",
+                "strengthUom": "mg/mL",
+                "formDescription": "solution",
+                "potencyUnitCode": "C38046"
+            },
+            {
+                "medId": 476699,
+                "description": "risperidone 3 mg disintegrating tablet",
+                "formularyStatus": 4,
+                "ndc": 781531308,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    },
+                    {
+                        "desc": "28 Tablet Blister Pack",
+                        "quantity": 28.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "3",
+                "strengthUom": "mg",
+                "formDescription": "tablet,disintegrating",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 206888,
+                "description": "risperidone 3 mg tablet",
+                "formularyStatus": 4,
+                "ndc": 68084027411,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "3",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 177407,
+                "description": "risperidone 4 mg tablet",
+                "formularyStatus": 4,
+                "ndc": 13668004005,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "4",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 558410,
+                "description": "risperidone 0.25 mg disintegrating tablet",
+                "formularyStatus": 4,
+                "ndc": 378604228,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "0.25",
+                "strengthUom": "mg",
+                "formDescription": "tablet,disintegrating",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 449530,
+                "description": "risperidone 0.5 mg disintegrating tablet",
+                "formularyStatus": 4,
+                "ndc": 68382015406,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    },
+                    {
+                        "desc": "28 Tablet Blister Pack",
+                        "quantity": 28.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    },
+                    {
+                        "desc": "30 Tablet Blister Pack",
+                        "quantity": 30.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "0.5",
+                "strengthUom": "mg",
+                "formDescription": "tablet,disintegrating",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 449531,
+                "description": "risperidone 1 mg disintegrating tablet",
+                "formularyStatus": 4,
+                "ndc": 51079034501,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    },
+                    {
+                        "desc": "28 Tablet Blister Pack",
+                        "quantity": 28.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    },
+                    {
+                        "desc": "30 Tablet Blister Pack",
+                        "quantity": 30.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "1",
+                "strengthUom": "mg",
+                "formDescription": "tablet,disintegrating",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 449532,
+                "description": "risperidone 2 mg disintegrating tablet",
+                "formularyStatus": 4,
+                "ndc": 51079034605,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    },
+                    {
+                        "desc": "28 Tablet Blister Pack",
+                        "quantity": 28.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "2",
+                "strengthUom": "mg",
+                "formDescription": "tablet,disintegrating",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 216583,
+                "description": "risperidone 2 mg tablet",
+                "formularyStatus": 4,
+                "ndc": 603568632,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "2",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 476700,
+                "description": "risperidone 4 mg disintegrating tablet",
+                "formularyStatus": 4,
+                "ndc": 378604728,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    },
+                    {
+                        "desc": "28 Tablet Blister Pack",
+                        "quantity": 28.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "4",
+                "strengthUom": "mg",
+                "formDescription": "tablet,disintegrating",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 560067,
+                "description": "Fanapt 10 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 43068011002,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 560057,
+                "genericDescription": "iloperidone 10 mg tablet",
+                "copays": [
+                    {
+                        "summaryDetail": true,
+                        "status": 3,
+                        "daysSupplyPerCopay": "30",
+                        "maximumCopay": "75",
+                        "minimumCopay": "5",
+                        "percentageCopayRate": ".2",
+                        "pharmacyType": "R",
+                        "recordType": "CDT",
+                        "productType": "A"
+                    },
+                    {
+                        "summaryDetail": true,
+                        "status": 3,
+                        "daysSupplyPerCopay": "90",
+                        "firstCopayTerm": "F",
+                        "flatCopayAmount": "5",
+                        "maximumCopay": "20",
+                        "minimumCopay": "5",
+                        "percentageCopayRate": ".3",
+                        "pharmacyType": "M",
+                        "recordType": "CDT",
+                        "productType": "A"
+                    }
+                ],
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "10",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 560065,
+                "description": "Fanapt 6 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 43068010602,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 560055,
+                "genericDescription": "iloperidone 6 mg tablet",
+                "copays": [
+                    {
+                        "summaryDetail": true,
+                        "status": 3,
+                        "daysSupplyPerCopay": "30",
+                        "maximumCopay": "75",
+                        "minimumCopay": "5",
+                        "percentageCopayRate": ".2",
+                        "pharmacyType": "R",
+                        "recordType": "CDT",
+                        "productType": "A"
+                    },
+                    {
+                        "summaryDetail": true,
+                        "status": 3,
+                        "daysSupplyPerCopay": "90",
+                        "firstCopayTerm": "F",
+                        "flatCopayAmount": "5",
+                        "maximumCopay": "20",
+                        "minimumCopay": "5",
+                        "percentageCopayRate": ".3",
+                        "pharmacyType": "M",
+                        "recordType": "CDT",
+                        "productType": "A"
+                    }
+                ],
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "6",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 560066,
+                "description": "Fanapt 8 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 43068010802,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 560056,
+                "genericDescription": "iloperidone 8 mg tablet",
+                "copays": [
+                    {
+                        "summaryDetail": true,
+                        "status": 3,
+                        "daysSupplyPerCopay": "30",
+                        "maximumCopay": "75",
+                        "minimumCopay": "5",
+                        "percentageCopayRate": ".2",
+                        "pharmacyType": "R",
+                        "recordType": "CDT",
+                        "productType": "A"
+                    },
+                    {
+                        "summaryDetail": true,
+                        "status": 3,
+                        "daysSupplyPerCopay": "90",
+                        "firstCopayTerm": "F",
+                        "flatCopayAmount": "5",
+                        "maximumCopay": "20",
+                        "minimumCopay": "5",
+                        "percentageCopayRate": ".3",
+                        "pharmacyType": "M",
+                        "recordType": "CDT",
+                        "productType": "A"
+                    }
+                ],
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "8",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 559445,
+                "description": "Invega 1.5 mg tablet,extended release",
+                "formularyStatus": 3,
+                "ndc": 50458055401,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 559444,
+                "genericDescription": "paliperidone ER 1.5 mg tablet,extended release 24 hr",
+                "copays": [
+                    {
+                        "summaryDetail": true,
+                        "status": 3,
+                        "daysSupplyPerCopay": "30",
+                        "maximumCopay": "75",
+                        "minimumCopay": "5",
+                        "percentageCopayRate": ".2",
+                        "pharmacyType": "R",
+                        "recordType": "CDT",
+                        "productType": "A"
+                    },
+                    {
+                        "summaryDetail": true,
+                        "status": 3,
+                        "daysSupplyPerCopay": "90",
+                        "firstCopayTerm": "F",
+                        "flatCopayAmount": "5",
+                        "maximumCopay": "20",
+                        "minimumCopay": "5",
+                        "percentageCopayRate": ".3",
+                        "pharmacyType": "M",
+                        "recordType": "CDT",
+                        "productType": "A"
+                    }
+                ],
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "1.5",
+                "strengthUom": "mg",
+                "formDescription": "tablet extended release 24hr",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 548671,
+                "description": "Invega 3 mg tablet,extended release",
+                "formularyStatus": 3,
+                "ndc": 50458055001,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 548640,
+                "genericDescription": "paliperidone ER 3 mg tablet,extended release 24 hr",
+                "copays": [
+                    {
+                        "summaryDetail": true,
+                        "status": 3,
+                        "daysSupplyPerCopay": "30",
+                        "maximumCopay": "75",
+                        "minimumCopay": "5",
+                        "percentageCopayRate": ".2",
+                        "pharmacyType": "R",
+                        "recordType": "CDT",
+                        "productType": "A"
+                    },
+                    {
+                        "summaryDetail": true,
+                        "status": 3,
+                        "daysSupplyPerCopay": "90",
+                        "firstCopayTerm": "F",
+                        "flatCopayAmount": "5",
+                        "maximumCopay": "20",
+                        "minimumCopay": "5",
+                        "percentageCopayRate": ".3",
+                        "pharmacyType": "M",
+                        "recordType": "CDT",
+                        "productType": "A"
+                    }
+                ],
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "3",
+                "strengthUom": "mg",
+                "formDescription": "tablet extended release 24hr",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 548672,
+                "description": "Invega 6 mg tablet,extended release",
+                "formularyStatus": 3,
+                "ndc": 50458055101,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 548641,
+                "genericDescription": "paliperidone ER 6 mg tablet,extended release 24 hr",
+                "copays": [
+                    {
+                        "summaryDetail": true,
+                        "status": 3,
+                        "daysSupplyPerCopay": "30",
+                        "maximumCopay": "75",
+                        "minimumCopay": "5",
+                        "percentageCopayRate": ".2",
+                        "pharmacyType": "R",
+                        "recordType": "CDT",
+                        "productType": "A"
+                    },
+                    {
+                        "summaryDetail": true,
+                        "status": 3,
+                        "daysSupplyPerCopay": "90",
+                        "firstCopayTerm": "F",
+                        "flatCopayAmount": "5",
+                        "maximumCopay": "20",
+                        "minimumCopay": "5",
+                        "percentageCopayRate": ".3",
+                        "pharmacyType": "M",
+                        "recordType": "CDT",
+                        "productType": "A"
+                    }
+                ],
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "6",
+                "strengthUom": "mg",
+                "formDescription": "tablet extended release 24hr",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 548673,
+                "description": "Invega 9 mg tablet,extended release",
+                "formularyStatus": 3,
+                "ndc": 50458055201,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 548642,
+                "genericDescription": "paliperidone ER 9 mg tablet,extended release 24 hr",
+                "copays": [
+                    {
+                        "summaryDetail": true,
+                        "status": 3,
+                        "daysSupplyPerCopay": "30",
+                        "maximumCopay": "75",
+                        "minimumCopay": "5",
+                        "percentageCopayRate": ".2",
+                        "pharmacyType": "R",
+                        "recordType": "CDT",
+                        "productType": "A"
+                    },
+                    {
+                        "summaryDetail": true,
+                        "status": 3,
+                        "daysSupplyPerCopay": "90",
+                        "firstCopayTerm": "F",
+                        "flatCopayAmount": "5",
+                        "maximumCopay": "20",
+                        "minimumCopay": "5",
+                        "percentageCopayRate": ".3",
+                        "pharmacyType": "M",
+                        "recordType": "CDT",
+                        "productType": "A"
+                    }
+                ],
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "9",
+                "strengthUom": "mg",
+                "formDescription": "tablet extended release 24hr",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 559005,
+                "description": "Invega Sustenna 117 mg/0.75 mL intramuscular syringe",
+                "formularyStatus": 3,
+                "ndc": 50458056201,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 558970,
+                "genericDescription": "paliperidone palmitate 117 mg/0.75 mL intramuscular syringe",
+                "copays": [
+                    {
+                        "summaryDetail": true,
+                        "status": 3,
+                        "daysSupplyPerCopay": "30",
+                        "maximumCopay": "75",
+                        "minimumCopay": "5",
+                        "percentageCopayRate": ".2",
+                        "pharmacyType": "R",
+                        "recordType": "CDT",
+                        "productType": "A"
+                    },
+                    {
+                        "summaryDetail": true,
+                        "status": 3,
+                        "daysSupplyPerCopay": "90",
+                        "firstCopayTerm": "F",
+                        "flatCopayAmount": "5",
+                        "maximumCopay": "20",
+                        "minimumCopay": "5",
+                        "percentageCopayRate": ".3",
+                        "pharmacyType": "M",
+                        "recordType": "CDT",
+                        "productType": "A"
+                    }
+                ],
+                "clinicalQuantities": [
+                    {
+                        "desc": "0.75 mL Syringe",
+                        "quantity": 0.7500000,
+                        "uomDesc": "Milliliter",
+                        "potencyUnitCode": "C28254"
+                    }
+                ],
+                "strength": "117",
+                "strengthUom": "mg/0.75 mL",
+                "formDescription": "syringe",
+                "potencyUnitCode": "C48540"
+            },
+            {
+                "medId": 559008,
+                "description": "Invega Sustenna 156 mg/mL intramuscular syringe",
+                "formularyStatus": 3,
+                "ndc": 50458056303,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 558971,
+                "genericDescription": "paliperidone palmitate 156 mg/mL intramuscular syringe",
+                "copays": [
+                    {
+                        "summaryDetail": true,
+                        "status": 3,
+                        "daysSupplyPerCopay": "30",
+                        "maximumCopay": "75",
+                        "minimumCopay": "5",
+                        "percentageCopayRate": ".2",
+                        "pharmacyType": "R",
+                        "recordType": "CDT",
+                        "productType": "A"
+                    },
+                    {
+                        "summaryDetail": true,
+                        "status": 3,
+                        "daysSupplyPerCopay": "90",
+                        "firstCopayTerm": "F",
+                        "flatCopayAmount": "5",
+                        "maximumCopay": "20",
+                        "minimumCopay": "5",
+                        "percentageCopayRate": ".3",
+                        "pharmacyType": "M",
+                        "recordType": "CDT",
+                        "productType": "A"
+                    }
+                ],
+                "clinicalQuantities": [
+                    {
+                        "desc": "1 mL Syringe",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Milliliter",
+                        "potencyUnitCode": "C28254"
+                    }
+                ],
+                "strength": "156",
+                "strengthUom": "mg/mL",
+                "formDescription": "syringe",
+                "potencyUnitCode": "C48540"
+            },
+            {
+                "medId": 559007,
+                "description": "Invega Sustenna 234 mg/1.5 mL intramuscular syringe",
+                "formularyStatus": 3,
+                "ndc": 50458056401,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 558972,
+                "genericDescription": "paliperidone palmitate 234 mg/1.5 mL intramuscular syringe",
+                "copays": [
+                    {
+                        "summaryDetail": true,
+                        "status": 3,
+                        "daysSupplyPerCopay": "30",
+                        "maximumCopay": "75",
+                        "minimumCopay": "5",
+                        "percentageCopayRate": ".2",
+                        "pharmacyType": "R",
+                        "recordType": "CDT",
+                        "productType": "A"
+                    },
+                    {
+                        "summaryDetail": true,
+                        "status": 3,
+                        "daysSupplyPerCopay": "90",
+                        "firstCopayTerm": "F",
+                        "flatCopayAmount": "5",
+                        "maximumCopay": "20",
+                        "minimumCopay": "5",
+                        "percentageCopayRate": ".3",
+                        "pharmacyType": "M",
+                        "recordType": "CDT",
+                        "productType": "A"
+                    }
+                ],
+                "clinicalQuantities": [
+                    {
+                        "desc": "1.5 mL Syringe",
+                        "quantity": 1.5000000,
+                        "uomDesc": "Milliliter",
+                        "potencyUnitCode": "C28254"
+                    }
+                ],
+                "strength": "234",
+                "strengthUom": "mg/1.5 mL",
+                "formDescription": "syringe",
+                "potencyUnitCode": "C48540"
+            },
+            {
+                "medId": 559003,
+                "description": "Invega Sustenna 39 mg/0.25 mL intramuscular syringe",
+                "formularyStatus": 3,
+                "ndc": 50458056001,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 558968,
+                "genericDescription": "paliperidone palmitate 39 mg/0.25 mL intramuscular syringe",
+                "copays": [
+                    {
+                        "summaryDetail": true,
+                        "status": 3,
+                        "daysSupplyPerCopay": "30",
+                        "maximumCopay": "75",
+                        "minimumCopay": "5",
+                        "percentageCopayRate": ".2",
+                        "pharmacyType": "R",
+                        "recordType": "CDT",
+                        "productType": "A"
+                    },
+                    {
+                        "summaryDetail": true,
+                        "status": 3,
+                        "daysSupplyPerCopay": "90",
+                        "firstCopayTerm": "F",
+                        "flatCopayAmount": "5",
+                        "maximumCopay": "20",
+                        "minimumCopay": "5",
+                        "percentageCopayRate": ".3",
+                        "pharmacyType": "M",
+                        "recordType": "CDT",
+                        "productType": "A"
+                    }
+                ],
+                "clinicalQuantities": [
+                    {
+                        "desc": "0.25 mL Syringe",
+                        "quantity": 0.2500000,
+                        "uomDesc": "Milliliter",
+                        "potencyUnitCode": "C28254"
+                    }
+                ],
+                "strength": "39",
+                "strengthUom": "mg/0.25 mL",
+                "formDescription": "syringe",
+                "potencyUnitCode": "C48540"
+            },
+            {
+                "medId": 559004,
+                "description": "Invega Sustenna 78 mg/0.5 mL intramuscular syringe",
+                "formularyStatus": 3,
+                "ndc": 50458056101,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 558969,
+                "genericDescription": "paliperidone palmitate 78 mg/0.5 mL intramuscular syringe",
+                "copays": [
+                    {
+                        "summaryDetail": true,
+                        "status": 3,
+                        "daysSupplyPerCopay": "30",
+                        "maximumCopay": "75",
+                        "minimumCopay": "5",
+                        "percentageCopayRate": ".2",
+                        "pharmacyType": "R",
+                        "recordType": "CDT",
+                        "productType": "A"
+                    },
+                    {
+                        "summaryDetail": true,
+                        "status": 3,
+                        "daysSupplyPerCopay": "90",
+                        "firstCopayTerm": "F",
+                        "flatCopayAmount": "5",
+                        "maximumCopay": "20",
+                        "minimumCopay": "5",
+                        "percentageCopayRate": ".3",
+                        "pharmacyType": "M",
+                        "recordType": "CDT",
+                        "productType": "A"
+                    }
+                ],
+                "clinicalQuantities": [
+                    {
+                        "desc": "0.5 mL Syringe",
+                        "quantity": 0.5000000,
+                        "uomDesc": "Milliliter",
+                        "potencyUnitCode": "C28254"
+                    }
+                ],
+                "strength": "78",
+                "strengthUom": "mg/0.5 mL",
+                "formDescription": "syringe",
+                "potencyUnitCode": "C48540"
+            },
+            {
+                "medId": 586041,
+                "description": "Invega Trinza 273 mg/0.875 mL intramuscular syringe",
+                "formularyStatus": 3,
+                "ndc": 50458060601,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 585935,
+                "genericDescription": "paliperidone palmitate (3-month) 273 mg/0.875 mL intramuscular syringe",
+                "copays": [
+                    {
+                        "summaryDetail": true,
+                        "status": 3,
+                        "daysSupplyPerCopay": "30",
+                        "maximumCopay": "75",
+                        "minimumCopay": "5",
+                        "percentageCopayRate": ".2",
+                        "pharmacyType": "R",
+                        "recordType": "CDT",
+                        "productType": "A"
+                    },
+                    {
+                        "summaryDetail": true,
+                        "status": 3,
+                        "daysSupplyPerCopay": "90",
+                        "firstCopayTerm": "F",
+                        "flatCopayAmount": "5",
+                        "maximumCopay": "20",
+                        "minimumCopay": "5",
+                        "percentageCopayRate": ".3",
+                        "pharmacyType": "M",
+                        "recordType": "CDT",
+                        "productType": "A"
+                    }
+                ],
+                "clinicalQuantities": [
+                    {
+                        "desc": "0.875 mL Syringe",
+                        "quantity": 0.8750000,
+                        "uomDesc": "Milliliter",
+                        "potencyUnitCode": "C28254"
+                    }
+                ],
+                "strength": "273",
+                "strengthUom": "mg/0.875 mL",
+                "formDescription": "syringe",
+                "potencyUnitCode": "C48540"
+            },
+            {
+                "medId": 586042,
+                "description": "Invega Trinza 410 mg/1.315 mL intramuscular syringe",
+                "formularyStatus": 3,
+                "ndc": 50458060701,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 585936,
+                "genericDescription": "paliperidone palmitate (3-month) 410 mg/1.315 mL intramuscular syringe",
+                "copays": [
+                    {
+                        "summaryDetail": true,
+                        "status": 3,
+                        "daysSupplyPerCopay": "30",
+                        "maximumCopay": "75",
+                        "minimumCopay": "5",
+                        "percentageCopayRate": ".2",
+                        "pharmacyType": "R",
+                        "recordType": "CDT",
+                        "productType": "A"
+                    },
+                    {
+                        "summaryDetail": true,
+                        "status": 3,
+                        "daysSupplyPerCopay": "90",
+                        "firstCopayTerm": "F",
+                        "flatCopayAmount": "5",
+                        "maximumCopay": "20",
+                        "minimumCopay": "5",
+                        "percentageCopayRate": ".3",
+                        "pharmacyType": "M",
+                        "recordType": "CDT",
+                        "productType": "A"
+                    }
+                ],
+                "clinicalQuantities": [
+                    {
+                        "desc": "1.315 mL Syringe",
+                        "quantity": 1.3150000,
+                        "uomDesc": "Milliliter",
+                        "potencyUnitCode": "C28254"
+                    }
+                ],
+                "strength": "410",
+                "strengthUom": "mg/1.315 mL",
+                "formDescription": "syringe",
+                "potencyUnitCode": "C48540"
+            },
+            {
+                "medId": 586043,
+                "description": "Invega Trinza 546 mg/1.75 mL intramuscular syringe",
+                "formularyStatus": 3,
+                "ndc": 50458060801,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 585937,
+                "genericDescription": "paliperidone palmitate (3-month) 546 mg/1.75 mL intramuscular syringe",
+                "copays": [
+                    {
+                        "summaryDetail": true,
+                        "status": 3,
+                        "daysSupplyPerCopay": "30",
+                        "maximumCopay": "75",
+                        "minimumCopay": "5",
+                        "percentageCopayRate": ".2",
+                        "pharmacyType": "R",
+                        "recordType": "CDT",
+                        "productType": "A"
+                    },
+                    {
+                        "summaryDetail": true,
+                        "status": 3,
+                        "daysSupplyPerCopay": "90",
+                        "firstCopayTerm": "F",
+                        "flatCopayAmount": "5",
+                        "maximumCopay": "20",
+                        "minimumCopay": "5",
+                        "percentageCopayRate": ".3",
+                        "pharmacyType": "M",
+                        "recordType": "CDT",
+                        "productType": "A"
+                    }
+                ],
+                "clinicalQuantities": [
+                    {
+                        "desc": "1.75 mL Syringe",
+                        "quantity": 1.7500000,
+                        "uomDesc": "Milliliter",
+                        "potencyUnitCode": "C28254"
+                    }
+                ],
+                "strength": "546",
+                "strengthUom": "mg/1.75 mL",
+                "formDescription": "syringe",
+                "potencyUnitCode": "C48540"
+            },
+            {
+                "medId": 586044,
+                "description": "Invega Trinza 819 mg/2.625 mL intramuscular syringe",
+                "formularyStatus": 3,
+                "ndc": 50458060901,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 585938,
+                "genericDescription": "paliperidone palmitate (3-month) 819 mg/2.625 mL intramuscular syringe",
+                "copays": [
+                    {
+                        "summaryDetail": true,
+                        "status": 3,
+                        "daysSupplyPerCopay": "30",
+                        "maximumCopay": "75",
+                        "minimumCopay": "5",
+                        "percentageCopayRate": ".2",
+                        "pharmacyType": "R",
+                        "recordType": "CDT",
+                        "productType": "A"
+                    },
+                    {
+                        "summaryDetail": true,
+                        "status": 3,
+                        "daysSupplyPerCopay": "90",
+                        "firstCopayTerm": "F",
+                        "flatCopayAmount": "5",
+                        "maximumCopay": "20",
+                        "minimumCopay": "5",
+                        "percentageCopayRate": ".3",
+                        "pharmacyType": "M",
+                        "recordType": "CDT",
+                        "productType": "A"
+                    }
+                ],
+                "clinicalQuantities": [
+                    {
+                        "desc": "2.625 mL Syringe",
+                        "quantity": 2.6250000,
+                        "uomDesc": "Milliliter",
+                        "potencyUnitCode": "C28254"
+                    }
+                ],
+                "strength": "819",
+                "strengthUom": "mg/2.625 mL",
+                "formDescription": "syringe",
+                "potencyUnitCode": "C48540"
+            },
+            {
+                "medId": 246386,
+                "description": "Risperdal 0.25 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 50458030101,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 198781,
+                "genericDescription": "risperidone 0.25 mg tablet",
+                "copays": [
+                    {
+                        "summaryDetail": true,
+                        "status": 3,
+                        "daysSupplyPerCopay": "30",
+                        "maximumCopay": "75",
+                        "minimumCopay": "5",
+                        "percentageCopayRate": ".2",
+                        "pharmacyType": "R",
+                        "recordType": "CDT",
+                        "productType": "A"
+                    },
+                    {
+                        "summaryDetail": true,
+                        "status": 3,
+                        "daysSupplyPerCopay": "90",
+                        "firstCopayTerm": "F",
+                        "flatCopayAmount": "5",
+                        "maximumCopay": "20",
+                        "minimumCopay": "5",
+                        "percentageCopayRate": ".3",
+                        "pharmacyType": "M",
+                        "recordType": "CDT",
+                        "productType": "A"
+                    }
+                ],
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "0.25",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 171830,
+                "description": "Risperdal 1 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 50458030001,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 288311,
+                "genericDescription": "risperidone 1 mg tablet",
+                "copays": [
+                    {
+                        "summaryDetail": true,
+                        "status": 3,
+                        "daysSupplyPerCopay": "30",
+                        "maximumCopay": "75",
+                        "minimumCopay": "5",
+                        "percentageCopayRate": ".2",
+                        "pharmacyType": "R",
+                        "recordType": "CDT",
+                        "productType": "A"
+                    },
+                    {
+                        "summaryDetail": true,
+                        "status": 3,
+                        "daysSupplyPerCopay": "90",
+                        "firstCopayTerm": "F",
+                        "flatCopayAmount": "5",
+                        "maximumCopay": "20",
+                        "minimumCopay": "5",
+                        "percentageCopayRate": ".3",
+                        "pharmacyType": "M",
+                        "recordType": "CDT",
+                        "productType": "A"
+                    }
+                ],
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "1",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 174156,
+                "description": "Risperdal 2 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 50458032001,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 216583,
+                "genericDescription": "risperidone 2 mg tablet",
+                "copays": [
+                    {
+                        "summaryDetail": true,
+                        "status": 3,
+                        "daysSupplyPerCopay": "30",
+                        "maximumCopay": "75",
+                        "minimumCopay": "5",
+                        "percentageCopayRate": ".2",
+                        "pharmacyType": "R",
+                        "recordType": "CDT",
+                        "productType": "A"
+                    },
+                    {
+                        "summaryDetail": true,
+                        "status": 3,
+                        "daysSupplyPerCopay": "90",
+                        "firstCopayTerm": "F",
+                        "flatCopayAmount": "5",
+                        "maximumCopay": "20",
+                        "minimumCopay": "5",
+                        "percentageCopayRate": ".3",
+                        "pharmacyType": "M",
+                        "recordType": "CDT",
+                        "productType": "A"
+                    }
+                ],
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "2",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 255538,
+                "description": "Risperdal 3 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 50458033050,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 206888,
+                "genericDescription": "risperidone 3 mg tablet",
+                "copays": [
+                    {
+                        "summaryDetail": true,
+                        "status": 3,
+                        "daysSupplyPerCopay": "30",
+                        "maximumCopay": "75",
+                        "minimumCopay": "5",
+                        "percentageCopayRate": ".2",
+                        "pharmacyType": "R",
+                        "recordType": "CDT",
+                        "productType": "A"
+                    },
+                    {
+                        "summaryDetail": true,
+                        "status": 3,
+                        "daysSupplyPerCopay": "90",
+                        "firstCopayTerm": "F",
+                        "flatCopayAmount": "5",
+                        "maximumCopay": "20",
+                        "minimumCopay": "5",
+                        "percentageCopayRate": ".3",
+                        "pharmacyType": "M",
+                        "recordType": "CDT",
+                        "productType": "A"
+                    }
+                ],
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "3",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 237377,
+                "description": "Risperdal 4 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 50458035001,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 177407,
+                "genericDescription": "risperidone 4 mg tablet",
+                "copays": [
+                    {
+                        "summaryDetail": true,
+                        "status": 3,
+                        "daysSupplyPerCopay": "30",
+                        "maximumCopay": "75",
+                        "minimumCopay": "5",
+                        "percentageCopayRate": ".2",
+                        "pharmacyType": "R",
+                        "recordType": "CDT",
+                        "productType": "A"
+                    },
+                    {
+                        "summaryDetail": true,
+                        "status": 3,
+                        "daysSupplyPerCopay": "90",
+                        "firstCopayTerm": "F",
+                        "flatCopayAmount": "5",
+                        "maximumCopay": "20",
+                        "minimumCopay": "5",
+                        "percentageCopayRate": ".3",
+                        "pharmacyType": "M",
+                        "recordType": "CDT",
+                        "productType": "A"
+                    }
+                ],
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "4",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 550763,
+                "description": "Risperdal Consta 12.5 mg/2 mL intramuscular syringe",
+                "formularyStatus": 3,
+                "ndc": 50458030911,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 550757,
+                "genericDescription": "risperidone microspheres 12.5 mg/2 mL intramuscular syringe",
+                "copays": [
+                    {
+                        "summaryDetail": true,
+                        "status": 3,
+                        "daysSupplyPerCopay": "30",
+                        "maximumCopay": "75",
+                        "minimumCopay": "5",
+                        "percentageCopayRate": ".2",
+                        "pharmacyType": "R",
+                        "recordType": "CDT",
+                        "productType": "A"
+                    },
+                    {
+                        "summaryDetail": true,
+                        "status": 3,
+                        "daysSupplyPerCopay": "90",
+                        "firstCopayTerm": "F",
+                        "flatCopayAmount": "5",
+                        "maximumCopay": "20",
+                        "minimumCopay": "5",
+                        "percentageCopayRate": ".3",
+                        "pharmacyType": "M",
+                        "recordType": "CDT",
+                        "productType": "A"
+                    }
+                ],
+                "clinicalQuantities": [
+                    {
+                        "desc": "1 Syringe Box",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Syringe",
+                        "potencyUnitCode": "C48540"
+                    }
+                ],
+                "strength": "12.5",
+                "strengthUom": "mg/2 mL",
+                "formDescription": "syringe",
+                "potencyUnitCode": "C48540"
+            },
+            {
+                "medId": 560062,
+                "description": "Fanapt 1 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 78059520,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 560052,
+                "genericDescription": "iloperidone 1 mg tablet",
+                "copays": [
+                    {
+                        "summaryDetail": true,
+                        "status": 3,
+                        "daysSupplyPerCopay": "30",
+                        "maximumCopay": "75",
+                        "minimumCopay": "5",
+                        "percentageCopayRate": ".2",
+                        "pharmacyType": "R",
+                        "recordType": "CDT",
+                        "productType": "A"
+                    },
+                    {
+                        "summaryDetail": true,
+                        "status": 3,
+                        "daysSupplyPerCopay": "90",
+                        "firstCopayTerm": "F",
+                        "flatCopayAmount": "5",
+                        "maximumCopay": "20",
+                        "minimumCopay": "5",
+                        "percentageCopayRate": ".3",
+                        "pharmacyType": "M",
+                        "recordType": "CDT",
+                        "productType": "A"
+                    }
+                ],
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "1",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 560068,
+                "description": "Fanapt 12 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 78060120,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 560058,
+                "genericDescription": "iloperidone 12 mg tablet",
+                "copays": [
+                    {
+                        "summaryDetail": true,
+                        "status": 3,
+                        "daysSupplyPerCopay": "30",
+                        "maximumCopay": "75",
+                        "minimumCopay": "5",
+                        "percentageCopayRate": ".2",
+                        "pharmacyType": "R",
+                        "recordType": "CDT",
+                        "productType": "A"
+                    },
+                    {
+                        "summaryDetail": true,
+                        "status": 3,
+                        "daysSupplyPerCopay": "90",
+                        "firstCopayTerm": "F",
+                        "flatCopayAmount": "5",
+                        "maximumCopay": "20",
+                        "minimumCopay": "5",
+                        "percentageCopayRate": ".3",
+                        "pharmacyType": "M",
+                        "recordType": "CDT",
+                        "productType": "A"
+                    }
+                ],
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "12",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 560069,
+                "description": "Fanapt 1mg(2)-2 mg(2)-4mg(2)-6 mg(2) tablets in a dose pack",
+                "formularyStatus": 3,
+                "ndc": 78060208,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 560059,
+                "genericDescription": "iloperidone 1mg(2)-2 mg(2)-4mg(2)-6 mg(2) tablets in a dose pack",
+                "copays": [
+                    {
+                        "summaryDetail": true,
+                        "status": 3,
+                        "daysSupplyPerCopay": "30",
+                        "maximumCopay": "75",
+                        "minimumCopay": "5",
+                        "percentageCopayRate": ".2",
+                        "pharmacyType": "R",
+                        "recordType": "CDT",
+                        "productType": "A"
+                    },
+                    {
+                        "summaryDetail": true,
+                        "status": 3,
+                        "daysSupplyPerCopay": "90",
+                        "firstCopayTerm": "F",
+                        "flatCopayAmount": "5",
+                        "maximumCopay": "20",
+                        "minimumCopay": "5",
+                        "percentageCopayRate": ".3",
+                        "pharmacyType": "M",
+                        "recordType": "CDT",
+                        "productType": "A"
+                    }
+                ],
+                "clinicalQuantities": [
+                    {
+                        "desc": "8 Tablet Blister Pack",
+                        "quantity": 8.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "1mg(2)-2mg(2)-",
+                "strengthUom": "4mg(2)-6mg(2)",
+                "formDescription": "tablets,dose pack",
+                "potencyUnitCode": "C62417"
+            },
+            {
+                "medId": 560063,
+                "description": "Fanapt 2 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 78059620,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 560053,
+                "genericDescription": "iloperidone 2 mg tablet",
+                "copays": [
+                    {
+                        "summaryDetail": true,
+                        "status": 3,
+                        "daysSupplyPerCopay": "30",
+                        "maximumCopay": "75",
+                        "minimumCopay": "5",
+                        "percentageCopayRate": ".2",
+                        "pharmacyType": "R",
+                        "recordType": "CDT",
+                        "productType": "A"
+                    },
+                    {
+                        "summaryDetail": true,
+                        "status": 3,
+                        "daysSupplyPerCopay": "90",
+                        "firstCopayTerm": "F",
+                        "flatCopayAmount": "5",
+                        "maximumCopay": "20",
+                        "minimumCopay": "5",
+                        "percentageCopayRate": ".3",
+                        "pharmacyType": "M",
+                        "recordType": "CDT",
+                        "productType": "A"
+                    }
+                ],
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "2",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 560064,
+                "description": "Fanapt 4 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 78059720,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 560054,
+                "genericDescription": "iloperidone 4 mg tablet",
+                "copays": [
+                    {
+                        "summaryDetail": true,
+                        "status": 3,
+                        "daysSupplyPerCopay": "30",
+                        "maximumCopay": "75",
+                        "minimumCopay": "5",
+                        "percentageCopayRate": ".2",
+                        "pharmacyType": "R",
+                        "recordType": "CDT",
+                        "productType": "A"
+                    },
+                    {
+                        "summaryDetail": true,
+                        "status": 3,
+                        "daysSupplyPerCopay": "90",
+                        "firstCopayTerm": "F",
+                        "flatCopayAmount": "5",
+                        "maximumCopay": "20",
+                        "minimumCopay": "5",
+                        "percentageCopayRate": ".3",
+                        "pharmacyType": "M",
+                        "recordType": "CDT",
+                        "productType": "A"
+                    }
+                ],
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "4",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 449539,
+                "description": "Risperdal M-TAB 0.5 mg disintegrating tablet",
+                "formularyStatus": 3,
+                "ndc": 50458039530,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 449530,
+                "genericDescription": "risperidone 0.5 mg disintegrating tablet",
+                "coverages": [
+                    {
+                        "stepTherapy": false,
+                        "priorAuthorization": true,
+                        "productCoverageExclusion": false
+                    }
+                ],
+                "copays": [
+                    {
+                        "summaryDetail": true,
+                        "status": 3,
+                        "daysSupplyPerCopay": "30",
+                        "maximumCopay": "75",
+                        "minimumCopay": "5",
+                        "percentageCopayRate": ".2",
+                        "pharmacyType": "R",
+                        "recordType": "CDT",
+                        "productType": "A"
+                    },
+                    {
+                        "summaryDetail": true,
+                        "status": 3,
+                        "daysSupplyPerCopay": "90",
+                        "firstCopayTerm": "F",
+                        "flatCopayAmount": "5",
+                        "maximumCopay": "20",
+                        "minimumCopay": "5",
+                        "percentageCopayRate": ".3",
+                        "pharmacyType": "M",
+                        "recordType": "CDT",
+                        "productType": "A"
+                    }
+                ],
+                "clinicalQuantities": [
+                    {
+                        "desc": "28 Tablet Blister Pack",
+                        "quantity": 28.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    },
+                    {
+                        "desc": "30 Tablet Blister Pack",
+                        "quantity": 30.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "0.5",
+                "strengthUom": "mg",
+                "formDescription": "tablet,disintegrating",
+                "potencyUnitCode": "C48542"
+            }
+        ]
+    },
+    {
+        "payerCoverageInfo": {
+            "payer": "PBMF",
+            "planId": "1234",
+            "planNetworkId": "610415",
+            "memberId": "YX-5-VA-20011246",
+            "groupNumber": "TTC1",
+            "formulary": "FSL102",
+            "copay": "COP102",
+            "interchangeControlNumber": 359386333,
+            "payerId": "T00000000021633",
+            "healthPlanName": "PLANX",
+            "coverages": [
+                {
+                    "type": "RETAIL",
+                    "messages": [
+                        
+                    ]
+                },
+                {
+                    "type": "MAIL",
+                    "messages": [
+                        
+                    ]
+                }
+            ],
+            "cardHolderName": {
+                "lastName": "WHITESIDE",
+                "firstName": "KARA",
+                "middleName": ""
+            },
+            "coverageId": "COV102"
+        },
+        "medications": [
+            {
+                "medId": 262620,
+                "description": "Risperdal 0.5 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 50458030206,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": false,
+                "genericMedId": 293161,
+                "genericDescription": "risperidone 0.5 mg tablet",
+                "copays": [
+                    {
+                        "ndc": 50458030206,
+                        "summaryDetail": false,
+                        "status": 0,
+                        "copayTier": "3",
+                        "drugRefNumber": "262620",
+                        "maximumCopayTier": "3",
+                        "pharmacyType": "A",
+                        "recordType": "CRT"
+                    }
+                ],
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "0.5",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            }
+        ]
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "groupType":"PERSONNEL",
+        "accessLevel":"ADD_REMOVE",
+        "ids":{
+
+        }
+    },
+    {
+        "groupType":"PERSONNEL",
+        "accessLevel":"MANAGE",
+        "ids":{
+
+        }
+    },
+    {
+        "groupType":"PERSONNEL",
+        "accessLevel":"VIEW",
+        "ids":{
+
+        }
+    }
+]

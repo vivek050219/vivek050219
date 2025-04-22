@@ -1,0 +1,38 @@
+{
+    "QUERIES": {
+        "CheckMessages": {
+            "nolimit": "true",
+            "columns": "MESSAGE",
+            "table": "PK_CHATMESSAGE"
+        },
+        "GetUserId": {
+            "columns": "USER_ID",
+            "table": "U_USER"
+        },
+        "UpdateMessage": {
+            "update": "true",
+            "columns": "*",
+            "table": "PK_CHATMESSAGE"
+        },
+        "GetOnCallChatRequestLogs": {
+            "nolimit": "true",
+            "columns": "VALUE",
+            "table": "pk_log",
+            "where": "VALUE LIKE '%UIEvent[ChatRequestOnCallMessage]%'",
+            "order": "LOGTIME desc"
+        },
+        "CheckResultNotificationStatus": {
+            "columns": "*",
+            "table": "pk_subscription_message"
+        },
+        "GetTestResultData": {
+            "columns": "distinct(component.cd_title) as LAB, lab.value_txt , normalcy.cd_title as NORMALCY, lab.resulted_dttm",
+            "table": "c_obsrvtn_ce lab"
+        },
+        "NumberOfNewResultMessages": {
+            "columns": "*",
+            "table": "pk_chatmessage",
+            "where": "MSGTYPE LIKE 'NEW RESULT'"
+        }
+    }
+}

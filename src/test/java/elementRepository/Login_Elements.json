@@ -1,0 +1,21 @@
+{
+    "TEXT_FIELDS": {
+        "Username": {
+            "barexpath": "//input[@id='UserName']",
+            "frame": "PARENT_FRAME"
+        },
+        "Password": {
+            "barexpath": "//input[@name='PassWord']",
+            "frame": "PARENT_FRAME"
+        }
+    },
+    "BUTTONS": {
+        "Login": {
+            "barexpath": "//div[@pkwidget='Button' and text()='Login']",
+            "frame": "PARENT_FRAME"
+        },
+        "Logout": {
+            "path": "//td[@id='Controls' and descendant::div[@id='LogoutImg']]"
+        }
+    }
+}

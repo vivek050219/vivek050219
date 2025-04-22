@@ -1,0 +1,62 @@
+[
+    {
+        "payerCoverageInfo": {
+            "payer": "PBMF",
+            "planId": "PLAN123",
+            "planNetworkId": "BIN123",
+            "memberId": "ZZQ%PBM-UID-888877222-%VVVVAAAA10011XX-XX261L",
+            "groupNumber": "CG1111111111/CGID333333X",
+            "formulary": "FSL105",
+            "copay": "COP105",
+            "interchangeControlNumber": 357803597,
+            "payerId": "T00000000021633",
+            "healthPlanName": "CARPLANNAME",
+            "coverages": [
+                {
+                    "type": "RETAIL",
+                    "messages": [
+                        
+                    ]
+                },
+                {
+                    "type": "MAIL",
+                    "messages": [
+                        
+                    ]
+                }
+            ],
+            "cardHolderName": {
+                "lastName": "THROWER",
+                "firstName": "DAVID",
+                "middleName": ""
+            },
+            "cardHolderId": "MID4444444444444",
+            "coverageId": "COV105"
+        },
+        "medications": [
+            {
+                "medId": 274766,
+                "description": "clomipramine 50 mg capsule",
+                "formularyStatus": 1,
+                "ndc": 378305001,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": false,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Capsule",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Capsule",
+                        "potencyUnitCode": "C48480"
+                    }
+                ],
+                "strength": "50",
+                "strengthUom": "mg",
+                "formDescription": "capsule",
+                "potencyUnitCode": "C48480"
+            }
+        ]
+    }
+]

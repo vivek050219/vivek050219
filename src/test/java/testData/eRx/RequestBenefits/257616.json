@@ -1,0 +1,5 @@
+{
+  "status": 200,
+  "message": "PayerCoverageInfo [payer=PBMF, planId=MT-036R, planNetworkId=001264, processorId=MT-R23-36, memberId=PBMF TESTKID 8951-001, groupNumber=R230036, formulary=FSL102, alternatives=ALT101, copay=COP102, interchangeControlNumber=231922293, payerId=T00000000021633, healthPlanName=MITSU-036R, coverages=[Coverage{type=RETAIL, messages=[]}, Coverage{type=MAIL, messages=[]}], cardHolderName=Name [lastName=RODGERSSON, firstName=TEAGUE, middleName=, suffix=null, prefix=null], coverageId=COV102]",
+  "eventId": null
+}

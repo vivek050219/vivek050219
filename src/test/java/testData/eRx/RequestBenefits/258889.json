@@ -1,0 +1,5 @@
+{
+  "status": 200,
+  "message": "PayerCoverageInfo [payer=RXHUBPBM, memberId=C000000%111111112%001, groupNumber=C000000, interchangeControlNumber=230946173, payerId=T00000000001000, healthPlanName=, patient=Patient [name=Name [lastName=STEINBERG, firstName=TIMOTHY, middleName=ROBERT, suffix=SR, prefix=null], address=Address [address1=614 ZACHARY LANE, address2=UNIT 403, city=ALANTA, state=GA, postalCode=30303, country=null], dob=Sun Dec 15 00:00:00 UTC 1963, gender=MALE, phone=null], coverages=[], cardHolderName=Name [lastName=STEINBERG, firstName=TIMOTHY, middleName=ROBERT, suffix=null, prefix=null], cardHolderId=111111112, ]",
+  "eventId": null
+}

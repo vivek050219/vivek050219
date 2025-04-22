@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><Message>
+
+    <Body>
+        <CancelRx>
+            <Pharmacy>
+                <Identification>
+                    <NCPDPID>7723703</NCPDPID>
+                    <NPI>1083879860</NPI>
+                </Identification>
+                <StoreName>VA Pharmacy 10.6MU</StoreName>
+                <Address>
+                    <AddressLine1>7723 Jefferson Davis Highway</AddressLine1>
+                    <City>Arlington</City>
+                    <State>VA</State>
+                    <ZipCode>22201</ZipCode>
+                </Address>
+                <CommunicationNumbers>
+                    <Communication>
+                        <Number>7032057034</Number>
+                        <Qualifier>TE</Qualifier>
+                    </Communication>
+                    <Communication>
+                        <Number>7032057035</Number>
+                        <Qualifier>FX</Qualifier>
+                    </Communication>
+                </CommunicationNumbers>
+            </Pharmacy>
+            <Prescriber>
+                <Identification>
+                    <NPI>1740258391</NPI>
+                </Identification>
+                <Name>
+                    <LastName>UMUTLAR</LastName>
+                    <FirstName>ERDINC</FirstName>
+                </Name>
+                <Address>
+                    <AddressLine1>880 Winter Street</AddressLine1>
+                    <AddressLine2>Suite 300</AddressLine2>
+                    <City>Waltham</City>
+                    <State>MA</State>
+                    <ZipCode>02135</ZipCode>
+                    <PlaceLocationQualifier>AD2</PlaceLocationQualifier>
+                </Address>
+                <CommunicationNumbers>
+                    <Communication>
+                        <Number>7819992577</Number>
+                        <Qualifier>TE</Qualifier>
+                    </Communication>
+                    <Communication>
+                        <Number>7819992578</Number>
+                        <Qualifier>FX</Qualifier>
+                    </Communication>
+                </CommunicationNumbers>
+            </Prescriber>
+            <Patient>
+                <Name>
+                    <LastName>LI</LastName>
+                    <FirstName>CI</FirstName>
+                </Name>
+                <Gender>U</Gender>
+                <DateOfBirth>
+                    <Date>1923-10-19</Date>
+                </DateOfBirth>
+                <Address>
+                    <ZipCode>22202</ZipCode>
+                </Address>
+            </Patient>
+            <MedicationPrescribed>
+                <DrugDescription>Transderm-Scop 1.5 mg transdermal 72 hourpatch</DrugDescription>
+                <DrugCoded>
+                    <ProductCode>00067434509</ProductCode>
+                    <ProductCodeQualifier>ND</ProductCodeQualifier>
+                    <Strength>1.5mg</Strength>
+                    <DrugDBCode>351875</DrugDBCode>
+                    <DrugDBCodeQualifier>SBD</DrugDBCodeQualifier>
+                </DrugCoded>
+                <Quantity>
+                    <Value>30</Value>
+                    <CodeListQualifier>38</CodeListQualifier>
+                    <UnitSourceCode>AC</UnitSourceCode>
+                    <PotencyUnitCode>C48524</PotencyUnitCode>
+                </Quantity>
+                <DaysSupply>4</DaysSupply>
+                <Directions>Take 1.5 MG apply to skin D for 4days.</Directions>
+                <Refills>
+                    <Qualifier>R</Qualifier>
+                    <Value>3</Value>
+                </Refills>
+                <Substitutions>0</Substitutions>
+            </MedicationPrescribed>
+        </CancelRx>
+    </Body>
+</Message>

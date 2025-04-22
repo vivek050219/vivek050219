@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><Message xmlns="http://www.ncpdp.org/schema/SCRIPT" release="006" version="010">
+    <Header>
+        <To Qualifier="D">1970797155001</To>
+        <From Qualifier="P">7723703</From>
+        <MessageID>SampleID</MessageID>
+        <RelatesToMessageID>SampleRelatesToMessageID</RelatesToMessageID>
+        <SentTime>SampleSentTime</SentTime>
+        <Security>
+            <Sender>
+                <TertiaryIdentification>165</TertiaryIdentification>
+            </Sender>
+            <Receiver>
+                <TertiaryIdentification>2732</TertiaryIdentification>
+            </Receiver>
+        </Security>
+        <TestMessage>1</TestMessage>
+        <RxReferenceNumber>!</RxReferenceNumber>
+        <TertiaryIdentifier>A1B</TertiaryIdentifier>
+        <PrescriberOrderNumber>SamplePrescriberOrderNumber</PrescriberOrderNumber>
+    </Header>
+    <Body>
+        <CancelRxResponse>
+            <Request>
+                <ChangeRequestType>C1</ChangeRequestType>
+                <ReturnReceipt>1</ReturnReceipt>
+                <RequestReferenceNumber>A value to be looked at 1234567890</RequestReferenceNumber>
+                <ChangeofPrescriptionStatusFlag>C</ChangeofPrescriptionStatusFlag>
+            </Request>
+            <Response>
+                <Denied>
+                    <DenialReasonCode>AC</DenialReasonCode>
+                    <DenialReasonCode>AA</DenialReasonCode>
+                    <DenialReasonCode>AD</DenialReasonCode>
+                    <DenialReasonCode>AE</DenialReasonCode>
+                    <DenialReasonCode>AF</DenialReasonCode>
+                    <DenialReasonCode>AG</DenialReasonCode>
+                    <DenialReasonCode>AH</DenialReasonCode>
+                    <DenialReasonCode>AJ</DenialReasonCode>
+                    <DenialReasonCode>AK</DenialReasonCode>
+                    <DenialReasonCode>AL</DenialReasonCode>
+                    <ReferenceNumber>A value to be looked at 1234567890</ReferenceNumber>
+                    <DenialReason>Patient Not Found</DenialReason>
+                </Denied>
+            </Response>
+        </CancelRxResponse>
+    </Body>
+</Message>

@@ -1,0 +1,58 @@
+[
+    {
+        "payerCoverageInfo": {
+            "payer": "PBMF",
+            "memberId": "ZZQ-88-10011-255",
+            "groupNumber": "F000000",
+            "interchangeControlNumber": 342617457,
+            "payerId": "T00000000021633",
+            "healthPlanName": "PLAN~01",
+            "coverages": [
+                {
+                    "type": "RETAIL",
+                    "messages": [
+                        
+                    ]
+                },
+                {
+                    "type": "MAIL",
+                    "messages": [
+                        
+                    ]
+                }
+            ],
+            "cardHolderName": {
+                "lastName": "WILSON",
+                "firstName": "JOSEF",
+                "middleName": ""
+            },
+            "cardHolderId": "111111115"
+        },
+        "medications": [
+            {
+                "medId": 576314,
+                "description": "Eliquis 2.5 mg tablet",
+                "formularyStatus": -1,
+                "ndc": 3089321,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": false,
+                "genericMedId": 576307,
+                "genericDescription": "apixaban 2.5 mg tablet",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "2.5",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            }
+        ]
+    }
+]

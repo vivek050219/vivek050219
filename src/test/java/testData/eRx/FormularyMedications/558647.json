@@ -1,0 +1,70 @@
+[
+    {
+        "payerCoverageInfo": {
+            "payer": "PBMF",
+            "memberId": "ZZQ-88-10011-245",
+            "groupNumber": "D000000",
+            "formulary": "FSL101",
+            "alternatives": "ALT101",
+            "interchangeControlNumber": 391072045,
+            "payerId": "T00000000021633",
+            "healthPlanName": "",
+            "patient": {
+                "name": {
+                    "lastName": "AUBAINE",
+                    "firstName": "CHENIN BLANC",
+                    "middleName": "PINOT",
+                    "suffix": ""
+                },
+                "address": {
+                    "address1": "927 OFFICIONADO BLVD",
+                    "city": "MINNEAPOLIS",
+                    "state": "MN",
+                    "postalCode": "55419"
+                },
+                "dob": -483926400000,
+                "gender": "FEMALE"
+            },
+            "coverages": [
+                {
+                    "type": "RETAIL",
+                    "messages": [
+                        
+                    ]
+                }
+            ],
+            "cardHolderName": {
+                "lastName": "AUBAINE",
+                "firstName": "CHENIN BLANC",
+                "middleName": "PINOT"
+            },
+            "cardHolderId": "111111113"
+        },
+        "medications": [
+            {
+                "medId": 558647,
+                "description": "Edluar 5 mg sublingual tablet",
+                "formularyStatus": 1,
+                "ndc": 37605030,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": false,
+                "genericMedId": 558617,
+                "genericDescription": "zolpidem 5 mg sublingual tablet",
+                "clinicalQuantities": [
+                    {
+                        "desc": "30 Tablet Blister Pack",
+                        "quantity": 30.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "5",
+                "strengthUom": "mg",
+                "formDescription": "tablet, sublingual",
+                "potencyUnitCode": "C48542"
+            }
+        ]
+    }
+]

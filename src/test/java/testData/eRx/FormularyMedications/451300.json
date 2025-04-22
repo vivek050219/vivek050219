@@ -1,0 +1,146 @@
+[
+    {
+        "payerCoverageInfo": {
+            "payer": "PBMC",
+            "interchangeControlNumber": 342617444,
+            "payerId": "T00000000001012",
+            "coverages": [
+                
+            ],
+            "cardHolderName": {
+                "lastName": "Surescripts"
+            }
+        },
+        "medications": [
+            {
+                "medId": 451300,
+                "description": "Crestor 20 mg tablet",
+                "formularyStatus": -1,
+                "ndc": 310075239,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": false,
+                "genericMedId": 451295,
+                "genericDescription": "rosuvastatin 20 mg tablet",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "20",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            }
+        ]
+    },
+    {
+        "payerCoverageInfo": {
+            "payer": "PBMA",
+            "planId": "CC1",
+            "planNetworkId": "003858",
+            "processorId": "C4",
+            "memberId": "CC124524524501",
+            "groupNumber": "CC1V",
+            "formulary": "FSL107",
+            "copay": "COP107",
+            "interchangeControlNumber": 342617444,
+            "payerId": "T00000000001010",
+            "healthPlanName": "",
+            "coverages": [
+                {
+                    "type": "RETAIL",
+                    "messages": [
+                        
+                    ]
+                },
+                {
+                    "type": "MAIL",
+                    "messages": [
+                        
+                    ]
+                }
+            ],
+            "cardHolderName": {
+                "lastName": "JOCKEY",
+                "firstName": "FRED",
+                "middleName": "A"
+            },
+            "cardHolderId": "245245245",
+            "coverageId": "COV107"
+        },
+        "medications": [
+            {
+                "medId": 451300,
+                "description": "Crestor 20 mg tablet",
+                "formularyStatus": -1,
+                "ndc": 310075239,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": false,
+                "genericMedId": 451295,
+                "genericDescription": "rosuvastatin 20 mg tablet",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "20",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            }
+        ]
+    },
+    {
+        "payerCoverageInfo": {
+            "payer": "PBMB",
+            "memberId": "RBRXHBTTC4RXHBM500101",
+            "interchangeControlNumber": 342617444,
+            "payerId": "T00000000001011",
+            "healthPlanName": "",
+            "coverages": [
+                
+            ],
+            "cardHolderName": {
+                "lastName": "JOCKEY",
+                "firstName": "FRED",
+                "middleName": "A"
+            }
+        },
+        "medications": [
+            {
+                "medId": 451300,
+                "description": "Crestor 20 mg tablet",
+                "formularyStatus": -1,
+                "ndc": 310075239,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": false,
+                "genericMedId": 451295,
+                "genericDescription": "rosuvastatin 20 mg tablet",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "20",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            }
+        ]
+    }
+]

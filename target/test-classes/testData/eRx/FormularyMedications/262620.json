@@ -1,0 +1,633 @@
+[
+    {
+        "payerCoverageInfo": {
+            "payer": "PBMF",
+            "memberId": "ZZQ-88-10011-246",
+            "groupNumber": "G000000",
+            "formulary": "FSL101",
+            "alternatives": "ALT101",
+            "interchangeControlNumber": 391071232,
+            "payerId": "T00000000021633",
+            "healthPlanName": "PLANABX",
+            "coverages": [
+                {
+                    "type": "RETAIL",
+                    "messages": [
+                        
+                    ]
+                },
+                {
+                    "type": "MAIL",
+                    "messages": [
+                        
+                    ]
+                }
+            ],
+            "cardHolderName": {
+                "lastName": "WHITESIDE",
+                "firstName": "KARA",
+                "middleName": ""
+            },
+            "coverageId": "COV101"
+        },
+        "medications": [
+            {
+                "medId": 262620,
+                "description": "Risperdal 0.5 mg tablet",
+                "formularyStatus": 1,
+                "ndc": 50458030201,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": false,
+                "genericMedId": 293161,
+                "genericDescription": "risperidone 0.5 mg tablet",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "0.5",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            }
+        ]
+    },
+    {
+        "payerCoverageInfo": {
+            "payer": "PBMB",
+            "planId": "AA1",
+            "planNetworkId": "612001",
+            "processorId": "A4-AA1",
+            "memberId": "HQR%K883883%ZZ88-002",
+            "groupNumber": "AA1V",
+            "formulary": "FSL103",
+            "copay": "COP103",
+            "interchangeControlNumber": 391071232,
+            "payerId": "T00000000001011",
+            "healthPlanName": "PLANA4",
+            "coverages": [
+                {
+                    "type": "RETAIL",
+                    "messages": [
+                        
+                    ]
+                },
+                {
+                    "type": "MAIL",
+                    "messages": [
+                        
+                    ]
+                }
+            ],
+            "cardHolderName": {
+                "lastName": "WHITESIDE",
+                "firstName": "KARA",
+                "middleName": ""
+            },
+            "cardHolderId": "123456789",
+            "coverageId": "COV103"
+        },
+        "medications": [
+            {
+                "medId": 262620,
+                "description": "Risperdal 0.5 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 50458030201,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": false,
+                "genericMedId": 293161,
+                "genericDescription": "risperidone 0.5 mg tablet",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "0.5",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 559444,
+                "description": "paliperidone ER 1.5 mg tablet,extended release 24 hr",
+                "formularyStatus": 4,
+                "ndc": 378397893,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "1.5",
+                "strengthUom": "mg",
+                "formDescription": "tablet extended release 24hr",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 548640,
+                "description": "paliperidone ER 3 mg tablet,extended release 24 hr",
+                "formularyStatus": 4,
+                "ndc": 10147095203,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    },
+                    {
+                        "desc": "100 Tablet Blister Pack",
+                        "quantity": 100.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "3",
+                "strengthUom": "mg",
+                "formDescription": "tablet extended release 24hr",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 548641,
+                "description": "paliperidone ER 6 mg tablet,extended release 24 hr",
+                "formularyStatus": 4,
+                "ndc": 378398093,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    },
+                    {
+                        "desc": "100 Tablet Blister Pack",
+                        "quantity": 100.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "6",
+                "strengthUom": "mg",
+                "formDescription": "tablet extended release 24hr",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 548642,
+                "description": "paliperidone ER 9 mg tablet,extended release 24 hr",
+                "formularyStatus": 4,
+                "ndc": 591369530,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    },
+                    {
+                        "desc": "100 Tablet Blister Pack",
+                        "quantity": 100.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "9",
+                "strengthUom": "mg",
+                "formDescription": "tablet extended release 24hr",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 198781,
+                "description": "risperidone 0.25 mg tablet",
+                "formularyStatus": 4,
+                "ndc": 13668003505,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "0.25",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 293161,
+                "description": "risperidone 0.5 mg tablet",
+                "formularyStatus": 4,
+                "ndc": 43547034006,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "0.5",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 288311,
+                "description": "risperidone 1 mg tablet",
+                "formularyStatus": 4,
+                "ndc": 50458059210,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "1",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 231819,
+                "description": "risperidone 1 mg/mL oral solution",
+                "formularyStatus": 4,
+                "ndc": 65162067384,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "30 mL Bottle",
+                        "quantity": 30.0000000,
+                        "uomDesc": "Milliliter",
+                        "potencyUnitCode": "C28254"
+                    }
+                ],
+                "strength": "1",
+                "strengthUom": "mg/mL",
+                "formDescription": "solution",
+                "potencyUnitCode": "C38046"
+            },
+            {
+                "medId": 476699,
+                "description": "risperidone 3 mg disintegrating tablet",
+                "formularyStatus": 4,
+                "ndc": 781531308,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    },
+                    {
+                        "desc": "28 Tablet Blister Pack",
+                        "quantity": 28.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "3",
+                "strengthUom": "mg",
+                "formDescription": "tablet,disintegrating",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 206888,
+                "description": "risperidone 3 mg tablet",
+                "formularyStatus": 4,
+                "ndc": 68084027411,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "3",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 177407,
+                "description": "risperidone 4 mg tablet",
+                "formularyStatus": 4,
+                "ndc": 13668004005,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "4",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 558410,
+                "description": "risperidone 0.25 mg disintegrating tablet",
+                "formularyStatus": 4,
+                "ndc": 378604228,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "0.25",
+                "strengthUom": "mg",
+                "formDescription": "tablet,disintegrating",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 449530,
+                "description": "risperidone 0.5 mg disintegrating tablet",
+                "formularyStatus": 4,
+                "ndc": 68382015406,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    },
+                    {
+                        "desc": "28 Tablet Blister Pack",
+                        "quantity": 28.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    },
+                    {
+                        "desc": "30 Tablet Blister Pack",
+                        "quantity": 30.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "0.5",
+                "strengthUom": "mg",
+                "formDescription": "tablet,disintegrating",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 449531,
+                "description": "risperidone 1 mg disintegrating tablet",
+                "formularyStatus": 4,
+                "ndc": 51079034501,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    },
+                    {
+                        "desc": "28 Tablet Blister Pack",
+                        "quantity": 28.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    },
+                    {
+                        "desc": "30 Tablet Blister Pack",
+                        "quantity": 30.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "1",
+                "strengthUom": "mg",
+                "formDescription": "tablet,disintegrating",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 449532,
+                "description": "risperidone 2 mg disintegrating tablet",
+                "formularyStatus": 4,
+                "ndc": 51079034605,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    },
+                    {
+                        "desc": "28 Tablet Blister Pack",
+                        "quantity": 28.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "2",
+                "strengthUom": "mg",
+                "formDescription": "tablet,disintegrating",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 216583,
+                "description": "risperidone 2 mg tablet",
+                "formularyStatus": 4,
+                "ndc": 603568632,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "2",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 476700,
+                "description": "risperidone 4 mg disintegrating tablet",
+                "formularyStatus": 4,
+                "ndc": 378604728,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    },
+                    {
+                        "desc": "28 Tablet Blister Pack",
+                        "quantity": 28.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "4",
+                "strengthUom": "mg",
+                "formDescription": "tablet,disintegrating",
+                "potencyUnitCode": "C48542"
+            }
+        ]
+    },
+    {
+        "payerCoverageInfo": {
+            "payer": "PBMF",
+            "planId": "1234",
+            "planNetworkId": "610415",
+            "memberId": "YX-5-VA-20011246",
+            "groupNumber": "TTC1",
+            "formulary": "FSL102",
+            "copay": "COP102",
+            "interchangeControlNumber": 391071232,
+            "payerId": "T00000000021633",
+            "healthPlanName": "PLANX",
+            "coverages": [
+                {
+                    "type": "RETAIL",
+                    "messages": [
+                        
+                    ]
+                },
+                {
+                    "type": "MAIL",
+                    "messages": [
+                        
+                    ]
+                }
+            ],
+            "cardHolderName": {
+                "lastName": "WHITESIDE",
+                "firstName": "KARA",
+                "middleName": ""
+            },
+            "coverageId": "COV102"
+        },
+        "medications": [
+            {
+                "medId": 262620,
+                "description": "Risperdal 0.5 mg tablet",
+                "formularyStatus": 1,
+                "ndc": 50458030201,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": false,
+                "genericMedId": 293161,
+                "genericDescription": "risperidone 0.5 mg tablet",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "0.5",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            }
+        ]
+    }
+]

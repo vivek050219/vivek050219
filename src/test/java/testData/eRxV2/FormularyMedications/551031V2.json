@@ -1,0 +1,62 @@
+[
+    {
+        "payerCoverageInfo": {
+            "payer": "RXHUBPBM",
+            "planId": "1234",
+            "planNetworkId": "234876",
+            "processorId": "AV",
+            "memberId": "DD145645645601",
+            "groupNumber": "DD1",
+            "formulary": "201",
+            "copay": "201",
+            "interchangeControlNumber": 341954728,
+            "payerId": "T00000000001000",
+            "healthPlanName": "PLANA",
+            "coverages": [
+                {
+                    "type": "MAIL",
+                    "messages": [
+                        
+                    ]
+                }
+            ],
+            "cardHolderName": {
+                "lastName": "CROSS",
+                "firstName": "DAVID",
+                "middleName": "M"
+            },
+            "cardHolderId": "456456456",
+            "coverageId": "201"
+        },
+        "medications": [
+            {
+                "medId": 551031,
+                "description": "FreeStyle Lite Strips",
+                "formularyStatus": -1,
+                "ndc": 99073070819,
+                "otc": true,
+                "generic": false,
+                "supply": true,
+                "therapeuticAlternative": false,
+                "genericMedId": 202036,
+                "genericDescription": "blood sugar diagnostic strips",
+                "clinicalQuantities": [
+                    {
+                        "desc": "50 Strip Box",
+                        "quantity": 50.0000000,
+                        "uomDesc": "Strip",
+                        "potencyUnitCode": "C48538"
+                    },
+                    {
+                        "desc": "100 Strip Box",
+                        "quantity": 100.0000000,
+                        "uomDesc": "Strip",
+                        "potencyUnitCode": "C48538"
+                    }
+                ],
+                "formDescription": "strip",
+                "potencyUnitCode": "C48538"
+            }
+        ]
+    }
+]

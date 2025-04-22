@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><Message xmlns="http://www.ncpdp.org/schema/SCRIPT" release="006" version="010">
+    <Header>
+        <To Qualifier="D">1970797155001</To>
+        <From Qualifier="P">7723703</From>
+        <MessageID>SampleID</MessageID>
+        <RelatesToMessageID>SampleRelatesToMessageID</RelatesToMessageID>
+        <SentTime>SampleSentTime</SentTime>
+        <Security>
+            <Sender>
+                <TertiaryIdentification>165</TertiaryIdentification>
+            </Sender>
+            <Receiver>
+                <TertiaryIdentification>2732</TertiaryIdentification>
+            </Receiver>
+        </Security>
+        <PrescriberOrderNumber>SamplePrescriberOrderNumber</PrescriberOrderNumber>
+    </Header>
+    <Body>
+        <CancelRxResponse>
+            <Response>
+                <Approved>
+                    <Note>No dispenses made</Note>
+                </Approved>
+            </Response>
+        </CancelRxResponse>
+    </Body>
+</Message>

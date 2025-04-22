@@ -1,0 +1,1799 @@
+[
+    {
+        "payerCoverageInfo": {
+            "payer": "RXHUBPBM",
+            "planId": "1234",
+            "planNetworkId": "234876",
+            "processorId": "AV",
+            "memberId": "DD145645645601",
+            "groupNumber": "DD1",
+            "formulary": "201",
+            "copay": "201",
+            "interchangeControlNumber": 342617232,
+            "payerId": "T00000000001000",
+            "healthPlanName": "PLANA",
+            "coverages": [
+                {
+                    "type": "MAIL",
+                    "messages": [
+                        
+                    ]
+                }
+            ],
+            "cardHolderName": {
+                "lastName": "CROSS",
+                "firstName": "DAVID",
+                "middleName": "M"
+            },
+            "cardHolderId": "456456456",
+            "coverageId": "201"
+        },
+        "medications": [
+            {
+                "medId": 288522,
+                "description": "lisinopril 2.5 mg tablet",
+                "formularyStatus": 0,
+                "ndc": 143126501,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": false,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    },
+                    {
+                        "desc": "30 Tablet Blister Pack",
+                        "quantity": 30.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "2.5",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 285229,
+                "description": "lisinopril 40 mg tablet",
+                "formularyStatus": 5,
+                "ndc": 143127001,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "copays": [
+                    {
+                        "ndc": 143127001,
+                        "summaryDetail": false,
+                        "status": 0,
+                        "copayTier": "1",
+                        "drugRefNumber": "285229",
+                        "maximumCopayTier": "3",
+                        "pharmacyType": "A",
+                        "recordType": "CRT"
+                    }
+                ],
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    },
+                    {
+                        "desc": "30 Tablet Blister Pack",
+                        "quantity": 30.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "40",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 257247,
+                "description": "lisinopril 30 mg tablet",
+                "formularyStatus": 4,
+                "ndc": 172376260,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "copays": [
+                    {
+                        "ndc": 172376260,
+                        "summaryDetail": false,
+                        "status": 0,
+                        "copayTier": "1",
+                        "drugRefNumber": "257247",
+                        "maximumCopayTier": "3",
+                        "pharmacyType": "A",
+                        "recordType": "CRT"
+                    }
+                ],
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    },
+                    {
+                        "desc": "30 Tablet Blister Pack",
+                        "quantity": 30.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "30",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 282212,
+                "description": "benazepril 10 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 51079014501,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "10",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 264202,
+                "description": "benazepril 20 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 51079014601,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    },
+                    {
+                        "desc": "30 Tablet Blister Pack",
+                        "quantity": 30.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "20",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 278853,
+                "description": "benazepril 40 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 185004805,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    },
+                    {
+                        "desc": "30 Tablet Blister Pack",
+                        "quantity": 30.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "40",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 170591,
+                "description": "benazepril 5 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 65162075110,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "5",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 208631,
+                "description": "captopril 100 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 378302201,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "100",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 227444,
+                "description": "captopril 12.5 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 781805210,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "12.5",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 250819,
+                "description": "captopril 25 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 781806110,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "25",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 247057,
+                "description": "captopril 50 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 904504761,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "50",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 166924,
+                "description": "enalapril maleate 10 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 904561061,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    },
+                    {
+                        "desc": "8000 Tablet Drum",
+                        "quantity": 8000.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "10",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 186112,
+                "description": "enalapril maleate 2.5 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 904560961,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    },
+                    {
+                        "desc": "8000 Tablet Drum",
+                        "quantity": 8000.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "2.5",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 179012,
+                "description": "enalapril maleate 20 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 68084039201,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    },
+                    {
+                        "desc": "8000 Tablet Drum",
+                        "quantity": 8000.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "20",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 169840,
+                "description": "enalapril maleate 5 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 51672403803,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    },
+                    {
+                        "desc": "8000 Tablet Drum",
+                        "quantity": 8000.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "5",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 204201,
+                "description": "enalaprilat 1.25 mg/mL intravenous solution",
+                "formularyStatus": 3,
+                "ndc": 143978710,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "1 mL Vial",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Milliliter",
+                        "potencyUnitCode": "C28254"
+                    },
+                    {
+                        "desc": "2 mL Vial",
+                        "quantity": 2.0000000,
+                        "uomDesc": "Milliliter",
+                        "potencyUnitCode": "C28254"
+                    }
+                ],
+                "strength": "1.25",
+                "strengthUom": "mg/mL",
+                "formDescription": "solution",
+                "potencyUnitCode": "C38046"
+            },
+            {
+                "medId": 152422,
+                "description": "fosinopril 10 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 43547038609,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "10",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 202492,
+                "description": "fosinopril 20 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 43547038709,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "20",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 241751,
+                "description": "fosinopril 40 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 185004710,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "40",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 183474,
+                "description": "lisinopril 20 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 143971301,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "copays": [
+                    {
+                        "ndc": 143971301,
+                        "summaryDetail": false,
+                        "status": 0,
+                        "copayTier": "1",
+                        "drugRefNumber": "183474",
+                        "maximumCopayTier": "3",
+                        "pharmacyType": "A",
+                        "recordType": "CRT"
+                    }
+                ],
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    },
+                    {
+                        "desc": "30 Tablet Blister Pack",
+                        "quantity": 30.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "20",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 240070,
+                "description": "moexipril 15 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 68462020801,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "15",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 171394,
+                "description": "moexipril 7.5 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 68462020901,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "7.5",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 253349,
+                "description": "perindopril erbumine 2 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 65862028601,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "2",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 191433,
+                "description": "perindopril erbumine 4 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 527191901,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "4",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 295494,
+                "description": "perindopril erbumine 8 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 527192001,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "8",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 267825,
+                "description": "quinapril 20 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 68180055809,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "20",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 208877,
+                "description": "quinapril 40 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 59762502201,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "40",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 256633,
+                "description": "quinapril 5 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 68001018905,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "5",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 291544,
+                "description": "ramipril 1.25 mg capsule",
+                "formularyStatus": 3,
+                "ndc": 68382014406,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Capsule",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Capsule",
+                        "potencyUnitCode": "C48480"
+                    }
+                ],
+                "strength": "1.25",
+                "strengthUom": "mg",
+                "formDescription": "capsule",
+                "potencyUnitCode": "C48480"
+            },
+            {
+                "medId": 295862,
+                "description": "ramipril 10 mg capsule",
+                "formularyStatus": 3,
+                "ndc": 68180059102,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Capsule",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Capsule",
+                        "potencyUnitCode": "C48480"
+                    }
+                ],
+                "strength": "10",
+                "strengthUom": "mg",
+                "formDescription": "capsule",
+                "potencyUnitCode": "C48480"
+            },
+            {
+                "medId": 244736,
+                "description": "ramipril 2.5 mg capsule",
+                "formularyStatus": 3,
+                "ndc": 54010729,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Capsule",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Capsule",
+                        "potencyUnitCode": "C48480"
+                    }
+                ],
+                "strength": "2.5",
+                "strengthUom": "mg",
+                "formDescription": "capsule",
+                "potencyUnitCode": "C48480"
+            },
+            {
+                "medId": 291760,
+                "description": "ramipril 5 mg capsule",
+                "formularyStatus": 3,
+                "ndc": 68180059009,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Capsule",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Capsule",
+                        "potencyUnitCode": "C48480"
+                    }
+                ],
+                "strength": "5",
+                "strengthUom": "mg",
+                "formDescription": "capsule",
+                "potencyUnitCode": "C48480"
+            },
+            {
+                "medId": 239278,
+                "description": "trandolapril 1 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 65862016401,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "1",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 169234,
+                "description": "trandolapril 2 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 65862016501,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "2",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 163803,
+                "description": "trandolapril 4 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 68180056801,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "4",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 219729,
+                "description": "quinapril 10 mg tablet",
+                "formularyStatus": 3,
+                "ndc": 31722026890,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "10",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 247110,
+                "description": "Accupril 10 mg tablet",
+                "formularyStatus": 2,
+                "ndc": 71053040,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 219729,
+                "genericDescription": "quinapril 10 mg tablet",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "10",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 189764,
+                "description": "Accupril 20 mg tablet",
+                "formularyStatus": 2,
+                "ndc": 71053240,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 267825,
+                "genericDescription": "quinapril 20 mg tablet",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "20",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 233466,
+                "description": "Accupril 40 mg tablet",
+                "formularyStatus": 2,
+                "ndc": 71053523,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 208877,
+                "genericDescription": "quinapril 40 mg tablet",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "40",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 228042,
+                "description": "Accupril 5 mg tablet",
+                "formularyStatus": 2,
+                "ndc": 71052723,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 256633,
+                "genericDescription": "quinapril 5 mg tablet",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "5",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 186234,
+                "description": "Altace 1.25 mg capsule",
+                "formularyStatus": 2,
+                "ndc": 61570011001,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 291544,
+                "genericDescription": "ramipril 1.25 mg capsule",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Capsule",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Capsule",
+                        "potencyUnitCode": "C48480"
+                    }
+                ],
+                "strength": "1.25",
+                "strengthUom": "mg",
+                "formDescription": "capsule",
+                "potencyUnitCode": "C48480"
+            },
+            {
+                "medId": 230231,
+                "description": "Altace 10 mg capsule",
+                "formularyStatus": 2,
+                "ndc": 61570012001,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 295862,
+                "genericDescription": "ramipril 10 mg capsule",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Capsule",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Capsule",
+                        "potencyUnitCode": "C48480"
+                    }
+                ],
+                "strength": "10",
+                "strengthUom": "mg",
+                "formDescription": "capsule",
+                "potencyUnitCode": "C48480"
+            },
+            {
+                "medId": 290376,
+                "description": "Altace 2.5 mg capsule",
+                "formularyStatus": 2,
+                "ndc": 61570011101,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 244736,
+                "genericDescription": "ramipril 2.5 mg capsule",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Capsule",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Capsule",
+                        "potencyUnitCode": "C48480"
+                    }
+                ],
+                "strength": "2.5",
+                "strengthUom": "mg",
+                "formDescription": "capsule",
+                "potencyUnitCode": "C48480"
+            },
+            {
+                "medId": 158667,
+                "description": "Altace 5 mg capsule",
+                "formularyStatus": 2,
+                "ndc": 61570011201,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 291760,
+                "genericDescription": "ramipril 5 mg capsule",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Capsule",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Capsule",
+                        "potencyUnitCode": "C48480"
+                    }
+                ],
+                "strength": "5",
+                "strengthUom": "mg",
+                "formDescription": "capsule",
+                "potencyUnitCode": "C48480"
+            },
+            {
+                "medId": 591977,
+                "description": "Epaned 1 mg/mL oral solution",
+                "formularyStatus": 2,
+                "ndc": 52652400101,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 591871,
+                "genericDescription": "enalapril maleate 1 mg/mL oral solution",
+                "clinicalQuantities": [
+                    {
+                        "desc": "150 mL Bottle",
+                        "quantity": 150.0000000,
+                        "uomDesc": "Milliliter",
+                        "potencyUnitCode": "C28254"
+                    }
+                ],
+                "strength": "1",
+                "strengthUom": "mg/mL",
+                "formDescription": "solution",
+                "potencyUnitCode": "C38046"
+            },
+            {
+                "medId": 295201,
+                "description": "Lotensin 20 mg tablet",
+                "formularyStatus": 2,
+                "ndc": 30698044901,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 264202,
+                "genericDescription": "benazepril 20 mg tablet",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "20",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 197641,
+                "description": "Lotensin 40 mg tablet",
+                "formularyStatus": 2,
+                "ndc": 30698045001,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 278853,
+                "genericDescription": "benazepril 40 mg tablet",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "40",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 150320,
+                "description": "Prinivil 10 mg tablet",
+                "formularyStatus": 2,
+                "ndc": 6010654,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 244899,
+                "genericDescription": "lisinopril 10 mg tablet",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "10",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 273480,
+                "description": "Prinivil 20 mg tablet",
+                "formularyStatus": 2,
+                "ndc": 6020754,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 183474,
+                "genericDescription": "lisinopril 20 mg tablet",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "20",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 157469,
+                "description": "Prinivil 5 mg tablet",
+                "formularyStatus": 2,
+                "ndc": 6001954,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 268801,
+                "genericDescription": "lisinopril 5 mg tablet",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "5",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 591421,
+                "description": "Qbrelis 1 mg/mL oral solution",
+                "formularyStatus": 2,
+                "ndc": 52652300101,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 591418,
+                "genericDescription": "lisinopril 1 mg/mL oral solution",
+                "clinicalQuantities": [
+                    {
+                        "desc": "150 mL Bottle",
+                        "quantity": 150.0000000,
+                        "uomDesc": "Milliliter",
+                        "potencyUnitCode": "C28254"
+                    }
+                ],
+                "strength": "1",
+                "strengthUom": "mg/mL",
+                "formDescription": "solution",
+                "potencyUnitCode": "C38046"
+            },
+            {
+                "medId": 203110,
+                "description": "Vasotec 10 mg tablet",
+                "formularyStatus": 2,
+                "ndc": 187014210,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 166924,
+                "genericDescription": "enalapril maleate 10 mg tablet",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "10",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 298890,
+                "description": "Vasotec 2.5 mg tablet",
+                "formularyStatus": 2,
+                "ndc": 187014030,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 186112,
+                "genericDescription": "enalapril maleate 2.5 mg tablet",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "2.5",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 286924,
+                "description": "Vasotec 20 mg tablet",
+                "formularyStatus": 2,
+                "ndc": 187014310,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 179012,
+                "genericDescription": "enalapril maleate 20 mg tablet",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "20",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 208761,
+                "description": "Vasotec 5 mg tablet",
+                "formularyStatus": 2,
+                "ndc": 187014130,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 169840,
+                "genericDescription": "enalapril maleate 5 mg tablet",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "5",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 151988,
+                "description": "Zestril 10 mg tablet",
+                "formularyStatus": 2,
+                "ndc": 52427044090,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 244899,
+                "genericDescription": "lisinopril 10 mg tablet",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "10",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 206201,
+                "description": "Zestril 20 mg tablet",
+                "formularyStatus": 2,
+                "ndc": 52427044190,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 183474,
+                "genericDescription": "lisinopril 20 mg tablet",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "20",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 221638,
+                "description": "Zestril 30 mg tablet",
+                "formularyStatus": 2,
+                "ndc": 52427044290,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 257247,
+                "genericDescription": "lisinopril 30 mg tablet",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "30",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 272059,
+                "description": "Zestril 40 mg tablet",
+                "formularyStatus": 2,
+                "ndc": 52427044390,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 285229,
+                "genericDescription": "lisinopril 40 mg tablet",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "40",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 176891,
+                "description": "Zestril 5 mg tablet",
+                "formularyStatus": 2,
+                "ndc": 52427043990,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 268801,
+                "genericDescription": "lisinopril 5 mg tablet",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "5",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 244899,
+                "description": "lisinopril 10 mg tablet",
+                "formularyStatus": 2,
+                "ndc": 143126701,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "coverages": [
+                    {
+                        "textMessageList": [
+                            {
+                                "ndc": 143126701,
+                                "messageLong": "THIS IS A LONG TEXT MSG FOR LISINOPRIL 10MG TAB. ENSURE THE PATIENT UNDERSTANDS THE POTENTIAL INTERACTIONS WITH OVER THE COUNTER MEDICATIONS. THE LONG MSG IS A 200 CHARS LONG VERSION OF THE SHORT MSG.",
+                                "messageShort": "SHORT TXT MSG FOR LISINOPRIL 10MG TAB. ENSURE PATIENT UNDERSTANDS POTENTIAL INTERACTIONS W/OTC MEDS.",
+                                "textMessageType": "GI"
+                            },
+                            {
+                                "ndc": 143126701,
+                                "messageShort": "This is another short txt msg for lisinopril 10mg tab. There's no long version of the short txt msg.",
+                                "textMessageType": "GI"
+                            }
+                        ],
+                        "genderLimitList": [
+                            {
+                                "ndc": 143126701,
+                                "gender": "1"
+                            }
+                        ],
+                        "ageLimitList": [
+                            {
+                                "ndc": 143126701,
+                                "maximumAge": "90",
+                                "maximumAgeQualifier": "Y",
+                                "minimumAge": "180",
+                                "minimumAgeQualifier": "D"
+                            }
+                        ],
+                        "quantityLimitList": [
+                            {
+                                "ndc": 143126701,
+                                "maximumAmount": "30",
+                                "maximumAmountQualifier": "DS",
+                                "maximumAmountTimePeriod": "PD"
+                            },
+                            {
+                                "ndc": 143126701,
+                                "maxAmtTimePeriodUnits": "360",
+                                "maximumAmount": "12",
+                                "maximumAmountQualifier": "FL",
+                                "maximumAmountTimePeriod": "DY"
+                            }
+                        ],
+                        "stepTherapy": true,
+                        "priorAuthorization": true,
+                        "productCoverageExclusion": false,
+                        "resourceLinkList": [
+                            {
+                                "ndc": 143126701,
+                                "resourceLinkType": "PA",
+                                "url": "http://www.washingtonpost.com/regional/"
+                            },
+                            {
+                                "ndc": 143126701,
+                                "resourceLinkType": "ST",
+                                "url": "http://www.bbc.com/news/"
+                            }
+                        ]
+                    }
+                ],
+                "copays": [
+                    {
+                        "ndc": 143126701,
+                        "summaryDetail": false,
+                        "status": 0,
+                        "copayTier": "2",
+                        "drugRefNumber": "244899",
+                        "maximumCopayTier": "3",
+                        "pharmacyType": "A",
+                        "recordType": "CRT"
+                    }
+                ],
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    },
+                    {
+                        "desc": "30 Tablet Blister Pack",
+                        "quantity": 30.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    },
+                    {
+                        "desc": "5000 Tablet Bag",
+                        "quantity": 5000.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "10",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 243183,
+                "description": "Zestril 2.5 mg tablet",
+                "formularyStatus": 2,
+                "ndc": 310013511,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 288522,
+                "genericDescription": "lisinopril 2.5 mg tablet",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "2.5",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            },
+            {
+                "medId": 268801,
+                "description": "lisinopril 5 mg tablet",
+                "formularyStatus": 1,
+                "ndc": 143971501,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 0,
+                "coverages": [
+                    {
+                        "ageLimitList": [
+                            {
+                                "ndc": 143971501
+                            }
+                        ],
+                        "quantityLimitList": [
+                            {
+                                "ndc": 143971501
+                            }
+                        ],
+                        "stepTherapy": false,
+                        "stepMedicationList": [
+                            {
+                                "ndc": 143971501,
+                                "ndcSd": 93512401,
+                                "stepOrder": "1",
+                                "medication": {
+                                    "medId": 268801,
+                                    "description": "lisinopril 5 mg tablet",
+                                    "formularyStatus": -100,
+                                    "otc": false,
+                                    "generic": true,
+                                    "supply": false,
+                                    "therapeuticAlternative": false,
+                                    "genericMedId": 0,
+                                    "clinicalQuantities": [
+                                        {
+                                            "desc": "Tablet",
+                                            "quantity": 1.0000000,
+                                            "uomDesc": "Tablet",
+                                            "potencyUnitCode": "C48542"
+                                        },
+                                        {
+                                            "desc": "30 Tablet Blister Pack",
+                                            "quantity": 30.0000000,
+                                            "uomDesc": "Tablet",
+                                            "potencyUnitCode": "C48542"
+                                        }
+                                    ],
+                                    "strength": "5",
+                                    "strengthUom": "mg",
+                                    "formDescription": "tablet",
+                                    "potencyUnitCode": "C48542"
+                                }
+                            },
+                            {
+                                "ndc": 143971501,
+                                "ndcSd": 93002701,
+                                "stepOrder": "2",
+                                "medication": {
+                                    "medId": 268801,
+                                    "description": "lisinopril 5 mg tablet",
+                                    "formularyStatus": -100,
+                                    "otc": false,
+                                    "generic": true,
+                                    "supply": false,
+                                    "therapeuticAlternative": false,
+                                    "genericMedId": 0,
+                                    "clinicalQuantities": [
+                                        {
+                                            "desc": "Tablet",
+                                            "quantity": 1.0000000,
+                                            "uomDesc": "Tablet",
+                                            "potencyUnitCode": "C48542"
+                                        },
+                                        {
+                                            "desc": "30 Tablet Blister Pack",
+                                            "quantity": 30.0000000,
+                                            "uomDesc": "Tablet",
+                                            "potencyUnitCode": "C48542"
+                                        }
+                                    ],
+                                    "strength": "5",
+                                    "strengthUom": "mg",
+                                    "formDescription": "tablet",
+                                    "potencyUnitCode": "C48542"
+                                }
+                            }
+                        ],
+                        "priorAuthorization": false,
+                        "productCoverageExclusion": false
+                    }
+                ],
+                "copays": [
+                    {
+                        "ndc": 143971501,
+                        "summaryDetail": false,
+                        "status": 0,
+                        "copayTier": "3",
+                        "drugRefNumber": "268801",
+                        "maximumCopayTier": "3",
+                        "pharmacyType": "A",
+                        "recordType": "CRT"
+                    }
+                ],
+                "clinicalQuantities": [
+                    {
+                        "desc": "Tablet",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    },
+                    {
+                        "desc": "30 Tablet Blister Pack",
+                        "quantity": 30.0000000,
+                        "uomDesc": "Tablet",
+                        "potencyUnitCode": "C48542"
+                    }
+                ],
+                "strength": "5",
+                "strengthUom": "mg",
+                "formDescription": "tablet",
+                "potencyUnitCode": "C48542"
+            }
+        ]
+    }
+]

@@ -1,0 +1,182 @@
+[
+    {
+        "payerCoverageInfo": {
+            "payer": "PBMF",
+            "memberId": "VV%PBMF0011111%BBB222233333%RRID33337777%MBZZ44444444%3210",
+            "interchangeControlNumber": 342617276,
+            "payerId": "T00000000021633",
+            "healthPlanName": "",
+            "coverages": [
+                
+            ],
+            "cardHolderName": {
+                "lastName": "Surescripts",
+                "firstName": "",
+                "middleName": ""
+            }
+        },
+        "medications": [
+            {
+                "medId": 551031,
+                "description": "FreeStyle Lite Strips",
+                "formularyStatus": -1,
+                "ndc": 99073070819,
+                "otc": true,
+                "generic": false,
+                "supply": true,
+                "therapeuticAlternative": false,
+                "genericMedId": 202036,
+                "genericDescription": "blood sugar diagnostic strips",
+                "clinicalQuantities": [
+                    {
+                        "desc": "50 Strip Box",
+                        "quantity": 50.0000000,
+                        "uomDesc": "Strip",
+                        "potencyUnitCode": "C48538"
+                    },
+                    {
+                        "desc": "100 Strip Box",
+                        "quantity": 100.0000000,
+                        "uomDesc": "Strip",
+                        "potencyUnitCode": "C48538"
+                    }
+                ],
+                "formDescription": "strip",
+                "potencyUnitCode": "C48538"
+            }
+        ]
+    },
+    {
+        "payerCoverageInfo": {
+            "payer": "PBMF",
+            "memberId": "ZZQ-88-10011-262",
+            "groupNumber": "G000000",
+            "formulary": "FSL101",
+            "alternatives": "ALT101",
+            "copay": "COP101",
+            "interchangeControlNumber": 342617276,
+            "payerId": "T00000000021633",
+            "healthPlanName": "PLAN101",
+            "coverages": [
+                {
+                    "type": "RETAIL",
+                    "messages": [
+                        
+                    ]
+                },
+                {
+                    "type": "MAIL",
+                    "messages": [
+                        
+                    ]
+                },
+                {
+                    "type": "SPECIALTY",
+                    "messages": [
+                        "Message [text=LTC]"
+                    ]
+                }
+            ],
+            "cardHolderName": {
+                "lastName": "SWIFT",
+                "firstName": "JOHNATHAN",
+                "middleName": ""
+            },
+            "cardHolderId": "111111116"
+        },
+        "medications": [
+            {
+                "medId": 551031,
+                "description": "FreeStyle Lite Strips",
+                "formularyStatus": -1,
+                "ndc": 99073070819,
+                "otc": true,
+                "generic": false,
+                "supply": true,
+                "therapeuticAlternative": false,
+                "genericMedId": 202036,
+                "genericDescription": "blood sugar diagnostic strips",
+                "clinicalQuantities": [
+                    {
+                        "desc": "50 Strip Box",
+                        "quantity": 50.0000000,
+                        "uomDesc": "Strip",
+                        "potencyUnitCode": "C48538"
+                    },
+                    {
+                        "desc": "100 Strip Box",
+                        "quantity": 100.0000000,
+                        "uomDesc": "Strip",
+                        "potencyUnitCode": "C48538"
+                    }
+                ],
+                "formDescription": "strip",
+                "potencyUnitCode": "C48538"
+            }
+        ]
+    },
+    {
+        "payerCoverageInfo": {
+            "payer": "PBMF",
+            "planId": "1234",
+            "planNetworkId": "610415",
+            "memberId": "ZZQ-88-10011-251",
+            "groupNumber": "TTC1",
+            "formulary": "FSL102",
+            "copay": "COP102",
+            "interchangeControlNumber": 342617276,
+            "payerId": "T00000000021633",
+            "healthPlanName": "PLANX",
+            "coverages": [
+                {
+                    "type": "RETAIL",
+                    "messages": [
+                        
+                    ]
+                },
+                {
+                    "type": "MAIL",
+                    "messages": [
+                        
+                    ]
+                }
+            ],
+            "cardHolderName": {
+                "lastName": "SWIFT",
+                "firstName": "JOHNATHAN",
+                "middleName": ""
+            },
+            "coverageId": "COV102"
+        },
+        "medications": [
+            {
+                "medId": 551031,
+                "description": "FreeStyle Lite Strips",
+                "formularyStatus": -1,
+                "ndc": 99073070819,
+                "otc": true,
+                "generic": false,
+                "supply": true,
+                "therapeuticAlternative": false,
+                "genericMedId": 202036,
+                "genericDescription": "blood sugar diagnostic strips",
+                "clinicalQuantities": [
+                    {
+                        "desc": "50 Strip Box",
+                        "quantity": 50.0000000,
+                        "uomDesc": "Strip",
+                        "potencyUnitCode": "C48538"
+                    },
+                    {
+                        "desc": "100 Strip Box",
+                        "quantity": 100.0000000,
+                        "uomDesc": "Strip",
+                        "potencyUnitCode": "C48538"
+                    }
+                ],
+                "formDescription": "strip",
+                "potencyUnitCode": "C48538"
+            }
+        ]
+    }
+]

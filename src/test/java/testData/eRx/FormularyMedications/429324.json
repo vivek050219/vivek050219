@@ -1,0 +1,223 @@
+[
+    {
+        "payerCoverageInfo": {
+            "payer": "RXHUBPBM",
+            "planId": "1234",
+            "planNetworkId": "234876",
+            "processorId": "AV",
+            "memberId": "DD145645645601",
+            "groupNumber": "DD1",
+            "formulary": "201",
+            "copay": "201",
+            "interchangeControlNumber": 342617232,
+            "payerId": "T00000000001000",
+            "healthPlanName": "PLANA",
+            "coverages": [
+                {
+                    "type": "MAIL",
+                    "messages": [
+                        
+                    ]
+                }
+            ],
+            "cardHolderName": {
+                "lastName": "CROSS",
+                "firstName": "DAVID",
+                "middleName": "M"
+            },
+            "cardHolderId": "456456456",
+            "coverageId": "201"
+        },
+        "medications": [
+            {
+                "medId": 429324,
+                "description": "Intron A 10 million unit (1 mL) solution for injection",
+                "formularyStatus": 1,
+                "ndc": 85435001,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": false,
+                "genericMedId": 161975,
+                "genericDescription": "interferon alfa-2b 10 million unit (1 mL) solution for injection",
+                "coverages": [
+                    {
+                        "stepTherapy": false,
+                        "priorAuthorization": true,
+                        "productCoverageExclusion": false
+                    }
+                ],
+                "copays": [
+                    {
+                        "summaryDetail": true,
+                        "status": 1,
+                        "copayTier": "4",
+                        "maximumCopay": "150",
+                        "maximumCopayTier": "5",
+                        "minimumCopay": "75",
+                        "percentageCopayRate": ".2",
+                        "pharmacyType": "S",
+                        "recordType": "CDT",
+                        "productType": "A"
+                    }
+                ],
+                "clinicalQuantities": [
+                    {
+                        "desc": "Vial",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Vial",
+                        "potencyUnitCode": "C48551"
+                    }
+                ],
+                "strength": "10 million",
+                "strengthUom": "unit (1 mL)",
+                "formDescription": "recon soln",
+                "potencyUnitCode": "C38046"
+            },
+            {
+                "medId": 429325,
+                "description": "Intron A 18 million unit (1 mL) solution for injection",
+                "formularyStatus": 2,
+                "ndc": 85435101,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 208809,
+                "genericDescription": "interferon alfa-2b 18 million unit (1 mL) solution for injection",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Vial",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Vial",
+                        "potencyUnitCode": "C48551"
+                    }
+                ],
+                "strength": "18 million",
+                "strengthUom": "unit (1 mL)",
+                "formDescription": "recon soln",
+                "potencyUnitCode": "C38046"
+            },
+            {
+                "medId": 196296,
+                "description": "Intron A 50 million unit (1 mL) solution for injection",
+                "formularyStatus": 2,
+                "ndc": 85435201,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 161566,
+                "genericDescription": "interferon alfa-2b 50 million unit (1 mL) solution for injection",
+                "clinicalQuantities": [
+                    {
+                        "desc": "Vial",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Vial",
+                        "potencyUnitCode": "C48551"
+                    }
+                ],
+                "strength": "50 million",
+                "strengthUom": "unit (1 mL)",
+                "formDescription": "recon soln",
+                "potencyUnitCode": "C38046"
+            },
+            {
+                "medId": 158222,
+                "description": "Intron A 6 million unit/mL injection solution",
+                "formularyStatus": 2,
+                "ndc": 85116801,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 188741,
+                "genericDescription": "interferon alfa-2b 6 million unit/mL injection solution",
+                "clinicalQuantities": [
+                    {
+                        "desc": "3.8 mL Vial",
+                        "quantity": 3.8000000,
+                        "uomDesc": "Milliliter",
+                        "potencyUnitCode": "C28254"
+                    }
+                ],
+                "strength": "6 million",
+                "strengthUom": "unit/mL",
+                "formDescription": "solution",
+                "potencyUnitCode": "C38046"
+            },
+            {
+                "medId": 563853,
+                "description": "Sylatron 300 mcg subcutaneous kit",
+                "formularyStatus": 2,
+                "ndc": 85434801,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 563845,
+                "genericDescription": "peginterferon alfa-2b 300 mcg subcutaneous kit",
+                "clinicalQuantities": [
+                    {
+                        "desc": "1 Kit",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Kit",
+                        "potencyUnitCode": "C48504"
+                    }
+                ],
+                "strength": "300",
+                "strengthUom": "mcg",
+                "formDescription": "kit",
+                "potencyUnitCode": "C48504"
+            },
+            {
+                "medId": 563855,
+                "description": "Sylatron 600 mcg subcutaneous kit",
+                "formularyStatus": 2,
+                "ndc": 85434901,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 563844,
+                "genericDescription": "peginterferon alfa-2b 600 mcg subcutaneous kit",
+                "clinicalQuantities": [
+                    {
+                        "desc": "1 Kit",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Kit",
+                        "potencyUnitCode": "C48504"
+                    }
+                ],
+                "strength": "600",
+                "strengthUom": "mcg",
+                "formDescription": "kit",
+                "potencyUnitCode": "C48504"
+            },
+            {
+                "medId": 563851,
+                "description": "Sylatron 200 mcg subcutaneous kit",
+                "formularyStatus": 2,
+                "ndc": 85138801,
+                "otc": false,
+                "generic": false,
+                "supply": false,
+                "therapeuticAlternative": true,
+                "genericMedId": 563843,
+                "genericDescription": "peginterferon alfa-2b 200 mcg subcutaneous kit",
+                "clinicalQuantities": [
+                    {
+                        "desc": "1 Kit",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Kit",
+                        "potencyUnitCode": "C48504"
+                    }
+                ],
+                "strength": "200",
+                "strengthUom": "mcg",
+                "formDescription": "kit",
+                "potencyUnitCode": "C48504"
+            }
+        ]
+    }
+]

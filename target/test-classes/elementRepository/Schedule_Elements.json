@@ -1,0 +1,351 @@
+{
+    "PANES": {
+        "SearchCriteria": {
+            "path": "//table[@id='SCHEDULECRITERIA__TABLE']",
+            "frame": "FRAME_SEARCH_CRITERIA"
+        },
+        "ProviderSearch":{
+            "path": "//table[@id='ProviderSearch']",
+            "frame": "FRAME_SEARCH_CRITERIA"
+        },
+        "ChargeEntry":{
+            "path":"//div[@id='dx_charge_accordion_container']",
+            "frame":"FRAME_POPUP_CONTENTS"
+        },
+        "PatientDetail":{
+            "path":"//table[@id='mainTable']",
+            "frame":"FRAME_POPUP"
+        },
+        "Schedule": {
+            "path": "//table[@id='SCHEDULE__TABLE']",
+            "frame": "FRAME_PARENT"
+        },
+        "ScheduledVisits": {
+            "path": "table[@id='scheduleTable']/tbody",
+            "frame": "FRAME_SCHEDULE_TABLE"
+        },
+        "MeasuresandQuestions": {
+            "path": "//div[@id='content_pqrs']",
+            "frame": "FRAME_POPUP_CONTENTS"
+        },
+        "Confirm":{
+            "path": "//div[@role='dialog' and starts-with(@class, 'ui-dialog ui-widget')]",
+            "frame":"FRAME_POPUP_CONTENTS"
+        },
+        "SearchResult": {
+            "path": "//div[@id='paneDiv' and @class='scrollingDiv schedulePaneDiv']",
+            "frame": "FRAME_SCHEDULE_TABLE"
+        },
+        "CreateScheduleVisit": {
+            "path": "//div[@id='titleBar' and text()='Create Scheduled Visit']",
+            "frame": "FRAME_POPUP"
+        },
+        "CreateScheduleVisitSearchResults": {
+            "frame": "FRAME_SEARCH_RESULTS"
+        },
+        "Question": {
+            "path": "//td[@id='dialogTitle' and text()='Question']",
+            "frame": "NO_FRAME"
+        },
+        "CreateScheduleVisitSearchCriteria":{
+            "path": "//td[@id='SearchCriteria']",
+            "frame":"FRAME_POPUP_CONTENTS"
+        },
+        "VisitsTable": {
+            "path": "//table[@id='SCHEDULE__TABLE']",
+            "frame": "FRAME_SCHEDULE_TABLE"
+        },
+        "PrintSchedule": {
+            "path": "//div[@id='titleBar' and text()='Print Schedule']",
+            "frame": "FRAME_POPUP"
+        },
+        "ReassignVisits": {
+            "path": "//table[@id='accountEdit']",
+            "frame": "FRAME_POPUP_CONTENTS"
+        },
+        "CreateScheduleVisitPatientAccount": {
+            "path": "//div[@id='mainSection']",
+            "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+        }
+    },
+    "BUTTONS": {
+        "ClearCriteria": {
+            "id": "button_CLEAR",
+            "frame": "FRAME_SEARCH_CRITERIA"
+        },
+        "ProviderSearch": {
+            "id": "SelPersonIMG",
+            "frame": "FRAME_SEARCH_CRITERIA"
+        },
+        "ServiceSearch": {
+            "id": "SelServicesIMG",
+            "frame": "FRAME_SEARCH_CRITERIA"
+        },
+        "Close":{
+            "id":"button_CLOSE",
+            "frame":"FRAME_POPUP"
+        },
+        "SaveAsIs": {
+            "path": "button[child::span[@class='ui-button-text' and text()='Save As Is']]",
+            "frame":"FRAME_POPUP_CONTENTS"
+        },
+        "PQRSSubmit": {
+            "id":"saveAnswers",
+            "frame":"FRAME_POPUP_CONTENTS"
+        },
+        "Submit": {
+            "id":"submit_button",
+            "frame":"FRAME_POPUP_CONTENTS"
+        },
+        "CreateVisit": {
+            "id": "button_ADDVISIT",
+            "frame": "FRAME_SCHEDULE_TABLE"
+        },
+        "Refresh": {
+            "id": "RefreshImg",
+            "frame": "FRAME_SCHEDULE_TABLE"
+        },
+        "AddandSave": {
+            "id": "button_SAVE",
+            "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+        },
+        "Yes": {
+            "id": "button_YES"
+        },
+        "SearchforVisits": {
+            "id": "VisitSearchButton",
+            "frame": "FRAME_POPUP_CONTENTS"
+        },
+        "Print": {
+            "id": "PrintImg",
+            "frame": "FRAME_SCHEDULE_TABLE"
+        },
+        "SelectAll": {
+            "id": "button_SELECTALL",
+            "frame": "FRAME_SCHEDULE_TABLE"
+        },
+        "SelectNone": {
+            "id": "button_SELECTNONE",
+            "frame": "FRAME_SCHEDULE_TABLE"
+        },
+        "ReassignVisit": {
+            "id": "button_REASSIGNVISIT",
+            "frame": "FRAME_SCHEDULE_TABLE"
+        },
+        "CancelVisit": {
+            "id": "button_CANCELVISIT",
+            "frame": "FRAME_SCHEDULE_TABLE"
+        },
+        "ProviderLookup": {
+            "id": "scheduledProviderIMG",
+            "frame": "FRAME_POPUP_CONTENTS"
+        },
+        "OK": {
+            "path": "//span[@pkwidget='Button' and text()='OK']"
+        },
+        "ServiceLookup": {
+            "id": "medicalServiceIMG",
+            "frame": "FRAME_POPUP_CONTENTS"
+        },
+        "PatientDetailIcon": {
+            "path": "//img[@title='Display detailed information about the patient']"
+        },
+        "No": {
+            "id": "button_NO"
+        },
+        "CreateScheduleVisitClearCriteria": {
+            "id": "ClearCriteriaButton",
+            "frame": "FRAME_POPUP_CONTENTS"
+        },
+        "ScheduleMDSearch": {
+            "id": "ScheduledPrsnlIMG",
+            "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+        },
+        "CPT": {
+            "path": "//span[text()='CPT']",
+            "frame": "FRAME_POPUP_CONTENTS"
+        },
+        "CreateOutpatientVisit": {
+            "path": "//span[@id='AddSingleVisitTypeButton']",
+            "frame": "SearchResults"
+        }
+    },
+    "PKMENUS": {
+        "DateFilter": {
+            "path": "//span[@id='dateFilterButton']",
+            "id": "dateFilter",
+            "frame": "FRAME_SEARCH_CRITERIA"
+        }
+    },
+    "TABLES": {
+        "ScheduledVisits": {
+            "path": "//div[@id='scheduleTable' or @id='mainTable']",
+            "id": "",
+            "head": "//div[@id='headerDIV']/table[@id='headerTable']/thead",
+            "body": "//div[@id='detailDIV']/table[@id='scheduleTableDetailTable' or @id='scheduleTable']/tbody",
+            "frame": "FRAME_SCHEDULE_TABLE",
+            "rowPath": "tr[descendant::td[@class='scheduledSlot']]",
+            "cellPath": "td[@class='scheduledSlot']"
+        },
+        "ScheduleVisitsHeaderTable": {
+            "path": "//div[@id='headerDIV']",
+            "id": "",
+            "head": "",
+            "body": "//table[@id='headerTable']/thead",
+            "frame": "FRAME_SCHEDULE_TABLE"
+        },
+        "ProviderSearch": {
+            "path": "//table[@id='SelPersonTable']",
+            "id": "",
+            "head": "",
+            "body": "tbody",
+            "frame": "FRAME_SEARCH_CRITERIA",
+            "rowPath": "tr",
+            "cellPath": "td[input]"
+        },
+        "ServicesSearch": {
+            "path": "//table[@id='SelServicesTable']",
+            "id": "",
+            "head": "",
+            "body": "tbody",
+            "frame": "FRAME_SEARCH_CRITERIA",
+            "valuePath": "td[input]"
+        },
+        "SchedulePatientDetails":{
+            "id":"",
+            "name":"",
+            "path":"//table[@id='mainTable']",
+            "frame":"FRAME_PATDETAIL",
+            "head":"",
+            "body":"",
+            "date_format":""
+        },
+        "CreateScheduleVisitSearchResults":{
+            "id":"",
+            "name":"",
+            "path":"//table[@id='mainResultTable']",
+            "frame":"FRAME_SEARCH_RESULTS",
+            "head":"",
+            "body":"",
+            "date_format":""
+        }
+    },
+    "TEXT_FIELDS": {
+        "Providers": {
+            "id": "SelPersonLOOKUP",
+            "frame": "FRAME_SEARCH_CRITERIA"
+        },
+        "Services":{
+            "id": "SelServicesLOOKUP",
+            "frame": "FRAME_SEARCH_CRITERIA"
+        },
+        "DiagnosisSearch": {
+            "id": "diagnosis_search",
+            "frame": "FRAME_POPUP_CONTENTS"
+        },
+        "ChargeSearch": {
+            "id": "charge_search",
+            "frame": "FRAME_POPUP_CONTENTS"
+        },
+        "LastName": {
+            "id": "Criteria_LastName",
+            "frame":  "FRAME_POPUP_CONTENTS"
+        },
+        "FirstName": {
+            "id": "Criteria_FirstName",
+            "frame":  "FRAME_POPUP_CONTENTS"
+        },
+        "MRN": {
+            "id": "PatientDetail_MRN",
+            "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+        },
+        "AppointmentDate": {
+            "id": "AppointmentDateTime_date",
+            "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+        },
+        "AppointmentTime": {
+            "id": "AppointmentDateTime_time",
+            "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+        },
+        "ProviderName": {
+            "id": "scheduledProviderLOOKUP",
+            "frame": "FRAME_POPUP_CONTENTS"
+        },
+        "ServiceName": {
+            "id": "medicalServiceLOOKUP",
+            "frame": "FRAME_POPUP_CONTENTS"
+        },
+        "ScheduledMD": {
+            "id": "ScheduledPrsnlLOOKUP",
+            "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+        }
+    },
+    "CHECKBOXES": {
+        "ShowGroupServiceAppointments": {
+            "id": "IncludeGroupsServices",
+            "frame": "FRAME_SEARCH_CRITERIA"
+        },
+        "GroupByDate": {
+            "id": "GroupByDate",
+            "frame": "FRAME_SEARCH_CRITERIA"
+        },
+        "IncludeCancelledVisits": {
+            "id": "IncludeCancelledVisits",
+            "frame": "FRAME_POPUP_CONTENTS"
+        },
+        "IncludePastVisits": {
+            "id": "IncludePastVisits",
+            "frame": "FRAME_POPUP_CONTENTS"
+        }
+    },
+    "PANE_SECTIONS": {
+        "ChargeList": {
+            "path": "//div[@id='chargeItemsContainer']"
+        },
+        "DiagnosisList": {
+            "path": "//div[@id='dxItemsContainer']"
+        }
+    },
+    "RADIOS": {
+        "PQRS": {
+            "name": "choice",
+            "select_by":"label",
+            "frame": "FRAME_POPUP_CONTENTS"
+        }
+    },
+    "MISC_ELEMENTS": {
+        "DeleteEntry": {
+            "path": "//img[@buttonID='DeleteChildEntity']",
+            "frame": "FRAME_SEARCH_CRITERIA"
+        },
+        "Close":{
+            "path":"//img[@id='childwindow_closeicon']",
+            "frame":"FRAME_POPUP"
+        },
+        "ScheduleVisitsLoadingIcon":{
+            "path":"//img[@id='loadingImg']"
+        }
+    },
+    "DROPDOWNS": {
+        "Facility": {
+            "id": "Facility",
+            "frame": "FRAME_SEARCH_CRITERIA"
+        },
+        "PatientInformationFacility": {
+            "name": "FacilityId",
+            "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+        },
+        "Relationship": {
+            "name": "relationshipID",
+            "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+        },
+        "ProviderType": {
+            "id": "ProviderType",
+            "frame": "FRAME_SEARCH_CRITERIA"
+        },
+        "VisitType": {
+            "id": "AdtVisitType",
+            "frame": "FRAME_SECONDARY_POPUP_CONTENTS"
+        }
+    }
+}

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><Message>
+
+    <Body>
+        <NewRx>
+            <Pharmacy>
+                <Identification>
+                    <NCPDPID>0001060</NCPDPID>
+                    <NPI>1356609333</NPI>
+                </Identification>
+                <StoreName>Test 000 Pharmacy 10.6MU</StoreName>
+                <Address>
+                    <AddressLine1>000 Pending Response Way</AddressLine1>
+                    <City>Arlington</City>
+                    <State>VA</State>
+                    <ZipCode>22201</ZipCode>
+                </Address>
+                <CommunicationNumbers>
+                    <Communication>
+                        <Number>7032051295</Number>
+                        <Qualifier>TE</Qualifier>
+                    </Communication>
+                    <Communication>
+                        <Number>7032051235</Number>
+                        <Qualifier>FX</Qualifier>
+                    </Communication>
+                </CommunicationNumbers>
+            </Pharmacy>
+            <Prescriber>
+                <Identification>
+                    <NPI>1740258391</NPI>
+                </Identification>
+                <Name>
+                    <LastName>UMUTLAR</LastName>
+                    <FirstName>ERDINC</FirstName>
+                </Name>
+                <Address>
+                    <AddressLine1>880 Winter Street</AddressLine1>
+                    <AddressLine2>Suite 300</AddressLine2>
+                    <City>Waltham</City>
+                    <State>MA</State>
+                    <ZipCode>02135</ZipCode>
+                    <PlaceLocationQualifier>AD2</PlaceLocationQualifier>
+                </Address>
+                <CommunicationNumbers>
+                    <Communication>
+                        <Number>7819992577</Number>
+                        <Qualifier>TE</Qualifier>
+                    </Communication>
+                    <Communication>
+                        <Number>7819992578</Number>
+                        <Qualifier>FX</Qualifier>
+                    </Communication>
+                </CommunicationNumbers>
+            </Prescriber>
+            <Patient>
+                <Name>
+                    <LastName>TUCKER</LastName>
+                    <FirstName>DEBRA</FirstName>
+                </Name>
+                <Gender>F</Gender>
+                <DateOfBirth>
+                    <Date>1979-11-19</Date>
+                </DateOfBirth>
+                <Address>
+                    <AddressLine1>8383 N 46TH ST APT 500</AddressLine1>
+                    <City>Cleveland</City>
+                    <State>OH</State>
+                    <ZipCode>44101</ZipCode>
+                </Address>
+                <CommunicationNumbers>
+                    <Communication>
+                        <Number>4408450398</Number>
+                        <Qualifier>TE</Qualifier>
+                    </Communication>
+                </CommunicationNumbers>
+            </Patient>
+            <MedicationPrescribed>
+                <DrugDescription>Xopenex 1.25 mg/3 mL solution fornebulization</DrugDescription>
+                <DrugCoded>
+                    <ProductCode>17478017412</ProductCode>
+                    <ProductCodeQualifier>ND</ProductCodeQualifier>
+                    <Strength>1.25 mg/3 mL</Strength>
+                    <DrugDBCode>833470</DrugDBCode>
+                    <DrugDBCodeQualifier>SBD</DrugDBCodeQualifier>
+                </DrugCoded>
+                <Quantity>
+                    <Value>226.665</Value>
+                    <CodeListQualifier>38</CodeListQualifier>
+                    <UnitSourceCode>AC</UnitSourceCode>
+                    <PotencyUnitCode>C28254</PotencyUnitCode>
+                </Quantity>
+                <Directions>Inhale one unit every 4-6 hours via nebulizer or as necessary for wheezing.</Directions>
+                <Note>Patient has discontinued use of other inhalers.</Note>
+                <Refills>
+                    <Qualifier>R</Qualifier>
+                    <Value>2</Value>
+                </Refills>
+                <Substitutions>0</Substitutions>
+                <Diagnosis>
+                    <ClinicalInformationQualifier>1</ClinicalInformationQualifier>
+                    <Primary>
+                        <Qualifier>ABF</Qualifier>
+                        <Value>J45990</Value>
+                    </Primary>
+                </Diagnosis>
+            </MedicationPrescribed>
+            <BenefitsCoordination>
+                <PayerIdentification>
+                </PayerIdentification>
+            </BenefitsCoordination>
+        </NewRx>
+    </Body>
+</Message>

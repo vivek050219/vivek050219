@@ -1,0 +1,5 @@
+{
+  "status": 200,
+  "message": "PayerCoverageInfo [payer=PBMF, memberId=ZZQ-88-10011-245, groupNumber=D000000, formulary=FSL101, alternatives=ALT101, interchangeControlNumber=230946213, payerId=T00000000021633, healthPlanName=, patient=Patient [name=Name [lastName=AUBAINE, firstName=CHENIN BLANC, middleName=PINOT, suffix=, prefix=null], address=Address [address1=927 OFFICIONADO BLVD, address2=null, city=MINNEAPOLIS, state=MN, postalCode=55419, country=null], dob=Sat Jan 09 00:00:00 UTC 1954, gender=FEMALE, phone=null], coverages=[Coverage{type=RETAIL, messages=[]}], cardHolderName=Name [lastName=AUBAINE, firstName=CHENIN BLANC, middleName=PINOT, suffix=null, prefix=null], cardHolderId=111111113, ]",
+  "eventId": null
+}

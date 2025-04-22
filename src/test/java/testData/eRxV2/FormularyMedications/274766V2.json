@@ -1,0 +1,117 @@
+[
+    {
+        "payerCoverageInfo": {
+            "payer": "PBMF",
+            "planId": "PLAN123",
+            "planNetworkId": "BIN123",
+            "memberId": "ZZQ%PBM-UID-888877222-%VVVVAAAA10011XX-XX261L",
+            "groupNumber": "CG1111111111/CGID333333X",
+            "formulary": "FSL105",
+            "copay": "COP105",
+            "interchangeControlNumber": 359386564,
+            "payerId": "T00000000021633",
+            "healthPlanName": "CARPLANNAME",
+            "coverages": [
+                {
+                    "type": "RETAIL",
+                    "messages": [
+                        
+                    ]
+                },
+                {
+                    "type": "MAIL",
+                    "messages": [
+                        
+                    ]
+                }
+            ],
+            "cardHolderName": {
+                "lastName": "THROWER",
+                "firstName": "DAVID",
+                "middleName": ""
+            },
+            "cardHolderId": "MID4444444444444",
+            "coverageId": "COV105"
+        },
+        "medications": [
+            {
+                "medId": 274766,
+                "description": "clomipramine 50 mg capsule",
+                "formularyStatus": 3,
+                "ndc": 378305001,
+                "otc": false,
+                "generic": true,
+                "supply": false,
+                "therapeuticAlternative": false,
+                "genericMedId": 0,
+                "coverages": [
+                    {
+                        "textMessageList": [
+                            {
+                                "ndc": 378305001,
+                                "messageShort": "THIS DRUG IS NOT APPROVED FOR CHILDREN UNDER THE AGE OF 18",
+                                "textMessageType": "AL"
+                            },
+                            {
+                                "ndc": 378305001,
+                                "messageLong": "THIS DRUG MUST NOT BE USED BY PREGNANT WOMEN",
+                                "messageShort": "THIS DRUG MUST NOT BE USED BY PREGNANT WOMEN",
+                                "textMessageType": "GL"
+                            }
+                        ],
+                        "genderLimitList": [
+                            {
+                                "ndc": 378305001,
+                                "gender": "1"
+                            }
+                        ],
+                        "ageLimitList": [
+                            {
+                                "ndc": 378305001,
+                                "minimumAge": "18",
+                                "minimumAgeQualifier": "Y"
+                            }
+                        ],
+                        "stepTherapy": false,
+                        "priorAuthorization": false,
+                        "productCoverageExclusion": false
+                    }
+                ],
+                "copays": [
+                    {
+                        "ndc": 378305001,
+                        "summaryDetail": false,
+                        "status": 0,
+                        "copayTier": "1",
+                        "drugRefNumber": "274766",
+                        "maximumCopayTier": "3",
+                        "pharmacyType": "A",
+                        "recordType": "CRT"
+                    },
+                    {
+                        "ndc": 378305001,
+                        "summaryDetail": false,
+                        "status": 0,
+                        "copayTier": "3",
+                        "drugRefNumber": "274766",
+                        "maximumCopayTier": "3",
+                        "pharmacyType": "A",
+                        "recordType": "CRT"
+                    }
+                ],
+                "clinicalQuantities": [
+                    {
+                        "desc": "Capsule",
+                        "quantity": 1.0000000,
+                        "uomDesc": "Capsule",
+                        "potencyUnitCode": "C48480"
+                    }
+                ],
+                "strength": "50",
+                "strengthUom": "mg",
+                "formDescription": "capsule",
+                "potencyUnitCode": "C48480"
+            }
+        ]
+    }
+]

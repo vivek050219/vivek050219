@@ -1,0 +1,80 @@
+{
+    "medHistoryResponseList": [
+        {
+            "historyResponse": {
+                "approved": {
+                    "approvalReasonCodeDto": [
+                        
+                    ]
+                }
+            },
+            "historyDispensedMedications": [
+                {
+                    "drugDescription": "AMITRIPTYLINE/CHLORDIAZEPOXIDE ORAL TABLET 25-10MG",
+                    "drugCoded": {
+                        "productCode": "00364215801",
+                        "productCodeQualifier": "ND",
+                        "drugDBCode": "856792",
+                        "drugDBCodeQualifier": "SCD",
+                        "deaSchedule": "C48677"
+                    },
+                    "quantity": [
+                        {
+                            "value": "30",
+                            "codeListQualifier": "87",
+                            "unitSourceCode": "AC",
+                            "potencyUnitCode": "C48542",
+                            "uomDesc": "Tablets"
+                        }
+                    ],
+                    "daysSupply": "30",
+                    "refills": [
+                        
+                    ],
+                    "lastFillDate": [
+                        2018,
+                        7,
+                        1
+                    ],
+                    "diagnosis": [
+                        
+                    ],
+                    "drugUseEvaluation": [
+                        
+                    ],
+                    "drugCoverageStatusCode": [
+                        
+                    ],
+                    "structuredSIG": [
+                        
+                    ]
+                }
+            ],
+            "historyPrescribedMedications": [
+                
+            ],
+            "benefitsCoordination": [
+                {
+                    "payerName": "PBMF",
+                    "expirationDate": [
+                        2018,
+                        8,
+                        1
+                    ],
+                    "effectiveDate": [
+                        2016,
+                        3,
+                        20
+                    ],
+                    "consent": "Y",
+                    "pbmMemberId": "ZZQ%PBM-UID-888877222-%VVVVAAAA10011XX-XX261L",
+                    "payerId": "T00000000021633",
+                    "interchangeControlNumber": "391353084"
+                }
+            ]
+        }
+    ],
+    "medHistoryErrorList": [
+        
+    ]
+}
