@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @vivek050219
-- 👀 I’m interested in Automation code 
+- 👀 I’m interested in Automation code of Karate framework for API
 - 🌱 I’m currently try to all developed automation code in my gitrepo
 - 💞️ I’m looking to collaborate with Automation professional
 - 📫 How to reach me ... vivek.katare91@gmail.com
